@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="ca43e276-447d-4ff6-b34c-fb6be0d1938f">
+  <producedTypes>
+    <refType typeId="1291df77-ddc5-482c-96ad-f21d84e2dc09" valueTypeId="2df181f3-5913-4a9b-8c6f-1dee5532a04a"/>
+    <listType typeId="8c9acfe7-6d9d-487e-adca-38c14e2f347a" valueTypeId="34f69605-c3df-465e-9635-696aeba5247d"/>
+    <managerType typeId="e81b8d65-8a78-4efd-b108-b32bf92179f0" valueTypeId="c04c6bee-d458-4b0a-af87-f096780e360b"/>
+  </producedTypes>
+  <name>гхб_УровеньПодразделения</name>
+  <synonym>
+    <key>ru</key>
+    <value>Уровень подразделения</value>
+  </synonym>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Order</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Ref</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="1dfe3af5-b055-44a5-bc20-d4420374fea8">
+    <name>Дирекция</name>
+    <synonym>
+      <key>ru</key>
+      <value>Дирекция</value>
+    </synonym>
+    <synonym>
+      <key>uk</key>
+      <value>Дирекція</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="fdc5c948-ded3-4da0-9744-ba7b237bc9d3">
+    <name>Департамент</name>
+    <synonym>
+      <key>ru</key>
+      <value>Департамент</value>
+    </synonym>
+    <synonym>
+      <key>uk</key>
+      <value>Департамент</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="83dd30b9-fc80-4581-96c4-a24b2a26d6e3">
+    <name>Отдел</name>
+    <synonym>
+      <key>ru</key>
+      <value>Отдел</value>
+    </synonym>
+    <synonym>
+      <key>uk</key>
+      <value>Відділ</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="68d32bc7-e0fc-4224-a2b8-a96e09804b70">
+    <name>Группа</name>
+    <synonym>
+      <key>ru</key>
+      <value>Группа</value>
+    </synonym>
+    <synonym>
+      <key>uk</key>
+      <value>Група</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

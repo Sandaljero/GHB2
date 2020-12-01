@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="287f69ed-a877-4099-b979-dfab53cf8993">
+  <name>гхб_РегистрыСведений</name>
+  <synonym>
+    <key>ru</key>
+    <value>Регистры сведений</value>
+  </synonym>
+  <synonym>
+    <key>uk</key>
+    <value>Регістри відомостей</value>
+  </synonym>
+  <includeHelpInContents>true</includeHelpInContents>
+  <includeInCommandInterface>true</includeInCommandInterface>
+  <content>InformationRegister.гхб_СвойстваПомещений</content>
+  <content>InformationRegister.гхб_РуководителиЛокаций</content>
+  <content>InformationRegister.гхб_ПлощадиПомещений</content>
+  <content>InformationRegister.гхб_РаспределениеДоступовВПомещения</content>
+  <content>InformationRegister.гхб_РаспределениеДоступовВПомещенияЮридическиеЛица</content>
+  <content>InformationRegister.гхб_СоставГруппПомещений</content>
+  <content>InformationRegister.гхб_ОтветственныеЗаЛокации</content>
+  <content>InformationRegister.гхб_ОтветственныеЗаПомещения</content>
+  <content>InformationRegister.гхб_ДополнительныеОтветственныеЗаЛокации</content>
+  <content>InformationRegister.гхб_СотрудникиСАдминистративнымиПравамиПБ</content>
+  <content>InformationRegister.гхб_ОтветственныеЗаПожарнуюБезопасность</content>
+  <content>InformationRegister.гхб_СотрудникиСАдминистративнымиПравамиЗакреплениеЗаПомещением</content>
+  <content>InformationRegister.гхб_ЗакреплениеСотрудниковЗаПомещениями</content>
+  <content>InformationRegister.гхб_ЗакреплениеСотрудниковЗаГруппойПомещений</content>
+  <content>InformationRegister.гхб_НастройкиВозможностиРедактированияПарковочныеМеста</content>
+  <content>InformationRegister.гхб_ПраваЗаездаНаТерриториюЛокации</content>
+  <content>InformationRegister.гхб_НастройкиВозможностейЗакрепленияПарковочныхМест</content>
+  <content>InformationRegister.гхб_ИспользованиеЛокацийДляЗакрепленияПарковочныхМест</content>
+  <content>InformationRegister.гхб_ДополнительныеСвойстваПомещений</content>
+  <content>InformationRegister.гхб_ОтветственныеЗаКонсервациюПомещений</content>
+  <content>InformationRegister.гхб_СтатусыКонсервацииПомещений</content>
+  <content>InformationRegister.гхб_АктуальныеДокументыКонсервацииПомещений</content>
+  <content>InformationRegister.гхб_СпискиДоступаНаЛокацию</content>
+  <content>InformationRegister.гхб_КризисМенеджерыСпискиДоступа</content>
+  <content>InformationRegister.гхб_НастройкиВозможностейДобавленияКризисМенеджеров</content>
+  <parentSubsystem>Subsystem.гхб_ПомещенияНаЛокациях</parentSubsystem>
+</mdclass:Subsystem>

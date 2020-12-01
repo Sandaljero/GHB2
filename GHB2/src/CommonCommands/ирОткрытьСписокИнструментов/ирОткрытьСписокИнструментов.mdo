@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonCommand xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="a0030abf-d497-43fa-87e5-ebcf96776a60">
+  <name>ирОткрытьСписокИнструментов</name>
+  <synonym>
+    <key>ru</key>
+    <value>Список инструментов и настройки</value>
+  </synonym>
+  <group>ActionsPanelTools</group>
+  <commandParameterType/>
+  <representation>Auto</representation>
+  <toolTip>
+    <key>ru</key>
+    <value>Открыть список инструментов и общие настройки</value>
+  </toolTip>
+  <picture xsi:type="core:PictureRef">
+    <picture>CommonPicture.ирКоманднаяПанель</picture>
+  </picture>
+  <shortcut></shortcut>
+</mdclass:CommonCommand>

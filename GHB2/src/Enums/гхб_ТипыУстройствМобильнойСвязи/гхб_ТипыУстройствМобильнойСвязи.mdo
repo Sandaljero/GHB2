@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="6d7ee22e-f7b9-45d7-a910-e2ad88c7a94e">
+  <producedTypes>
+    <refType typeId="219a8395-52eb-490c-b186-fc6ebf9381da" valueTypeId="1f701c38-138a-403f-8060-6741b780dd51"/>
+    <listType typeId="c2c6f805-faeb-4497-b286-ee4b4132018a" valueTypeId="cbd83913-3bb7-4ed3-86d3-3a72f68beab3"/>
+    <managerType typeId="82f52032-d2c8-441b-b3c8-f1a4782fee94" valueTypeId="433fbe60-ba91-421d-a747-7ff8cab8933b"/>
+  </producedTypes>
+  <name>гхб_ТипыУстройствМобильнойСвязи</name>
+  <synonym>
+    <key>ru</key>
+    <value>Типы устройств мобильной связи</value>
+  </synonym>
+  <synonym>
+    <key>uk</key>
+    <value>Типи пристроїв мобільного зв'язку</value>
+  </synonym>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Order</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Ref</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="d3645aac-2336-4f9c-af2a-45c9b574085b">
+    <name>Телефон</name>
+    <synonym>
+      <key>ru</key>
+      <value>Телефон</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="65c01b33-32fc-4d2f-8b9d-361fa36a9656">
+    <name>МТСКоннект</name>
+    <synonym>
+      <key>ru</key>
+      <value>МТС Коннект</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

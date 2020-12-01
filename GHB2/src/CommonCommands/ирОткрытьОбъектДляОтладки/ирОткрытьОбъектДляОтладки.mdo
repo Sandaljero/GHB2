@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonCommand xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="4e9d9d28-f2ee-494a-9fe0-116ed9a2b168">
+  <name>ирОткрытьОбъектДляОтладки</name>
+  <synonym>
+    <key>ru</key>
+    <value>Открыть объект для отладки</value>
+  </synonym>
+  <group>ActionsPanelTools</group>
+  <commandParameterType/>
+  <representation>Auto</representation>
+  <toolTip>
+    <key>ru</key>
+    <value>Открыть отладчик</value>
+  </toolTip>
+  <picture xsi:type="core:PictureRef">
+    <picture>CommonPicture.ирОтладка</picture>
+  </picture>
+  <shortcut></shortcut>
+</mdclass:CommonCommand>

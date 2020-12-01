@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="25761580-1c8a-4910-af8a-1cd53cfd31e4">
+  <producedTypes>
+    <objectType typeId="6fc51327-550e-43e8-ace4-27708bda8dcd" valueTypeId="4eb10cd8-c768-4798-9450-105bbbf73ecb"/>
+    <refType typeId="2b35a7d7-8125-4676-9b17-a58fa0bcc9f1" valueTypeId="f96c3190-3377-4099-a319-2a258488a9ee"/>
+    <selectionType typeId="75cce62b-14dc-40b2-95f6-7b5b61ec8e1d" valueTypeId="021386df-d099-4df3-bb15-46bde96c4a98"/>
+    <listType typeId="e8000ff3-a4e1-4460-a421-9abdf7bec472" valueTypeId="5f1a8df1-6af0-49bb-8776-2415ab246f85"/>
+    <managerType typeId="a4e7bdad-63e6-40df-8026-08d822b19d1f" valueTypeId="cbb2ea9f-f05a-4a5d-9c83-dee92351922b"/>
+  </producedTypes>
+  <name>гхб_РежимРаботыВПомещении</name>
+  <synonym>
+    <key>ru</key>
+    <value>Режим работы в помещении</value>
+  </synonym>
+  <synonym>
+    <key>uk</key>
+    <value>Режим роботи в приміщенні</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.гхб_РежимРаботыВПомещении.StandardAttribute.Description</inputByString>
+  <inputByString>Catalog.гхб_РежимРаботыВПомещении.StandardAttribute.Code</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>9</codeLength>
+  <descriptionLength>100</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+  <defaultObjectForm>Catalog.гхб_РежимРаботыВПомещении.Form.ФормаЭлемента</defaultObjectForm>
+  <defaultListForm>Catalog.гхб_РежимРаботыВПомещении.Form.ФормаСписка</defaultListForm>
+  <defaultChoiceForm>Catalog.гхб_РежимРаботыВПомещении.Form.ФормаВыбора</defaultChoiceForm>
+  <attributes uuid="a8a49872-5b99-45bb-8e26-918c553dba86">
+    <name>НеИспользовать</name>
+    <synonym>
+      <key>ru</key>
+      <value>Не использовать</value>
+    </synonym>
+    <synonym>
+      <key>uk</key>
+      <value>Не використовувати</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <forms uuid="c2d7f97b-e5f4-4c71-ab3f-93e3fee3babb">
+    <name>ФормаСписка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма списка</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="285c48a3-14cd-429e-b260-e0fa7cd28616">
+    <name>ФормаВыбора</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма выбора</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="c1f1a962-0225-45d3-a57d-f2f6ccb6ad3b">
+    <name>ФормаЭлемента</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма элемента</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:Catalog>

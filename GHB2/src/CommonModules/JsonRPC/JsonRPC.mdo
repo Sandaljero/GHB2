@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonModule xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="6b1012f4-ba34-47ee-82c0-e9525f54f5e6">
+  <name>JsonRPC</name>
+  <synonym>
+    <key>ru</key>
+    <value>Json RPC 2,0 methods </value>
+  </synonym>
+  <comment>Функции доступные через RPC</comment>
+  <server>true</server>
+  <serverCall>true</serverCall>
+  <privileged>true</privileged>
+</mdclass:CommonModule>

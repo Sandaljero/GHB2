@@ -1,0 +1,187 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="dbafbd2e-1aca-482a-8f42-05d620d7c9d2">
+  <producedTypes>
+    <selectionType typeId="6775e044-d05d-47ba-a287-7ff6b4787f67" valueTypeId="24b90238-2723-4fa4-99d2-625fb15e0ebf"/>
+    <listType typeId="9cc072f7-4407-4c14-b79e-974e3509e67e" valueTypeId="74b73442-73c1-4f4d-b343-ec36bfd84b98"/>
+    <managerType typeId="dd6a2bab-191f-4558-81e6-553bf96d670b" valueTypeId="37b2ccd2-139e-4397-952e-45635433a4a6"/>
+    <recordSetType typeId="1565883b-5fea-4d22-905f-1b608e8395a4" valueTypeId="a0a37d0e-0d0d-4e4a-b6a3-a779f8319e8c"/>
+    <recordKeyType typeId="05ac507b-3d40-47cf-abe1-be5966c6c4c7" valueTypeId="988e7d6a-9859-4c39-ab3f-305a6c776f05"/>
+    <recordType typeId="a4eecbbc-da08-4246-9046-03a07a77dca0" valueTypeId="58d6c648-e595-4fd0-bb5a-8a9b45030271"/>
+    <recordManagerType typeId="888fb0ad-39d5-4775-bf19-b2eed768280d" valueTypeId="0d93340c-6169-406e-9455-63f1f82ccb96"/>
+  </producedTypes>
+  <name>гхб_КонтактнаяИнформацияБазХолдинга</name>
+  <synonym>
+    <key>ru</key>
+    <value>Контактная информация баз холдинга</value>
+  </synonym>
+  <synonym>
+    <key>uk</key>
+    <value>Контактна інформація баз холдингу</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <editType>InDialog</editType>
+  <defaultRecordForm>InformationRegister.гхб_КонтактнаяИнформацияБазХолдинга.Form.ФормаЗаписи</defaultRecordForm>
+  <defaultListForm>InformationRegister.гхб_КонтактнаяИнформацияБазХолдинга.Form.ФормаСписка</defaultListForm>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <resources uuid="caf03087-cd6b-4c16-9ae5-4c61659ed8eb">
+    <name>Представление</name>
+    <synonym>
+      <key>ru</key>
+      <value>Представление</value>
+    </synonym>
+    <synonym>
+      <key>uk</key>
+      <value>Подання</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers/>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <attributes uuid="959aff22-641f-4bb0-94af-cb0457bbafc5">
+    <name>РабочееПомещение</name>
+    <synonym>
+      <key>ru</key>
+      <value>Рабочее помещение</value>
+    </synonym>
+    <synonym>
+      <key>uk</key>
+      <value>Робоче приміщення</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.гхб_РабочиеПомещения</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="1e26b171-74d3-4886-9694-006a304b0bcf">
+    <name>ДатаЗаписи</name>
+    <synonym>
+      <key>ru</key>
+      <value>Дата записи</value>
+    </synonym>
+    <synonym>
+      <key>uk</key>
+      <value>Дата запису</value>
+    </synonym>
+    <type>
+      <types>Date</types>
+      <dateQualifiers>
+        <dateFractions>Date</dateFractions>
+      </dateQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <dimensions uuid="a8066ec2-abbc-4525-8868-c33d6ca6803e">
+    <name>БазаХолдинга</name>
+    <synonym>
+      <key>ru</key>
+      <value>База холдинга</value>
+    </synonym>
+    <synonym>
+      <key>uk</key>
+      <value>База холдингу</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.гхб_БазыХолдинга</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="df55d2fe-323d-4a0d-8602-e5a33f0b1b1c">
+    <name>Объект</name>
+    <synonym>
+      <key>ru</key>
+      <value>Объект</value>
+    </synonym>
+    <synonym>
+      <key>uk</key>
+      <value>Об'єкт</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.гхб_ПользователиБазХолдинга</types>
+      <types>CatalogRef.гхб_ФизическиеЛицаБазХолдинга</types>
+      <types>CatalogRef.гхб_СотрудникиБазХолдинга</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="51a4936f-cc56-4dbf-94c0-c10e906b8e82">
+    <name>Тип</name>
+    <synonym>
+      <key>ru</key>
+      <value>Тип</value>
+    </synonym>
+    <synonym>
+      <key>uk</key>
+      <value>Тип</value>
+    </synonym>
+    <type>
+      <types>EnumRef.ТипыКонтактнойИнформации</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="90794941-70fc-4f23-b0a6-76245d0f6137">
+    <name>Вид</name>
+    <synonym>
+      <key>ru</key>
+      <value>Вид</value>
+    </synonym>
+    <synonym>
+      <key>uk</key>
+      <value>Вид</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.ВидыКонтактнойИнформации</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <forms uuid="54cb707e-971e-465e-abf8-9b8e3147cd5e">
+    <name>ФормаЗаписи</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма записи</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="809bb413-8a1f-4efe-9a0f-3c8a5abeeaf5">
+    <name>ФормаСписка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма списка</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:InformationRegister>

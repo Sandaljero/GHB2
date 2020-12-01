@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="642daa4b-5cee-40e4-a36c-549824a0f6c4">
+  <producedTypes>
+    <selectionType typeId="9d0acc34-08c8-43fd-a0d8-1d9ab504068e" valueTypeId="9b31f1c6-fb0a-46a9-856a-68ba9776a64e"/>
+    <listType typeId="ce8fae74-80d1-450d-8a0d-afe6d0d955c0" valueTypeId="3e131e10-71a9-4ad4-9da4-a98c6eab42c9"/>
+    <managerType typeId="f56b35fe-008b-455d-9202-0838a64f4d80" valueTypeId="5fe80076-8974-42cf-9bd3-a669cd3e8ffc"/>
+    <recordSetType typeId="e42e59b3-d805-47dd-bce0-ca7d6aaa78bc" valueTypeId="6760d266-3133-4d15-ad84-a74ac6e28810"/>
+    <recordKeyType typeId="9d1707a4-6173-4e47-9fd0-30e027389260" valueTypeId="123d15c7-efcb-4dd6-933f-113bdceac705"/>
+    <recordType typeId="3759d7dd-39c7-4147-8290-4e8a54035537" valueTypeId="dc4d37f0-328f-403c-b695-c312a3f15cbd"/>
+    <recordManagerType typeId="e9e84491-6148-4c34-95dd-bf0614f3cacb" valueTypeId="fa427069-ae21-4b83-a5e5-fbae5fad248a"/>
+  </producedTypes>
+  <name>гхб_ДанныеПоСтажу</name>
+  <synonym>
+    <key>ru</key>
+    <value>Данные по стажу</value>
+  </synonym>
+  <synonym>
+    <key>uk</key>
+    <value>Дані за стажем</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <editType>InDialog</editType>
+  <defaultRecordForm>InformationRegister.гхб_ДанныеПоСтажу.Form.ФормаЗаписи</defaultRecordForm>
+  <defaultListForm>InformationRegister.гхб_ДанныеПоСтажу.Form.ФормаСписка</defaultListForm>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <resources uuid="77746859-3e2e-45d2-b6b7-87f98e6effa4">
+    <name>ДатаНачала</name>
+    <synonym>
+      <key>ru</key>
+      <value>Дата начала</value>
+    </synonym>
+    <type>
+      <types>Date</types>
+      <dateQualifiers>
+        <dateFractions>Date</dateFractions>
+      </dateQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="ae182d71-3e45-48c4-b7b0-92042b55c936">
+    <name>ДатаОкончания</name>
+    <synonym>
+      <key>ru</key>
+      <value>Дата окончания</value>
+    </synonym>
+    <type>
+      <types>Date</types>
+      <dateQualifiers>
+        <dateFractions>Date</dateFractions>
+      </dateQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <dimensions uuid="481f5d45-085f-49d8-a38b-b8b8a19dfc27">
+    <name>БазаХолдинга</name>
+    <synonym>
+      <key>ru</key>
+      <value>База холдинга</value>
+    </synonym>
+    <synonym>
+      <key>uk</key>
+      <value>База холдингу</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.гхб_БазыХолдинга</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="83a35df4-abac-4581-860d-3185cf66c4a8">
+    <name>Организация</name>
+    <synonym>
+      <key>ru</key>
+      <value>Организация</value>
+    </synonym>
+    <synonym>
+      <key>uk</key>
+      <value>Організація</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <types>CatalogRef.гхб_ОрганизацииБазХолдинга</types>
+      <stringQualifiers>
+        <length>150</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="1ed2a661-249c-4999-b1f7-2b10337d9e97">
+    <name>Сотрудник</name>
+    <synonym>
+      <key>ru</key>
+      <value>Сотрудник</value>
+    </synonym>
+    <synonym>
+      <key>uk</key>
+      <value>Співробітник</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.гхб_СотрудникиБазХолдинга</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <forms uuid="8e5ad0cc-9313-42da-9037-3b513fe9e711">
+    <name>ФормаЗаписи</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма записи</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="9ec18377-cb4f-4992-a593-41fe61c97b2b">
+    <name>ФормаСписка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма списка</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:InformationRegister>

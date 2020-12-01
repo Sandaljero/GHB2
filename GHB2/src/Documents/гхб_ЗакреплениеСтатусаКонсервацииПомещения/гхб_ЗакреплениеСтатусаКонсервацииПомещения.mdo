@@ -1,0 +1,289 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="4a2a8c83-5a31-484d-95f5-9d754b59d35c">
+  <producedTypes>
+    <objectType typeId="816f36a7-bfaf-49e4-a45f-6df7504bc876" valueTypeId="7ddfcdf9-e046-41aa-9f23-53446323a5f7"/>
+    <refType typeId="fb61ca9a-c2b8-4c51-bfbd-2f78f7b3b0cc" valueTypeId="d2aaa305-9acc-48b6-ae5a-856df13dde5c"/>
+    <selectionType typeId="3529ef63-5735-4e74-80f3-273223b0d18d" valueTypeId="a785b111-7add-4bc4-b433-2e5c154530f7"/>
+    <listType typeId="ccad8c05-cdf5-40fc-9e94-f0b9a0114947" valueTypeId="acf2ee86-4d35-4ae9-bae8-633a10d888a6"/>
+    <managerType typeId="eb69ffe9-4ef8-4fea-9ecc-76b346ddf193" valueTypeId="09a89820-2b6c-45f7-a385-067091130071"/>
+  </producedTypes>
+  <name>гхб_ЗакреплениеСтатусаКонсервацииПомещения</name>
+  <synonym>
+    <key>ru</key>
+    <value>Закрепление статуса консервации помещения</value>
+  </synonym>
+  <synonym>
+    <key>uk</key>
+    <value>Закріплення статусу консервації приміщення</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Document.гхб_ЗакреплениеСтатусаКонсервацииПомещения.StandardAttribute.Number</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <numberType>String</numberType>
+  <numberLength>9</numberLength>
+  <numberAllowedLength>Variable</numberAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultObjectForm>Document.гхб_ЗакреплениеСтатусаКонсервацииПомещения.Form.ФормаДокумента</defaultObjectForm>
+  <defaultListForm>Document.гхб_ЗакреплениеСтатусаКонсервацииПомещения.Form.ФормаСписка</defaultListForm>
+  <defaultChoiceForm>Document.гхб_ЗакреплениеСтатусаКонсервацииПомещения.Form.ФормаВыбора</defaultChoiceForm>
+  <registerRecords>InformationRegister.гхб_СтатусыКонсервацииПомещений</registerRecords>
+  <postInPrivilegedMode>true</postInPrivilegedMode>
+  <unpostInPrivilegedMode>true</unpostInPrivilegedMode>
+  <attributes uuid="79feaa35-302a-49fa-b949-4d412dfa15d5">
+    <name>Помещение</name>
+    <synonym>
+      <key>ru</key>
+      <value>Помещение</value>
+    </synonym>
+    <synonym>
+      <key>uk</key>
+      <value>Приміщення</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.гхб_Помещения</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="3c01dc0e-3d2a-42cb-bc43-93979347cc78">
+    <name>СтатусКонсервации</name>
+    <synonym>
+      <key>ru</key>
+      <value>Статус консервации</value>
+    </synonym>
+    <synonym>
+      <key>uk</key>
+      <value>Статус консервації</value>
+    </synonym>
+    <type>
+      <types>EnumRef.гхб_СтатусыКонсервацииПомещений</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="a0253bee-c249-41ae-8ae4-ad49af5efb65">
+    <name>ДатаНачала</name>
+    <synonym>
+      <key>ru</key>
+      <value>Дата начала</value>
+    </synonym>
+    <synonym>
+      <key>uk</key>
+      <value>Дата початку</value>
+    </synonym>
+    <type>
+      <types>Date</types>
+      <dateQualifiers>
+        <dateFractions>Date</dateFractions>
+      </dateQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="ed49d270-efb3-44cf-bc0b-8ff9f8b316e0">
+    <name>ДатаОкончания</name>
+    <synonym>
+      <key>ru</key>
+      <value>Дата окончания</value>
+    </synonym>
+    <synonym>
+      <key>uk</key>
+      <value>Дата закінчення</value>
+    </synonym>
+    <type>
+      <types>Date</types>
+      <dateQualifiers>
+        <dateFractions>Date</dateFractions>
+      </dateQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="31b67047-eaf1-4058-865e-e86cfed64a4e">
+    <name>ПомощьАХО</name>
+    <synonym>
+      <key>ru</key>
+      <value>Помощь АХО</value>
+    </synonym>
+    <synonym>
+      <key>uk</key>
+      <value>Допомога АХО</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="0f057b90-2d9a-445d-b30a-1b8a67f9ce10">
+    <name>ПомощьIT</name>
+    <synonym>
+      <key>ru</key>
+      <value>Помощь IT</value>
+    </synonym>
+    <synonym>
+      <key>uk</key>
+      <value>Допомога IT</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="c6cb86e0-63b9-4f1f-82b4-82bde6514ee5">
+    <name>ПомощьНеНужна</name>
+    <synonym>
+      <key>ru</key>
+      <value>Помощь не нужна</value>
+    </synonym>
+    <synonym>
+      <key>uk</key>
+      <value>Допомога не потрібна</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="de4ba80e-9c3e-4eb9-a512-da18ff2e1f3f">
+    <name>СнятьПроверкуДатыНачала</name>
+    <synonym>
+      <key>ru</key>
+      <value>Снять проверку даты начала</value>
+    </synonym>
+    <synonym>
+      <key>uk</key>
+      <value>Зняти перевірку дати початку</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="c9caf160-ecce-405f-b7e6-970731d00f18">
+    <name>АвтоматическоеСозданиеДокумента</name>
+    <synonym>
+      <key>ru</key>
+      <value>Автоматическое создание документа</value>
+    </synonym>
+    <synonym>
+      <key>uk</key>
+      <value>Автоматичне створення докумнту</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="d90c27dc-1d0e-4dd3-ae36-418f4fd1bcfc">
+    <name>ПериодКонсервации</name>
+    <synonym>
+      <key>ru</key>
+      <value>Период консервации</value>
+    </synonym>
+    <synonym>
+      <key>uk</key>
+      <value>Період консервації</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>3</precision>
+        <nonNegative>true</nonNegative>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="f891e5f6-5a13-4a48-ad8e-0a619b03799e">
+    <name>ПериодКонсервацииСтрока</name>
+    <synonym>
+      <key>ru</key>
+      <value>Период консервации (строка)</value>
+    </synonym>
+    <synonym>
+      <key>uk</key>
+      <value>Період консервації (строка)</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>20</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <forms uuid="87124d93-d990-4371-b198-c910369a804f">
+    <name>ФормаДокумента</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма документа</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="c0f0c0f8-5891-4023-82bb-7355b2efd86f">
+    <name>ФормаСписка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма списка</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="ca5d9880-37d5-4b9b-a565-3e595eb47d84">
+    <name>ФормаВыбора</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма выбора</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:Document>

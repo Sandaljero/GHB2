@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="d3e11b1b-f2e5-41c8-bb93-82c447cdeed0">
+  <producedTypes>
+    <refType typeId="d7cbb625-f8f4-40de-9ebb-64201b90f76b" valueTypeId="7bd67b5d-c13c-4e06-ac13-ce52dfb0e28a"/>
+    <listType typeId="14210304-72a8-4b11-9066-1b629fb8d706" valueTypeId="61f38463-bbb7-48bb-8914-bd1ef65842ef"/>
+    <managerType typeId="b23adcdb-148d-421b-924e-1574838f63ac" valueTypeId="9e5a485b-d788-4c4b-b784-b70b79142f4c"/>
+  </producedTypes>
+  <name>гхб_ВидыЗанятостиВОрганизации</name>
+  <synonym>
+    <key>ru</key>
+    <value>Виды занятости в организации</value>
+  </synonym>
+  <comment>(Регл)</comment>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Order</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Ref</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="43069bf2-3782-421a-8f83-18b2bb3b8959">
+    <name>ОсновноеМестоРаботы</name>
+    <synonym>
+      <key>ru</key>
+      <value>Основне місце роботи</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="5f365bea-b012-41d0-bff4-dbcf4bf334d2">
+    <name>Совместительство</name>
+    <synonym>
+      <key>ru</key>
+      <value>Сумісництво</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="e054fb45-f197-43cd-8369-42f491315634">
+    <name>ВнутреннееСовместительство</name>
+    <synonym>
+      <key>ru</key>
+      <value>Внутрішнє сумісництво</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

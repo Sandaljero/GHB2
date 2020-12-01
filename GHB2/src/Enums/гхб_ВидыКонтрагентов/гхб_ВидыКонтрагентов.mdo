@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="161c16d3-91c1-430e-8ff1-9f4ae9987980">
+  <producedTypes>
+    <refType typeId="8f545dc5-da20-49c5-869a-001b23687a23" valueTypeId="b95ae4b1-caa6-4ae8-86fe-76fe9f44b249"/>
+    <listType typeId="2a6fd408-a0c6-4e71-8306-4dc747fe0f65" valueTypeId="b10e7fdd-c517-430c-b60e-24ed4ff4e5e2"/>
+    <managerType typeId="416179af-6b4f-4c21-aea8-82e8f692b8d7" valueTypeId="b2b9d9b7-8561-4b10-84c8-dbbf73f5acce"/>
+  </producedTypes>
+  <name>гхб_ВидыКонтрагентов</name>
+  <synonym>
+    <key>ru</key>
+    <value>Виды контрагентов</value>
+  </synonym>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="4515e319-dd4a-435a-86eb-22ae11000ee8">
+    <name>ФОП</name>
+    <synonym>
+      <key>ru</key>
+      <value>ФОП</value>
+    </synonym>
+    <synonym>
+      <key>uk</key>
+      <value>ФОП</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

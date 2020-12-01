@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="8fc685e4-fc93-417a-ad68-d217d8d4dca9">
+  <name>гхб_РегистрыСведений</name>
+  <synonym>
+    <key>ru</key>
+    <value>Регистры сведений</value>
+  </synonym>
+  <synonym>
+    <key>uk</key>
+    <value>Регістри відомостей</value>
+  </synonym>
+  <includeHelpInContents>true</includeHelpInContents>
+  <includeInCommandInterface>true</includeInCommandInterface>
+  <content>InformationRegister.гхб_СоответствиеНомеровТелефоновФизЛицам</content>
+  <content>InformationRegister.гхб_СоответствиеНомеровТелефоновДопУслугам</content>
+  <content>InformationRegister.гхб_ЛицевыеСчетаМобильнойСвязи</content>
+  <parentSubsystem>Subsystem.гхб_МобильнаяСвязь</parentSubsystem>
+</mdclass:Subsystem>

@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="130bcc73-93ed-4961-9fae-6fbc9677659e">
+  <producedTypes>
+    <objectType typeId="8fc872d9-52c9-4738-ac4e-af0537d38111" valueTypeId="a5a7f9f0-6ae0-47da-8dd3-24e7b3cf4459"/>
+    <refType typeId="0aa0b81a-c252-42ed-a435-750b7a6f6394" valueTypeId="dba8ef7b-cae2-4ecb-8236-194f74f74597"/>
+    <selectionType typeId="647a3677-7c7c-4726-99fa-2dfebbad95f3" valueTypeId="e8d7131b-00fa-40e1-9f29-3d0d9dd706d6"/>
+    <listType typeId="41ce0929-b001-45c2-bf6d-cfc2278bf511" valueTypeId="fa85e2da-5c80-4649-82d0-4bea1d5160ea"/>
+    <managerType typeId="3eb6d5ae-5e87-4c0d-b23c-c6ed9a69b6de" valueTypeId="f979f64e-b9d4-455b-920a-5fb27388153e"/>
+  </producedTypes>
+  <name>гхб_ЗакреплениеОтветственногоЗаКонсервациюПомещения</name>
+  <synonym>
+    <key>ru</key>
+    <value>Закрепление ответственного за консервацию помещения</value>
+  </synonym>
+  <synonym>
+    <key>uk</key>
+    <value>Закріплення відповідального за консервацію приміщення</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Document.гхб_ЗакреплениеОтветственногоЗаКонсервациюПомещения.StandardAttribute.Number</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <numberType>String</numberType>
+  <numberLength>9</numberLength>
+  <numberAllowedLength>Variable</numberAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultObjectForm>Document.гхб_ЗакреплениеОтветственногоЗаКонсервациюПомещения.Form.ФормаДокумента</defaultObjectForm>
+  <defaultListForm>Document.гхб_ЗакреплениеОтветственногоЗаКонсервациюПомещения.Form.ФормаСписка</defaultListForm>
+  <defaultChoiceForm>Document.гхб_ЗакреплениеОтветственногоЗаКонсервациюПомещения.Form.ФормаВыбора</defaultChoiceForm>
+  <registerRecords>InformationRegister.гхб_ОтветственныеЗаКонсервациюПомещений</registerRecords>
+  <postInPrivilegedMode>true</postInPrivilegedMode>
+  <unpostInPrivilegedMode>true</unpostInPrivilegedMode>
+  <forms uuid="f3a7bf07-1376-47d3-aed8-468c5d264c69">
+    <name>ФормаСписка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма списка</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="205c7c5e-b3d6-444a-9fc0-edaeab63daf7">
+    <name>ФормаВыбора</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма выбора</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="97bd0d97-f425-419d-b3fb-ff0a13814507">
+    <name>ФормаДокумента</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма документа</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <tabularSections uuid="f9e29bbc-6f27-4f75-b497-1351aaa00110">
+    <producedTypes>
+      <objectType typeId="b54cd931-dbeb-4f93-b404-eaea87cec6ce" valueTypeId="54459fb9-43a0-4ba7-ad1c-dc561f96eb7b"/>
+      <rowType typeId="4ef3e8a8-dc7e-4afc-bbf5-71b07f564e5a" valueTypeId="2355bddf-fe6e-42e4-83fc-149c27f7ff84"/>
+    </producedTypes>
+    <name>Помещения</name>
+    <synonym>
+      <key>ru</key>
+      <value>Помещения</value>
+    </synonym>
+    <synonym>
+      <key>uk</key>
+      <value>Приміщення</value>
+    </synonym>
+    <standardAttributes>
+      <dataHistory>Use</dataHistory>
+      <name>LineNumber</name>
+      <fillValue xsi:type="core:UndefinedValue"/>
+      <fullTextSearch>Use</fullTextSearch>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+    </standardAttributes>
+    <attributes uuid="372b2c59-6bc1-4f70-b36c-1c859169a504">
+      <name>СуществующийДоступ</name>
+      <synonym>
+        <key>ru</key>
+        <value>Существующий доступ</value>
+      </synonym>
+      <synonym>
+        <key>uk</key>
+        <value>Існуючий доступ</value>
+      </synonym>
+      <type>
+        <types>Boolean</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="a984b400-da95-45cc-bbd5-5088984ee60e">
+      <name>Помещение</name>
+      <synonym>
+        <key>ru</key>
+        <value>Помещение</value>
+      </synonym>
+      <synonym>
+        <key>uk</key>
+        <value>Приміщення</value>
+      </synonym>
+      <type>
+        <types>CatalogRef.гхб_Помещения</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fillChecking>ShowError</fillChecking>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="b68e97da-ced0-436a-9555-499ae4640554">
+      <name>ОтветственныйЗаКонсервациюПомещения</name>
+      <synonym>
+        <key>ru</key>
+        <value>Ответственный за консервацию помещения</value>
+      </synonym>
+      <synonym>
+        <key>uk</key>
+        <value>Відповідальний за консервацію приміщення</value>
+      </synonym>
+      <type>
+        <types>CatalogRef.гхб_ФизическиеЛица</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fillChecking>ShowError</fillChecking>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="eab42607-9cc1-456a-9a59-676360011758">
+      <name>Закрыть</name>
+      <synonym>
+        <key>ru</key>
+        <value>Закрыть</value>
+      </synonym>
+      <type>
+        <types>Boolean</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+  </tabularSections>
+</mdclass:Document>

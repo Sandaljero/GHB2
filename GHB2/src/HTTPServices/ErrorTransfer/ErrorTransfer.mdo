@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:HTTPService xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="47b90f27-525c-4ae7-a34e-7fcdb36d80d1">
+  <name>ErrorTransfer</name>
+  <synonym>
+    <key>ru</key>
+    <value>Error transfer</value>
+  </synonym>
+  <rootURL>Error</rootURL>
+  <sessionMaxAge>20</sessionMaxAge>
+  <urlTemplates uuid="cc70f3dc-08be-4eee-850b-e60feed40f6b">
+    <name>GetInfo</name>
+    <synonym>
+      <key>ru</key>
+      <value>Get info</value>
+    </synonym>
+    <template>/getInfo</template>
+    <methods uuid="5f1f0275-d4a2-4694-91c2-27be2cdfdaad">
+      <name>POST</name>
+      <synonym>
+        <key>ru</key>
+        <value>POST</value>
+      </synonym>
+      <httpMethod>POST</httpMethod>
+      <handler>GetInfoPOST</handler>
+    </methods>
+  </urlTemplates>
+  <urlTemplates uuid="25b66feb-dad8-4502-8b39-54973eafa3ce">
+    <name>PushReport</name>
+    <synonym>
+      <key>ru</key>
+      <value>Push report</value>
+    </synonym>
+    <template>/pushReport</template>
+    <methods uuid="482f3507-afee-4dfe-804e-7937b83e5c74">
+      <name>POST</name>
+      <synonym>
+        <key>ru</key>
+        <value>POST</value>
+      </synonym>
+      <httpMethod>POST</httpMethod>
+      <handler>PushReportPOST</handler>
+    </methods>
+  </urlTemplates>
+</mdclass:HTTPService>

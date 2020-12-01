@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonCommand xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="218c4708-81b3-4397-9529-de4c481673b1">
+  <name>гхб_ОткрытьKISWiki</name>
+  <synonym>
+    <key>ru</key>
+    <value>Открыть KIS Wiki</value>
+  </synonym>
+  <synonym>
+    <key>uk</key>
+    <value>Відкрити KIS Wiki</value>
+  </synonym>
+  <group>FormCommandBarImportant</group>
+  <commandParameterType/>
+  <representation>Picture</representation>
+  <toolTip>
+    <key>ru</key>
+    <value>Открывает описание в интернет браузере по умолчанию</value>
+  </toolTip>
+  <toolTip>
+    <key>uk</key>
+    <value>Відкриває опис в інтернет браузері за замовчуванням</value>
+  </toolTip>
+  <picture xsi:type="core:PictureRef">
+    <picture>CommonPicture.гхб_KISWiki</picture>
+  </picture>
+  <shortcut></shortcut>
+</mdclass:CommonCommand>

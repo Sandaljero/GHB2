@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="93880db2-ad00-427e-9441-401294294563">
+  <producedTypes>
+    <selectionType typeId="2f510fce-1ddc-4f9c-a200-2fdbd944eba3" valueTypeId="b0ba4318-6d31-444f-8d67-fa0cb7de7e0a"/>
+    <listType typeId="90c4ab9b-1001-4c89-97eb-2157304c36c4" valueTypeId="ac02fd39-c98d-485f-bae1-4d7f3a41177d"/>
+    <managerType typeId="e66eb928-18f0-4a33-a1c2-4fbb2a641d6d" valueTypeId="9599c03a-2d65-4cfd-bf7f-c25ae15ad2bc"/>
+    <recordSetType typeId="a2886b2d-3f5f-4616-a2c6-7c6894f681cb" valueTypeId="67bd7190-e6ee-4816-87cf-55d239a13295"/>
+    <recordKeyType typeId="db6187f9-f11c-4af1-b0c6-708677d0dadc" valueTypeId="e1f77c3d-2d0f-4053-be62-dd367fe1e7c8"/>
+    <recordType typeId="046052f4-dcc8-4854-b056-7f5494eb2451" valueTypeId="f649ed99-b966-467f-ada9-344db1f2dfa9"/>
+    <recordManagerType typeId="adbd00fb-4a61-42d1-b9e0-1e8130fa8cf4" valueTypeId="bec6d72d-1394-4beb-9bb2-a28939ec2951"/>
+  </producedTypes>
+  <name>гхб_ДополнительныеСвойстваПомещений</name>
+  <synonym>
+    <key>ru</key>
+    <value>Дополнительные свойства помещений</value>
+  </synonym>
+  <synonym>
+    <key>uk</key>
+    <value>Додаткові властивості приміщень</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <editType>InDialog</editType>
+  <defaultRecordForm>InformationRegister.гхб_ДополнительныеСвойстваПомещений.Form.ФормаЗаписи</defaultRecordForm>
+  <defaultListForm>InformationRegister.гхб_ДополнительныеСвойстваПомещений.Form.ФормаСписка</defaultListForm>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <attributes uuid="451c6379-2c7e-4d93-bdd2-a71e76c20a2d">
+    <name>ДополнительнаяИнформация</name>
+    <synonym>
+      <key>ru</key>
+      <value>Дополнительная информация</value>
+    </synonym>
+    <synonym>
+      <key>uk</key>
+      <value>Додаткова інформація</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>250</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+  </attributes>
+  <attributes uuid="7ed06e14-a6d3-442e-b2e4-f6e667385017">
+    <name>ОтветственныеЗаКонсервациюПомещения</name>
+    <synonym>
+      <key>ru</key>
+      <value>Ответственные за консервацию помещения</value>
+    </synonym>
+    <synonym>
+      <key>uk</key>
+      <value>Відповідальні за консервацію приміщень</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>150</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+  </attributes>
+  <attributes uuid="5ac06517-5f00-4d9c-b969-658b9ed4d212">
+    <name>ОтветственныеЗаПожарнуюБезопасность</name>
+    <synonym>
+      <key>ru</key>
+      <value>Ответственные за пожарную безопасность</value>
+    </synonym>
+    <synonym>
+      <key>uk</key>
+      <value>Відповідальні за пожежну безпеку</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>150</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+  </attributes>
+  <dimensions uuid="710bc129-1e8b-4af3-acf9-73eac1f9581a">
+    <name>Помещение</name>
+    <synonym>
+      <key>ru</key>
+      <value>Помещение</value>
+    </synonym>
+    <synonym>
+      <key>uk</key>
+      <value>Приміщення</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.гхб_Помещения</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <choiceFoldersAndItems>FoldersAndItems</choiceFoldersAndItems>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <forms uuid="c00c6453-79a0-425d-9aa6-74e99dbc37d9">
+    <name>ФормаЗаписи</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма записи</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="1cd7b2f5-d247-40b7-b2ac-aa6534c9c46b">
+    <name>ФормаСписка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма списка</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:InformationRegister>

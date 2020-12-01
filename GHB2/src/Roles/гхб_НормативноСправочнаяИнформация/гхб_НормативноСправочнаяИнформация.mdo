@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Role xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="c105d1ec-4ab5-465e-a5ac-3edb7de21dce">
+  <name>гхб_НормативноСправочнаяИнформация</name>
+  <synonym>
+    <key>ru</key>
+    <value>Нормативно справочная информация</value>
+  </synonym>
+  <synonym>
+    <key>uk</key>
+    <value>Нормативно довідкова інформація</value>
+  </synonym>
+</mdclass:Role>

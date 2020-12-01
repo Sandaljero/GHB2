@@ -1,0 +1,165 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="f4f96da4-891a-4270-9312-f00ebdd27607">
+  <producedTypes>
+    <objectType typeId="36583b2a-9dc4-4feb-aa5c-74d59342a4ec" valueTypeId="29d6d12b-e1a7-4d83-a67c-2ff461242d36"/>
+    <refType typeId="0ab497a3-5a35-423d-be9a-41849f831ee7" valueTypeId="ec5c5af5-a0f2-4d49-9615-46c038013b65"/>
+    <selectionType typeId="c7ad0a2b-90c4-46cf-aa6a-bd3675338037" valueTypeId="b6618c67-c310-4d3b-90b3-51f529ff0f99"/>
+    <listType typeId="493ed03f-d582-4653-b861-bc6eff3103b2" valueTypeId="73d50a6f-46f8-4279-9b54-3f0b4d851069"/>
+    <managerType typeId="8b9a3162-f4b3-44f8-9721-0f06f9263fae" valueTypeId="4378922e-7314-4b14-b098-9b95a098c78a"/>
+  </producedTypes>
+  <name>гхб_ПерсональныеКабинетыТакси</name>
+  <synonym>
+    <key>ru</key>
+    <value>Персональные кабинеты такси</value>
+  </synonym>
+  <synonym>
+    <key>uk</key>
+    <value>Персональні кабінети таксі</value>
+  </synonym>
+  <comment>#14311</comment>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.гхб_ПерсональныеКабинетыТакси.StandardAttribute.Description</inputByString>
+  <inputByString>Catalog.гхб_ПерсональныеКабинетыТакси.StandardAttribute.Code</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <objectPresentation>
+    <key>ru</key>
+    <value>Персональный кабинет такси</value>
+  </objectPresentation>
+  <objectPresentation>
+    <key>uk</key>
+    <value>Персональний кабінет таксі</value>
+  </objectPresentation>
+  <listPresentation>
+    <key>ru</key>
+    <value>Персональные кабинеты такси</value>
+  </listPresentation>
+  <listPresentation>
+    <key>uk</key>
+    <value>Персональні кабінети таксі</value>
+  </listPresentation>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>9</codeLength>
+  <descriptionLength>150</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+  <defaultObjectForm>Catalog.гхб_ПерсональныеКабинетыТакси.Form.ФормаЭлемента</defaultObjectForm>
+  <defaultListForm>Catalog.гхб_ПерсональныеКабинетыТакси.Form.ФормаСписка</defaultListForm>
+  <defaultChoiceForm>Catalog.гхб_ПерсональныеКабинетыТакси.Form.ФормаВыбора</defaultChoiceForm>
+  <attributes uuid="92462a64-1972-448d-ab2d-ae1199b5333c">
+    <name>Логин</name>
+    <synonym>
+      <key>ru</key>
+      <value>Логин</value>
+    </synonym>
+    <synonym>
+      <key>uk</key>
+      <value>Логін</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>150</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="bc1bfff8-3183-462e-9c02-24ca7378dfeb">
+    <name>СлужбаТакси</name>
+    <synonym>
+      <key>ru</key>
+      <value>Служба такси</value>
+    </synonym>
+    <synonym>
+      <key>uk</key>
+      <value>Служба таксі</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.гхб_СлужбыТакси</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="c9218fea-d95f-42c4-bd1e-f3bf3eeb4788">
+    <name>Лимит</name>
+    <synonym>
+      <key>ru</key>
+      <value>Лимит</value>
+    </synonym>
+    <synonym>
+      <key>uk</key>
+      <value>Ліміт</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>15</precision>
+        <nonNegative>true</nonNegative>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <forms uuid="81450122-c884-4739-a863-2d52d28de2db">
+    <name>ФормаЭлемента</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма элемента</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="c041ce81-1bee-48f7-9e1d-7f0e0d6b11f3">
+    <name>ФормаСписка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма списка</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="ed981383-cb3c-46ea-826b-2bd33bb42698">
+    <name>ФормаВыбора</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма выбора</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <commands uuid="96287cec-c4f3-4982-a38f-6c628692cd60">
+    <name>УПКТ</name>
+    <synonym>
+      <key>ru</key>
+      <value>УПКТ</value>
+    </synonym>
+    <group>FormNavigationPanelGoTo</group>
+    <commandParameterType>
+      <types>CatalogRef.гхб_ПерсональныеКабинетыТакси</types>
+    </commandParameterType>
+    <representation>Auto</representation>
+    <shortcut></shortcut>
+  </commands>
+</mdclass:Catalog>

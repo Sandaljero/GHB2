@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="8573bfae-4174-4f5b-959b-262909fce93b">
+  <producedTypes>
+    <refType typeId="97571ace-7e46-49f6-bf65-39214a497f5f" valueTypeId="767caa79-958a-470f-aeff-fa1a0e3beed0"/>
+    <listType typeId="055f6c9f-be45-43bc-92fa-982487e156c3" valueTypeId="29f4c0bd-a6b8-40a6-a30d-1faa454137e4"/>
+    <managerType typeId="d47087c6-d254-4571-9cf7-fdb9f6475228" valueTypeId="3f6355f5-69ca-4f1c-ac83-efa480898588"/>
+  </producedTypes>
+  <name>гхб_ТипыДанныхФайлов</name>
+  <synonym>
+    <key>ru</key>
+    <value>Типы данных файлов</value>
+  </synonym>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="c5d93cb7-9ff0-4f77-98f0-91d5996f18ff">
+    <name>ФотоФизЛица</name>
+    <synonym>
+      <key>ru</key>
+      <value>Фото физ. лица</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="3f2f15b2-3736-4b1c-8be8-b03ec06cafa3">
+    <name>Картинка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Картинка</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="cb96ec5e-c886-4304-93ca-e641567d34e3">
+    <name>ПроизвольныеДанные</name>
+    <synonym>
+      <key>ru</key>
+      <value>Произвольные данные</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

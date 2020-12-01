@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="26422a41-f7eb-4fad-b3bd-2912dd006688">
+  <producedTypes>
+    <objectType typeId="edac2f93-d178-45d2-949e-b57573a5f2f6" valueTypeId="50048b6a-dcec-44a4-b002-126b076f0606"/>
+    <refType typeId="7f503bc4-eaaf-4090-93c3-cdb9abd48439" valueTypeId="cb6c47c6-5f1f-4cff-9883-d4e7e8d96960"/>
+    <selectionType typeId="6258cd4d-4c74-453e-926c-a44e61835fdc" valueTypeId="22e557d4-63d8-421a-b5ba-31bc86faaecf"/>
+    <listType typeId="759c8654-54c1-436c-a819-8b71b4c94253" valueTypeId="e8e0bdaa-9e3a-4457-8012-cd2bbf2800fa"/>
+    <managerType typeId="bdc09d60-61aa-4244-ac9e-0f942cdf8601" valueTypeId="8ed3279c-88a3-40d3-b634-a2766f6a8ffd"/>
+  </producedTypes>
+  <name>гхб_НомераТелефонов</name>
+  <synonym>
+    <key>ru</key>
+    <value>Номера телефонов</value>
+  </synonym>
+  <synonym>
+    <key>uk</key>
+    <value>Номери телефонів</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.гхб_НомераТелефонов.StandardAttribute.Description</inputByString>
+  <inputByString>Catalog.гхб_НомераТелефонов.StandardAttribute.Code</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>9</codeLength>
+  <descriptionLength>25</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+  <defaultObjectForm>Catalog.гхб_НомераТелефонов.Form.ФормаЭлемента</defaultObjectForm>
+  <defaultListForm>Catalog.гхб_НомераТелефонов.Form.ФормаСписка</defaultListForm>
+  <defaultChoiceForm>Catalog.гхб_НомераТелефонов.Form.ФормаВыбора</defaultChoiceForm>
+  <attributes uuid="6e2a3741-4456-4c0f-8fbf-762464833fe1">
+    <name>НеИспользоватьПриРассылкеСМС</name>
+    <synonym>
+      <key>ru</key>
+      <value>Не использовать при рассылке СМС</value>
+    </synonym>
+    <synonym>
+      <key>uk</key>
+      <value>Не використовувати при розсилці СМС</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="31704279-a44c-4701-a364-2cb94109d03d">
+    <name>НеИспользоватьПриОбменеСАД</name>
+    <synonym>
+      <key>ru</key>
+      <value>Не использовать при обмене с АД</value>
+    </synonym>
+    <synonym>
+      <key>uk</key>
+      <value>Не використовувати при обміні з АД</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="cd3fe6f3-96a4-47c4-b6e2-ae14d0b05550">
+    <name>ОсновнойНомер</name>
+    <synonym>
+      <key>ru</key>
+      <value>Основной номер</value>
+    </synonym>
+    <synonym>
+      <key>uk</key>
+      <value>Основний номер</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <forms uuid="7657e091-70e4-493c-9132-02d53ad15293">
+    <name>ФормаЭлемента</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма элемента</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="580ba975-d646-43bf-82d3-2464620eb925">
+    <name>ФормаСписка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма списка</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="6eae5812-da38-47fe-a8ab-3c211ef17bf2">
+    <name>ФормаВыбора</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма выбора</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:Catalog>

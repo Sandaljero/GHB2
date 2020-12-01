@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="2ccf41db-4cef-4734-b967-2349c733ba1c">
+  <name>гхб_ПарковочныеМеста</name>
+  <synonym>
+    <key>ru</key>
+    <value>Парковочные места</value>
+  </synonym>
+  <synonym>
+    <key>uk</key>
+    <value>Паркувальні місця</value>
+  </synonym>
+  <includeHelpInContents>true</includeHelpInContents>
+  <includeInCommandInterface>true</includeInCommandInterface>
+  <picture xsi:type="core:PictureRef">
+    <picture>CommonPicture.гхб_ПодситемаПарковочныеМеста</picture>
+  </picture>
+  <content>CommonPicture.гхб_ПодситемаПарковочныеМеста</content>
+  <content>Enum.гхб_ТипАвтомобиляСлужебныйПерсональный</content>
+  <content>Enum.гхб_ВидПропускаПарковочныеМеста</content>
+  <content>InformationRegister.гхб_НастройкиВозможностиРедактированияПарковочныеМеста</content>
+  <content>InformationRegister.гхб_ПраваЗаездаНаТерриториюЛокации</content>
+  <content>InformationRegister.гхб_НастройкиВозможностейЗакрепленияПарковочныхМест</content>
+  <content>Enum.гхб_ТипОперацииЗакреплениеОткреплениеПарковочногоМеста</content>
+  <content>Report.гхб_ЗаполненныеПаркоместаНаЛокациях</content>
+  <subsystems>гхб_Справочники</subsystems>
+  <subsystems>гхб_Документы</subsystems>
+</mdclass:Subsystem>

@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Report xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="3882a0b9-d58b-4b93-b187-e9d3bb681d6f">
+  <producedTypes>
+    <objectType typeId="60b4f00b-c4d5-45e0-bf82-a32a654410d0" valueTypeId="2e839a4c-c2ed-4284-831b-00dd462c9c42"/>
+    <managerType typeId="46ac99f5-bbe1-435c-82e6-b86c1cfa9cd9" valueTypeId="dee382ac-069a-4f0b-9f8c-a7f0c43491ce"/>
+  </producedTypes>
+  <name>гхб_ДоменныеИменаФизическихЛиц</name>
+  <synonym>
+    <key>ru</key>
+    <value>Доменные имена физических лиц</value>
+  </synonym>
+  <synonym>
+    <key>uk</key>
+    <value>Доменні імена фізичних осіб</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <defaultForm>CommonForm.ФормаОтчета</defaultForm>
+  <mainDataCompositionSchema>Report.гхб_ДоменныеИменаФизическихЛиц.Template.ОсновнаяСхемаКомпоновкиДанных</mainDataCompositionSchema>
+  <defaultSettingsForm>CommonForm.ФормаНастроекОтчета</defaultSettingsForm>
+  <defaultVariantForm>CommonForm.ФормаВариантаОтчета</defaultVariantForm>
+  <templates uuid="de8d24d3-d912-48fe-a37a-a110f1665bd1">
+    <name>ОсновнаяСхемаКомпоновкиДанных</name>
+    <synonym>
+      <key>ru</key>
+      <value>Основная схема компоновки данных</value>
+    </synonym>
+    <templateType>DataCompositionSchema</templateType>
+  </templates>
+</mdclass:Report>

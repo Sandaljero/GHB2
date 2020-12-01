@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="81ccf54f-0d79-45b8-afa3-a5a043b0e0b2">
+  <producedTypes>
+    <objectType typeId="d727aa43-2627-48b6-8beb-53655cd82320" valueTypeId="853872e1-1ca8-4380-b6fe-8f8f155db613"/>
+    <refType typeId="b4ff6253-e6f6-4d4d-a974-c0d8a246950a" valueTypeId="e6e10b52-f64c-4f77-a740-cdb2047b390c"/>
+    <selectionType typeId="b684a15a-e469-43e7-9df0-7f45b4fdf361" valueTypeId="601e8e40-8c4f-4b48-b5d8-41566f7a8e62"/>
+    <listType typeId="4b7337c4-bef6-44d2-a2a7-c309d9566631" valueTypeId="a6cb0577-6dd2-4a59-b400-919bd361751a"/>
+    <managerType typeId="a429cc5e-ae3c-4b33-81ea-000dea1edadd" valueTypeId="008d6308-5144-4f4f-be2c-7db291db970d"/>
+  </producedTypes>
+  <name>гхб_Серверы</name>
+  <synonym>
+    <key>ru</key>
+    <value>Серверы</value>
+  </synonym>
+  <synonym>
+    <key>uk</key>
+    <value>Сервери</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.гхб_Серверы.StandardAttribute.Description</inputByString>
+  <inputByString>Catalog.гхб_Серверы.StandardAttribute.Code</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>9</codeLength>
+  <descriptionLength>50</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+  <defaultObjectForm>Catalog.гхб_Серверы.Form.ФормаЭлемента</defaultObjectForm>
+  <defaultListForm>Catalog.гхб_Серверы.Form.ФормаСписка</defaultListForm>
+  <defaultChoiceForm>Catalog.гхб_Серверы.Form.ФормаВыбора</defaultChoiceForm>
+  <attributes uuid="c53365e2-a84d-4da7-bf59-99c881927138">
+    <name>НеИспользовать</name>
+    <synonym>
+      <key>ru</key>
+      <value>Не использовать</value>
+    </synonym>
+    <synonym>
+      <key>uk</key>
+      <value>Не використовувати</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <forms uuid="d6daa777-a0fe-41de-adc2-86176cc93b8e">
+    <name>ФормаЭлемента</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма элемента</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="28bb1a67-ba19-44a3-9e27-b0b16d7c1504">
+    <name>ФормаСписка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма списка</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="7a02a53b-806a-489f-8f7e-531eb05f739f">
+    <name>ФормаВыбора</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма выбора</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:Catalog>

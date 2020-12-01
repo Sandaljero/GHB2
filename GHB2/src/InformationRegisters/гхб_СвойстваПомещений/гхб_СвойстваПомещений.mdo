@@ -1,0 +1,525 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="858965f6-e0cb-4feb-a8a3-87ceb643e210">
+  <producedTypes>
+    <selectionType typeId="90fa17d5-3a5c-4a20-961d-e68669651e3b" valueTypeId="ca5e7330-d71a-40c9-9262-daf3da623211"/>
+    <listType typeId="76ca6236-1c9b-405c-9599-6cf940bd0a05" valueTypeId="8a222052-b535-455d-aa6a-488be982f0cc"/>
+    <managerType typeId="b2ef0d71-f6e9-4d8f-8afa-68bbffcdc670" valueTypeId="5043032e-f3f8-4625-adb7-1ecd5306bfd0"/>
+    <recordSetType typeId="d3ebe712-6ca8-4271-b29f-728ec3131e03" valueTypeId="7dcc3ddd-a489-4067-8f9c-82c672de3213"/>
+    <recordKeyType typeId="3830ad66-2cf9-463a-ae21-fef31139edbf" valueTypeId="74136459-32c0-4fcb-b83c-64542f8e782b"/>
+    <recordType typeId="0d057f41-4039-404f-8857-2326c34935c1" valueTypeId="171d0c58-1e33-43c8-88a7-83deb0051f28"/>
+    <recordManagerType typeId="5f46d835-d56b-4bc3-b267-7649fbab972d" valueTypeId="5f8979b9-1a68-45f5-9229-eb1fac1093be"/>
+  </producedTypes>
+  <name>гхб_СвойстваПомещений</name>
+  <synonym>
+    <key>ru</key>
+    <value>Свойства помещений</value>
+  </synonym>
+  <synonym>
+    <key>uk</key>
+    <value>Властивості приміщень</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <editType>InDialog</editType>
+  <defaultListForm>InformationRegister.гхб_СвойстваПомещений.Form.ФормаСписка</defaultListForm>
+  <informationRegisterPeriodicity>Second</informationRegisterPeriodicity>
+  <writeMode>RecorderSubordinate</writeMode>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <attributes uuid="7af73fcd-6f27-42b0-9fe0-c09c32786acf">
+    <name>Наименование</name>
+    <synonym>
+      <key>ru</key>
+      <value>Наименование</value>
+    </synonym>
+    <synonym>
+      <key>uk</key>
+      <value>Найменування</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>50</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+  </attributes>
+  <attributes uuid="e779e40b-7f4a-4ea8-bc85-69e2ceadd5c4">
+    <name>НаименованиеПолное</name>
+    <synonym>
+      <key>ru</key>
+      <value>Наименование полное</value>
+    </synonym>
+    <synonym>
+      <key>uk</key>
+      <value>Найменування повне</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>250</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+  </attributes>
+  <attributes uuid="d92bc9b9-e7f4-4b26-b2f4-2bf7cc176cae">
+    <name>Локация</name>
+    <synonym>
+      <key>ru</key>
+      <value>Локация</value>
+    </synonym>
+    <synonym>
+      <key>uk</key>
+      <value>Локація</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.гхб_Помещения</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="d0bdaa63-8c00-4306-abc8-e7ae09035099">
+    <name>Корпус</name>
+    <synonym>
+      <key>ru</key>
+      <value>Корпус</value>
+    </synonym>
+    <synonym>
+      <key>uk</key>
+      <value>Корпус</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.гхб_Помещения</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="1fd5c000-12b6-4775-83ec-1a632f68233b">
+    <name>ЭлементСтроения</name>
+    <synonym>
+      <key>ru</key>
+      <value>Элемент строения</value>
+    </synonym>
+    <synonym>
+      <key>uk</key>
+      <value>Елемент будівлі</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.гхб_Помещения</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="a1fcedd1-9557-43b4-9df5-db2bffa17467">
+    <name>НомерПомещения</name>
+    <synonym>
+      <key>ru</key>
+      <value>Номер помещения</value>
+    </synonym>
+    <synonym>
+      <key>uk</key>
+      <value>Номер приміщення</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>10</precision>
+        <nonNegative>true</nonNegative>
+      </numberQualifiers>
+    </type>
+    <format>
+      <key>ru</key>
+      <value>ЧГ=0</value>
+    </format>
+    <editFormat>
+      <key>ru</key>
+      <value>ЧГ=0</value>
+    </editFormat>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="6489d31f-da91-4f36-a582-8cff92e84be8">
+    <name>ДробнаяЧасть</name>
+    <synonym>
+      <key>ru</key>
+      <value>Дробная часть</value>
+    </synonym>
+    <synonym>
+      <key>uk</key>
+      <value>Дробна частина</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>10</precision>
+        <nonNegative>true</nonNegative>
+      </numberQualifiers>
+    </type>
+    <format>
+      <key>ru</key>
+      <value>ЧГ=0</value>
+    </format>
+    <editFormat>
+      <key>ru</key>
+      <value>ЧГ=0</value>
+    </editFormat>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="f2717dcb-a211-443a-998b-2133834b5535">
+    <name>Площадь</name>
+    <synonym>
+      <key>ru</key>
+      <value>Площадь</value>
+    </synonym>
+    <synonym>
+      <key>uk</key>
+      <value>Площа</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>10</precision>
+        <scale>2</scale>
+        <nonNegative>true</nonNegative>
+      </numberQualifiers>
+    </type>
+    <format>
+      <key>ru</key>
+      <value>ЧГ=0</value>
+    </format>
+    <editFormat>
+      <key>ru</key>
+      <value>ЧГ=0</value>
+    </editFormat>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="de563c86-c275-4c68-9a92-39d6b637fc30">
+    <name>ТипПомещения</name>
+    <synonym>
+      <key>ru</key>
+      <value>Тип помещения</value>
+    </synonym>
+    <synonym>
+      <key>uk</key>
+      <value>Тип приміщення</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.гхб_ТипыПомещений</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <choiceParameters>
+      <name>Отбор.ЭтоПомещение</name>
+      <value xsi:type="core:BooleanValue">
+        <value>true</value>
+      </value>
+    </choiceParameters>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="d133706d-f335-438d-8cd8-ba1b7444705c">
+    <name>ПлановоеКоличествоРабочихМест</name>
+    <synonym>
+      <key>ru</key>
+      <value>Плановое количество рабочих мест</value>
+    </synonym>
+    <synonym>
+      <key>uk</key>
+      <value>Планова кількість робочих місць</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>10</precision>
+        <nonNegative>true</nonNegative>
+      </numberQualifiers>
+    </type>
+    <format>
+      <key>ru</key>
+      <value>ЧГ=0</value>
+    </format>
+    <editFormat>
+      <key>ru</key>
+      <value>ЧГ=0</value>
+    </editFormat>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="cc5daf65-e67c-4201-8d75-9d5c17f0359f">
+    <name>НетРабочихМест</name>
+    <synonym>
+      <key>ru</key>
+      <value>Нет рабочих мест</value>
+    </synonym>
+    <synonym>
+      <key>uk</key>
+      <value>Немає робочих місць</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="9ac409a8-0dc4-4321-bdf6-5fea396ada2b">
+    <name>УточняющаяИнформация</name>
+    <synonym>
+      <key>ru</key>
+      <value>Уточняющая информация</value>
+    </synonym>
+    <synonym>
+      <key>uk</key>
+      <value>Уточнююча інформація</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>150</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+  </attributes>
+  <attributes uuid="92e73cf5-cb54-4ef8-bf4b-e6ac79fd25f6">
+    <name>НомерНаГенеральномПлане</name>
+    <synonym>
+      <key>ru</key>
+      <value>Номер на генеральном плане</value>
+    </synonym>
+    <synonym>
+      <key>uk</key>
+      <value>Номер на генеральному плані</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>10</length>
+      </stringQualifiers>
+    </type>
+    <format>
+      <key>ru</key>
+      <value>ЧГ=0</value>
+    </format>
+    <editFormat>
+      <key>ru</key>
+      <value>ЧГ=0</value>
+    </editFormat>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+  </attributes>
+  <attributes uuid="b51a7318-637d-465a-a207-3c480eb4bb9d">
+    <name>Закрыть</name>
+    <synonym>
+      <key>ru</key>
+      <value>Закрыть</value>
+    </synonym>
+    <synonym>
+      <key>uk</key>
+      <value>Закрити</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="411aaaa5-17fe-4951-b726-afa4351903a5">
+    <name>ДоступВПомещениеПоКлючу</name>
+    <synonym>
+      <key>ru</key>
+      <value>Доступ в помещение по ключу</value>
+    </synonym>
+    <synonym>
+      <key>uk</key>
+      <value>Доступ до приміщення по ключу</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="d8740484-f65a-4be0-8dcb-f3a6201a7801">
+    <name>НаличиеОхраннойСигнализации</name>
+    <synonym>
+      <key>ru</key>
+      <value>Наличие охранной сигнализации</value>
+    </synonym>
+    <synonym>
+      <key>uk</key>
+      <value>Наявність охоронної сигналізації</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="b3d27745-dc29-4244-a4a7-be08eb06f0a1">
+    <name>ВнутреннийНомерКТ</name>
+    <synonym>
+      <key>ru</key>
+      <value>Внутренний номер КТ</value>
+    </synonym>
+    <synonym>
+      <key>uk</key>
+      <value>Внутрішній номер КТ</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>150</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+  </attributes>
+  <attributes uuid="45d53772-b9b4-4640-ab59-0b0486c4bf45">
+    <name>НаличиеКТ</name>
+    <synonym>
+      <key>ru</key>
+      <value>Наличие КТ</value>
+    </synonym>
+    <synonym>
+      <key>uk</key>
+      <value>Наявність КТ</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="542de190-9440-4b4e-b1f7-e350d5c1c453">
+    <name>СогласованиеДоступаСВысшимРуководителем</name>
+    <synonym>
+      <key>ru</key>
+      <value>Согласование доступа с руководителем N-1, N-2</value>
+    </synonym>
+    <synonym>
+      <key>uk</key>
+      <value>Узгодження доступу з керівником N-1, N-2</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="52b98299-2152-4040-b969-50b8f33908d2">
+    <name>ОбщегоПользования</name>
+    <synonym>
+      <key>ru</key>
+      <value>Общего пользования</value>
+    </synonym>
+    <synonym>
+      <key>uk</key>
+      <value>Загального користування</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <dimensions uuid="6e94280e-1308-490a-ab8c-b66fef033fb2">
+    <name>Помещение</name>
+    <synonym>
+      <key>ru</key>
+      <value>Помещение</value>
+    </synonym>
+    <synonym>
+      <key>uk</key>
+      <value>Приміщення</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.гхб_Помещения</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <choiceFoldersAndItems>FoldersAndItems</choiceFoldersAndItems>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <forms uuid="27306444-b902-4cb7-a840-fba2f6b44df3">
+    <name>ФормаСписка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма списка</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:InformationRegister>

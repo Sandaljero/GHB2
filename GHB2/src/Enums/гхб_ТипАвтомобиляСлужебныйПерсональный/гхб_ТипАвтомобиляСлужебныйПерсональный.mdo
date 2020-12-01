@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="b05d8ae4-d4b4-49bd-beee-f34e55d21261">
+  <producedTypes>
+    <refType typeId="0ba8bd52-8437-44da-859d-fe4cd88dc81a" valueTypeId="406141ee-75bf-4526-910c-208bdf520666"/>
+    <listType typeId="5cba27e6-3d22-468e-877e-dab9e5772892" valueTypeId="cb893b39-68d9-428e-9d88-e5e31cc9d38c"/>
+    <managerType typeId="91347a35-da41-41ee-8aed-f401d99629b4" valueTypeId="4593e35e-1484-4bfc-949c-61f1a526e41e"/>
+  </producedTypes>
+  <name>гхб_ТипАвтомобиляСлужебныйПерсональный</name>
+  <synonym>
+    <key>ru</key>
+    <value>Тип автомобиля (Служебный/Персональный)</value>
+  </synonym>
+  <synonym>
+    <key>uk</key>
+    <value>тип автомобіля (Службовий/Персональний)</value>
+  </synonym>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="dd9e3ff6-e9b6-4158-ba95-6733528675cb">
+    <name>Персональный</name>
+    <synonym>
+      <key>ru</key>
+      <value>Персональный</value>
+    </synonym>
+    <synonym>
+      <key>uk</key>
+      <value>Персональний</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="02cf5f5b-5e7f-4a49-a7c5-71c90e553006">
+    <name>Служебный</name>
+    <synonym>
+      <key>ru</key>
+      <value>Служебный</value>
+    </synonym>
+    <synonym>
+      <key>uk</key>
+      <value>Службовий</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonModule xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="3378f06a-1f1f-4d5d-a260-3a0d5ac6351a">
+  <name>гхб_ДокументооборотСервер</name>
+  <synonym>
+    <key>ru</key>
+    <value>Документооборот (сервер)</value>
+  </synonym>
+  <synonym>
+    <key>uk</key>
+    <value>Дукументообіг (сервер)</value>
+  </synonym>
+  <server>true</server>
+  <externalConnection>true</externalConnection>
+  <serverCall>true</serverCall>
+</mdclass:CommonModule>

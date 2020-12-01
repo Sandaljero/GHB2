@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="e741de04-c32e-468d-a7c5-38f6a3d762e0">
+  <producedTypes>
+    <selectionType typeId="9339e829-7dcd-4878-8522-5005e105f9a8" valueTypeId="90859813-23cf-4f85-9bc1-3624f346ca4d"/>
+    <listType typeId="debbf046-5c3d-41fe-9697-d29dd1139397" valueTypeId="109287da-64e9-4d35-8410-1ce847acb8b7"/>
+    <managerType typeId="524c74a8-e90e-4dc0-aac3-c01718d85ed9" valueTypeId="9ed8679b-218a-4570-b5a9-5198ccaa6afd"/>
+    <recordSetType typeId="4e84b1e8-06a1-48ca-af6c-8ee7c31505e8" valueTypeId="e5e6feb5-c624-4809-b6bf-714d45f95e51"/>
+    <recordKeyType typeId="7bacfd36-f3f1-4846-abdd-cfbe831e8613" valueTypeId="03c9f8cd-5c41-45d4-8d11-0aed8bd856cb"/>
+    <recordType typeId="da6354ec-e3a1-43d8-8692-72b58edc4f97" valueTypeId="390c6501-00d1-4308-bf0b-14f224e5805e"/>
+    <recordManagerType typeId="4ad8f2ab-3b20-4c08-8a0e-bc72fb1980d5" valueTypeId="38d01ff7-0419-4c06-b476-ad89ccea8851"/>
+  </producedTypes>
+  <name>гхб_ОтветственныеЗаПожарнуюБезопасность</name>
+  <synonym>
+    <key>ru</key>
+    <value>Ответственные за пожарную безопасность</value>
+  </synonym>
+  <synonym>
+    <key>uk</key>
+    <value>Відповідальні за пожежну безпеку</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <editType>InDialog</editType>
+  <defaultListForm>InformationRegister.гхб_ОтветственныеЗаПожарнуюБезопасность.Form.ФормаСписка</defaultListForm>
+  <informationRegisterPeriodicity>Second</informationRegisterPeriodicity>
+  <writeMode>RecorderSubordinate</writeMode>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <attributes uuid="722d5be5-98be-4758-b3a0-1099d968663a">
+    <name>Закрыть</name>
+    <synonym>
+      <key>ru</key>
+      <value>Закрыть</value>
+    </synonym>
+    <synonym>
+      <key>uk</key>
+      <value>Закрити</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <dimensions uuid="0358c6f9-89f0-4d20-8950-96f6f8a6e8b1">
+    <name>Помещение</name>
+    <synonym>
+      <key>ru</key>
+      <value>Помещение</value>
+    </synonym>
+    <synonym>
+      <key>uk</key>
+      <value>Приміщення</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.гхб_Помещения</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="30f3a0ed-b6e8-48df-a2b7-cb573bc65d70">
+    <name>ОтветственныйЗаПожарнуюБезопасность</name>
+    <synonym>
+      <key>ru</key>
+      <value>Ответственный за пожарную безопасность</value>
+    </synonym>
+    <synonym>
+      <key>uk</key>
+      <value>Відповідальний за пожежну безпеку</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.гхб_ФизическиеЛица</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <forms uuid="284863d2-fc16-48e7-bb68-4a03abd7d445">
+    <name>ФормаСписка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма списка</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:InformationRegister>

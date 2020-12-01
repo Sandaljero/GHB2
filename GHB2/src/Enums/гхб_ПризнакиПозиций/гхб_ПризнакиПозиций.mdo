@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="6cbd6124-073a-4174-ae16-843b5e618268">
+  <producedTypes>
+    <refType typeId="d3541276-5f5b-44bf-8e1d-4fd17dc6cc15" valueTypeId="e787b84f-13f6-42f0-b5ab-bf06fda6c9bb"/>
+    <listType typeId="670cbb9b-3b3f-447c-9ca6-435296e0256e" valueTypeId="061866e3-398a-4e7c-9a62-0201d82aba6e"/>
+    <managerType typeId="ea48f18b-6278-48e3-8e80-d7662b894f90" valueTypeId="41ed55a7-ae82-43bc-b2e3-60d01a335695"/>
+  </producedTypes>
+  <name>гхб_ПризнакиПозиций</name>
+  <synonym>
+    <key>ru</key>
+    <value>Признаки позиций</value>
+  </synonym>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Order</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Ref</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="bfdf5b97-006d-4a87-b7c3-76ea61950358">
+    <name>Сотрудник</name>
+    <synonym>
+      <key>ru</key>
+      <value>Сотрудник</value>
+    </synonym>
+    <synonym>
+      <key>uk_UA</key>
+      <value>Співробітник</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="34a5bf50-aea8-4241-950e-0b2c3b3ea66f">
+    <name>Руководитель</name>
+    <synonym>
+      <key>ru</key>
+      <value>Руководитель</value>
+    </synonym>
+    <synonym>
+      <key>uk_UA</key>
+      <value>Керівник</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

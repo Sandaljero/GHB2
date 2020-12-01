@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="83403a5f-7441-4763-bf7a-0b0185421359">
+  <producedTypes>
+    <selectionType typeId="f6e94fb6-747b-4e62-a7fc-0be25f1cdd6d" valueTypeId="4a6c7455-1db1-40f0-a43a-ac7cbda9368a"/>
+    <listType typeId="4842a7a0-00ce-4210-b407-f3abfa9fa7fb" valueTypeId="931242db-a1fc-4d79-a009-986866dab996"/>
+    <managerType typeId="03e0a825-1992-4bea-8b77-3a46056027e0" valueTypeId="bd1ed32d-332e-45fa-88b4-d09a3ff7055d"/>
+    <recordSetType typeId="45b4f5de-69fb-4957-b076-5314d8b3474d" valueTypeId="e317f55c-4f12-44ed-8713-0ffcb489cd5e"/>
+    <recordKeyType typeId="32fb70b1-36ea-4a08-9cb1-d8e3758cf9c9" valueTypeId="d711917f-6195-404b-95bc-cef26562c2db"/>
+    <recordType typeId="c4585438-bdb4-4ff5-86c2-f04ecfe5de09" valueTypeId="fba7747b-af70-44b6-9c3e-83850275427c"/>
+    <recordManagerType typeId="be4ea204-f937-4d29-b32b-48b0af5888f3" valueTypeId="b10f91b0-7460-4c96-b34f-4db688564a61"/>
+  </producedTypes>
+  <name>гхб_ПлощадиПомещений</name>
+  <synonym>
+    <key>ru</key>
+    <value>Площади помещений</value>
+  </synonym>
+  <synonym>
+    <key>uk</key>
+    <value>Площі приміщень</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <editType>InDialog</editType>
+  <defaultListForm>InformationRegister.гхб_ПлощадиПомещений.Form.ФормаСписка</defaultListForm>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <attributes uuid="2a9c6367-d5eb-4bfe-804a-c83dcdaab9cf">
+    <name>Площадь</name>
+    <synonym>
+      <key>ru</key>
+      <value>Площадь</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>10</precision>
+        <scale>2</scale>
+        <nonNegative>true</nonNegative>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <dimensions uuid="d40bcc82-75ab-41da-bc82-fcddfda203ef">
+    <name>Помещение</name>
+    <synonym>
+      <key>ru</key>
+      <value>Помещение</value>
+    </synonym>
+    <synonym>
+      <key>uk</key>
+      <value>Приміщення</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.гхб_Помещения</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <forms uuid="c688f3e1-7f7b-4c46-a3e6-5b21894efb83">
+    <name>ФормаСписка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма списка</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:InformationRegister>

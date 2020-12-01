@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Role xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="8d2b1404-5071-43da-b36c-343cd4de72d0">
+  <name>гхб_ПодписаниеАдминистратор</name>
+  <synonym>
+    <key>ru</key>
+    <value>Подписание (администратор)</value>
+  </synonym>
+  <synonym>
+    <key>uk</key>
+    <value>Підписання (адміністратор)</value>
+  </synonym>
+</mdclass:Role>

@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="753ef9f2-8313-4257-aba6-7377712aa393">
+  <producedTypes>
+    <selectionType typeId="1fd05430-cda3-4dc6-a304-70093ecd9b61" valueTypeId="44a51cb6-f78d-45af-95a7-6513bcc235fd"/>
+    <listType typeId="a0340bc4-49e6-452c-bdcc-b819c7cbb405" valueTypeId="e30fdf22-9612-4bc4-a81f-edbee2e0cd04"/>
+    <managerType typeId="49e50361-ce86-48df-9fe5-607bb1305f51" valueTypeId="d8afc9a5-0f61-4018-9627-448553daba02"/>
+    <recordSetType typeId="a59e37f4-04c1-4715-94e5-7899b8f330d0" valueTypeId="29cd032f-c9b0-4c1c-b7b7-49a369c51094"/>
+    <recordKeyType typeId="31ee419e-047b-4720-874b-b52e112734ec" valueTypeId="930a1cb1-9e0b-46e3-8992-68a4f23a6c6c"/>
+    <recordType typeId="33992f58-1fe2-4371-b5bd-40b5ffe58136" valueTypeId="2160d050-118d-4ca1-8643-7317eb87792b"/>
+    <recordManagerType typeId="90d8c04b-d4b6-44ca-bb51-56322ae534b7" valueTypeId="1bd32c90-ebbb-4597-8541-e1a44546f7d2"/>
+  </producedTypes>
+  <name>гхб_НастройкиВозможностиРедактированияПарковочныеМеста</name>
+  <synonym>
+    <key>ru</key>
+    <value>Настройки возможности редактирования (парковочные места)</value>
+  </synonym>
+  <synonym>
+    <key>uk</key>
+    <value>Налаштування можливості редагування (паркувальні місця)</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <editType>InDialog</editType>
+  <defaultRecordForm>InformationRegister.гхб_НастройкиВозможностиРедактированияПарковочныеМеста.Form.ФормаЗаписи</defaultRecordForm>
+  <defaultListForm>InformationRegister.гхб_НастройкиВозможностиРедактированияПарковочныеМеста.Form.ФормаСписка</defaultListForm>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <attributes uuid="a77d21b9-5158-4313-aeaa-2977d989aa89">
+    <name>СлужебныеАвтомобили</name>
+    <synonym>
+      <key>ru</key>
+      <value>Служебные автомобили</value>
+    </synonym>
+    <synonym>
+      <key>uk</key>
+      <value>Службові автомобілі</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="7d92a594-46ec-4aee-a1e7-c622e0abd6d9">
+    <name>ПерсональныеАвтомобили</name>
+    <synonym>
+      <key>ru</key>
+      <value>Персональные автомобили</value>
+    </synonym>
+    <synonym>
+      <key>uk</key>
+      <value>Персональні автомобілі</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <dimensions uuid="d8328ad1-741e-4e9b-8b03-98050f4f5b16">
+    <name>Сотрудник</name>
+    <synonym>
+      <key>ru</key>
+      <value>Сотрудник</value>
+    </synonym>
+    <synonym>
+      <key>uk</key>
+      <value>Співробітник</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.гхб_ФизическиеЛица</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <forms uuid="9e79d12b-b5be-4667-9e51-d2679631edbc">
+    <name>ФормаСписка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма списка</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="d1c6ddcf-7fe3-4b84-b706-3546b7aeb374">
+    <name>ФормаЗаписи</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма записи</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:InformationRegister>

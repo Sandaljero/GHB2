@@ -1,0 +1,208 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<DataCompositionSchema xmlns="http://v8.1c.ru/8.1/data-composition-system/schema" xmlns:dcscom="http://v8.1c.ru/8.1/data-composition-system/common" xmlns:dcscor="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<dataSource>
+		<name>ИсточникДанных1</name>
+		<dataSourceType>Local</dataSourceType>
+	</dataSource>
+	<dataSet xsi:type="DataSetQuery">
+		<name>Данные</name>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>БазаХолдинга</dataPath>
+			<field>БазаХолдинга</field>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>ИНН</dataPath>
+			<field>ИНН</field>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>ФизЛицо</dataPath>
+			<field>ФизЛицо</field>
+			<title xsi:type="v8:LocalStringType">
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Физ лицо</v8:content>
+				</v8:item>
+			</title>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>ТолькоСотрудники</dataPath>
+			<field>ТолькоСотрудники</field>
+			<title xsi:type="v8:LocalStringType">
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Только сотрудники</v8:content>
+				</v8:item>
+				<v8:item>
+					<v8:lang>uk</v8:lang>
+					<v8:content>Тільки співробітники</v8:content>
+				</v8:item>
+			</title>
+			<useRestriction>
+				<field>true</field>
+				<group>true</group>
+				<order>true</order>
+			</useRestriction>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>ТолькоПользователи</dataPath>
+			<field>ТолькоПользователи</field>
+			<title xsi:type="v8:LocalStringType">
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Только пользователи</v8:content>
+				</v8:item>
+				<v8:item>
+					<v8:lang>uk</v8:lang>
+					<v8:content>Тільки користувачі</v8:content>
+				</v8:item>
+			</title>
+			<useRestriction>
+				<field>true</field>
+				<group>true</group>
+				<order>true</order>
+			</useRestriction>
+		</field>
+		<dataSource>ИсточникДанных1</dataSource>
+		<query>ВЫБРАТЬ
+    гхб_ФизическиеЛицаБазХолдинга.Ссылка КАК ФизЛицо,
+    гхб_ФизическиеЛицаБазХолдинга.ИНН КАК ИНН,
+    гхб_ФизическиеЛицаБазХолдинга.БазаХолдинга КАК БазаХолдинга,
+    ИСТИНА КАК ТолькоСотрудники,
+    ЛОЖЬ КАК ТолькоПользователи
+ИЗ
+    Справочник.гхб_СотрудникиБазХолдинга КАК гхб_СотрудникиБазХолдинга
+        ВНУТРЕННЕЕ СОЕДИНЕНИЕ Справочник.гхб_ФизическиеЛицаБазХолдинга КАК гхб_ФизическиеЛицаБазХолдинга
+        ПО гхб_СотрудникиБазХолдинга.ФизЛицоБазыХолдинга = гхб_ФизическиеЛицаБазХолдинга.Ссылка
+ГДЕ
+    (гхб_ФизическиеЛицаБазХолдинга.ИНН ПОДОБНО "%[а-я]%"
+            ИЛИ гхб_ФизическиеЛицаБазХолдинга.ИНН ПОДОБНО "%[a-z]%"
+            ИЛИ НЕ гхб_ФизическиеЛицаБазХолдинга.ИНН ПОДОБНО "[^_][^_][^_][^_][^_][^_][^_][^_][^_][^_]")
+
+ОБЪЕДИНИТЬ ВСЕ
+
+ВЫБРАТЬ
+    гхб_ФизическиеЛицаБазХолдинга.Ссылка,
+    гхб_ФизическиеЛицаБазХолдинга.ИНН,
+    гхб_ФизическиеЛицаБазХолдинга.БазаХолдинга,
+    ЛОЖЬ,
+    ИСТИНА
+ИЗ
+    Справочник.гхб_ПользователиБазХолдинга КАК гхб_ПользователиБазХолдинга
+        ВНУТРЕННЕЕ СОЕДИНЕНИЕ Справочник.гхб_ФизическиеЛицаБазХолдинга КАК гхб_ФизическиеЛицаБазХолдинга
+        ПО гхб_ПользователиБазХолдинга.ФизЛицоБазыХолдинга = гхб_ФизическиеЛицаБазХолдинга.Ссылка
+ГДЕ
+    (гхб_ФизическиеЛицаБазХолдинга.ИНН ПОДОБНО "%[а-я]%"
+            ИЛИ гхб_ФизическиеЛицаБазХолдинга.ИНН ПОДОБНО "%[a-z]%"
+            ИЛИ НЕ гхб_ФизическиеЛицаБазХолдинга.ИНН ПОДОБНО "[^_][^_][^_][^_][^_][^_][^_][^_][^_][^_]")
+
+ОБЪЕДИНИТЬ ВСЕ
+
+ВЫБРАТЬ
+    гхб_ФизическиеЛицаБазХолдинга.Ссылка,
+    гхб_ФизическиеЛицаБазХолдинга.ИНН,
+    гхб_ФизическиеЛицаБазХолдинга.БазаХолдинга,
+    ЛОЖЬ,
+    ЛОЖЬ
+ИЗ
+    Справочник.гхб_ФизическиеЛицаБазХолдинга КАК гхб_ФизическиеЛицаБазХолдинга
+ГДЕ
+    (гхб_ФизическиеЛицаБазХолдинга.ИНН ПОДОБНО "%[а-я]%"
+            ИЛИ гхб_ФизическиеЛицаБазХолдинга.ИНН ПОДОБНО "%[a-z]%"
+            ИЛИ НЕ гхб_ФизическиеЛицаБазХолдинга.ИНН ПОДОБНО "[^_][^_][^_][^_][^_][^_][^_][^_][^_][^_]")</query>
+	</dataSet>
+	<settingsVariant>
+		<dcsset:name>Основной</dcsset:name>
+		<dcsset:presentation xsi:type="v8:LocalStringType">
+			<v8:item>
+				<v8:lang>ru</v8:lang>
+				<v8:content>Отчет по ошибкам ИНН</v8:content>
+			</v8:item>
+			<v8:item>
+				<v8:lang>uk</v8:lang>
+				<v8:content>Звіт по помилках ІПН</v8:content>
+			</v8:item>
+		</dcsset:presentation>
+		<dcsset:settings xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows">
+			<dcsset:selection>
+				<dcsset:item xsi:type="dcsset:SelectedItemField">
+					<dcsset:field>СистемныеПоля.НомерПоПорядку</dcsset:field>
+				</dcsset:item>
+				<dcsset:item xsi:type="dcsset:SelectedItemField">
+					<dcsset:field>ФизЛицо</dcsset:field>
+				</dcsset:item>
+				<dcsset:item xsi:type="dcsset:SelectedItemField">
+					<dcsset:field>ИНН</dcsset:field>
+				</dcsset:item>
+				<dcsset:item xsi:type="dcsset:SelectedItemField">
+					<dcsset:field>БазаХолдинга</dcsset:field>
+				</dcsset:item>
+				<dcsset:viewMode>Normal</dcsset:viewMode>
+				<dcsset:userSettingID>e33c2fe0-2417-4362-baac-ec836a3f4ddd</dcsset:userSettingID>
+			</dcsset:selection>
+			<dcsset:filter>
+				<dcsset:item xsi:type="dcsset:FilterItemComparison">
+					<dcsset:use>false</dcsset:use>
+					<dcsset:left xsi:type="dcscor:Field">БазаХолдинга</dcsset:left>
+					<dcsset:comparisonType>Equal</dcsset:comparisonType>
+					<dcsset:userSettingID>4353f814-1cab-4d43-ac83-2edbe2fec658</dcsset:userSettingID>
+				</dcsset:item>
+				<dcsset:item xsi:type="dcsset:FilterItemComparison">
+					<dcsset:use>false</dcsset:use>
+					<dcsset:left xsi:type="dcscor:Field">ТолькоПользователи</dcsset:left>
+					<dcsset:comparisonType>Equal</dcsset:comparisonType>
+					<dcsset:right xsi:type="xs:boolean">true</dcsset:right>
+					<dcsset:userSettingID>b645dc66-cc2d-4b3f-aa7d-34a6b67f4f3f</dcsset:userSettingID>
+				</dcsset:item>
+				<dcsset:item xsi:type="dcsset:FilterItemComparison">
+					<dcsset:left xsi:type="dcscor:Field">ТолькоСотрудники</dcsset:left>
+					<dcsset:comparisonType>Equal</dcsset:comparisonType>
+					<dcsset:right xsi:type="xs:boolean">true</dcsset:right>
+					<dcsset:userSettingID>e040a9b3-37a2-4bda-accd-9047475378b9</dcsset:userSettingID>
+				</dcsset:item>
+				<dcsset:viewMode>Normal</dcsset:viewMode>
+				<dcsset:userSettingID>9888ad64-3e99-481b-83fc-ec7e20341404</dcsset:userSettingID>
+			</dcsset:filter>
+			<dcsset:order>
+				<dcsset:viewMode>Normal</dcsset:viewMode>
+				<dcsset:userSettingID>b7588192-f4a0-48bb-9305-3dfdff2bc093</dcsset:userSettingID>
+			</dcsset:order>
+			<dcsset:conditionalAppearance>
+				<dcsset:viewMode>Normal</dcsset:viewMode>
+				<dcsset:userSettingID>27ad0a48-d7ee-4917-9ee4-eea97e2b6aef</dcsset:userSettingID>
+			</dcsset:conditionalAppearance>
+			<dcsset:item xsi:type="dcsset:StructureItemGroup">
+				<dcsset:groupItems>
+					<dcsset:item xsi:type="dcsset:GroupItemField">
+						<dcsset:field>ФизЛицо</dcsset:field>
+						<dcsset:groupType>Items</dcsset:groupType>
+						<dcsset:periodAdditionType>None</dcsset:periodAdditionType>
+						<dcsset:periodAdditionBegin xsi:type="xs:dateTime">0001-01-01T00:00:00</dcsset:periodAdditionBegin>
+						<dcsset:periodAdditionEnd xsi:type="xs:dateTime">0001-01-01T00:00:00</dcsset:periodAdditionEnd>
+					</dcsset:item>
+					<dcsset:item xsi:type="dcsset:GroupItemField">
+						<dcsset:field>ИНН</dcsset:field>
+						<dcsset:groupType>Items</dcsset:groupType>
+						<dcsset:periodAdditionType>None</dcsset:periodAdditionType>
+						<dcsset:periodAdditionBegin xsi:type="xs:dateTime">0001-01-01T00:00:00</dcsset:periodAdditionBegin>
+						<dcsset:periodAdditionEnd xsi:type="xs:dateTime">0001-01-01T00:00:00</dcsset:periodAdditionEnd>
+					</dcsset:item>
+					<dcsset:item xsi:type="dcsset:GroupItemField">
+						<dcsset:field>БазаХолдинга</dcsset:field>
+						<dcsset:groupType>Items</dcsset:groupType>
+						<dcsset:periodAdditionType>None</dcsset:periodAdditionType>
+						<dcsset:periodAdditionBegin xsi:type="xs:dateTime">0001-01-01T00:00:00</dcsset:periodAdditionBegin>
+						<dcsset:periodAdditionEnd xsi:type="xs:dateTime">0001-01-01T00:00:00</dcsset:periodAdditionEnd>
+					</dcsset:item>
+				</dcsset:groupItems>
+				<dcsset:order>
+					<dcsset:item xsi:type="dcsset:OrderItemAuto"/>
+				</dcsset:order>
+				<dcsset:selection>
+					<dcsset:item xsi:type="dcsset:SelectedItemAuto"/>
+				</dcsset:selection>
+			</dcsset:item>
+			<dcsset:itemsViewMode>Normal</dcsset:itemsViewMode>
+			<dcsset:itemsUserSettingID>41a10efd-54ea-49fb-954f-5eaf2c4d958f</dcsset:itemsUserSettingID>
+		</dcsset:settings>
+	</settingsVariant>
+</DataCompositionSchema>

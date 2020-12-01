@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="0e1fa072-20ec-4b34-aa7a-3bdfa5c9d345">
+  <name>гхб_Документы</name>
+  <synonym>
+    <key>ru</key>
+    <value>Документы</value>
+  </synonym>
+  <synonym>
+    <key>uk</key>
+    <value>Документи</value>
+  </synonym>
+  <includeHelpInContents>true</includeHelpInContents>
+  <includeInCommandInterface>true</includeInCommandInterface>
+  <content>Document.гхб_ЛимитНаМобильнуюСвязь</content>
+  <parentSubsystem>Subsystem.гхб_МобильнаяСвязь</parentSubsystem>
+</mdclass:Subsystem>

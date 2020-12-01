@@ -1,0 +1,170 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="bc1a7a08-9a25-469c-b2ea-9b9f1e04ce32">
+  <producedTypes>
+    <selectionType typeId="2d626d5b-49b5-4fe0-bace-82fc0f32cef7" valueTypeId="673d71f6-870a-4051-9373-93d160f00889"/>
+    <listType typeId="6605b591-7bca-4c43-bf0b-8e6ccb47a4da" valueTypeId="e2868a94-29ff-4e0e-bc2d-e322af4cb529"/>
+    <managerType typeId="89a2a568-12b5-4e31-a6e3-97b753a5a7a5" valueTypeId="844fd72a-93e2-487a-935e-11aa3283fbdd"/>
+    <recordSetType typeId="b896d6e6-84ca-4795-a416-c8afee803888" valueTypeId="cdf41275-b87a-44a4-9106-3af26fa757bb"/>
+    <recordKeyType typeId="9f18ba40-ba31-4024-b2a3-38f2ee5d2996" valueTypeId="c4f3eab2-3d01-42b8-a7d5-6689cc35f993"/>
+    <recordType typeId="291e6442-8496-4552-b1ec-7317c09f0030" valueTypeId="57629934-f29f-40b7-8bda-b76de562d221"/>
+    <recordManagerType typeId="a0995ba3-f053-4ae2-884e-b2c5f8756262" valueTypeId="04b77ac4-347e-4f34-a1eb-230aca414896"/>
+  </producedTypes>
+  <name>гхб_ИсторияВыдачиВременныхПропусков</name>
+  <synonym>
+    <key>ru</key>
+    <value>История выдачи временных пропусков</value>
+  </synonym>
+  <synonym>
+    <key>uk</key>
+    <value>Історія видачі тимчасових перепусток</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <editType>InDialog</editType>
+  <defaultRecordForm>InformationRegister.гхб_ИсторияВыдачиВременныхПропусков.Form.ФормаЗаписи</defaultRecordForm>
+  <defaultListForm>InformationRegister.гхб_ИсторияВыдачиВременныхПропусков.Form.ФормаСписка</defaultListForm>
+  <informationRegisterPeriodicity>Second</informationRegisterPeriodicity>
+  <mainFilterOnPeriod>true</mainFilterOnPeriod>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <attributes uuid="63d77800-aa35-4054-ab88-32ad733f6ff9">
+    <name>Состояние</name>
+    <synonym>
+      <key>ru</key>
+      <value>Состояние</value>
+    </synonym>
+    <synonym>
+      <key>uk</key>
+      <value>Статус</value>
+    </synonym>
+    <type>
+      <types>EnumRef.гхб_ВидИзмененияСостоянияВременногоПропуска</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="8f695b93-059b-476b-8ed6-f5f9e95345a6">
+    <name>Сотрудник</name>
+    <synonym>
+      <key>ru</key>
+      <value>Сотрудник</value>
+    </synonym>
+    <synonym>
+      <key>uk</key>
+      <value>Співробітник</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.гхб_ФизическиеЛица</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="91445db9-8534-4e87-8e8d-4002f4ec60d6">
+    <name>Ответственный</name>
+    <synonym>
+      <key>ru</key>
+      <value>Ответственный</value>
+    </synonym>
+    <synonym>
+      <key>uk</key>
+      <value>Відповідальний</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.гхб_ФизическиеЛица</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="1c452727-29f3-4ea4-9fa5-1668ac9c1288">
+    <name>БазаХолдинга</name>
+    <synonym>
+      <key>ru</key>
+      <value>База холдинга</value>
+    </synonym>
+    <synonym>
+      <key>uk</key>
+      <value>База холдингу</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.гхб_БазыХолдинга</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="b4c7d32e-449f-47c3-8e6c-c944a20e925c">
+    <name>Комментарий</name>
+    <synonym>
+      <key>ru</key>
+      <value>Комментарий</value>
+    </synonym>
+    <synonym>
+      <key>uk</key>
+      <value>Коментар</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>500</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+  </attributes>
+  <dimensions uuid="5cbd5315-cfe5-4e65-b9ee-368b844637e5">
+    <name>НомерПропуска</name>
+    <synonym>
+      <key>ru</key>
+      <value>Номер пропуска</value>
+    </synonym>
+    <synonym>
+      <key>uk</key>
+      <value>Номер перепустки</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>10</precision>
+        <nonNegative>true</nonNegative>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <forms uuid="3f45843a-f7ec-4455-8286-d540f490a498">
+    <name>ФормаЗаписи</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма записи</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="262567f7-aa29-4bbf-a3b9-7e0cb68b0b8b">
+    <name>ФормаСписка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма списка</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:InformationRegister>

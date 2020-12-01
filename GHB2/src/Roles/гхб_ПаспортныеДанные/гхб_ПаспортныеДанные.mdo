@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Role xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="c960e044-ada1-41bb-9ee1-34e405314e9d">
+  <name>гхб_ПаспортныеДанные</name>
+  <synonym>
+    <key>ru</key>
+    <value>Паспортные данные</value>
+  </synonym>
+  <synonym>
+    <key>uk</key>
+    <value>Паспортні дані</value>
+  </synonym>
+</mdclass:Role>

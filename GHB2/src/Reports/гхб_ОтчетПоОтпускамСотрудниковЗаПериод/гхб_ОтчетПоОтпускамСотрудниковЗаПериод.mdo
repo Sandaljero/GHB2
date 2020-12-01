@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Report xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="b5f387e0-fed7-49e2-8f65-d3277df3a0e2">
+  <producedTypes>
+    <objectType typeId="769b37fd-c95d-4e30-b35f-14219ad91118" valueTypeId="fa10f7b6-b442-4f6a-8f26-521a8cf2cdac"/>
+    <managerType typeId="af29b684-17dc-40a0-8b79-1e35d1fbf0fb" valueTypeId="183cb135-d335-4bdb-9d98-3a6725b54664"/>
+  </producedTypes>
+  <name>гхб_ОтчетПоОтпускамСотрудниковЗаПериод</name>
+  <synonym>
+    <key>ru</key>
+    <value>Отчет по отпускам сотрудников за период</value>
+  </synonym>
+  <synonym>
+    <key>uk</key>
+    <value>Звіт по відпустках співробітників за період</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <defaultForm>CommonForm.ФормаОтчета</defaultForm>
+  <mainDataCompositionSchema>Report.гхб_ОтчетПоОтпускамСотрудниковЗаПериод.Template.ОсновнаяСхемаКомпоновкиДанных</mainDataCompositionSchema>
+  <defaultSettingsForm>CommonForm.ФормаНастроекОтчета</defaultSettingsForm>
+  <defaultVariantForm>CommonForm.ФормаВариантаОтчета</defaultVariantForm>
+  <templates uuid="b840541e-64df-407e-a066-a7e6c3a8b017">
+    <name>ОсновнаяСхемаКомпоновкиДанных</name>
+    <synonym>
+      <key>ru</key>
+      <value>Основная схема компоновки данных</value>
+    </synonym>
+    <templateType>DataCompositionSchema</templateType>
+  </templates>
+</mdclass:Report>

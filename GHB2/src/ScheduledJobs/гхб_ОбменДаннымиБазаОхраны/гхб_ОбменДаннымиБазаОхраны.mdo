@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:ScheduledJob xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="70fe31d4-7b20-4416-8235-69d8a09ceb66">
+  <name>гхб_ОбменДаннымиБазаОхраны</name>
+  <synonym>
+    <key>ru</key>
+    <value>Обмен данныіми (база охраны)</value>
+  </synonym>
+  <synonym>
+    <key>uk</key>
+    <value>Обмін даними (база охорони)</value>
+  </synonym>
+  <methodName>CommonModule.гхб_РегламентныеЗаданияСервер.ОбменДаннымиБазаОхраны</methodName>
+  <use>true</use>
+  <predefined>true</predefined>
+  <restartCountOnFailure>3</restartCountOnFailure>
+  <restartIntervalOnFailure>10</restartIntervalOnFailure>
+</mdclass:ScheduledJob>

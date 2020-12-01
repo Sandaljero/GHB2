@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="2b34cc72-90d3-4a3b-a120-8ac7990edeed">
+  <name>гхб_СправочникиНСИ</name>
+  <synonym>
+    <key>ru</key>
+    <value>Справочники НСИ</value>
+  </synonym>
+  <synonym>
+    <key>uk</key>
+    <value>Довідники НДІ</value>
+  </synonym>
+  <includeHelpInContents>true</includeHelpInContents>
+  <includeInCommandInterface>true</includeInCommandInterface>
+  <content>Catalog.гхб_ЦФО</content>
+  <content>Catalog.гхб_Контрагенты</content>
+  <content>Catalog.гхб_КонтрагентыБазХолдинга</content>
+  <content>Catalog.гхб_ДоговораКонтрагентовБазХолдинга</content>
+  <content>Catalog.гхб_РабочиеПомещения</content>
+  <parentSubsystem>Subsystem.гхб_НормативноСправочнаяИнформация</parentSubsystem>
+</mdclass:Subsystem>

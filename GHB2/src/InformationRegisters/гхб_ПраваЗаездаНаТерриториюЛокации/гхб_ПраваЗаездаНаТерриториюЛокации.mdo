@@ -1,0 +1,177 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="c261661c-7585-4e1b-9d79-e8bd3db7f2d1">
+  <producedTypes>
+    <selectionType typeId="40b1d57b-1cf4-4b71-8741-65e4787d8063" valueTypeId="d7363380-2d4f-4b05-a07a-eebefbebc20a"/>
+    <listType typeId="451c94d5-74d9-4983-8401-0f55111f9dbf" valueTypeId="a3b7be61-f4f8-40f2-be0b-8a57911d49b1"/>
+    <managerType typeId="f16e445f-9ea9-4af1-970f-ae2771880413" valueTypeId="70901174-aea5-4b58-8302-6a8765ca7ebd"/>
+    <recordSetType typeId="eba166a3-8a46-4654-8580-b7d7661fe80a" valueTypeId="593db102-da48-4b5a-b569-233ded888cd1"/>
+    <recordKeyType typeId="8e7f43e9-e8e3-41f6-8eb7-fa3d51c65d62" valueTypeId="ec85814d-c9ce-4007-bf00-02bff2fb4c49"/>
+    <recordType typeId="7158675a-78db-4078-853a-3a63f74b99bd" valueTypeId="0d7f1a84-738b-41d1-9381-a6f6b8e84de6"/>
+    <recordManagerType typeId="ef89c1fe-b1c1-4675-885e-af9d30b62156" valueTypeId="55831171-0595-48da-9ada-5b03db7938e5"/>
+  </producedTypes>
+  <name>гхб_ПраваЗаездаНаТерриториюЛокации</name>
+  <synonym>
+    <key>ru</key>
+    <value>Права заезда на территорию локации</value>
+  </synonym>
+  <synonym>
+    <key>uk</key>
+    <value>Права заїзду на територію локації</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <editType>InDialog</editType>
+  <defaultListForm>InformationRegister.гхб_ПраваЗаездаНаТерриториюЛокации.Form.ФормаСписка</defaultListForm>
+  <informationRegisterPeriodicity>Second</informationRegisterPeriodicity>
+  <writeMode>RecorderSubordinate</writeMode>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <attributes uuid="9c16683b-1e56-4f85-9f0e-eb7abbc7b386">
+    <name>ВидПропуска</name>
+    <synonym>
+      <key>ru</key>
+      <value>Вид пропуска</value>
+    </synonym>
+    <synonym>
+      <key>uk</key>
+      <value>Вид пропуску</value>
+    </synonym>
+    <type>
+      <types>EnumRef.гхб_ВидПропускаПарковочныеМеста</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="346b2ceb-9e4e-47a8-b756-328a92dd0aa1">
+    <name>ДатаНачалаДействия</name>
+    <synonym>
+      <key>ru</key>
+      <value>Дата начала действия</value>
+    </synonym>
+    <synonym>
+      <key>uk</key>
+      <value>Дата початку дії</value>
+    </synonym>
+    <type>
+      <types>Date</types>
+      <dateQualifiers>
+        <dateFractions>Date</dateFractions>
+      </dateQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="59f07f89-bf8f-4d93-8fed-5ab452a1552a">
+    <name>ДатаОкончанияДействия</name>
+    <synonym>
+      <key>ru</key>
+      <value>Дата окончания действия</value>
+    </synonym>
+    <synonym>
+      <key>uk</key>
+      <value>Дата закінчення дії</value>
+    </synonym>
+    <type>
+      <types>Date</types>
+      <dateQualifiers>
+        <dateFractions>Date</dateFractions>
+      </dateQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="a9265c5d-1fac-44ee-93af-2470ef1f5c90">
+    <name>ТипОперации</name>
+    <synonym>
+      <key>ru</key>
+      <value>Тип операции</value>
+    </synonym>
+    <synonym>
+      <key>uk</key>
+      <value>Тип операції</value>
+    </synonym>
+    <type>
+      <types>EnumRef.гхб_ТипОперацииЗакреплениеОткреплениеПарковочногоМеста</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <dimensions uuid="a66bd5e6-d3b7-408d-9f56-3c751eda7cc7">
+    <name>Локация</name>
+    <synonym>
+      <key>ru</key>
+      <value>Локация</value>
+    </synonym>
+    <synonym>
+      <key>uk</key>
+      <value>Локація</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.гхб_Помещения</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <choiceFoldersAndItems>Folders</choiceFoldersAndItems>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="ba51593f-a545-4d43-9064-0ae208fb12f3">
+    <name>ФИО</name>
+    <synonym>
+      <key>ru</key>
+      <value>ФИО</value>
+    </synonym>
+    <synonym>
+      <key>uk</key>
+      <value>ПІБ</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.гхб_ФизическиеЛица</types>
+      <types>CatalogRef.гхб_ПрочиеФизическиеЛица</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="b3ff1d03-142b-40a5-bde6-4cb0134fb2c9">
+    <name>Автомобиль</name>
+    <synonym>
+      <key>ru</key>
+      <value>Автомобиль</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.гхб_Автомобили</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <forms uuid="2c9b4f65-7453-4390-8fe3-8bbba58c6f61">
+    <name>ФормаСписка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма списка</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:InformationRegister>

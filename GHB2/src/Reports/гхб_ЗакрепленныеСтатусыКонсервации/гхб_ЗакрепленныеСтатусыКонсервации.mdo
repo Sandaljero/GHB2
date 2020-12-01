@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Report xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="47866707-ad49-45d4-a8b7-63dafb2cad60">
+  <producedTypes>
+    <objectType typeId="ac797f41-d799-41f9-9240-031e6f2b6e69" valueTypeId="6115131e-8fc6-4664-aedc-14bbdc68bda6"/>
+    <managerType typeId="11541b76-7867-42f6-9f51-71e39c959f85" valueTypeId="9f5a0089-35de-4207-88df-d80cced652f3"/>
+  </producedTypes>
+  <name>гхб_ЗакрепленныеСтатусыКонсервации</name>
+  <synonym>
+    <key>ru</key>
+    <value>Закрепленные статусы консервации</value>
+  </synonym>
+  <synonym>
+    <key>uk</key>
+    <value>Закріплені статуси консервації</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <defaultForm>CommonForm.ФормаОтчета</defaultForm>
+  <mainDataCompositionSchema>Report.гхб_ЗакрепленныеСтатусыКонсервации.Template.ОсновнаяСхемаКомпоновкиДанных</mainDataCompositionSchema>
+  <defaultSettingsForm>CommonForm.ФормаНастроекОтчета</defaultSettingsForm>
+  <defaultVariantForm>CommonForm.ФормаВариантаОтчета</defaultVariantForm>
+  <templates uuid="808d5613-2b83-4e8c-847a-6a0fee16ccf5">
+    <name>ОсновнаяСхемаКомпоновкиДанных</name>
+    <synonym>
+      <key>ru</key>
+      <value>Основная схема компоновки данных</value>
+    </synonym>
+    <templateType>DataCompositionSchema</templateType>
+  </templates>
+</mdclass:Report>

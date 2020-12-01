@@ -1,0 +1,253 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="9650e450-3c51-42b7-adf4-a6c5f03cf01e">
+  <producedTypes>
+    <objectType typeId="dd3a5f1e-219d-4cae-aee6-60ebc9786885" valueTypeId="5da49d87-7c66-4b75-95f5-84280ea0ffee"/>
+    <refType typeId="f23d5821-01b2-47a4-ad85-c25b8bc5d553" valueTypeId="399aba02-b829-49c9-894f-11e2d332250c"/>
+    <selectionType typeId="98b1bc0e-5245-48bd-9a20-7dd0f190c87c" valueTypeId="fac8f07c-d71f-49bf-bdb5-b7a97e04f08c"/>
+    <listType typeId="a7632a74-bec9-4adb-8fff-f0dbd8c831b7" valueTypeId="3a2d4554-70de-43d4-9735-66f04418b71d"/>
+    <managerType typeId="4641c460-6b16-4a51-b143-92299ea6ec50" valueTypeId="d2fa58ec-f1c9-4056-8266-6999a78b8f35"/>
+  </producedTypes>
+  <name>гхб_ЦФО</name>
+  <synonym>
+    <key>ru</key>
+    <value>ЦФО</value>
+  </synonym>
+  <synonym>
+    <key>uk</key>
+    <value>ЦФВ</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.гхб_ЦФО.StandardAttribute.Description</inputByString>
+  <inputByString>Catalog.гхб_ЦФО.StandardAttribute.Code</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <hierarchical>true</hierarchical>
+  <hierarchyType>HierarchyOfItems</hierarchyType>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>4</codeLength>
+  <descriptionLength>150</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+  <defaultObjectForm>Catalog.гхб_ЦФО.Form.ФормаЭлемента</defaultObjectForm>
+  <defaultListForm>Catalog.гхб_ЦФО.Form.ФормаСписка</defaultListForm>
+  <defaultChoiceForm>Catalog.гхб_ЦФО.Form.ФормаВыбора</defaultChoiceForm>
+  <attributes uuid="59b66511-fc4d-4a40-a00b-2bcc93acbf7b">
+    <name>GUIDБазыХолдинга</name>
+    <synonym>
+      <key>ru</key>
+      <value>GUID Базы холдинга</value>
+    </synonym>
+    <synonym>
+      <key>uk</key>
+      <value>GUID Бази холдингу</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>36</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="28119bcd-9e44-4c78-80a4-3e140454a13b">
+    <name>БазаХолдинга</name>
+    <synonym>
+      <key>ru</key>
+      <value>База холдинга</value>
+    </synonym>
+    <synonym>
+      <key>uk</key>
+      <value>База холдингу</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.гхб_БазыХолдинга</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="a818c14d-9e41-4f3c-9067-6bb383653091">
+    <name>ЭтоГруппаРИБ</name>
+    <synonym>
+      <key>ru</key>
+      <value>Это группа РИБ</value>
+    </synonym>
+    <synonym>
+      <key>uk</key>
+      <value>Це група РІБ</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="b13a5f9f-e5a1-484e-9792-64d013a90a71">
+    <name>Шифр</name>
+    <synonym>
+      <key>ru</key>
+      <value>Шифр</value>
+    </synonym>
+    <synonym>
+      <key>uk</key>
+      <value>Шифр</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>10</precision>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <indexing>Index</indexing>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="7a015820-6ab3-4e82-8960-222292d8f767">
+    <name>ДатаС</name>
+    <synonym>
+      <key>ru</key>
+      <value>Дата С</value>
+    </synonym>
+    <synonym>
+      <key>uk</key>
+      <value>Дата С</value>
+    </synonym>
+    <type>
+      <types>Date</types>
+      <dateQualifiers>
+        <dateFractions>Date</dateFractions>
+      </dateQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="c1932e5f-b685-46a1-a93c-3c0976e2a1b4">
+    <name>ДатаПо</name>
+    <synonym>
+      <key>ru</key>
+      <value>Дата по</value>
+    </synonym>
+    <synonym>
+      <key>uk</key>
+      <value>Дата по</value>
+    </synonym>
+    <type>
+      <types>Date</types>
+      <dateQualifiers>
+        <dateFractions>Date</dateFractions>
+      </dateQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="99e3f045-4ac4-4d24-ae27-b39416f76dd4">
+    <name>Ответственный</name>
+    <synonym>
+      <key>ru</key>
+      <value>Ответственный</value>
+    </synonym>
+    <synonym>
+      <key>uk</key>
+      <value>Відповідальний</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.гхб_ФизическиеЛицаБазХолдинга</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="0ed6f6e9-0fba-47fe-b802-68d2f44bab91">
+    <name>ЭтоГруппаБаза</name>
+    <synonym>
+      <key>ru</key>
+      <value>Это группа база</value>
+    </synonym>
+    <synonym>
+      <key>uk</key>
+      <value>Це група база</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="39f0fcd1-e1dd-4ef5-a9dd-398e38675e73">
+    <name>НетСоответствияВУчетныхБазах</name>
+    <synonym>
+      <key>ru</key>
+      <value>Нет соответствия в учетных базах</value>
+    </synonym>
+    <synonym>
+      <key>uk</key>
+      <value>Немає відповідності в облікових базах</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <forms uuid="6b50d620-a330-4be8-bb04-18db8ce6b00e">
+    <name>ФормаЭлемента</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма элемента</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="04f07244-e2da-454c-b6b5-6b042fdfc0f5">
+    <name>ФормаСписка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма списка</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="994021fd-b1c0-401a-aa2e-2cabc5d99d9a">
+    <name>ФормаВыбора</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма выбора</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:Catalog>

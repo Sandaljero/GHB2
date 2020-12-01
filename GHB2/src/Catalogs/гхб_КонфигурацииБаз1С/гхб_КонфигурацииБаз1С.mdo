@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="0d52f1b6-8f29-499e-b0fe-421ca79abfde">
+  <producedTypes>
+    <objectType typeId="63ccdc52-1ae1-4b8b-ad5f-4dcd28c79b36" valueTypeId="be2e653c-1feb-4a82-880b-4ed3218f9dd1"/>
+    <refType typeId="9263db19-b43f-4eaa-bf2f-8f95fe8dc2a6" valueTypeId="dd148aad-7f4b-42ca-91c8-d0ecd2df47d7"/>
+    <selectionType typeId="92e8f41a-e6a4-4994-aa2e-c45476e67ed5" valueTypeId="70dd5925-351b-412c-94af-c0d6a97044cc"/>
+    <listType typeId="28debe7f-bd88-4ce9-b3ca-b299ffa47f9f" valueTypeId="c000ad44-4896-4748-be85-b9479ae750f5"/>
+    <managerType typeId="bcde5e1f-fea7-45e2-aa80-64113f33fce0" valueTypeId="7ad0f82e-563a-44e4-aca8-af13b0e7f0d5"/>
+  </producedTypes>
+  <name>гхб_КонфигурацииБаз1С</name>
+  <synonym>
+    <key>ru</key>
+    <value>Конфигурации баз 1С</value>
+  </synonym>
+  <synonym>
+    <key>uk</key>
+    <value>Конфігурації баз 1С</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.гхб_КонфигурацииБаз1С.StandardAttribute.Description</inputByString>
+  <inputByString>Catalog.гхб_КонфигурацииБаз1С.StandardAttribute.Code</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>9</codeLength>
+  <descriptionLength>100</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+  <defaultObjectForm>Catalog.гхб_КонфигурацииБаз1С.Form.ФормаЭлемента</defaultObjectForm>
+  <defaultListForm>Catalog.гхб_КонфигурацииБаз1С.Form.ФормаСписка</defaultListForm>
+  <defaultChoiceForm>Catalog.гхб_КонфигурацииБаз1С.Form.ФормаВыбора</defaultChoiceForm>
+  <attributes uuid="86120e0a-865b-4a39-93d8-f63380baba70">
+    <name>НеИспользовать</name>
+    <synonym>
+      <key>ru</key>
+      <value>Не использовать</value>
+    </synonym>
+    <synonym>
+      <key>uk</key>
+      <value>Не використовувати</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <forms uuid="ffc8cf15-e137-44a0-b771-d55379230066">
+    <name>ФормаЭлемента</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма элемента</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="11288ef3-145d-47c6-90ff-f452a7219601">
+    <name>ФормаСписка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма списка</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="fb324931-8fc1-4758-a706-93ee65610a05">
+    <name>ФормаВыбора</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма выбора</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:Catalog>

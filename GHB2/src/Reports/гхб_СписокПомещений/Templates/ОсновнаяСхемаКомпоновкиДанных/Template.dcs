@@ -1,0 +1,485 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<DataCompositionSchema xmlns="http://v8.1c.ru/8.1/data-composition-system/schema" xmlns:dcscom="http://v8.1c.ru/8.1/data-composition-system/common" xmlns:dcscor="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<dataSource>
+		<name>ИсточникДанных1</name>
+		<dataSourceType>Local</dataSourceType>
+	</dataSource>
+	<dataSet xsi:type="DataSetQuery">
+		<name>НаборДанных1</name>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>Помещение</dataPath>
+			<field>Помещение</field>
+			<role>
+				<dcscom:dimension>true</dcscom:dimension>
+			</role>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>НомерПомещения</dataPath>
+			<field>НомерПомещения</field>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>Локация</dataPath>
+			<field>Локация</field>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>ПлановоеКоличествоРабочихМест</dataPath>
+			<field>ПлановоеКоличествоРабочихМест</field>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>Корпус</dataPath>
+			<field>Корпус</field>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>ЭлементСтроения</dataPath>
+			<field>ЭлементСтроения</field>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>ТипПомещения</dataPath>
+			<field>ТипПомещения</field>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>ДоступВПомещениеПоКлючу</dataPath>
+			<field>ДоступВПомещениеПоКлючу</field>
+			<appearance>
+				<dcscor:item xsi:type="dcsset:SettingsParameterValue">
+					<dcscor:parameter>Формат</dcscor:parameter>
+					<dcscor:value xsi:type="v8:LocalStringType">
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>БЛ=</v8:content>
+						</v8:item>
+					</dcscor:value>
+				</dcscor:item>
+			</appearance>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>ДробнаяЧасть</dataPath>
+			<field>ДробнаяЧасть</field>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>Площадь</dataPath>
+			<field>Площадь</field>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>НетРабочихМест</dataPath>
+			<field>НетРабочихМест</field>
+			<appearance>
+				<dcscor:item xsi:type="dcsset:SettingsParameterValue">
+					<dcscor:parameter>Формат</dcscor:parameter>
+					<dcscor:value xsi:type="v8:LocalStringType">
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>БЛ=</v8:content>
+						</v8:item>
+					</dcscor:value>
+				</dcscor:item>
+			</appearance>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>УточняющаяИнформация</dataPath>
+			<field>УточняющаяИнформация</field>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>НомерНаГенеральномПлане</dataPath>
+			<field>НомерНаГенеральномПлане</field>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>НаличиеОхраннойСигнализации</dataPath>
+			<field>НаличиеОхраннойСигнализации</field>
+			<appearance>
+				<dcscor:item xsi:type="dcsset:SettingsParameterValue">
+					<dcscor:parameter>Формат</dcscor:parameter>
+					<dcscor:value xsi:type="v8:LocalStringType">
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>БЛ=</v8:content>
+						</v8:item>
+					</dcscor:value>
+				</dcscor:item>
+			</appearance>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>НаличиеКТ</dataPath>
+			<field>НаличиеКТ</field>
+			<appearance>
+				<dcscor:item xsi:type="dcsset:SettingsParameterValue">
+					<dcscor:parameter>Формат</dcscor:parameter>
+					<dcscor:value xsi:type="v8:LocalStringType">
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>БЛ=</v8:content>
+						</v8:item>
+					</dcscor:value>
+				</dcscor:item>
+			</appearance>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>СогласованиеДоступаСВысшимРуководителем</dataPath>
+			<field>СогласованиеДоступаСВысшимРуководителем</field>
+			<appearance>
+				<dcscor:item xsi:type="dcsset:SettingsParameterValue">
+					<dcscor:parameter>Формат</dcscor:parameter>
+					<dcscor:value xsi:type="v8:LocalStringType">
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>БЛ=</v8:content>
+						</v8:item>
+					</dcscor:value>
+				</dcscor:item>
+			</appearance>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>ОбщегоПользования</dataPath>
+			<field>ОбщегоПользования</field>
+			<appearance>
+				<dcscor:item xsi:type="dcsset:SettingsParameterValue">
+					<dcscor:parameter>Формат</dcscor:parameter>
+					<dcscor:value xsi:type="v8:LocalStringType">
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>БЛ=</v8:content>
+						</v8:item>
+					</dcscor:value>
+				</dcscor:item>
+			</appearance>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>УИДСинхронизации</dataPath>
+			<field>УИДСинхронизации</field>
+			<title xsi:type="v8:LocalStringType">
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>УИДСинхронизации</v8:content>
+				</v8:item>
+			</title>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>ДополнительнаяИнформация</dataPath>
+			<field>ДополнительнаяИнформация</field>
+			<title xsi:type="v8:LocalStringType">
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Дополнительная информация</v8:content>
+				</v8:item>
+			</title>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>ОтветственныйЗаПомещение</dataPath>
+			<field>ОтветственныйЗаПомещение</field>
+			<title xsi:type="v8:LocalStringType">
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Ответственный за помещение</v8:content>
+				</v8:item>
+				<v8:item>
+					<v8:lang>uk</v8:lang>
+					<v8:content>Відповідальний за приміщення</v8:content>
+				</v8:item>
+			</title>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>ОтветственныйЗаКонсервациюПомещения</dataPath>
+			<field>ОтветственныйЗаКонсервациюПомещения</field>
+			<title xsi:type="v8:LocalStringType">
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Ответственный за консервацию помещения</v8:content>
+				</v8:item>
+				<v8:item>
+					<v8:lang>uk</v8:lang>
+					<v8:content>Відповідальний за консервацію приміщення</v8:content>
+				</v8:item>
+			</title>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>ОтветственныйЗаПожарнуюБезопасность</dataPath>
+			<field>ОтветственныйЗаПожарнуюБезопасность</field>
+			<title xsi:type="v8:LocalStringType">
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Ответственный за пожарную безопасность</v8:content>
+				</v8:item>
+				<v8:item>
+					<v8:lang>uk</v8:lang>
+					<v8:content>Відповідальний за пожежну безпеку</v8:content>
+				</v8:item>
+			</title>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>ДепартаментыВПомещении</dataPath>
+			<field>ДепартаментыВПомещении</field>
+			<title xsi:type="v8:LocalStringType">
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Департаменты в помещении</v8:content>
+				</v8:item>
+				<v8:item>
+					<v8:lang>uk</v8:lang>
+					<v8:content>Департаменти в приміщенні</v8:content>
+				</v8:item>
+			</title>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>ДивизионыВПомещении</dataPath>
+			<field>ДивизионыВПомещении</field>
+			<title xsi:type="v8:LocalStringType">
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Дивизионы в помещении</v8:content>
+				</v8:item>
+				<v8:item>
+					<v8:lang>uk</v8:lang>
+					<v8:content>Дивізіони в приміщенні</v8:content>
+				</v8:item>
+			</title>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>ЮридическиеЛицаВПомещении</dataPath>
+			<field>ЮридическиеЛицаВПомещении</field>
+			<title xsi:type="v8:LocalStringType">
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Юридические лица в помещении</v8:content>
+				</v8:item>
+				<v8:item>
+					<v8:lang>uk</v8:lang>
+					<v8:content>Юридичні особи в приміщенні</v8:content>
+				</v8:item>
+			</title>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>ДепартаментРаспорядитель</dataPath>
+			<field>ДепартаментРаспорядитель</field>
+			<title xsi:type="v8:LocalStringType">
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Департамент (распорядитель)</v8:content>
+				</v8:item>
+				<v8:item>
+					<v8:lang>uk</v8:lang>
+					<v8:content>Департамент (розпорядник)</v8:content>
+				</v8:item>
+			</title>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>ДивизионРаспорядитель</dataPath>
+			<field>ДивизионРаспорядитель</field>
+			<title xsi:type="v8:LocalStringType">
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Дивизион (распорядитель)</v8:content>
+				</v8:item>
+				<v8:item>
+					<v8:lang>uk</v8:lang>
+					<v8:content>Дивізіон (розпорядник)</v8:content>
+				</v8:item>
+			</title>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>ЮридическоеЛицоРаспорядитель</dataPath>
+			<field>ЮридическоеЛицоРаспорядитель</field>
+			<title xsi:type="v8:LocalStringType">
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Юр. лицо (распорядитель)</v8:content>
+				</v8:item>
+				<v8:item>
+					<v8:lang>uk</v8:lang>
+					<v8:content>Юр. особа (розпорядник)</v8:content>
+				</v8:item>
+			</title>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>ЮридическоеЛицоСобственник</dataPath>
+			<field>ЮридическоеЛицоСобственник</field>
+			<title xsi:type="v8:LocalStringType">
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Юр. лицо (собственник)</v8:content>
+				</v8:item>
+				<v8:item>
+					<v8:lang>uk</v8:lang>
+					<v8:content>Юр. особа (власник)</v8:content>
+				</v8:item>
+			</title>
+		</field>
+		<dataSource>ИсточникДанных1</dataSource>
+		<query>ВЫБРАТЬ
+	гхб_СвойстваПомещенийСрезПоследних.Помещение КАК Помещение,
+	гхб_СвойстваПомещенийСрезПоследних.Локация КАК Локация,
+	гхб_СвойстваПомещенийСрезПоследних.Корпус КАК Корпус,
+	гхб_СвойстваПомещенийСрезПоследних.ЭлементСтроения КАК ЭлементСтроения,
+	гхб_СвойстваПомещенийСрезПоследних.НомерПомещения КАК НомерПомещения,
+	гхб_СвойстваПомещенийСрезПоследних.ДробнаяЧасть КАК ДробнаяЧасть,
+	гхб_СвойстваПомещенийСрезПоследних.Площадь КАК Площадь,
+	гхб_СвойстваПомещенийСрезПоследних.ТипПомещения КАК ТипПомещения,
+	гхб_СвойстваПомещенийСрезПоследних.ПлановоеКоличествоРабочихМест КАК ПлановоеКоличествоРабочихМест,
+	гхб_СвойстваПомещенийСрезПоследних.НетРабочихМест КАК НетРабочихМест,
+	гхб_СвойстваПомещенийСрезПоследних.УточняющаяИнформация КАК УточняющаяИнформация,
+	гхб_СвойстваПомещенийСрезПоследних.НомерНаГенеральномПлане КАК НомерНаГенеральномПлане,
+	гхб_СвойстваПомещенийСрезПоследних.ДоступВПомещениеПоКлючу КАК ДоступВПомещениеПоКлючу,
+	гхб_СвойстваПомещенийСрезПоследних.НаличиеОхраннойСигнализации КАК НаличиеОхраннойСигнализации,
+	гхб_СвойстваПомещенийСрезПоследних.НаличиеКТ КАК НаличиеКТ,
+	гхб_СвойстваПомещенийСрезПоследних.СогласованиеДоступаСВысшимРуководителем КАК СогласованиеДоступаСВысшимРуководителем,
+	гхб_СвойстваПомещенийСрезПоследних.ОбщегоПользования КАК ОбщегоПользования,
+	гхб_СвойстваПомещенийСрезПоследних.Помещение.УИДСинхронизации КАК УИДСинхронизации,
+	ЕСТЬNULL(гхб_ДополнительныеСвойстваПомещений.ДополнительнаяИнформация, "") КАК ДополнительнаяИнформация,
+	гхб_ОтветственныеЗаПомещенияСрезПоследних.ОтветственныйЗаПомещение КАК ОтветственныйЗаПомещение,
+	ЕСТЬNULL(гхб_ДополнительныеСвойстваПомещений.ОтветственныеЗаКонсервациюПомещения, "") КАК ОтветственныйЗаКонсервациюПомещения,
+	ЕСТЬNULL(гхб_ДополнительныеСвойстваПомещений.ОтветственныеЗаПожарнуюБезопасность, "") КАК ОтветственныйЗаПожарнуюБезопасность,
+	ЕСТЬNULL(гхб_РаспределениеДоступовВПомещенияСрезПоследних.ЮридическоеЛицоСобственник, ЗНАЧЕНИЕ(Справочник.гхб_ОрганизацииБазХолдинга.ПустаяСсылка)) КАК ЮридическоеЛицоСобственник,
+	ЕСТЬNULL(гхб_РаспределениеДоступовВПомещенияСрезПоследних.ЮридическоеЛицоРаспорядитель, ЗНАЧЕНИЕ(Справочник.гхб_ОрганизацииБазХолдинга.ПустаяСсылка)) КАК ЮридическоеЛицоРаспорядитель,
+	ЕСТЬNULL(гхб_РаспределениеДоступовВПомещенияСрезПоследних.ДивизионРаспорядитель, ЗНАЧЕНИЕ(Справочник.гхб_Дивизионы.ПустаяСсылка)) КАК ДивизионРаспорядитель,
+	ЕСТЬNULL(гхб_РаспределениеДоступовВПомещенияСрезПоследних.ДепартаментРаспорядитель, ЗНАЧЕНИЕ(Справочник.гхб_ПодразделенияОрганизацийБазХолдинга.ПустаяСсылка)) КАК ДепартаментРаспорядитель,
+	ЕСТЬNULL(гхб_РаспределениеДоступовВПомещенияСрезПоследних.ЮридическиеЛицаВПомещении, "") КАК ЮридическиеЛицаВПомещении,
+	ЕСТЬNULL(гхб_РаспределениеДоступовВПомещенияСрезПоследних.ДивизионыВПомещении, "") КАК ДивизионыВПомещении,
+	ЕСТЬNULL(гхб_РаспределениеДоступовВПомещенияСрезПоследних.ДепартаментыВПомещении, "") КАК ДепартаментыВПомещении
+ИЗ
+	РегистрСведений.гхб_СвойстваПомещений.СрезПоследних КАК гхб_СвойстваПомещенийСрезПоследних
+		ЛЕВОЕ СОЕДИНЕНИЕ РегистрСведений.гхб_ДополнительныеСвойстваПомещений КАК гхб_ДополнительныеСвойстваПомещений
+		ПО гхб_СвойстваПомещенийСрезПоследних.Помещение = гхб_ДополнительныеСвойстваПомещений.Помещение
+		ЛЕВОЕ СОЕДИНЕНИЕ РегистрСведений.гхб_ОтветственныеЗаПомещения.СрезПоследних КАК гхб_ОтветственныеЗаПомещенияСрезПоследних
+		ПО гхб_СвойстваПомещенийСрезПоследних.Помещение = гхб_ОтветственныеЗаПомещенияСрезПоследних.Помещение
+			И (НЕ гхб_ОтветственныеЗаПомещенияСрезПоследних.Закрыть)
+		ЛЕВОЕ СОЕДИНЕНИЕ РегистрСведений.гхб_РаспределениеДоступовВПомещения.СрезПоследних КАК гхб_РаспределениеДоступовВПомещенияСрезПоследних
+		ПО гхб_СвойстваПомещенийСрезПоследних.Помещение = гхб_РаспределениеДоступовВПомещенияСрезПоследних.Помещение
+ГДЕ
+	НЕ гхб_СвойстваПомещенийСрезПоследних.Закрыть
+	И гхб_СвойстваПомещенийСрезПоследних.ТипПомещения.ЭтоПомещение</query>
+	</dataSet>
+	<parameter>
+		<name>Период</name>
+		<title xsi:type="v8:LocalStringType">
+			<v8:item>
+				<v8:lang>ru</v8:lang>
+				<v8:content>Период</v8:content>
+			</v8:item>
+		</title>
+		<valueType>
+			<v8:Type>xs:dateTime</v8:Type>
+			<v8:DateQualifiers>
+				<v8:DateFractions>DateTime</v8:DateFractions>
+			</v8:DateQualifiers>
+		</valueType>
+		<value xsi:type="xs:dateTime">0001-01-01T00:00:00</value>
+		<useRestriction>false</useRestriction>
+	</parameter>
+	<settingsVariant>
+		<dcsset:name>Основной</dcsset:name>
+		<dcsset:presentation xsi:type="v8:LocalStringType">
+			<v8:item>
+				<v8:lang>ru</v8:lang>
+				<v8:content>Список помещений</v8:content>
+			</v8:item>
+			<v8:item>
+				<v8:lang>uk</v8:lang>
+				<v8:content>Перелік приміщень</v8:content>
+			</v8:item>
+		</dcsset:presentation>
+		<dcsset:settings xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows">
+			<dcsset:selection>
+				<dcsset:item xsi:type="dcsset:SelectedItemField">
+					<dcsset:field>Помещение</dcsset:field>
+				</dcsset:item>
+				<dcsset:item xsi:type="dcsset:SelectedItemField">
+					<dcsset:field>Локация</dcsset:field>
+				</dcsset:item>
+				<dcsset:item xsi:type="dcsset:SelectedItemField">
+					<dcsset:field>Корпус</dcsset:field>
+				</dcsset:item>
+				<dcsset:item xsi:type="dcsset:SelectedItemField">
+					<dcsset:field>ЭлементСтроения</dcsset:field>
+				</dcsset:item>
+				<dcsset:item xsi:type="dcsset:SelectedItemField">
+					<dcsset:field>НомерПомещения</dcsset:field>
+				</dcsset:item>
+				<dcsset:item xsi:type="dcsset:SelectedItemField">
+					<dcsset:field>ДробнаяЧасть</dcsset:field>
+				</dcsset:item>
+				<dcsset:item xsi:type="dcsset:SelectedItemField">
+					<dcsset:field>Площадь</dcsset:field>
+				</dcsset:item>
+				<dcsset:item xsi:type="dcsset:SelectedItemField">
+					<dcsset:field>ТипПомещения</dcsset:field>
+				</dcsset:item>
+				<dcsset:item xsi:type="dcsset:SelectedItemField">
+					<dcsset:field>ПлановоеКоличествоРабочихМест</dcsset:field>
+				</dcsset:item>
+				<dcsset:item xsi:type="dcsset:SelectedItemField">
+					<dcsset:field>НетРабочихМест</dcsset:field>
+				</dcsset:item>
+				<dcsset:item xsi:type="dcsset:SelectedItemField">
+					<dcsset:field>УточняющаяИнформация</dcsset:field>
+				</dcsset:item>
+				<dcsset:item xsi:type="dcsset:SelectedItemField">
+					<dcsset:field>НомерНаГенеральномПлане</dcsset:field>
+				</dcsset:item>
+				<dcsset:item xsi:type="dcsset:SelectedItemField">
+					<dcsset:field>ДоступВПомещениеПоКлючу</dcsset:field>
+				</dcsset:item>
+				<dcsset:item xsi:type="dcsset:SelectedItemField">
+					<dcsset:field>НаличиеОхраннойСигнализации</dcsset:field>
+				</dcsset:item>
+				<dcsset:item xsi:type="dcsset:SelectedItemField">
+					<dcsset:field>НаличиеКТ</dcsset:field>
+				</dcsset:item>
+				<dcsset:item xsi:type="dcsset:SelectedItemField">
+					<dcsset:field>СогласованиеДоступаСВысшимРуководителем</dcsset:field>
+				</dcsset:item>
+				<dcsset:item xsi:type="dcsset:SelectedItemField">
+					<dcsset:field>ОбщегоПользования</dcsset:field>
+				</dcsset:item>
+				<dcsset:item xsi:type="dcsset:SelectedItemField">
+					<dcsset:field>УИДСинхронизации</dcsset:field>
+				</dcsset:item>
+				<dcsset:item xsi:type="dcsset:SelectedItemField">
+					<dcsset:field>ДополнительнаяИнформация</dcsset:field>
+				</dcsset:item>
+				<dcsset:item xsi:type="dcsset:SelectedItemField">
+					<dcsset:field>ОтветственныйЗаПомещение</dcsset:field>
+				</dcsset:item>
+				<dcsset:item xsi:type="dcsset:SelectedItemField">
+					<dcsset:field>ОтветственныйЗаКонсервациюПомещения</dcsset:field>
+				</dcsset:item>
+				<dcsset:item xsi:type="dcsset:SelectedItemField">
+					<dcsset:field>ОтветственныйЗаПожарнуюБезопасность</dcsset:field>
+				</dcsset:item>
+				<dcsset:item xsi:type="dcsset:SelectedItemField">
+					<dcsset:field>ЮридическоеЛицоСобственник</dcsset:field>
+				</dcsset:item>
+				<dcsset:item xsi:type="dcsset:SelectedItemField">
+					<dcsset:field>ЮридическоеЛицоРаспорядитель</dcsset:field>
+				</dcsset:item>
+				<dcsset:item xsi:type="dcsset:SelectedItemField">
+					<dcsset:field>ДивизионРаспорядитель</dcsset:field>
+				</dcsset:item>
+				<dcsset:item xsi:type="dcsset:SelectedItemField">
+					<dcsset:field>ДепартаментРаспорядитель</dcsset:field>
+				</dcsset:item>
+				<dcsset:item xsi:type="dcsset:SelectedItemField">
+					<dcsset:field>ЮридическиеЛицаВПомещении</dcsset:field>
+				</dcsset:item>
+				<dcsset:item xsi:type="dcsset:SelectedItemField">
+					<dcsset:field>ДивизионыВПомещении</dcsset:field>
+				</dcsset:item>
+				<dcsset:item xsi:type="dcsset:SelectedItemField">
+					<dcsset:field>ДепартаментыВПомещении</dcsset:field>
+				</dcsset:item>
+			</dcsset:selection>
+			<dcsset:order>
+				<dcsset:item xsi:type="dcsset:OrderItemField">
+					<dcsset:field>Помещение.Наименование</dcsset:field>
+					<dcsset:orderType>Asc</dcsset:orderType>
+				</dcsset:item>
+			</dcsset:order>
+			<dcsset:item xsi:type="dcsset:StructureItemGroup">
+				<dcsset:order>
+					<dcsset:item xsi:type="dcsset:OrderItemAuto"/>
+				</dcsset:order>
+				<dcsset:selection>
+					<dcsset:item xsi:type="dcsset:SelectedItemAuto"/>
+				</dcsset:selection>
+			</dcsset:item>
+		</dcsset:settings>
+	</settingsVariant>
+</DataCompositionSchema>

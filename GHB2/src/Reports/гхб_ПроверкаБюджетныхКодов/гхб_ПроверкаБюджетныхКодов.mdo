@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Report xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="2efc4f88-0325-470a-afae-4677f86b42a1">
+  <producedTypes>
+    <objectType typeId="8f719d1f-4b27-47bf-b78d-8766f4b4a2d1" valueTypeId="62306561-834d-4378-8cb0-a2f9dfe3087a"/>
+    <managerType typeId="ed5e1436-eb9f-4764-a7ea-15cf039cd91d" valueTypeId="25eb76de-f924-4b70-891e-3e46213f6f60"/>
+  </producedTypes>
+  <name>гхб_ПроверкаБюджетныхКодов</name>
+  <synonym>
+    <key>ru</key>
+    <value>Проверка бюджетных кодов</value>
+  </synonym>
+  <synonym>
+    <key>uk</key>
+    <value>Перевірка бюджетних кодів</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <defaultForm>CommonForm.ФормаОтчета</defaultForm>
+  <mainDataCompositionSchema>Report.гхб_ПроверкаБюджетныхКодов.Template.ОсновнаяСхемаКомпоновкиДанных</mainDataCompositionSchema>
+  <defaultSettingsForm>CommonForm.ФормаНастроекОтчета</defaultSettingsForm>
+  <defaultVariantForm>CommonForm.ФормаВариантаОтчета</defaultVariantForm>
+  <templates uuid="6094986a-1494-4836-ae55-7918bb0c0b3e">
+    <name>ОсновнаяСхемаКомпоновкиДанных</name>
+    <synonym>
+      <key>ru</key>
+      <value>Основная схема компоновки данных</value>
+    </synonym>
+    <templateType>DataCompositionSchema</templateType>
+  </templates>
+</mdclass:Report>

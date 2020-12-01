@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Role xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="fcecaf44-d10a-4583-9a2f-5a8271ff19f7">
+  <name>гхб_Кадры</name>
+  <synonym>
+    <key>ru</key>
+    <value>Кадры</value>
+  </synonym>
+  <synonym>
+    <key>uk</key>
+    <value>Кадри</value>
+  </synonym>
+  <comment>#17232</comment>
+</mdclass:Role>

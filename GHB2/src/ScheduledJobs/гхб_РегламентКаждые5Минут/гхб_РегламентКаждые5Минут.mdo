@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:ScheduledJob xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="86528715-1fb0-4326-b0db-6dde3c3bc167">
+  <name>гхб_РегламентКаждые5Минут</name>
+  <synonym>
+    <key>ru</key>
+    <value>Регламент каждые 5 минут</value>
+  </synonym>
+  <synonym>
+    <key>uk</key>
+    <value>Регламент кожні 5 хвилин</value>
+  </synonym>
+  <methodName>CommonModule.гхб_РегламентныеЗаданияСервер.РегламентКаждые5Минут</methodName>
+  <use>true</use>
+  <predefined>true</predefined>
+  <restartCountOnFailure>3</restartCountOnFailure>
+  <restartIntervalOnFailure>10</restartIntervalOnFailure>
+</mdclass:ScheduledJob>

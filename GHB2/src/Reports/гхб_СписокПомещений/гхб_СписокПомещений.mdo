@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Report xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="75ea7153-c83f-440b-9977-30a1ee176a9b">
+  <producedTypes>
+    <objectType typeId="e0bdfa00-030c-4d08-a406-21f84c01b060" valueTypeId="78aa6e87-0528-48ee-a3f8-ff983ff60553"/>
+    <managerType typeId="0a4195c6-43c5-4b87-9d1d-c1dc5dac8ded" valueTypeId="2c610c74-ad15-46e6-9b76-b8ab473e064a"/>
+  </producedTypes>
+  <name>гхб_СписокПомещений</name>
+  <synonym>
+    <key>ru</key>
+    <value>Список помещений</value>
+  </synonym>
+  <synonym>
+    <key>uk</key>
+    <value>Перелік приміщень</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <defaultForm>CommonForm.ФормаОтчета</defaultForm>
+  <mainDataCompositionSchema>Report.гхб_СписокПомещений.Template.ОсновнаяСхемаКомпоновкиДанных</mainDataCompositionSchema>
+  <defaultSettingsForm>CommonForm.ФормаНастроекОтчета</defaultSettingsForm>
+  <defaultVariantForm>CommonForm.ФормаВариантаОтчета</defaultVariantForm>
+  <templates uuid="722329bd-ef85-4ade-9ba5-19667247c03c">
+    <name>ОсновнаяСхемаКомпоновкиДанных</name>
+    <synonym>
+      <key>ru</key>
+      <value>Основная схема компоновки данных</value>
+    </synonym>
+    <templateType>DataCompositionSchema</templateType>
+  </templates>
+</mdclass:Report>

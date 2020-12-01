@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="e450de2a-f25c-40cf-b083-fd0a250b3b8b">
+  <producedTypes>
+    <refType typeId="54723c28-def7-4661-990b-9414ea4895f7" valueTypeId="6875331a-8527-4fd9-b8de-f28aac4107ea"/>
+    <listType typeId="1973d2e4-3918-48cb-8f4d-ea740a7f2dcc" valueTypeId="8da15a27-71e0-42de-a82d-9d6a244f8ac1"/>
+    <managerType typeId="6b31ad11-de44-4210-8dc8-aa536c1c1d97" valueTypeId="b3d1a656-1c57-41b7-916e-faf293c45c76"/>
+  </producedTypes>
+  <name>гхб_ТипОперацииЗакреплениеОткреплениеПарковочногоМеста</name>
+  <synonym>
+    <key>ru</key>
+    <value>Тип операции (Закрепление/Открепление парковочного места)</value>
+  </synonym>
+  <synonym>
+    <key>uk</key>
+    <value>Тип операції (Закріплення/Відкріплення паркувального місця)</value>
+  </synonym>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="53941230-23b6-45b9-b3d0-08551932ac6c">
+    <name>Закрепление</name>
+    <synonym>
+      <key>ru</key>
+      <value>Закрепление</value>
+    </synonym>
+    <synonym>
+      <key>uk</key>
+      <value>Закріплення</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="9e4cdd03-bbf2-4f99-8f82-2b6be79127c4">
+    <name>Открепление</name>
+    <synonym>
+      <key>ru</key>
+      <value>Открепление</value>
+    </synonym>
+    <synonym>
+      <key>uk</key>
+      <value>Відкріплення</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

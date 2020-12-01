@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Report xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="a94952e6-76b1-48e5-974b-e290081ae931">
+  <producedTypes>
+    <objectType typeId="2053311e-654b-41c7-8a57-66c47f844522" valueTypeId="7855d3de-b46e-4736-b00b-1390cb8a1deb"/>
+    <managerType typeId="00d8366c-6bd6-4183-89f8-a0155674fce6" valueTypeId="d4dad25b-ffe9-4f1a-a67f-426fb4a10614"/>
+  </producedTypes>
+  <name>гхб_ОтчетПоКадровымРуководителям</name>
+  <synonym>
+    <key>ru</key>
+    <value>Отчет по кадровым руководителям</value>
+  </synonym>
+  <synonym>
+    <key>uk</key>
+    <value>Звіт по кадровим керівникам</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <defaultForm>CommonForm.ФормаОтчета</defaultForm>
+  <mainDataCompositionSchema>Report.гхб_ОтчетПоКадровымРуководителям.Template.ОсновнаяСхемаКомпоновкиДанных</mainDataCompositionSchema>
+  <defaultSettingsForm>CommonForm.ФормаНастроекОтчета</defaultSettingsForm>
+  <defaultVariantForm>CommonForm.ФормаВариантаОтчета</defaultVariantForm>
+  <templates uuid="1b1e88b3-fd27-431c-b88a-7d5f78f27c90">
+    <name>ОсновнаяСхемаКомпоновкиДанных</name>
+    <synonym>
+      <key>ru</key>
+      <value>Основная схема компоновки данных</value>
+    </synonym>
+    <templateType>DataCompositionSchema</templateType>
+  </templates>
+</mdclass:Report>

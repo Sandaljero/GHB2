@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="4fb18659-5804-4757-a928-0156fee47477">
+  <producedTypes>
+    <objectType typeId="4d3c8cff-1aa4-4236-a64e-6689a63a32fa" valueTypeId="4a250943-aff3-4086-aa5c-7fd674554051"/>
+    <refType typeId="16a14bcd-db0a-483d-b15b-6e1aab89f2fe" valueTypeId="800babc0-21e9-4e96-a30f-803287505650"/>
+    <selectionType typeId="df111997-a106-470b-8c02-a1c1448821a5" valueTypeId="a9bf45cd-94b3-452e-949f-5deb8efaacea"/>
+    <listType typeId="7137df8f-b39f-4e0f-8b35-4db0c780e8fe" valueTypeId="daabc990-d32e-4d43-8c80-30c7dfa5f128"/>
+    <managerType typeId="6b4f5d9e-1d0c-461b-9798-fd9102c3b9cf" valueTypeId="2fa0d292-8179-4319-900d-451e812b25e7"/>
+  </producedTypes>
+  <name>гхб_ТипыПомещений</name>
+  <synonym>
+    <key>ru</key>
+    <value>Типы помещений</value>
+  </synonym>
+  <synonym>
+    <key>uk</key>
+    <value>Типи приміщень</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.гхб_ТипыПомещений.StandardAttribute.Description</inputByString>
+  <inputByString>Catalog.гхб_ТипыПомещений.StandardAttribute.Code</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <objectPresentation>
+    <key>ru</key>
+    <value>Тип помещения</value>
+  </objectPresentation>
+  <objectPresentation>
+    <key>uk</key>
+    <value>Тип приміщення</value>
+  </objectPresentation>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>9</codeLength>
+  <descriptionLength>50</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <predefined>
+    <items id="573ba825-7e27-4bf9-91f4-3188255a9a42">
+      <name>ЭлементСтроения</name>
+      <description>Елемент будівлі</description>
+      <code xsi:type="core:StringValue">
+        <value>000000003</value>
+      </code>
+    </items>
+    <items id="d4683561-964b-4df1-991c-1f60cf1042c9">
+      <name>Корпус</name>
+      <description>Корпус</description>
+      <code xsi:type="core:StringValue">
+        <value>000000002</value>
+      </code>
+    </items>
+    <items id="bc402024-64ef-45b1-aec1-ce1a433c5266">
+      <name>Локация</name>
+      <description>Локація</description>
+      <code xsi:type="core:StringValue">
+        <value>000000001</value>
+      </code>
+    </items>
+  </predefined>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+  <defaultObjectForm>Catalog.гхб_ТипыПомещений.Form.ФормаЭлемента</defaultObjectForm>
+  <defaultListForm>Catalog.гхб_ТипыПомещений.Form.ФормаСписка</defaultListForm>
+  <defaultChoiceForm>Catalog.гхб_ТипыПомещений.Form.ФормаВыбора</defaultChoiceForm>
+  <attributes uuid="b2f8a19f-7dc1-40e4-ae9d-65a1bb053739">
+    <name>ЭтоПомещение</name>
+    <synonym>
+      <key>ru</key>
+      <value>Это помещение</value>
+    </synonym>
+    <synonym>
+      <key>uk</key>
+      <value>Це приміщення</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="77fee5cf-a4d8-4267-b7be-17f45367f748">
+    <name>ИспользоватьДляКонсервацииПомещений</name>
+    <synonym>
+      <key>ru</key>
+      <value>Использовать для консервации помещений</value>
+    </synonym>
+    <synonym>
+      <key>uk</key>
+      <value>Використовувати для консервації приміщень</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <forms uuid="49b565d0-b1c0-419f-9147-d34e4def504c">
+    <name>ФормаЭлемента</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма элемента</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="bae31795-eeab-44c4-92f9-1a2d27c5a5d7">
+    <name>ФормаСписка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма списка</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="cf0d4f60-6c98-491b-919a-038f17d23bd5">
+    <name>ФормаВыбора</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма выбора</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:Catalog>

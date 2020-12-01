@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="774226d7-64d4-455f-be9f-89bbb84dd7aa">
+  <producedTypes>
+    <refType typeId="15bfded4-48a6-4109-8900-e3a2b22d132f" valueTypeId="ed7505e7-85c7-4131-b884-2f50fc9fd369"/>
+    <listType typeId="e6b22545-69fd-4c61-9996-c50b1d1b59a6" valueTypeId="5e0e1d9d-9f66-4003-bd39-7dfdb5768859"/>
+    <managerType typeId="2c6a7f78-1c96-40cd-8392-953d9b8f93e7" valueTypeId="9257f339-0860-4dc9-a1fe-c5681311433a"/>
+  </producedTypes>
+  <name>гхб_ПричиныИзмененияСостояния</name>
+  <synonym>
+    <key>ru</key>
+    <value>Причины изменения состояния</value>
+  </synonym>
+  <comment>(Общ)</comment>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Order</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Ref</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="493b4f0c-8681-4486-8cbc-e35f03abaf9d">
+    <name>ПриемНаРаботу</name>
+    <synonym>
+      <key>ru</key>
+      <value>Прием на работу</value>
+    </synonym>
+    <comment>(Общ)</comment>
+  </enumValues>
+  <enumValues uuid="f678df84-dc72-413f-920e-98748383003a">
+    <name>Перемещение</name>
+    <synonym>
+      <key>ru</key>
+      <value>Перемещение</value>
+    </synonym>
+    <comment>(Общ)</comment>
+  </enumValues>
+  <enumValues uuid="9235426c-fe8d-4604-b36f-383608daa297">
+    <name>Увольнение</name>
+    <synonym>
+      <key>ru</key>
+      <value>Увольнение</value>
+    </synonym>
+    <comment>(Общ)</comment>
+  </enumValues>
+  <enumValues uuid="3a180160-b807-4cf9-adcd-651c6bee8c2b">
+    <name>Декрет</name>
+    <synonym>
+      <key>ru</key>
+      <value>Декрет</value>
+    </synonym>
+    <comment>Декрет</comment>
+  </enumValues>
+  <enumValues uuid="b2bd1fab-2e7f-4632-a62d-431b104ae135">
+    <name>ВозвратИзДекрет</name>
+    <synonym>
+      <key>ru</key>
+      <value>Возврат из декрет</value>
+    </synonym>
+    <comment>Возврат из декрет</comment>
+  </enumValues>
+</mdclass:Enum>

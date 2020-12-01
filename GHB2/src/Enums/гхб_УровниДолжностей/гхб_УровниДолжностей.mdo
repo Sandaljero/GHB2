@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="3e5021c1-eece-42fe-b10a-c20f5913f125">
+  <producedTypes>
+    <refType typeId="ca2302cf-9d4b-4708-8cd7-b5d52b952214" valueTypeId="84d127d7-8d1e-426f-9170-88b4c3f0016d"/>
+    <listType typeId="902cbe15-584a-48fb-b4a4-4330487f539e" valueTypeId="bd7d7ad6-ce29-4c00-b67a-d4d94ad4377a"/>
+    <managerType typeId="f329d029-5b61-4701-a6c5-1dc605e3945a" valueTypeId="a53e6a47-063f-41cf-9ac7-065247cd9484"/>
+  </producedTypes>
+  <name>гхб_УровниДолжностей</name>
+  <synonym>
+    <key>ru</key>
+    <value>Уровни должностей</value>
+  </synonym>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Order</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Ref</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="928d1138-6773-42fc-a7cf-ec090bf50886">
+    <name>N</name>
+    <synonym>
+      <key>ru</key>
+      <value>N</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="beda3343-094c-4fa2-9b09-7c6b72a30ef4">
+    <name>N1</name>
+    <synonym>
+      <key>ru</key>
+      <value>N-1</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="b0316f2f-26ff-4b74-8e5f-560d13cd9af4">
+    <name>N2</name>
+    <synonym>
+      <key>ru</key>
+      <value>N-2</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="a7f228dc-c45d-4292-a291-f5d39a1ab75c">
+    <name>N3</name>
+    <synonym>
+      <key>ru</key>
+      <value>N-3</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="560ca464-9ac8-448d-b6ee-824ec116456f">
+    <name>N4</name>
+    <synonym>
+      <key>ru</key>
+      <value>N-4</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="5d42abf5-922e-47c5-bd09-3a17d986403b">
+    <name>N5</name>
+    <synonym>
+      <key>ru</key>
+      <value>N-5</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="73f09f24-badc-4391-aad0-f57311e9b1fd">
+    <name>N6</name>
+    <synonym>
+      <key>ru</key>
+      <value>N-6</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="d594a3fd-6b48-4180-ab14-dbfadf596b76">
+    <name>N7</name>
+    <synonym>
+      <key>ru</key>
+      <value>N-7</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

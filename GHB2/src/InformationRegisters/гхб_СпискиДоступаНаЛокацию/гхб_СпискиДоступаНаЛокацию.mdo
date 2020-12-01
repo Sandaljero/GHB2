@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="985bcd26-a639-4e27-b642-3929be321c02">
+  <producedTypes>
+    <selectionType typeId="0c5b28fd-905f-4f78-a776-eb0ce9a54d67" valueTypeId="fda6c06c-3b76-4055-95e0-b8aebf389344"/>
+    <listType typeId="3a7d7e24-0194-413c-b4a9-492b6d06dee2" valueTypeId="0257196a-0de1-4b8c-be52-c8afcb6d1b90"/>
+    <managerType typeId="13cddca6-06dd-4d57-8119-9c8ce8b689c3" valueTypeId="56ba21b7-2ffb-4b9f-b50a-d48d45f4d07c"/>
+    <recordSetType typeId="13f45be0-f9cd-4edc-855a-a62a16ff9210" valueTypeId="8d171984-e652-4f28-8219-9a96ad168cf2"/>
+    <recordKeyType typeId="1bd74069-a35a-4a4c-9824-1fabb50995ce" valueTypeId="aabef361-7db0-48ca-8d5b-45fbf03345cc"/>
+    <recordType typeId="6ac25e91-a237-4485-9be5-76b9195fc865" valueTypeId="fc13d189-c29b-43be-8013-942233662687"/>
+    <recordManagerType typeId="92bc0b76-31f4-499a-8bca-9de353b744f4" valueTypeId="d3bc44b4-7b38-4ff7-9367-7832c3734851"/>
+  </producedTypes>
+  <name>гхб_СпискиДоступаНаЛокацию</name>
+  <synonym>
+    <key>ru</key>
+    <value>Списки доступа на локацию</value>
+  </synonym>
+  <synonym>
+    <key>uk</key>
+    <value>Списки доступу на локацію</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <editType>InDialog</editType>
+  <writeMode>RecorderSubordinate</writeMode>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <dimensions uuid="71fc1b5a-12ff-4325-a6b6-28fa79aca315">
+    <name>Локация</name>
+    <synonym>
+      <key>ru</key>
+      <value>Локация</value>
+    </synonym>
+    <synonym>
+      <key>uk</key>
+      <value>Локація</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.гхб_Помещения</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <choiceFoldersAndItems>Folders</choiceFoldersAndItems>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="5456693b-f942-40ca-b17f-6e2b89bfbc16">
+    <name>Дата</name>
+    <synonym>
+      <key>ru</key>
+      <value>Дата</value>
+    </synonym>
+    <synonym>
+      <key>uk</key>
+      <value>Дата</value>
+    </synonym>
+    <type>
+      <types>Date</types>
+      <dateQualifiers>
+        <dateFractions>Date</dateFractions>
+      </dateQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="7b50965d-b7ab-4f23-ad2a-179b93768875">
+    <name>Сотрудник</name>
+    <synonym>
+      <key>ru</key>
+      <value>Сотрудник</value>
+    </synonym>
+    <synonym>
+      <key>uk</key>
+      <value>Співробітник</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.гхб_ФизическиеЛица</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="755e2da7-ce88-44cd-af75-6fe0006b5b4f">
+    <name>ИдентификаторДокументаБазыРесурсов</name>
+    <synonym>
+      <key>ru</key>
+      <value>Идентификатор документа базы ресурсов</value>
+    </synonym>
+    <synonym>
+      <key>uk</key>
+      <value>Ідентифікатор документа бази ресурсів</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>36</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+</mdclass:InformationRegister>

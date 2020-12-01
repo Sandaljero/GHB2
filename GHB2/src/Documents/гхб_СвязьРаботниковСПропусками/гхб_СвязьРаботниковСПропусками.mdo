@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="965cc0a2-cd20-4118-963b-6dd286815a22">
+  <producedTypes>
+    <objectType typeId="a807ab60-4da8-4408-86ca-26165bd2c00b" valueTypeId="db86a7a5-5d0a-4859-85f2-e97dae51b4d3"/>
+    <refType typeId="4bf69b50-f746-496b-b951-22aaafbf8b2d" valueTypeId="eac0233b-19d3-48b1-a679-7ac5a076c838"/>
+    <selectionType typeId="1ffc74e3-c362-4b1e-8cb1-ec0efa0e81f2" valueTypeId="121d79b5-fe0a-4c4e-b792-e117ef56ba07"/>
+    <listType typeId="1ada5c46-78e6-4945-9ed3-eec521232dd9" valueTypeId="5b9a1067-faa8-4bdf-8e9a-e182519d224f"/>
+    <managerType typeId="ca993b30-6764-4c55-b0e7-c5e229f3e5b4" valueTypeId="572736cb-e167-4a6d-839e-af8eedbe8e27"/>
+  </producedTypes>
+  <name>гхб_СвязьРаботниковСПропусками</name>
+  <synonym>
+    <key>ru</key>
+    <value>Связь работников с пропусками</value>
+  </synonym>
+  <synonym>
+    <key>uk</key>
+    <value>Зв'язок працівників з пропусками</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Document.гхб_СвязьРаботниковСПропусками.StandardAttribute.Number</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <numberType>String</numberType>
+  <numberLength>9</numberLength>
+  <numberAllowedLength>Variable</numberAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultObjectForm>Document.гхб_СвязьРаботниковСПропусками.Form.ФормаДокумента</defaultObjectForm>
+  <defaultListForm>Document.гхб_СвязьРаботниковСПропусками.Form.ФормаСписка</defaultListForm>
+  <defaultChoiceForm>Document.гхб_СвязьРаботниковСПропусками.Form.ФормаВыбора</defaultChoiceForm>
+  <registerRecords>InformationRegister.гхб_ИсторияВыдачиПостоянныхПропусков</registerRecords>
+  <postInPrivilegedMode>true</postInPrivilegedMode>
+  <unpostInPrivilegedMode>true</unpostInPrivilegedMode>
+  <attributes uuid="4acfe5f6-054e-4c46-8621-74cbd75916ef">
+    <name>ИдентификаторДокументаОснования</name>
+    <synonym>
+      <key>ru</key>
+      <value>Идентификатор документа основания</value>
+    </synonym>
+    <synonym>
+      <key>uk</key>
+      <value>Ідентифікатор документа основи</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>36</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <forms uuid="b0c6617e-f43a-4901-b828-d9864b5aa00d">
+    <name>ФормаДокумента</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма документа</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="d7e1dfd6-46c3-4989-913b-d412f7a4199b">
+    <name>ФормаСписка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма списка</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="e5c2fee5-7458-4788-b457-f4c4eaeb1912">
+    <name>ФормаВыбора</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма выбора</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <tabularSections uuid="c0ef5196-fbd7-4a43-898a-4404b920bcc7">
+    <producedTypes>
+      <objectType typeId="ae6eba1c-6527-4b8f-9f30-568df7fed67d" valueTypeId="2c272812-4077-4793-b1fd-8d419d0d59dd"/>
+      <rowType typeId="32003d44-02fe-4ab6-9817-c3156ad124d4" valueTypeId="ebf598c7-7ad1-440c-9efe-029d2e484bc9"/>
+    </producedTypes>
+    <name>Данные</name>
+    <synonym>
+      <key>ru</key>
+      <value>Данные</value>
+    </synonym>
+    <synonym>
+      <key>uk</key>
+      <value>Дані</value>
+    </synonym>
+    <attributes uuid="e65ab456-1d6d-4378-a850-2d97c5cc265c">
+      <name>Сотрудник</name>
+      <synonym>
+        <key>ru</key>
+        <value>Сотрудник</value>
+      </synonym>
+      <synonym>
+        <key>uk</key>
+        <value>Співробітник</value>
+      </synonym>
+      <type>
+        <types>CatalogRef.гхб_ФизическиеЛица</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="1eda2133-3af4-407e-bf40-a99105ca371e">
+      <name>НомерПропуска</name>
+      <synonym>
+        <key>ru</key>
+        <value>Номер пропуска</value>
+      </synonym>
+      <synonym>
+        <key>uk</key>
+        <value>Номер перепустки</value>
+      </synonym>
+      <type>
+        <types>Number</types>
+        <numberQualifiers>
+          <precision>10</precision>
+          <nonNegative>true</nonNegative>
+        </numberQualifiers>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="bb32e70c-fbce-47ac-9563-29a9a9d842ac">
+      <name>Использовать</name>
+      <synonym>
+        <key>ru</key>
+        <value>Использовать</value>
+      </synonym>
+      <synonym>
+        <key>uk</key>
+        <value>Використовувати</value>
+      </synonym>
+      <type>
+        <types>Boolean</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+  </tabularSections>
+</mdclass:Document>

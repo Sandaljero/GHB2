@@ -1,0 +1,204 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="d0e3a3a0-479d-4822-b8d2-d8629fcb6946">
+  <producedTypes>
+    <selectionType typeId="b03ee050-11df-48a4-b0ef-c9bf1c0a625d" valueTypeId="bcb67fdd-972e-48b8-bf2c-5f2e3a687387"/>
+    <listType typeId="8688942f-f695-4c1a-bfaf-d60f2282428a" valueTypeId="10dd3bf1-cafe-4948-9649-9eb5177e60c6"/>
+    <managerType typeId="7b4146a3-915f-4fcb-8ffd-8cdd5b73d25e" valueTypeId="69fa62f3-568f-4776-b9c8-5de75920530e"/>
+    <recordSetType typeId="a9a1d808-3460-406a-9cab-cf6b83f53f02" valueTypeId="da2fe704-b9e4-4c35-921f-65f0b3c2f873"/>
+    <recordKeyType typeId="ee1e6b4b-fa60-48e5-b9c1-349c0c16f6ad" valueTypeId="325bd4ad-dbb5-4e47-ab5b-1443db7b9a69"/>
+    <recordType typeId="3f7428ca-b943-47b6-8058-7c27b9777986" valueTypeId="e6c755a3-fbc9-40f6-aa0d-c426871a605f"/>
+    <recordManagerType typeId="9987cff7-d4d8-4d86-ade4-fdde7ca1ac4c" valueTypeId="89467d57-1c0f-4c01-a249-ece1054118c1"/>
+  </producedTypes>
+  <name>гхб_РаспределениеДоступовВПомещения</name>
+  <synonym>
+    <key>ru</key>
+    <value>Распределение доступов в помещения</value>
+  </synonym>
+  <synonym>
+    <key>uk</key>
+    <value>Розподіл доступів в приміщення</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <editType>InDialog</editType>
+  <defaultListForm>InformationRegister.гхб_РаспределениеДоступовВПомещения.Form.ФормаСписка</defaultListForm>
+  <informationRegisterPeriodicity>Second</informationRegisterPeriodicity>
+  <writeMode>RecorderSubordinate</writeMode>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <attributes uuid="fac4d362-caaf-430a-af01-d22af6718af0">
+    <name>ЮридическоеЛицоСобственник</name>
+    <synonym>
+      <key>ru</key>
+      <value>Юр. лицо (собственник)</value>
+    </synonym>
+    <synonym>
+      <key>uk</key>
+      <value>Юр. особа (власник)</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.гхб_ОрганизацииБазХолдинга</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="ae704d21-214e-47f9-b985-537194279568">
+    <name>ЮридическоеЛицоРаспорядитель</name>
+    <synonym>
+      <key>ru</key>
+      <value>Юр. лицо (распорядитель)</value>
+    </synonym>
+    <synonym>
+      <key>uk</key>
+      <value>Юр. особа (розпорядник)</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.гхб_ОрганизацииБазХолдинга</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="d9401ab3-dbda-4b47-aef0-b5dd208f0da0">
+    <name>ДивизионРаспорядитель</name>
+    <synonym>
+      <key>ru</key>
+      <value>Дивизион (распорядитель)</value>
+    </synonym>
+    <synonym>
+      <key>uk</key>
+      <value>Дивізіон (розпорядник)</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.гхб_Дивизионы</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="d43c8a0c-a9f2-458a-a908-6228a9be59e7">
+    <name>ДепартаментРаспорядитель</name>
+    <synonym>
+      <key>ru</key>
+      <value>Департамент (распорядитель)</value>
+    </synonym>
+    <synonym>
+      <key>uk</key>
+      <value>Департамент (розпорядник)</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.гхб_ПодразделенияОрганизацийБазХолдинга</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="5dc70a2f-649b-4e29-97a5-652cde9f9453">
+    <name>ЮридическиеЛицаВПомещении</name>
+    <synonym>
+      <key>ru</key>
+      <value>Юр. лица в помещении</value>
+    </synonym>
+    <synonym>
+      <key>uk</key>
+      <value>Юридичні особи, які фактично знаходяться в приміщенні</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>500</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+  </attributes>
+  <attributes uuid="57653759-3790-4b67-b346-cdcbc0b8599c">
+    <name>ДивизионыВПомещении</name>
+    <synonym>
+      <key>ru</key>
+      <value>Дивизионы в помещении</value>
+    </synonym>
+    <synonym>
+      <key>uk</key>
+      <value>Дивізіони, які фактично знаходяться в приміщенні</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>500</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+  </attributes>
+  <attributes uuid="186f2de0-3dce-408b-891e-708dbdfb43e0">
+    <name>ДепартаментыВПомещении</name>
+    <synonym>
+      <key>ru</key>
+      <value>Департаменты в помещении</value>
+    </synonym>
+    <synonym>
+      <key>uk</key>
+      <value>Департаменти, які фактично знаходяться в приміщенні</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>500</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+  </attributes>
+  <dimensions uuid="8e5f1222-4c1b-4a29-a14a-59a8f8ba79ab">
+    <name>Помещение</name>
+    <synonym>
+      <key>ru</key>
+      <value>Помещение</value>
+    </synonym>
+    <synonym>
+      <key>uk</key>
+      <value>Приміщення</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.гхб_Помещения</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <forms uuid="c5423f6e-a3e5-4e1c-875f-932c60899640">
+    <name>ФормаСписка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма списка</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:InformationRegister>

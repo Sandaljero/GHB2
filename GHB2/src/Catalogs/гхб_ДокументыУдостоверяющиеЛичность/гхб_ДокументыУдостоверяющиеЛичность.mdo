@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="2a384ccd-ad4c-4ff8-bc9c-3ed3be9af3e0">
+  <producedTypes>
+    <objectType typeId="44e52beb-2a52-49ff-ac78-a586147b8e3a" valueTypeId="d18a4c1a-5fe9-4b6b-baac-f159c19b937e"/>
+    <refType typeId="573a69e7-e48d-40c9-a943-e30f39ec8ea4" valueTypeId="bbe1d6a8-14ca-4050-b358-5f3c78cf17e4"/>
+    <selectionType typeId="5876b6b6-8869-431b-b4e3-1bed81fc9d58" valueTypeId="413ed353-920e-444f-93da-a56d0cdfc738"/>
+    <listType typeId="5c8d4f9c-1de3-467e-9a9a-444b9a6898e8" valueTypeId="d4aa435d-7a57-42bb-9f60-59f4b2f1b809"/>
+    <managerType typeId="d309e3cb-8a1e-41dd-9162-ffdbeea287a1" valueTypeId="5693b379-3f13-47b1-b9a7-1ce6b465e387"/>
+  </producedTypes>
+  <name>гхб_ДокументыУдостоверяющиеЛичность</name>
+  <synonym>
+    <key>ru</key>
+    <value>Документы удостоверяющие личность</value>
+  </synonym>
+  <synonym>
+    <key>uk</key>
+    <value>Документи, що засвідчують особу</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.гхб_ДокументыУдостоверяющиеЛичность.StandardAttribute.Description</inputByString>
+  <inputByString>Catalog.гхб_ДокументыУдостоверяющиеЛичность.StandardAttribute.Code</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>3</codeLength>
+  <descriptionLength>150</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <predefined>
+    <items id="ecb35f2c-777c-4acb-bdbd-48627dfee240">
+      <name>IDкарта</name>
+      <description>ID картка</description>
+      <code xsi:type="core:StringValue">
+        <value>005</value>
+      </code>
+    </items>
+    <items id="dd2c1750-1323-4606-bdf8-32ba32211fbd">
+      <name>ЗагранПаспорт</name>
+      <description>Закордонний паспорт</description>
+      <code xsi:type="core:StringValue">
+        <value>006</value>
+      </code>
+    </items>
+    <items id="3d9863b4-d05e-40a2-b6dc-cb90657825c2">
+      <name>Паспорт</name>
+      <description>Паспорт</description>
+      <code xsi:type="core:StringValue">
+        <value>001</value>
+      </code>
+    </items>
+    <items id="d30a5394-5df0-451b-9c40-62f135cdf211">
+      <name>СправкаНаПостоянноеПроживание</name>
+      <description>Посвідка на постійне проживання в Україні</description>
+      <code xsi:type="core:StringValue">
+        <value>002</value>
+      </code>
+    </items>
+    <items id="27bee29d-e818-409c-b15c-12dd9114ebd7">
+      <name>СправкаНаВременноеПроживание</name>
+      <description>Посвідка на тимчасове проживання в Україні</description>
+      <code xsi:type="core:StringValue">
+        <value>003</value>
+      </code>
+    </items>
+    <items id="dc791c1e-f1c7-4ee8-98ac-33f5476e0b01">
+      <name>СвидетельствоОРождении</name>
+      <description>Свідоцтво про народження</description>
+      <code xsi:type="core:StringValue">
+        <value>004</value>
+      </code>
+    </items>
+  </predefined>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+  <defaultObjectForm>Catalog.гхб_ДокументыУдостоверяющиеЛичность.Form.ФормаЭлемента</defaultObjectForm>
+  <forms uuid="46bb35f5-7983-4b3e-9328-e3e081b9b4c4">
+    <name>ФормаЭлемента</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма элемента</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:Catalog>

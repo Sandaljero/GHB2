@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Role xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="158239e7-6cdc-41b2-9352-80652f389bb0">
+  <name>гхб_ПарковочныеМестаАдминистратор</name>
+  <synonym>
+    <key>ru</key>
+    <value>Парковочные места (администратор)</value>
+  </synonym>
+  <synonym>
+    <key>uk</key>
+    <value>Паркувальні місця (адміністратор)</value>
+  </synonym>
+</mdclass:Role>

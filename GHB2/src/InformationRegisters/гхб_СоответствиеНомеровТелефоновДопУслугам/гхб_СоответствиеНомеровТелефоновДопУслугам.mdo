@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="47099460-f1a0-4829-833f-5b23c4b628cb">
+  <producedTypes>
+    <selectionType typeId="b53306f9-bad0-4296-853d-666d84b0a64b" valueTypeId="3c9160ac-a309-4d6e-88e0-4179fbe2f97d"/>
+    <listType typeId="f7b78612-2db3-4bed-bd1d-76988b5c8cbf" valueTypeId="7d36e1f9-2bd8-4557-97a7-0ea5c2438cbd"/>
+    <managerType typeId="27ebb6b3-7f01-4b5d-80a3-4299d4626b0d" valueTypeId="1170967c-50b7-4425-876a-a5f220a0fc41"/>
+    <recordSetType typeId="a46d4f7f-751d-4026-864b-ad6a7c27b5fb" valueTypeId="8793c06d-1de3-42cd-9126-13deabea42e7"/>
+    <recordKeyType typeId="178f8969-f7e6-46a7-9379-be03e2026546" valueTypeId="0d79d063-4145-472d-8e7b-95f198fab059"/>
+    <recordType typeId="7b00308c-d876-4233-b932-3d24dc6c48d9" valueTypeId="5069691b-c772-48c6-9b51-c989d12aa73b"/>
+    <recordManagerType typeId="595eb0e8-3de7-4b12-9f1d-7267afad4864" valueTypeId="5ae850dc-75fc-4c9c-a0ae-658e00108b0f"/>
+  </producedTypes>
+  <name>гхб_СоответствиеНомеровТелефоновДопУслугам</name>
+  <synonym>
+    <key>ru</key>
+    <value>Соответствие номеров телефонов доп услугам</value>
+  </synonym>
+  <synonym>
+    <key>uk</key>
+    <value>Відповідність номерів телефонів доп послугам</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <editType>InDialog</editType>
+  <defaultListForm>InformationRegister.гхб_СоответствиеНомеровТелефоновДопУслугам.Form.ФормаСписка</defaultListForm>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Active</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>LineNumber</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Recorder</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Period</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <informationRegisterPeriodicity>Day</informationRegisterPeriodicity>
+  <writeMode>RecorderSubordinate</writeMode>
+  <resources uuid="8a772fd0-15be-49be-ab4f-faaf678aab1c">
+    <name>Сумма</name>
+    <synonym>
+      <key>ru</key>
+      <value>Сумма</value>
+    </synonym>
+    <synonym>
+      <key>uk</key>
+      <value>Сума</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>10</precision>
+        <scale>2</scale>
+        <nonNegative>true</nonNegative>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <dimensions uuid="34c1f247-73a1-494a-9de4-df7014c2c4ab">
+    <name>БазаХолдинга</name>
+    <synonym>
+      <key>ru</key>
+      <value>База холдинга</value>
+    </synonym>
+    <synonym>
+      <key>uk</key>
+      <value>База холдингу</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.гхб_БазыХолдинга</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="f937f694-a79f-4698-9476-be7b7e5f5c9f">
+    <name>НомерТелефона</name>
+    <synonym>
+      <key>ru</key>
+      <value>Номер телефона</value>
+    </synonym>
+    <synonym>
+      <key>uk</key>
+      <value>Номер телефону</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.гхб_НомераТелефонов</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <denyIncompleteValues>true</denyIncompleteValues>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <master>true</master>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="14f39757-a41a-4071-8f7e-a1c3ced44a0e">
+    <name>Услуга</name>
+    <synonym>
+      <key>ru</key>
+      <value>Услуга</value>
+    </synonym>
+    <synonym>
+      <key>uk</key>
+      <value>Послуга</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.гхб_ДополнительныеУслугиДляНомеровТелефонов</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <denyIncompleteValues>true</denyIncompleteValues>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <master>true</master>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <forms uuid="886cfacc-5ce4-4e16-833f-c16cfa12e16a">
+    <name>ФормаСписка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма списка</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:InformationRegister>

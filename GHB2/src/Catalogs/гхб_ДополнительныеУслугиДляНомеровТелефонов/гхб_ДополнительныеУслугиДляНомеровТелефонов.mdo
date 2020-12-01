@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="536f585c-88b0-4ed5-ad2b-e0a06c2f5297">
+  <producedTypes>
+    <objectType typeId="0d13f736-4f49-4e4f-be5c-d66ec77d76b8" valueTypeId="facf0c7e-7231-4aa5-9e4c-f895672f8f29"/>
+    <refType typeId="1be9a309-70c2-4c11-92dc-3a4801e7e871" valueTypeId="c02657eb-bba2-4e44-ac4a-12b41637d498"/>
+    <selectionType typeId="e5088c74-25c1-4fd2-bfc0-92a854c0f55a" valueTypeId="18a06102-8c6f-4d4b-a9c6-aa141779b5a5"/>
+    <listType typeId="18417f79-5ce3-4560-85b5-1fbc5c12e017" valueTypeId="03932eae-b107-4c6d-8259-58c4b2861fbf"/>
+    <managerType typeId="a6e5cc9a-7ea7-4616-a8ad-e8c1f98bd8c2" valueTypeId="55eaf905-9d02-40ce-99f9-e96026210b45"/>
+  </producedTypes>
+  <name>гхб_ДополнительныеУслугиДляНомеровТелефонов</name>
+  <synonym>
+    <key>ru</key>
+    <value>Дополнительные услуги для номеров телефонов</value>
+  </synonym>
+  <synonym>
+    <key>uk</key>
+    <value>Додаткові послуги для номерів телефонів</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.гхб_ДополнительныеУслугиДляНомеровТелефонов.StandardAttribute.Description</inputByString>
+  <inputByString>Catalog.гхб_ДополнительныеУслугиДляНомеровТелефонов.StandardAttribute.Code</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>9</codeLength>
+  <descriptionLength>25</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+  <defaultObjectForm>Catalog.гхб_ДополнительныеУслугиДляНомеровТелефонов.Form.ФормаЭлемента</defaultObjectForm>
+  <defaultListForm>Catalog.гхб_ДополнительныеУслугиДляНомеровТелефонов.Form.ФормаСписка</defaultListForm>
+  <defaultChoiceForm>Catalog.гхб_ДополнительныеУслугиДляНомеровТелефонов.Form.ФормаВыбора</defaultChoiceForm>
+  <attributes uuid="68623465-45f9-42f7-af09-485e68cb8867">
+    <name>Сумма</name>
+    <synonym>
+      <key>ru</key>
+      <value>Сумма</value>
+    </synonym>
+    <synonym>
+      <key>uk</key>
+      <value>Сума</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>10</precision>
+        <scale>2</scale>
+        <nonNegative>true</nonNegative>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="4b0579c6-7e34-40d5-9482-6e20170d3034">
+    <name>НеАктуально</name>
+    <synonym>
+      <key>ru</key>
+      <value>Не актуально</value>
+    </synonym>
+    <synonym>
+      <key>uk</key>
+      <value>Не актуально</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <forms uuid="9c1d0a97-f68d-4020-b900-11b20667c0fc">
+    <name>ФормаЭлемента</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма элемента</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="3bfef0d4-af8c-4db2-90a4-66475722b744">
+    <name>ФормаСписка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма списка</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="75f1d313-a9e9-4a10-973d-36ab0f6fc471">
+    <name>ФормаВыбора</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма выбора</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:Catalog>

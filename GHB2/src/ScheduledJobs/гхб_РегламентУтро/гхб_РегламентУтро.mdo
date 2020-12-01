@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:ScheduledJob xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="4d4733cb-5028-4b7e-8cc9-cbf38c7f13f2">
+  <name>гхб_РегламентУтро</name>
+  <synonym>
+    <key>ru</key>
+    <value>Регламент утро</value>
+  </synonym>
+  <methodName>CommonModule.гхб_РегламентныеЗаданияСервер.РегламентУтро</methodName>
+  <use>true</use>
+  <predefined>true</predefined>
+  <restartCountOnFailure>3</restartCountOnFailure>
+  <restartIntervalOnFailure>10</restartIntervalOnFailure>
+</mdclass:ScheduledJob>

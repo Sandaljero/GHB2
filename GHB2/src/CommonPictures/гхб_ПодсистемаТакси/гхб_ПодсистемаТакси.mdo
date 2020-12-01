@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonPicture xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="edaa27c2-622b-4f0c-8eb4-36ae6ef13772">
+  <name>гхб_ПодсистемаТакси</name>
+  <synonym>
+    <key>ru</key>
+    <value>Подсистема такси</value>
+  </synonym>
+</mdclass:CommonPicture>

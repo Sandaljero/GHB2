@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="a37862e2-45cb-4de5-9eb1-490c2295deb3">
+  <producedTypes>
+    <refType typeId="d9008c6c-b43e-4e16-bdd1-54996bb6b8a5" valueTypeId="05d4f987-ed0c-4e22-adbd-ade2835fff82"/>
+    <listType typeId="d75c8371-9484-4116-b13f-bbfc825151bd" valueTypeId="a2687821-b4b0-492b-aeb2-71253496f921"/>
+    <managerType typeId="ad7b8c10-35aa-4df3-8112-b608d3ebfc05" valueTypeId="98e1dcb2-23a4-4186-8d67-02e0c6bdf3c4"/>
+  </producedTypes>
+  <name>гхб_ТипыОбменовДляБазХолдинга</name>
+  <synonym>
+    <key>ru</key>
+    <value>Типы обменов для баз холдинга</value>
+  </synonym>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="75d68889-d3b4-4455-8b34-f30ee233e79e">
+    <name>БлокировкаПользователя</name>
+    <synonym>
+      <key>ru</key>
+      <value>Блокировка пользователя</value>
+    </synonym>
+    <synonym>
+      <key>uk</key>
+      <value>Блокування користувача</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="2e606901-93c0-4db3-9d11-f4c92f9ffb01">
+    <name>ЗаписьКонтактнойИнформации</name>
+    <synonym>
+      <key>ru</key>
+      <value>Запись контактной информации</value>
+    </synonym>
+    <synonym>
+      <key>uk</key>
+      <value>Запис контактної інформації</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="44a96f15-f417-4be5-af1b-100cec873444">
+    <name>МиграцияОбъекта</name>
+    <synonym>
+      <key>ru</key>
+      <value>Миграция объекта</value>
+    </synonym>
+    <synonym>
+      <key>uk</key>
+      <value>Міграція обекту</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

@@ -1,0 +1,506 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="438aebe6-46dc-4691-942d-d46edc2dd33a">
+  <producedTypes>
+    <objectType typeId="927712f0-5d47-4569-b8fe-4eb668c3066c" valueTypeId="b2b10634-3b31-4734-bdc4-d1260df23321"/>
+    <refType typeId="b5680312-3f11-4929-903e-4ed7964b87de" valueTypeId="5fee1f3a-fd50-4dce-804e-c4c04c0ee8fe"/>
+    <selectionType typeId="3f50f919-7c35-4385-9b39-cc9fd54f6d72" valueTypeId="61e7e695-8a64-4071-870e-b01c140ec2a6"/>
+    <listType typeId="2883eb78-2fe7-4b44-bf51-b13ec8c49c82" valueTypeId="93d643c0-6a52-4576-bfaa-38c85e1fc632"/>
+    <managerType typeId="2cb7f485-b09c-4e2d-b039-87419f19451b" valueTypeId="d853442b-0e72-4649-ab78-b0935265a752"/>
+  </producedTypes>
+  <name>гхб_СпискиДоступаНаЛокацию</name>
+  <synonym>
+    <key>ru</key>
+    <value>Списки доступа на локацию</value>
+  </synonym>
+  <synonym>
+    <key>uk</key>
+    <value>Списки доступу на локацію</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Document.гхб_СпискиДоступаНаЛокацию.StandardAttribute.Number</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <numberType>String</numberType>
+  <numberLength>9</numberLength>
+  <numberAllowedLength>Variable</numberAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultObjectForm>Document.гхб_СпискиДоступаНаЛокацию.Form.ФормаДокумента</defaultObjectForm>
+  <defaultListForm>Document.гхб_СпискиДоступаНаЛокацию.Form.ФормаСписка</defaultListForm>
+  <defaultChoiceForm>Document.гхб_СпискиДоступаНаЛокацию.Form.ФормаВыбора</defaultChoiceForm>
+  <registerRecords>InformationRegister.гхб_СпискиДоступаНаЛокацию</registerRecords>
+  <postInPrivilegedMode>true</postInPrivilegedMode>
+  <unpostInPrivilegedMode>true</unpostInPrivilegedMode>
+  <attributes uuid="28ea9f88-a525-4ff8-a786-6412c9e097a5">
+    <name>ДатаНачала</name>
+    <synonym>
+      <key>ru</key>
+      <value>Дата начала</value>
+    </synonym>
+    <synonym>
+      <key>uk</key>
+      <value>Дата початку</value>
+    </synonym>
+    <type>
+      <types>Date</types>
+      <dateQualifiers>
+        <dateFractions>Date</dateFractions>
+      </dateQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="896ebc2c-c8e6-49e2-963e-bfbb200dea16">
+    <name>ДатаОкончания</name>
+    <synonym>
+      <key>ru</key>
+      <value>Дата окончания</value>
+    </synonym>
+    <synonym>
+      <key>uk</key>
+      <value>Дата закінчення</value>
+    </synonym>
+    <type>
+      <types>Date</types>
+      <dateQualifiers>
+        <dateFractions>Date</dateFractions>
+      </dateQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="53a6b7ef-1ffa-4379-8df4-72f8d3525693">
+    <name>ПеренесеноИзБазыРесурсов</name>
+    <synonym>
+      <key>ru</key>
+      <value>Перенесено из базы ресурсов</value>
+    </synonym>
+    <synonym>
+      <key>uk</key>
+      <value>Перенесене із бази ресурсів</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="f055959e-62b0-4afa-8176-86649d8dd695">
+    <name>ИдентификаторДокументаБазыРесурсов</name>
+    <synonym>
+      <key>ru</key>
+      <value>Идентификатор документа базы ресурсов</value>
+    </synonym>
+    <synonym>
+      <key>uk</key>
+      <value>Ідентифікатор документа бази ресурсів</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>36</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <forms uuid="75ca3f56-ad58-4260-9ccd-ee9b9193f096">
+    <name>ФормаСписка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма списка</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="5b5efb6c-0220-4df9-8279-3d940262e7c3">
+    <name>ФормаВыбора</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма выбора</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="7ce0146a-9e41-4cb1-bbe0-9a56ef203178">
+    <name>ФормаДокумента</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма документа</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <tabularSections uuid="012e99b6-b4de-426a-a33e-60c88d25ba9b">
+    <producedTypes>
+      <objectType typeId="b320e0c5-eb7e-41be-9897-af00f76987ff" valueTypeId="d706aeae-d05c-420d-8e0f-ed84737128ef"/>
+      <rowType typeId="2a2514fa-ddc1-46e3-a604-e6e8d1414f65" valueTypeId="6ec37d69-3ec5-4c7f-80fe-1993dc5a6afb"/>
+    </producedTypes>
+    <name>Данные</name>
+    <synonym>
+      <key>ru</key>
+      <value>Данные</value>
+    </synonym>
+    <attributes uuid="9e00d22d-4afc-4534-8488-19b530850ee4">
+      <name>Дивизион</name>
+      <synonym>
+        <key>ru</key>
+        <value>Дивизион</value>
+      </synonym>
+      <synonym>
+        <key>uk</key>
+        <value>Дивізіон</value>
+      </synonym>
+      <type>
+        <types>CatalogRef.гхб_Дивизионы</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <choiceFoldersAndItems>FoldersAndItems</choiceFoldersAndItems>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="f909e667-44c7-4775-a48a-9fb4d6c43948">
+      <name>Функция</name>
+      <synonym>
+        <key>ru</key>
+        <value>Функция</value>
+      </synonym>
+      <synonym>
+        <key>uk</key>
+        <value>Функція</value>
+      </synonym>
+      <type>
+        <types>CatalogRef.гхб_Дивизионы</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <choiceFoldersAndItems>FoldersAndItems</choiceFoldersAndItems>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="5a05cfd3-fc1d-43eb-91fd-a73503dbff16">
+      <name>Локация</name>
+      <synonym>
+        <key>ru</key>
+        <value>Локация</value>
+      </synonym>
+      <synonym>
+        <key>uk</key>
+        <value>Локація</value>
+      </synonym>
+      <type>
+        <types>CatalogRef.гхб_Помещения</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <choiceFoldersAndItems>Folders</choiceFoldersAndItems>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="472bdb6e-86c8-4029-9ad0-298a031aec84">
+      <name>Сотрудник</name>
+      <synonym>
+        <key>ru</key>
+        <value>Сотрудник</value>
+      </synonym>
+      <synonym>
+        <key>uk</key>
+        <value>Співробітник</value>
+      </synonym>
+      <type>
+        <types>CatalogRef.гхб_ФизическиеЛица</types>
+        <types>String</types>
+        <stringQualifiers>
+          <length>100</length>
+        </stringQualifiers>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="4c342331-5023-434b-9674-99b53b589641">
+      <name>КритичноНеобходимоРаботатьВОфисе</name>
+      <synonym>
+        <key>ru</key>
+        <value>Критично необходимо работать в офисе</value>
+      </synonym>
+      <type>
+        <types>Boolean</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="570dd8fe-e4cc-4756-85ff-6d37239b1249">
+      <name>Гость</name>
+      <synonym>
+        <key>ru</key>
+        <value>Гость</value>
+      </synonym>
+      <synonym>
+        <key>uk</key>
+        <value>Гість</value>
+      </synonym>
+      <type>
+        <types>Boolean</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="f55cccb6-b136-44ed-94e0-cdefe3071085">
+      <name>ГостьОписание</name>
+      <synonym>
+        <key>ru</key>
+        <value>Гость: цель визита, ФИО и номер контактного телефона встречающего</value>
+      </synonym>
+      <synonym>
+        <key>uk</key>
+        <value>Гість: мета візиту, ПІБ і номер контактного телефону зустрічаючого</value>
+      </synonym>
+      <type>
+        <types>String</types>
+        <stringQualifiers>
+          <length>150</length>
+        </stringQualifiers>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="7e059109-4edd-40df-8224-46f09fbd0d75">
+      <name>Дата1</name>
+      <synonym>
+        <key>ru</key>
+        <value>Дата1</value>
+      </synonym>
+      <type>
+        <types>Boolean</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="3ca5cd55-58fb-42c4-82e3-54b32601f9f9">
+      <name>Дата2</name>
+      <synonym>
+        <key>ru</key>
+        <value>Дата2</value>
+      </synonym>
+      <type>
+        <types>Boolean</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="d010baf8-932e-46df-8a6a-f1306a6cb78f">
+      <name>Дата3</name>
+      <synonym>
+        <key>ru</key>
+        <value>Дата3</value>
+      </synonym>
+      <type>
+        <types>Boolean</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="cc7e6afc-7e6b-4f40-861c-fc54d40d4892">
+      <name>Дата4</name>
+      <synonym>
+        <key>ru</key>
+        <value>Дата4</value>
+      </synonym>
+      <type>
+        <types>Boolean</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="268ce168-cd9a-4279-a968-d6d91127378d">
+      <name>Дата5</name>
+      <synonym>
+        <key>ru</key>
+        <value>Дата5</value>
+      </synonym>
+      <type>
+        <types>Boolean</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="627efb24-0692-44d8-b907-24030ddc13cd">
+      <name>Дата6</name>
+      <synonym>
+        <key>ru</key>
+        <value>Дата6</value>
+      </synonym>
+      <type>
+        <types>Boolean</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="dbf7ed00-0e96-487b-84e4-b260a644404b">
+      <name>Дата7</name>
+      <synonym>
+        <key>ru</key>
+        <value>Дата7</value>
+      </synonym>
+      <type>
+        <types>Boolean</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+  </tabularSections>
+  <tabularSections uuid="56339f9a-c6ca-4b1a-9325-b412deed6b81">
+    <producedTypes>
+      <objectType typeId="6c99d422-37d6-4365-a7c5-61ab8351c400" valueTypeId="37eceee4-e445-4f2a-9b7a-c63e05319e23"/>
+      <rowType typeId="5744cb86-c95e-4575-adbc-584f533ed2e6" valueTypeId="d33b7743-a755-40c2-9a14-567ff7d82fbc"/>
+    </producedTypes>
+    <name>ДанныеПеренесенныеИзБазыРесурсов</name>
+    <synonym>
+      <key>ru</key>
+      <value>Данные, перенесенные из базы ресурсов</value>
+    </synonym>
+    <synonym>
+      <key>uk</key>
+      <value>Дані, перенесені із бази ресурсів</value>
+    </synonym>
+    <attributes uuid="8bb8f4a4-2e06-48e3-9ca7-d398c5e43bf2">
+      <name>Локация</name>
+      <synonym>
+        <key>ru</key>
+        <value>Локация</value>
+      </synonym>
+      <synonym>
+        <key>uk</key>
+        <value>Локація</value>
+      </synonym>
+      <type>
+        <types>CatalogRef.гхб_Помещения</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <choiceFoldersAndItems>Folders</choiceFoldersAndItems>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="feda0c8d-53d9-440f-8937-3386c427998e">
+      <name>Сотрудник</name>
+      <synonym>
+        <key>ru</key>
+        <value>Сотрудник</value>
+      </synonym>
+      <synonym>
+        <key>uk</key>
+        <value>Співробітник</value>
+      </synonym>
+      <type>
+        <types>CatalogRef.гхб_ФизическиеЛица</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="f2d9635a-e864-4ab0-894e-0d5ae1d15dab">
+      <name>СотрудникСтрока</name>
+      <synonym>
+        <key>ru</key>
+        <value>Сотрудник (строка)</value>
+      </synonym>
+      <synonym>
+        <key>uk</key>
+        <value>Співробітник (строка)</value>
+      </synonym>
+      <type>
+        <types>String</types>
+        <stringQualifiers>
+          <length>50</length>
+        </stringQualifiers>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="b85f8ded-5353-40f6-889b-505711e518c1">
+      <name>ДатаНачала</name>
+      <synonym>
+        <key>ru</key>
+        <value>Дата начала</value>
+      </synonym>
+      <synonym>
+        <key>uk</key>
+        <value>Дата початку</value>
+      </synonym>
+      <type>
+        <types>Date</types>
+        <dateQualifiers>
+          <dateFractions>Date</dateFractions>
+        </dateQualifiers>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="4cad88ee-58dc-4b21-a384-7779e002dae8">
+      <name>ДатаОкончания</name>
+      <synonym>
+        <key>ru</key>
+        <value>Дата окончания</value>
+      </synonym>
+      <synonym>
+        <key>uk</key>
+        <value>Дата закінчення</value>
+      </synonym>
+      <type>
+        <types>Date</types>
+        <dateQualifiers>
+          <dateFractions>Date</dateFractions>
+        </dateQualifiers>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+  </tabularSections>
+</mdclass:Document>

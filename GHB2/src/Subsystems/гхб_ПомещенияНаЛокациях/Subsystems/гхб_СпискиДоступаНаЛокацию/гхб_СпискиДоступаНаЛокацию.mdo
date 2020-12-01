@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="b04aab84-c58c-473c-ab9a-61d1f72e79e4">
+  <name>гхб_СпискиДоступаНаЛокацию</name>
+  <synonym>
+    <key>ru</key>
+    <value>Списки доступа на локацию</value>
+  </synonym>
+  <synonym>
+    <key>uk</key>
+    <value>Списки доступу на локацію</value>
+  </synonym>
+  <includeHelpInContents>true</includeHelpInContents>
+  <includeInCommandInterface>true</includeInCommandInterface>
+  <content>Document.гхб_СпискиДоступаНаЛокацию</content>
+  <content>InformationRegister.гхб_СпискиДоступаНаЛокацию</content>
+  <content>InformationRegister.гхб_КризисМенеджерыСпискиДоступа</content>
+  <parentSubsystem>Subsystem.гхб_ПомещенияНаЛокациях</parentSubsystem>
+</mdclass:Subsystem>

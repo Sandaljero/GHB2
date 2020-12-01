@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonPicture xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="a76d131e-cdfc-4de7-be98-5450e8c939d5">
+  <name>гхб_KISWiki</name>
+  <synonym>
+    <key>ru</key>
+    <value>KIS Wiki</value>
+  </synonym>
+</mdclass:CommonPicture>

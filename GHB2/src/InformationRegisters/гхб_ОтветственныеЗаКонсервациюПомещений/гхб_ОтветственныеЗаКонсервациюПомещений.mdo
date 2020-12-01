@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="ea03130e-5538-4fdd-b806-5382cdbf8f0e">
+  <producedTypes>
+    <selectionType typeId="df3d6cce-15d1-4a92-9592-9ad2e7d640dc" valueTypeId="c874c35d-d032-4af0-bac8-daecbe24025c"/>
+    <listType typeId="07529ff5-9cb0-42ed-9bf1-91cc5a4ec042" valueTypeId="4b5b544d-884f-40f1-9bee-95268d18be40"/>
+    <managerType typeId="4d05a944-ccaa-440c-9ad8-a237235d078d" valueTypeId="dfc21657-8573-452c-8261-3e1b2b3fad3d"/>
+    <recordSetType typeId="05caeeca-00b1-46f8-ada9-60ebc9db3b71" valueTypeId="b93dff03-eb53-45c3-8dbb-df28685bf529"/>
+    <recordKeyType typeId="d151e225-bbe8-46f4-b9dc-d666230471d4" valueTypeId="a581c782-caeb-43e9-bb39-6a89c59ca53e"/>
+    <recordType typeId="e8e60394-e52f-4307-8016-4665d5027b56" valueTypeId="bd50f27f-885e-4557-bd04-5e1e47aebfc9"/>
+    <recordManagerType typeId="cb2c234b-9762-40cf-87be-b5daa9be7c65" valueTypeId="a6072f1b-463a-4c19-9f1f-8dbeba11a7ed"/>
+  </producedTypes>
+  <name>гхб_ОтветственныеЗаКонсервациюПомещений</name>
+  <synonym>
+    <key>ru</key>
+    <value>Ответственные за консервацию помещений</value>
+  </synonym>
+  <synonym>
+    <key>uk</key>
+    <value>Відповідальні за консервацію приміщень</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <editType>InDialog</editType>
+  <defaultListForm>InformationRegister.гхб_ОтветственныеЗаКонсервациюПомещений.Form.ФормаСписка</defaultListForm>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Active</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>LineNumber</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Recorder</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Period</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <informationRegisterPeriodicity>Second</informationRegisterPeriodicity>
+  <writeMode>RecorderSubordinate</writeMode>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <attributes uuid="e147747a-68cc-40f7-a9ae-d3703f140a41">
+    <name>Закрыть</name>
+    <synonym>
+      <key>ru</key>
+      <value>Закрыть</value>
+    </synonym>
+    <synonym>
+      <key>uk</key>
+      <value>Закрити</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <dimensions uuid="d344f53e-a3a9-4b5b-8faa-ace2b5e48e08">
+    <name>Помещение</name>
+    <synonym>
+      <key>ru</key>
+      <value>Помещение</value>
+    </synonym>
+    <synonym>
+      <key>uk</key>
+      <value>Приміщення</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.гхб_Помещения</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="141cced8-ef6f-44ae-9c85-34ce8d9dafaf">
+    <name>ОтветственныйЗаКонсервациюПомещения</name>
+    <synonym>
+      <key>ru</key>
+      <value>Ответственный за консервацию помещения</value>
+    </synonym>
+    <synonym>
+      <key>uk</key>
+      <value>Відповідальний за консервацію приміщення</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.гхб_ФизическиеЛица</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <forms uuid="1eb91354-3a23-48f9-8a24-df1fc99a7c72">
+    <name>ФормаСписка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма списка</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:InformationRegister>

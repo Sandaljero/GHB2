@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="8902c832-d404-41d8-a259-95cb131b2622">
+  <producedTypes>
+    <objectType typeId="0b17f042-996d-4d3b-8ec1-d728ae0838b1" valueTypeId="51d13e0b-6240-4679-b8bc-fe31a252f924"/>
+    <refType typeId="c9968119-14f7-419a-8cd1-dee789ec768a" valueTypeId="7223f257-6ab1-4dd1-8071-0a073b10c7fa"/>
+    <selectionType typeId="87a572ed-9e2f-418c-9319-fb48fa4c6643" valueTypeId="c9846902-82b4-4d37-b1c0-4182951a64d6"/>
+    <listType typeId="56c3029f-87e0-480f-bf47-cea3a1056782" valueTypeId="0611b51e-cb3f-43e9-9286-a7eddf1c989c"/>
+    <managerType typeId="6fee4875-78b7-4b1f-bad1-2192e68107fd" valueTypeId="d849975d-b6d4-4f4c-9879-748e65a716ca"/>
+  </producedTypes>
+  <name>гхб_ПрочиеФизическиеЛица</name>
+  <synonym>
+    <key>ru</key>
+    <value>Прочие физические лица</value>
+  </synonym>
+  <synonym>
+    <key>uk</key>
+    <value>Інші фізичні особи</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.гхб_ПрочиеФизическиеЛица.StandardAttribute.Description</inputByString>
+  <inputByString>Catalog.гхб_ПрочиеФизическиеЛица.StandardAttribute.Code</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <hierarchical>true</hierarchical>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>9</codeLength>
+  <descriptionLength>150</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+  <defaultObjectForm>Catalog.гхб_ПрочиеФизическиеЛица.Form.ФормаЭлемента</defaultObjectForm>
+  <defaultFolderForm>Catalog.гхб_ПрочиеФизическиеЛица.Form.ФормаГруппы</defaultFolderForm>
+  <defaultListForm>Catalog.гхб_ПрочиеФизическиеЛица.Form.ФормаСписка</defaultListForm>
+  <defaultChoiceForm>Catalog.гхб_ПрочиеФизическиеЛица.Form.ФормаВыбора</defaultChoiceForm>
+  <defaultFolderChoiceForm>Catalog.гхб_ПрочиеФизическиеЛица.Form.ФормаВыбораГруппы</defaultFolderChoiceForm>
+  <attributes uuid="df71b72d-27e7-44f9-88e0-70934fcef16e">
+    <name>ИНН</name>
+    <synonym>
+      <key>ru</key>
+      <value>ИНН</value>
+    </synonym>
+    <synonym>
+      <key>uk</key>
+      <value>ІПН</value>
+    </synonym>
+    <comment>(Регл)</comment>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>12</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <indexing>Index</indexing>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="2feb814d-b580-4bc3-8680-be1dabf296bc">
+    <name>Почта</name>
+    <synonym>
+      <key>ru</key>
+      <value>Почта</value>
+    </synonym>
+    <synonym>
+      <key>uk</key>
+      <value>Пошта</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>50</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="76165b68-9dbe-456a-b23f-5ec078abe189">
+    <name>Телефон</name>
+    <synonym>
+      <key>ru</key>
+      <value>Телефон</value>
+    </synonym>
+    <synonym>
+      <key>uk</key>
+      <value>Телефон</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>50</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <forms uuid="f59bf509-9ab3-4e5c-ac70-3e2a8021c1bf">
+    <name>ФормаГруппы</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма группы</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="2ac5211d-e8ba-4441-9afc-4ac5e055ba01">
+    <name>ФормаСписка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма списка</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="d84264a1-f97a-4292-855f-72b467506b3a">
+    <name>ФормаВыбора</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма выбора</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="63b42dbf-a80e-4f21-ae86-ac4c480528d5">
+    <name>ФормаВыбораГруппы</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма выбора группы</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="ea856c61-cc64-4ed5-b084-04104fc8c07a">
+    <name>ФормаЭлемента</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма элемента</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:Catalog>

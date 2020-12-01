@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Role xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="2e6a1f0e-18b3-40af-b16e-f14dba2bf765">
+  <name>гхб_МобильнаяСвязьАдминистратор</name>
+  <synonym>
+    <key>ru</key>
+    <value>Мобильная связь администратор</value>
+  </synonym>
+  <synonym>
+    <key>uk</key>
+    <value>Мобільний зв'язок адміністратор</value>
+  </synonym>
+</mdclass:Role>

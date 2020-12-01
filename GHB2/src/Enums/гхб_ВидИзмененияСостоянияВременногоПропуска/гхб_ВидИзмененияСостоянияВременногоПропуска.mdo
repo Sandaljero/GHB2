@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="e2b88751-a08f-49a2-9a0e-f5ba5a068501">
+  <producedTypes>
+    <refType typeId="5f23b080-37df-4426-9fbe-afc525b63dbf" valueTypeId="aa4344c4-9bbb-41b6-9542-c9b891b77614"/>
+    <listType typeId="20cb79e3-0b9e-425f-b9b8-c4f291815c94" valueTypeId="fb0578fd-7041-4ccd-b536-9c5c061361ea"/>
+    <managerType typeId="af8a8eea-cbd4-444f-83ad-8f9fcea296da" valueTypeId="f1c6147f-2037-4637-934d-39c9af324a34"/>
+  </producedTypes>
+  <name>гхб_ВидИзмененияСостоянияВременногоПропуска</name>
+  <synonym>
+    <key>ru</key>
+    <value>Вид изменения состояния временного пропуска</value>
+  </synonym>
+  <synonym>
+    <key>uk</key>
+    <value>Вид зміни стану тимчасового пропуску</value>
+  </synonym>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="a68f3653-7d55-448d-b458-c8850a92ade5">
+    <name>Выдача</name>
+    <synonym>
+      <key>ru</key>
+      <value>Выдача</value>
+    </synonym>
+    <synonym>
+      <key>uk</key>
+      <value>Видача</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="8d44e5e4-e926-419d-86fa-6f180687fb78">
+    <name>АвтоматическаяБлокировка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Автоматическая блокировка</value>
+    </synonym>
+    <synonym>
+      <key>uk</key>
+      <value>Автоматичне блокування</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="1bb432e2-e2ac-416c-bd9e-79b9436bb3bb">
+    <name>Возврат</name>
+    <synonym>
+      <key>ru</key>
+      <value>Возврат</value>
+    </synonym>
+    <synonym>
+      <key>uk</key>
+      <value>Повернення</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="59adefdc-592c-4f06-9001-3441fdf75082">
+  <name>гхб_Кадры</name>
+  <synonym>
+    <key>ru</key>
+    <value>Кадры</value>
+  </synonym>
+  <synonym>
+    <key>uk</key>
+    <value>Кадри</value>
+  </synonym>
+  <comment>#17232</comment>
+  <includeHelpInContents>true</includeHelpInContents>
+  <includeInCommandInterface>true</includeInCommandInterface>
+  <picture xsi:type="core:PictureRef">
+    <picture>CommonPicture.гхб_Кадры</picture>
+  </picture>
+  <content>CommonPicture.гхб_Кадры</content>
+  <content>Role.гхб_Кадры</content>
+  <content>Role.гхб_КадрыПросмотр</content>
+  <content>Role.гхб_БазовыйПросмотрФизическихЛиц</content>
+  <content>Report.гхб_ДанныеСотрудниковГПХ</content>
+  <subsystems>гхб_Документы</subsystems>
+  <subsystems>гхб_Справочники</subsystems>
+  <subsystems>гхб_Отчеты</subsystems>
+  <subsystems>гхб_РегистрыСведений</subsystems>
+</mdclass:Subsystem>

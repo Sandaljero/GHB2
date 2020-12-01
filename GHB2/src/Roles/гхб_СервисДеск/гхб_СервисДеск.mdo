@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Role xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="f4402de2-b2c2-4f31-be2d-acd29053fd70">
+  <name>гхб_СервисДеск</name>
+  <synonym>
+    <key>ru</key>
+    <value>Сервис деск</value>
+  </synonym>
+  <synonym>
+    <key>uk</key>
+    <value>Сервіс деск</value>
+  </synonym>
+  <comment>#17232</comment>
+</mdclass:Role>

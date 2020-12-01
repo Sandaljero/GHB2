@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="4559b30d-061e-4d66-9525-b31fd27073a6">
+  <producedTypes>
+    <selectionType typeId="f3eb15c3-f461-40a6-a7ae-d761e0a818a5" valueTypeId="f6782521-6cbf-47a5-b163-ba44b6c6fbbe"/>
+    <listType typeId="341b6d4f-bc93-4cb0-8c0c-81fb799e1e0d" valueTypeId="41cc261b-e358-4949-9c69-30b8e5725033"/>
+    <managerType typeId="ae636e8f-4df1-42da-aad5-98c5d3efc010" valueTypeId="5edffe92-5a9d-4fbd-8760-5a8edf21eb35"/>
+    <recordSetType typeId="3551e84f-91f6-4ea7-a933-cbe2be67cb0c" valueTypeId="0e654003-2f8c-4f9e-8a74-ab76cb2e308f"/>
+    <recordKeyType typeId="412074c6-0e8d-4ae3-8554-ed4abb326a24" valueTypeId="3112e419-f52e-4f25-a25d-7e26aaacfbd6"/>
+    <recordType typeId="d7d40d92-4cda-4305-b713-a543107c992f" valueTypeId="bad8de31-0f5a-4853-a31a-bccbff5332a8"/>
+    <recordManagerType typeId="e85a9a6a-5778-4ef9-a1e2-7de6bfa0f116" valueTypeId="d1a65f62-5c3c-4eff-bc92-690f2bd1fb46"/>
+  </producedTypes>
+  <name>гхб_ОтветственныеЗаЛокации</name>
+  <synonym>
+    <key>ru</key>
+    <value>Ответственные за локации</value>
+  </synonym>
+  <synonym>
+    <key>uk</key>
+    <value>Відповідальні за локації</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <editType>InDialog</editType>
+  <defaultListForm>InformationRegister.гхб_ОтветственныеЗаЛокации.Form.ФормаСписка</defaultListForm>
+  <informationRegisterPeriodicity>Second</informationRegisterPeriodicity>
+  <writeMode>RecorderSubordinate</writeMode>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <attributes uuid="6e01af76-df50-47f7-a999-04b5bc08b333">
+    <name>ОтветственныйЗаЛокацию</name>
+    <synonym>
+      <key>ru</key>
+      <value>Ответственный за локацию</value>
+    </synonym>
+    <synonym>
+      <key>uk</key>
+      <value>Відповідальний за локацію</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.гхб_ФизическиеЛица</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <dimensions uuid="c75391b9-cffa-4303-b04d-a6b2f7e3b31a">
+    <name>Локация</name>
+    <synonym>
+      <key>ru</key>
+      <value>Локация</value>
+    </synonym>
+    <synonym>
+      <key>uk</key>
+      <value>Локація</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.гхб_Помещения</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <choiceFoldersAndItems>Folders</choiceFoldersAndItems>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <forms uuid="162f7eff-4e37-4ce0-a798-8fcf21c69afe">
+    <name>ФормаСписка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма списка</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:InformationRegister>

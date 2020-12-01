@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="5bf092df-2785-44ad-84fb-7b6ed7a1de4c">
+  <producedTypes>
+    <refType typeId="f1c7c35f-f89d-4989-99eb-9f289df97ead" valueTypeId="523e2d94-f7a2-454c-904a-faf7ea04cda2"/>
+    <listType typeId="a798fc1e-e716-4dd1-82ca-926e9c7c047e" valueTypeId="7f7b77b4-4a84-47d8-85bc-f4723f72bed8"/>
+    <managerType typeId="cdb9da92-36c7-4a75-8fc1-6e13d7b591ed" valueTypeId="60b1614d-75fb-4607-b353-93f2fd951775"/>
+  </producedTypes>
+  <name>гхб_ВидыОперацийУПКТ</name>
+  <synonym>
+    <key>ru</key>
+    <value>Виды операций УПКТ</value>
+  </synonym>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="a2795c76-d408-4e3d-934c-e034c36f07cc">
+    <name>ОткрытиеКабинета</name>
+    <synonym>
+      <key>ru</key>
+      <value>Открытие кабинета</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="034d52be-d63f-4a5d-a4ed-9ca22b8a1b35">
+    <name>РедактированиеКабинета</name>
+    <synonym>
+      <key>ru</key>
+      <value>Редактирование кабинета</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="f8c525f0-1c81-44a4-aa43-e978d27e841e">
+    <name>БлокированиеКабинета</name>
+    <synonym>
+      <key>ru</key>
+      <value>Блокирование кабинета</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

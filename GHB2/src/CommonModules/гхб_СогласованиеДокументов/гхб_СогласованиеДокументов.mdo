@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonModule xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="8abee110-de99-49de-a8b0-b51baffea4b5">
+  <name>гхб_СогласованиеДокументов</name>
+  <synonym>
+    <key>ru</key>
+    <value>Согласование документов</value>
+  </synonym>
+  <synonym>
+    <key>uk</key>
+    <value>Узгодження документів</value>
+  </synonym>
+  <server>true</server>
+  <externalConnection>true</externalConnection>
+  <clientOrdinaryApplication>true</clientOrdinaryApplication>
+  <serverCall>true</serverCall>
+</mdclass:CommonModule>

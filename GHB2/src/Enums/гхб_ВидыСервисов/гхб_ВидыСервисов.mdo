@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="8337ebd3-87dc-432c-88d2-2724e2642f08">
+  <producedTypes>
+    <refType typeId="3ff444c5-4f78-47b7-a036-90cc8f3b8a17" valueTypeId="ae5f23d1-971d-4523-ae9c-a2e8c2bdcc4d"/>
+    <listType typeId="43af294f-0e3f-49f4-b7b3-0fb50e87d218" valueTypeId="cf41a734-153d-42fe-87a9-6e6478683efb"/>
+    <managerType typeId="17a55340-a445-435d-960b-8505854af2df" valueTypeId="e948658c-fa26-4daf-b220-a16727f0546c"/>
+  </producedTypes>
+  <name>гхб_ВидыСервисов</name>
+  <synonym>
+    <key>ru</key>
+    <value>Виды сервисов</value>
+  </synonym>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="dcc970ab-4476-46ea-a4d4-e2c42e9e2188">
+    <name>ws</name>
+    <synonym>
+      <key>ru</key>
+      <value>Ws</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="96d4b7d6-302f-4868-b2a3-3d0ce9318d6c">
+    <name>hs</name>
+    <synonym>
+      <key>ru</key>
+      <value>Hs</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="31911551-d8b9-49ed-9839-97b2f8bbd9ca">
+    <name>com</name>
+    <synonym>
+      <key>ru</key>
+      <value>Com</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

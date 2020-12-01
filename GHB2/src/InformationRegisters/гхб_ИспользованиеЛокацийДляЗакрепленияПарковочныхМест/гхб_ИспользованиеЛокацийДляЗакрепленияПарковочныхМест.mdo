@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="df8631fc-b157-4d60-ac34-a600776ead74">
+  <producedTypes>
+    <selectionType typeId="05b3e659-7dc4-465d-af5d-a520d035555b" valueTypeId="cf991e5b-9244-4bfb-b9a9-95f7751b69d5"/>
+    <listType typeId="5ed53544-6ea8-467b-920e-62ea7a82750f" valueTypeId="9fea9481-dc91-473a-ae05-4c9fb7f003c2"/>
+    <managerType typeId="a08c7299-0d52-4aa2-b787-261bc6f92794" valueTypeId="77a154f9-7adf-4015-aad8-1df10eaf480a"/>
+    <recordSetType typeId="cb695457-0445-4c96-921c-44e97e058396" valueTypeId="1cb93903-b083-4cf3-8b5b-f0efedff3590"/>
+    <recordKeyType typeId="4c66dc2b-456e-48d0-8b68-207a3041efa7" valueTypeId="69829764-9b37-470a-b038-f6e16a2ce9b6"/>
+    <recordType typeId="1e489a03-8a0c-4c4d-8126-eca4d5e7b926" valueTypeId="3816dad1-5a9a-4232-b766-7585a6e8da25"/>
+    <recordManagerType typeId="638954ca-772b-49d3-bc2d-7a225b03f842" valueTypeId="c1f8ba3a-50ce-42e3-8652-ba0af8e47600"/>
+  </producedTypes>
+  <name>гхб_ИспользованиеЛокацийДляЗакрепленияПарковочныхМест</name>
+  <synonym>
+    <key>ru</key>
+    <value>Использование локаций для закрепления парковочных мест</value>
+  </synonym>
+  <synonym>
+    <key>uk</key>
+    <value>Використання локацій для закріплення паркувальних місць</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <editType>InDialog</editType>
+  <defaultListForm>InformationRegister.гхб_ИспользованиеЛокацийДляЗакрепленияПарковочныхМест.Form.ФормаСписка</defaultListForm>
+  <informationRegisterPeriodicity>Second</informationRegisterPeriodicity>
+  <writeMode>RecorderSubordinate</writeMode>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <attributes uuid="bc66d8c7-7c5d-480f-bbde-0887f860c97c">
+    <name>ИспользоватьДляЗакрепленияПарковочныхМест</name>
+    <synonym>
+      <key>ru</key>
+      <value>Использовать для закрепления парковочных мест</value>
+    </synonym>
+    <synonym>
+      <key>uk</key>
+      <value>Використання для закріплення паркувальних місць</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <dimensions uuid="b10cdbf6-0eda-4a82-a94b-32d7926fc65e">
+    <name>Локация</name>
+    <synonym>
+      <key>ru</key>
+      <value>Локация</value>
+    </synonym>
+    <synonym>
+      <key>uk</key>
+      <value>Локація</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.гхб_Помещения</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <choiceFoldersAndItems>Folders</choiceFoldersAndItems>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <forms uuid="9d450c12-a2a7-4b01-b059-9cb53354a02f">
+    <name>ФормаСписка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма списка</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:InformationRegister>

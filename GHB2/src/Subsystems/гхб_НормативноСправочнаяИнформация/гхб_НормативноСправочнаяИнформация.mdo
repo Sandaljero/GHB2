@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="bd140cca-044c-4049-8d5f-e86e48d8bfe1">
+  <name>гхб_НормативноСправочнаяИнформация</name>
+  <synonym>
+    <key>ru</key>
+    <value>Нормативно справочная информация</value>
+  </synonym>
+  <synonym>
+    <key>uk</key>
+    <value>Нормативно довідкова інформація</value>
+  </synonym>
+  <includeHelpInContents>true</includeHelpInContents>
+  <includeInCommandInterface>true</includeInCommandInterface>
+  <picture xsi:type="core:PictureRef">
+    <picture>CommonPicture.гхб_ПодсистемаНСИ</picture>
+  </picture>
+  <content>CommonCommand.гхб_ОткрытьФормуСпискаФизЛиц</content>
+  <content>CommonCommand.гхб_ОткрытьФормуОтправкиSMS</content>
+  <content>Role.гхб_ПолныйПросмотр</content>
+  <content>Role.гхб_РассылкаСМС</content>
+  <content>Role.гхб_НормативноСправочнаяИнформация</content>
+  <content>ScheduledJob.гхб_ЗагрузкаДанныхНСИИзБазХолдинга</content>
+  <content>Enum.гхб_АналитикаОпросаБазХолдинга</content>
+  <content>Enum.гхб_ВидыДоговоровСФизЛицами</content>
+  <content>Enum.гхб_ВидыЗанятостиВОрганизации</content>
+  <content>Enum.гхб_ВидыСервисов</content>
+  <content>Enum.гхб_ПричиныИзмененияСостояния</content>
+  <content>Enum.гхб_ТипыОбменовДляБазХолдинга</content>
+  <content>Enum.гхб_УровниДолжностей</content>
+  <content>Enum.гхб_ПризнакиПозиций</content>
+  <content>Enum.гхб_ТипыЗначенийДляПодбораПриОбмене</content>
+  <content>Role.гхб_ОбменДаннымиСБазамиИсточниками</content>
+  <content>Enum.гхб_ПолФизическихЛиц</content>
+  <content>Role.гхб_ПаспортныеДанные</content>
+  <content>Enum.гпх_ВидыСотрудников</content>
+  <content>Enum.гхб_ТипыБазХолдинга</content>
+  <content>Enum.гхб_ТипыДанныхФайлов</content>
+  <content>Enum.гхб_СостоянияРаботникаОрганизации</content>
+  <content>CommonPicture.гхб_ПодсистемаНСИ</content>
+  <content>CommonCommand.гхб_МоиЗадачиДокументоборот</content>
+  <subsystems>гхб_СправочникиНСИ</subsystems>
+  <subsystems>гхб_ОтчетыНСИ</subsystems>
+  <subsystems>гхб_ДокументыНСИ</subsystems>
+</mdclass:Subsystem>

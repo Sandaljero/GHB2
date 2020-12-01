@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="2c4eeed2-efee-4a1a-8f9d-541f430b3414">
+  <name>гхб_Документы</name>
+  <synonym>
+    <key>ru</key>
+    <value>Документы</value>
+  </synonym>
+  <synonym>
+    <key>uk</key>
+    <value>Документи</value>
+  </synonym>
+  <comment>#17232</comment>
+  <includeHelpInContents>true</includeHelpInContents>
+  <includeInCommandInterface>true</includeInCommandInterface>
+  <parentSubsystem>Subsystem.гхб_СервисДеск</parentSubsystem>
+</mdclass:Subsystem>

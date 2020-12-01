@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:ExchangePlan xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="32535f21-9723-4b21-8e81-820c4e99897d" thisNode="63096022-1c38-4125-bbc5-b6466340e23f">
+  <producedTypes>
+    <objectType typeId="1515ceba-a1f9-43b9-9390-9ac8848b6c79" valueTypeId="f035ed0c-f906-422f-a9a3-4ef237b53b93"/>
+    <refType typeId="f64d36f5-1217-4444-8c3b-b6b66e1190e5" valueTypeId="2157786a-38e1-412e-949f-537583affee4"/>
+    <selectionType typeId="fe1294c8-b3f7-4f73-8338-010b0c148d62" valueTypeId="67633309-0324-47ca-ab9d-e75ecaf7d79c"/>
+    <listType typeId="1fac717f-22d7-4074-80fc-ae42fbcdf3c9" valueTypeId="1997c71b-dd1b-4241-92d8-84971de59b83"/>
+    <managerType typeId="9bedd85e-ff0a-4be9-bfad-2ff6fe58358e" valueTypeId="3ae6dd6e-cb85-48fc-a33e-b5c588e6df83"/>
+  </producedTypes>
+  <name>гхб_ОбменДаннымиБазаОхраны</name>
+  <synonym>
+    <key>ru</key>
+    <value>Обмен данными (база охраны)</value>
+  </synonym>
+  <synonym>
+    <key>uk</key>
+    <value>Обмін даними (база охорони)</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>ExchangePlan.гхб_ОбменДаннымиБазаОхраны.StandardAttribute.Description</inputByString>
+  <inputByString>ExchangePlan.гхб_ОбменДаннымиБазаОхраны.StandardAttribute.Code</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>DontUse</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <codeLength>9</codeLength>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <descriptionLength>25</descriptionLength>
+  <content>
+    <mdObject>Document.гхб_ЗакреплениеСтатусаКонсервацииПомещения</mdObject>
+    <autoRecord>Allow</autoRecord>
+  </content>
+  <content>
+    <mdObject>Catalog.гхб_Помещения</mdObject>
+  </content>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+</mdclass:ExchangePlan>

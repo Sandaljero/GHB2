@@ -1,0 +1,443 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<DataCompositionSchema xmlns="http://v8.1c.ru/8.1/data-composition-system/schema" xmlns:dcscom="http://v8.1c.ru/8.1/data-composition-system/common" xmlns:dcscor="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<dataSource>
+		<name>ИсточникДанных1</name>
+		<dataSourceType>Local</dataSourceType>
+	</dataSource>
+	<dataSet xsi:type="DataSetQuery">
+		<name>Данные</name>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>Договор</dataPath>
+			<field>Договор</field>
+			<title xsi:type="v8:LocalStringType">
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Договор</v8:content>
+				</v8:item>
+				<v8:item>
+					<v8:lang>uk</v8:lang>
+					<v8:content>Договір</v8:content>
+				</v8:item>
+			</title>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>БазаХолдинга</dataPath>
+			<field>БазаХолдинга</field>
+			<title xsi:type="v8:LocalStringType">
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>База холдинга</v8:content>
+				</v8:item>
+				<v8:item>
+					<v8:lang>uk</v8:lang>
+					<v8:content>База холдингу</v8:content>
+				</v8:item>
+			</title>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>Организация</dataPath>
+			<field>Организация</field>
+			<title xsi:type="v8:LocalStringType">
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Организация</v8:content>
+				</v8:item>
+				<v8:item>
+					<v8:lang>uk</v8:lang>
+					<v8:content>Організація</v8:content>
+				</v8:item>
+			</title>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>Функция</dataPath>
+			<field>Функция</field>
+			<title xsi:type="v8:LocalStringType">
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Функция</v8:content>
+				</v8:item>
+				<v8:item>
+					<v8:lang>uk</v8:lang>
+					<v8:content>Функція</v8:content>
+				</v8:item>
+			</title>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>Сотрудник</dataPath>
+			<field>Сотрудник</field>
+			<title xsi:type="v8:LocalStringType">
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Сотрудник</v8:content>
+				</v8:item>
+				<v8:item>
+					<v8:lang>uk</v8:lang>
+					<v8:content>Співробітник</v8:content>
+				</v8:item>
+			</title>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>ФактическийРуководитель</dataPath>
+			<field>ФактическийРуководитель</field>
+			<title xsi:type="v8:LocalStringType">
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Фактический руководитель</v8:content>
+				</v8:item>
+				<v8:item>
+					<v8:lang>uk</v8:lang>
+					<v8:content>Фактичний керівник</v8:content>
+				</v8:item>
+			</title>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>ДатаНачала</dataPath>
+			<field>ДатаНачала</field>
+			<title xsi:type="v8:LocalStringType">
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Дата начала</v8:content>
+				</v8:item>
+				<v8:item>
+					<v8:lang>uk</v8:lang>
+					<v8:content>Дата початку</v8:content>
+				</v8:item>
+			</title>
+			<valueType>
+				<v8:Type>xs:dateTime</v8:Type>
+				<v8:DateQualifiers>
+					<v8:DateFractions>Date</v8:DateFractions>
+				</v8:DateQualifiers>
+			</valueType>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>ДатаОкончания</dataPath>
+			<field>ДатаОкончания</field>
+			<title xsi:type="v8:LocalStringType">
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Дата окончания</v8:content>
+				</v8:item>
+				<v8:item>
+					<v8:lang>uk</v8:lang>
+					<v8:content>Дата закінчення</v8:content>
+				</v8:item>
+			</title>
+			<valueType>
+				<v8:Type>xs:dateTime</v8:Type>
+				<v8:DateQualifiers>
+					<v8:DateFractions>Date</v8:DateFractions>
+				</v8:DateQualifiers>
+			</valueType>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>Дивизион</dataPath>
+			<field>Дивизион</field>
+			<title xsi:type="v8:LocalStringType">
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Дивизион</v8:content>
+				</v8:item>
+				<v8:item>
+					<v8:lang>uk</v8:lang>
+					<v8:content>Дивізіон</v8:content>
+				</v8:item>
+			</title>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>ЦФО</dataPath>
+			<field>ЦФО</field>
+			<title xsi:type="v8:LocalStringType">
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>ЦФО</v8:content>
+				</v8:item>
+				<v8:item>
+					<v8:lang>uk</v8:lang>
+					<v8:content>ЦФВ</v8:content>
+				</v8:item>
+			</title>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>Должность</dataPath>
+			<field>Должность</field>
+			<title xsi:type="v8:LocalStringType">
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Должность</v8:content>
+				</v8:item>
+				<v8:item>
+					<v8:lang>uk</v8:lang>
+					<v8:content>Посада</v8:content>
+				</v8:item>
+			</title>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>ФизЛицо</dataPath>
+			<field>ФизЛицо</field>
+			<title xsi:type="v8:LocalStringType">
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Физ лицо</v8:content>
+				</v8:item>
+				<v8:item>
+					<v8:lang>uk</v8:lang>
+					<v8:content>Фіз особа</v8:content>
+				</v8:item>
+			</title>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>НаименованиеДолжность</dataPath>
+			<field>НаименованиеДолжность</field>
+			<title xsi:type="v8:LocalStringType">
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Наименование должности</v8:content>
+				</v8:item>
+				<v8:item>
+					<v8:lang>uk</v8:lang>
+					<v8:content>Найменування посади</v8:content>
+				</v8:item>
+			</title>
+			<useRestriction>
+				<field>true</field>
+				<group>true</group>
+				<order>true</order>
+			</useRestriction>
+		</field>
+		<dataSource>ИсточникДанных1</dataSource>
+		<query>ВЫБРАТЬ
+    гхб_ДоговорНаВыполнениеРаботСФизЛицом.Ссылка КАК Договор,
+    гхб_ДоговорНаВыполнениеРаботСФизЛицомУсловияДоговора.НомерСтроки КАК НомерСтроки,
+    гхб_ДоговорНаВыполнениеРаботСФизЛицомУсловияДоговора.ЦФО КАК ЦФО,
+    гхб_ДоговорНаВыполнениеРаботСФизЛицомУсловияДоговора.Должность КАК Должность
+ПОМЕСТИТЬ втТабличнаяЧасть
+ИЗ
+    Документ.гхб_ДоговорНаВыполнениеРаботСФизЛицом.УсловияДоговора КАК гхб_ДоговорНаВыполнениеРаботСФизЛицомУсловияДоговора
+        ПРАВОЕ СОЕДИНЕНИЕ Документ.гхб_ДоговорНаВыполнениеРаботСФизЛицом КАК гхб_ДоговорНаВыполнениеРаботСФизЛицом
+        ПО гхб_ДоговорНаВыполнениеРаботСФизЛицомУсловияДоговора.Ссылка = гхб_ДоговорНаВыполнениеРаботСФизЛицом.Ссылка
+            И (НЕ гхб_ДоговорНаВыполнениеРаботСФизЛицом.ПометкаУдаления)
+
+ИНДЕКСИРОВАТЬ ПО
+    Договор
+;
+
+////////////////////////////////////////////////////////////////////////////////
+ВЫБРАТЬ
+    втТабличнаяЧасть.Договор КАК Договор,
+    МАКСИМУМ(втТабличнаяЧасть.НомерСтроки) КАК НомерСтроки
+ПОМЕСТИТЬ втТабЧастьМаксимальныйНомерСтроки
+ИЗ
+    втТабличнаяЧасть КАК втТабличнаяЧасть
+
+СГРУППИРОВАТЬ ПО
+    втТабличнаяЧасть.Договор
+
+ИНДЕКСИРОВАТЬ ПО
+    Договор
+;
+
+////////////////////////////////////////////////////////////////////////////////
+ВЫБРАТЬ
+    гхб_ДоговорНаВыполнениеРаботСФизЛицом.Ссылка КАК Договор,
+    гхб_ДоговорНаВыполнениеРаботСФизЛицом.БазаХолдинга КАК БазаХолдинга,
+    гхб_ДоговорНаВыполнениеРаботСФизЛицом.Организация КАК Организация,
+    гхб_ДоговорНаВыполнениеРаботСФизЛицом.Сотрудник КАК Сотрудник,
+    гхб_ДоговорНаВыполнениеРаботСФизЛицом.ДатаНачала КАК ДатаНачала,
+    гхб_ДоговорНаВыполнениеРаботСФизЛицом.ДатаОкончания КАК ДатаОкончания,
+    гхб_ДоговорНаВыполнениеРаботСФизЛицом.ФактическийРуководитель КАК ФактическийРуководитель,
+    гхб_ДоговорНаВыполнениеРаботСФизЛицом.Дивизион КАК Функция,
+    гхб_Дивизионы.Родитель КАК Дивизион,
+    втТабЧастьМаксимальныйНомерСтроки.НомерСтроки КАК НомерСтроки
+ПОМЕСТИТЬ втДанныеБезДолжности
+ИЗ
+    Документ.гхб_ДоговорНаВыполнениеРаботСФизЛицом КАК гхб_ДоговорНаВыполнениеРаботСФизЛицом
+        ЛЕВОЕ СОЕДИНЕНИЕ Справочник.гхб_Дивизионы КАК гхб_Дивизионы
+        ПО гхб_ДоговорНаВыполнениеРаботСФизЛицом.Дивизион = гхб_Дивизионы.Ссылка
+        ЛЕВОЕ СОЕДИНЕНИЕ втТабЧастьМаксимальныйНомерСтроки КАК втТабЧастьМаксимальныйНомерСтроки
+        ПО гхб_ДоговорНаВыполнениеРаботСФизЛицом.Ссылка = втТабЧастьМаксимальныйНомерСтроки.Договор
+ГДЕ
+    НЕ гхб_ДоговорНаВыполнениеРаботСФизЛицом.ПометкаУдаления
+;
+
+////////////////////////////////////////////////////////////////////////////////
+ВЫБРАТЬ
+    втДанныеБезДолжности.Договор КАК Договор,
+    втДанныеБезДолжности.БазаХолдинга КАК БазаХолдинга,
+    втДанныеБезДолжности.Организация КАК Организация,
+    втДанныеБезДолжности.Сотрудник КАК Сотрудник,
+    втДанныеБезДолжности.ДатаНачала КАК ДатаНачала,
+    втДанныеБезДолжности.ДатаОкончания КАК ДатаОкончания,
+    втДанныеБезДолжности.ФактическийРуководитель КАК ФактическийРуководитель,
+    втДанныеБезДолжности.Функция КАК Функция,
+    втДанныеБезДолжности.Дивизион КАК Дивизион,
+    втТабличнаяЧасть.ЦФО КАК ЦФО,
+    втТабличнаяЧасть.Должность КАК Должность,
+    гхб_ФизическиеЛица.Ссылка КАК ФизЛицо,
+    втТабличнаяЧасть.Должность.Наименование КАК НаименованиеДолжность
+ИЗ
+    втДанныеБезДолжности КАК втДанныеБезДолжности
+        ЛЕВОЕ СОЕДИНЕНИЕ втТабличнаяЧасть КАК втТабличнаяЧасть
+        ПО втДанныеБезДолжности.Договор = втТабличнаяЧасть.Договор
+            И втДанныеБезДолжности.НомерСтроки = втТабличнаяЧасть.НомерСтроки
+        ВНУТРЕННЕЕ СОЕДИНЕНИЕ Справочник.гхб_СотрудникиБазХолдинга КАК гхб_СотрудникиБазХолдинга
+            ВНУТРЕННЕЕ СОЕДИНЕНИЕ Справочник.гхб_ФизическиеЛицаБазХолдинга КАК гхб_ФизическиеЛицаБазХолдинга
+                ВНУТРЕННЕЕ СОЕДИНЕНИЕ Справочник.гхб_ФизическиеЛица КАК гхб_ФизическиеЛица
+                ПО (гхб_ФизическиеЛица.Ссылка = гхб_ФизическиеЛицаБазХолдинга.ФизЛицоТекущейБазы)
+            ПО гхб_СотрудникиБазХолдинга.ФизЛицоБазыХолдинга = гхб_ФизическиеЛицаБазХолдинга.Ссылка
+        ПО втДанныеБезДолжности.Сотрудник = гхб_СотрудникиБазХолдинга.Ссылка</query>
+	</dataSet>
+	<settingsVariant>
+		<dcsset:name>Основной</dcsset:name>
+		<dcsset:presentation xsi:type="v8:LocalStringType">
+			<v8:item>
+				<v8:lang>ru</v8:lang>
+				<v8:content>Данные сотрудников ГПХ</v8:content>
+			</v8:item>
+			<v8:item>
+				<v8:lang>uk</v8:lang>
+				<v8:content>Дані співробітників ЦПХ</v8:content>
+			</v8:item>
+		</dcsset:presentation>
+		<dcsset:settings xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows">
+			<dcsset:selection>
+				<dcsset:item xsi:type="dcsset:SelectedItemField">
+					<dcsset:field>ФизЛицо</dcsset:field>
+				</dcsset:item>
+				<dcsset:item xsi:type="dcsset:SelectedItemField">
+					<dcsset:field>Сотрудник</dcsset:field>
+				</dcsset:item>
+				<dcsset:item xsi:type="dcsset:SelectedItemField">
+					<dcsset:field>БазаХолдинга</dcsset:field>
+				</dcsset:item>
+				<dcsset:item xsi:type="dcsset:SelectedItemField">
+					<dcsset:field>Организация</dcsset:field>
+				</dcsset:item>
+				<dcsset:item xsi:type="dcsset:SelectedItemField">
+					<dcsset:field>ДатаНачала</dcsset:field>
+				</dcsset:item>
+				<dcsset:item xsi:type="dcsset:SelectedItemField">
+					<dcsset:field>ДатаОкончания</dcsset:field>
+				</dcsset:item>
+				<dcsset:item xsi:type="dcsset:SelectedItemField">
+					<dcsset:field>ФактическийРуководитель</dcsset:field>
+				</dcsset:item>
+				<dcsset:item xsi:type="dcsset:SelectedItemField">
+					<dcsset:field>Должность</dcsset:field>
+				</dcsset:item>
+				<dcsset:item xsi:type="dcsset:SelectedItemField">
+					<dcsset:field>Дивизион</dcsset:field>
+				</dcsset:item>
+				<dcsset:item xsi:type="dcsset:SelectedItemField">
+					<dcsset:field>Функция</dcsset:field>
+				</dcsset:item>
+				<dcsset:item xsi:type="dcsset:SelectedItemField">
+					<dcsset:field>ЦФО</dcsset:field>
+				</dcsset:item>
+				<dcsset:item xsi:type="dcsset:SelectedItemField">
+					<dcsset:field>Договор</dcsset:field>
+				</dcsset:item>
+			</dcsset:selection>
+			<dcsset:filter>
+				<dcsset:item xsi:type="dcsset:FilterItemComparison">
+					<dcsset:use>false</dcsset:use>
+					<dcsset:left xsi:type="dcscor:Field">БазаХолдинга</dcsset:left>
+					<dcsset:comparisonType>Equal</dcsset:comparisonType>
+					<dcsset:userSettingID>e6a0e123-d95f-489c-8185-91946d672d55</dcsset:userSettingID>
+				</dcsset:item>
+				<dcsset:item xsi:type="dcsset:FilterItemComparison">
+					<dcsset:use>false</dcsset:use>
+					<dcsset:left xsi:type="dcscor:Field">ФизЛицо</dcsset:left>
+					<dcsset:comparisonType>Equal</dcsset:comparisonType>
+					<dcsset:userSettingID>d7c54caa-d703-4cce-b199-7233024d6ba6</dcsset:userSettingID>
+				</dcsset:item>
+				<dcsset:item xsi:type="dcsset:FilterItemComparison">
+					<dcsset:use>false</dcsset:use>
+					<dcsset:left xsi:type="dcscor:Field">Функция</dcsset:left>
+					<dcsset:comparisonType>Equal</dcsset:comparisonType>
+					<dcsset:userSettingID>71f60d4d-cf26-405f-b71f-649e39bf54b2</dcsset:userSettingID>
+				</dcsset:item>
+				<dcsset:item xsi:type="dcsset:FilterItemComparison">
+					<dcsset:use>false</dcsset:use>
+					<dcsset:left xsi:type="dcscor:Field">Организация</dcsset:left>
+					<dcsset:comparisonType>Equal</dcsset:comparisonType>
+					<dcsset:userSettingID>1979bf2f-929a-41a3-a973-c9d5e7ff5938</dcsset:userSettingID>
+				</dcsset:item>
+				<dcsset:item xsi:type="dcsset:FilterItemComparison">
+					<dcsset:use>false</dcsset:use>
+					<dcsset:left xsi:type="dcscor:Field">ФактическийРуководитель</dcsset:left>
+					<dcsset:comparisonType>Equal</dcsset:comparisonType>
+					<dcsset:userSettingID>dbf70d58-b2bd-4654-97bc-82c84c3a6d77</dcsset:userSettingID>
+				</dcsset:item>
+				<dcsset:item xsi:type="dcsset:FilterItemComparison">
+					<dcsset:use>false</dcsset:use>
+					<dcsset:left xsi:type="dcscor:Field">НаименованиеДолжность</dcsset:left>
+					<dcsset:comparisonType>Contains</dcsset:comparisonType>
+					<dcsset:right xsi:type="xs:string"/>
+					<dcsset:userSettingID>1e32fbe6-c90d-4dca-beb9-0d5bb54782ef</dcsset:userSettingID>
+				</dcsset:item>
+			</dcsset:filter>
+			<dcsset:order>
+				<dcsset:item xsi:type="dcsset:OrderItemField">
+					<dcsset:field>ФизЛицо.Наименование</dcsset:field>
+					<dcsset:orderType>Asc</dcsset:orderType>
+				</dcsset:item>
+				<dcsset:item xsi:type="dcsset:OrderItemField">
+					<dcsset:field>ДатаНачала</dcsset:field>
+					<dcsset:orderType>Asc</dcsset:orderType>
+				</dcsset:item>
+				<dcsset:item xsi:type="dcsset:OrderItemField">
+					<dcsset:field>ДатаОкончания</dcsset:field>
+					<dcsset:orderType>Asc</dcsset:orderType>
+				</dcsset:item>
+			</dcsset:order>
+			<dcsset:outputParameters>
+				<dcscor:item xsi:type="dcsset:SettingsParameterValue">
+					<dcscor:parameter>МакетОформления</dcscor:parameter>
+					<dcscor:value xsi:type="xs:string">Арктика</dcscor:value>
+				</dcscor:item>
+			</dcsset:outputParameters>
+			<dcsset:item xsi:type="dcsset:StructureItemGroup">
+				<dcsset:groupItems>
+					<dcsset:item xsi:type="dcsset:GroupItemField">
+						<dcsset:field>ФизЛицо</dcsset:field>
+						<dcsset:groupType>Items</dcsset:groupType>
+						<dcsset:periodAdditionType>None</dcsset:periodAdditionType>
+						<dcsset:periodAdditionBegin xsi:type="xs:dateTime">0001-01-01T00:00:00</dcsset:periodAdditionBegin>
+						<dcsset:periodAdditionEnd xsi:type="xs:dateTime">0001-01-01T00:00:00</dcsset:periodAdditionEnd>
+					</dcsset:item>
+				</dcsset:groupItems>
+				<dcsset:filter>
+					<dcsset:viewMode>Normal</dcsset:viewMode>
+					<dcsset:userSettingID>9f3afd3a-9ba9-4a94-9523-9eebf6821639</dcsset:userSettingID>
+				</dcsset:filter>
+				<dcsset:order>
+					<dcsset:item xsi:type="dcsset:OrderItemAuto"/>
+					<dcsset:viewMode>Normal</dcsset:viewMode>
+					<dcsset:userSettingID>853e1bc8-ced3-494c-9af4-736c40bae7c7</dcsset:userSettingID>
+				</dcsset:order>
+				<dcsset:selection>
+					<dcsset:item xsi:type="dcsset:SelectedItemAuto"/>
+					<dcsset:viewMode>Normal</dcsset:viewMode>
+					<dcsset:userSettingID>be596b7c-34b8-45db-aea2-5bacd1b98b68</dcsset:userSettingID>
+				</dcsset:selection>
+				<dcsset:conditionalAppearance>
+					<dcsset:viewMode>Normal</dcsset:viewMode>
+					<dcsset:userSettingID>a922f4f8-da17-4a21-924a-0945d2f58f03</dcsset:userSettingID>
+				</dcsset:conditionalAppearance>
+				<dcsset:item xsi:type="dcsset:StructureItemGroup">
+					<dcsset:order>
+						<dcsset:item xsi:type="dcsset:OrderItemAuto"/>
+					</dcsset:order>
+					<dcsset:selection>
+						<dcsset:item xsi:type="dcsset:SelectedItemAuto"/>
+					</dcsset:selection>
+				</dcsset:item>
+				<dcsset:viewMode>Normal</dcsset:viewMode>
+				<dcsset:userSettingID>73a44ebf-2771-482d-baae-e5e8c6b92c1d</dcsset:userSettingID>
+				<dcsset:itemsViewMode>Normal</dcsset:itemsViewMode>
+				<dcsset:itemsUserSettingID>becc4945-cce7-4fbd-ab10-f2f8126c0b6a</dcsset:itemsUserSettingID>
+			</dcsset:item>
+		</dcsset:settings>
+	</settingsVariant>
+</DataCompositionSchema>

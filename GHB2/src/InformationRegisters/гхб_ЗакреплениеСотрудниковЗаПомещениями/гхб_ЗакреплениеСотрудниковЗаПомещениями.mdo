@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="444bf0be-1242-466e-85b6-a800b6f2b0a0">
+  <producedTypes>
+    <selectionType typeId="289c42b1-699c-4a93-b35a-c333f2323620" valueTypeId="36a90f27-982c-4484-806f-012a8580f6cf"/>
+    <listType typeId="52fd6060-08bb-4ae4-b87c-22eea2b2c0b5" valueTypeId="f816ab91-20a5-4968-80d6-c1c9290a5cb8"/>
+    <managerType typeId="5ce7f66d-71df-42df-9a9d-b9ccade4066e" valueTypeId="4ebd98f0-e711-4ac6-a308-b4b8e6de0a14"/>
+    <recordSetType typeId="837cb48c-f8a1-4937-8667-6af8ad2900ec" valueTypeId="b420d5aa-c3bd-4fb5-8b04-745f89ca65be"/>
+    <recordKeyType typeId="7adb34c7-ae93-41fc-a95c-ef528dd85a2d" valueTypeId="db2a15b8-7bad-4f66-876e-eb3aee9b815c"/>
+    <recordType typeId="f3c3a6d0-38d5-4eff-885d-614353036f9b" valueTypeId="245e3960-5d9e-4b13-9578-28c1db01943b"/>
+    <recordManagerType typeId="58d84fae-074c-42e2-ae73-b055f8d306d3" valueTypeId="17e37760-f09f-4e47-b068-58c14d169315"/>
+  </producedTypes>
+  <name>гхб_ЗакреплениеСотрудниковЗаПомещениями</name>
+  <synonym>
+    <key>ru</key>
+    <value>Закрепление сотрудников за помещениями</value>
+  </synonym>
+  <synonym>
+    <key>uk</key>
+    <value>Закріплення співробітників за приміщеннями</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <editType>InDialog</editType>
+  <informationRegisterPeriodicity>Second</informationRegisterPeriodicity>
+  <writeMode>RecorderSubordinate</writeMode>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <attributes uuid="1601317e-b9bc-4242-a5f5-666afe1ce79f">
+    <name>РежимРаботы</name>
+    <synonym>
+      <key>ru</key>
+      <value>Режим работы</value>
+    </synonym>
+    <synonym>
+      <key>uk</key>
+      <value>Режим роботи</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.гхб_РежимРаботыВПомещении</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="cb2afc7e-18e8-4515-8f18-1a877c68e3cf">
+    <name>Плавающее</name>
+    <synonym>
+      <key>ru</key>
+      <value>Плавающее</value>
+    </synonym>
+    <synonym>
+      <key>uk</key>
+      <value>Плаваче</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="1bf3bf0d-af5c-49a0-abe3-1c0b0197bd21">
+    <name>Закрыть</name>
+    <synonym>
+      <key>ru</key>
+      <value>Закрыть</value>
+    </synonym>
+    <synonym>
+      <key>uk</key>
+      <value>Закрити</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <dimensions uuid="a1d83e56-1d22-4d40-aacc-852ba9acc4ef">
+    <name>Помещение</name>
+    <synonym>
+      <key>ru</key>
+      <value>Помещение</value>
+    </synonym>
+    <synonym>
+      <key>uk</key>
+      <value>Приміщення</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.гхб_Помещения</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="a6a07570-5fcb-4ca5-aa2e-6cf85ef60e28">
+    <name>Сотрудник</name>
+    <synonym>
+      <key>ru</key>
+      <value>Сотрудник</value>
+    </synonym>
+    <synonym>
+      <key>uk</key>
+      <value>Співробітник</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.гхб_ФизическиеЛица</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+</mdclass:InformationRegister>

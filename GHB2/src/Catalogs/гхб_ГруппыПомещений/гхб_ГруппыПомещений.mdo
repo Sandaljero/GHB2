@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="7f31b74a-0787-447b-a253-41445327a654">
+  <producedTypes>
+    <objectType typeId="c58f15ee-aef0-4f3c-b806-ee0e39424aac" valueTypeId="2979dd4c-3a76-46ce-9930-1fd4a3b451f1"/>
+    <refType typeId="71b241d8-9aac-4a85-b442-5fe1330f01db" valueTypeId="e13706ea-6e97-4143-9572-b8891adeea3f"/>
+    <selectionType typeId="fa06803f-5cea-4c20-a583-9ae5a21854d1" valueTypeId="3babb20c-b386-4c18-9c58-810779e77bae"/>
+    <listType typeId="df6e763d-3905-423e-a9f0-8195fd999398" valueTypeId="9ce0a90e-9ddb-40ae-b2a5-9c05ca7cdc0d"/>
+    <managerType typeId="48fe3f10-4b53-4114-8b63-48cd1c431110" valueTypeId="d4d8224b-422c-44d5-ba26-0b61e0648bd8"/>
+  </producedTypes>
+  <name>гхб_ГруппыПомещений</name>
+  <synonym>
+    <key>ru</key>
+    <value>Группы помещений</value>
+  </synonym>
+  <synonym>
+    <key>uk</key>
+    <value>Групи приміщень</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.гхб_ГруппыПомещений.StandardAttribute.Description</inputByString>
+  <inputByString>Catalog.гхб_ГруппыПомещений.StandardAttribute.Code</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <hierarchical>true</hierarchical>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>9</codeLength>
+  <descriptionLength>150</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+  <defaultObjectForm>Catalog.гхб_ГруппыПомещений.Form.ФормаЭлемента</defaultObjectForm>
+  <defaultFolderForm>Catalog.гхб_ГруппыПомещений.Form.ФормаГруппы</defaultFolderForm>
+  <defaultListForm>Catalog.гхб_ГруппыПомещений.Form.ФормаСписка</defaultListForm>
+  <defaultChoiceForm>Catalog.гхб_ГруппыПомещений.Form.ФормаВыбора</defaultChoiceForm>
+  <defaultFolderChoiceForm>Catalog.гхб_ГруппыПомещений.Form.ФормаВыбораГруппы</defaultFolderChoiceForm>
+  <forms uuid="cf70e9e4-5aa4-4f5d-8800-aaa5a5287b1c">
+    <name>ФормаГруппы</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма группы</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="a4a26a34-56ba-4445-a9cf-ad1d34bce5f7">
+    <name>ФормаВыбораГруппы</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма выбора группы</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="36a5a191-5b87-4b47-84f9-cf05305eea18">
+    <name>ФормаВыбора</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма выбора</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="c3339c6b-e758-4f50-9fef-2789895f6ebc">
+    <name>ФормаЭлемента</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма элемента</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="7eae85d4-2ffb-46b1-95f4-dd4aef05248e">
+    <name>ФормаСписка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма списка</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:Catalog>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonCommand xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="f32bd88d-f843-4aed-baa1-d8b1a42b55c0">
+  <name>ирОбработатьОбъектыИзАктивнойФормы</name>
+  <synonym>
+    <key>ru</key>
+    <value>Обработать объекты из активной формы (ИР)</value>
+  </synonym>
+  <group>CommandGroup.ирКоманднаяПанельФормы</group>
+  <commandParameterType/>
+  <parameterUseMode>Multiple</parameterUseMode>
+  <representation>Auto</representation>
+  <toolTip>
+    <key>ru</key>
+    <value>Передать объекты в подбор и обработку объектов из активной формы</value>
+  </toolTip>
+  <picture xsi:type="core:PictureRef">
+    <picture>CommonPicture.ирОбработкаОбъектов</picture>
+  </picture>
+  <shortcut>Ctrl+Alt+R</shortcut>
+</mdclass:CommonCommand>

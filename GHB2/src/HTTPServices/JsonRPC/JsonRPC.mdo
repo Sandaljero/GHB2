@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:HTTPService xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="7ed0134f-b1b8-451b-839c-b1818cbc8d21">
+  <name>JsonRPC</name>
+  <synonym>
+    <key>ru</key>
+    <value>Json RPC 2.0</value>
+  </synonym>
+  <comment>ver 0.1</comment>
+  <rootURL>rpc</rootURL>
+  <reuseSessions>AutoUse</reuseSessions>
+  <sessionMaxAge>30</sessionMaxAge>
+  <urlTemplates uuid="57c36a5c-e3de-41b8-a16b-7ac4c421b1e2">
+    <name>rpc</name>
+    <synonym>
+      <key>ru</key>
+      <value>Json RPC 2.0</value>
+    </synonym>
+    <template>/*</template>
+    <methods uuid="b08413d3-3a8e-44db-a723-28905b11c671">
+      <name>POST</name>
+      <synonym>
+        <key>ru</key>
+        <value>POST</value>
+      </synonym>
+      <httpMethod>POST</httpMethod>
+      <handler>rpcPOST</handler>
+    </methods>
+    <methods uuid="843c0823-6ed5-40b0-94d3-db15cacb0ca2">
+      <name>OPTIONS</name>
+      <synonym>
+        <key>ru</key>
+        <value>OPTIONS</value>
+      </synonym>
+      <httpMethod>OPTIONS</httpMethod>
+      <handler>rpcOPTIONS</handler>
+    </methods>
+    <methods uuid="8276a942-c913-4c51-98b4-0367d42ab11d">
+      <name>ANY</name>
+      <synonym>
+        <key>ru</key>
+        <value>ANY</value>
+      </synonym>
+      <httpMethod>Any</httpMethod>
+      <handler>rpcANY</handler>
+    </methods>
+  </urlTemplates>
+</mdclass:HTTPService>

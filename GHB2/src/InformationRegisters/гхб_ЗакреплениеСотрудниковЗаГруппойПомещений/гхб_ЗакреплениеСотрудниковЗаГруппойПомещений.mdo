@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="a53c8317-1a82-4f59-9692-0917b68e5934">
+  <producedTypes>
+    <selectionType typeId="25bc93d0-5638-43c7-8af5-fb013ce8bbd0" valueTypeId="a2099221-aa1c-4792-9d11-3cd8cfe4ed0a"/>
+    <listType typeId="36ac359c-49aa-47d4-ae38-2bc6137695e6" valueTypeId="272a54d1-a9ee-463a-aec8-b7dedaab159b"/>
+    <managerType typeId="a5beebac-4a3a-4192-bc16-9cf8b3ab5020" valueTypeId="f4868d2d-4cff-4117-a5d7-b058ec19cfb4"/>
+    <recordSetType typeId="d37aa501-3081-48de-980e-986e4c7b25e9" valueTypeId="d2aba38d-c689-44b2-acc1-731713002411"/>
+    <recordKeyType typeId="93959f5b-38e6-445c-83e1-a87fe30928ce" valueTypeId="3dda478b-53c8-4c03-accf-36939b993412"/>
+    <recordType typeId="cfc3ddc2-5ac7-4f63-a285-c9a674f7d43a" valueTypeId="b889cf7a-5b42-4ee1-809c-574781d0913c"/>
+    <recordManagerType typeId="66962070-7ae9-431d-9eb5-2783b40d9fb4" valueTypeId="343ddf14-3596-4ba8-89ee-01a418c63d19"/>
+  </producedTypes>
+  <name>гхб_ЗакреплениеСотрудниковЗаГруппойПомещений</name>
+  <synonym>
+    <key>ru</key>
+    <value>Закрепление сотрудников за группой помещений</value>
+  </synonym>
+  <synonym>
+    <key>uk</key>
+    <value>Закріплення співробітників за групою приміщень</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <editType>InDialog</editType>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Active</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>LineNumber</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Recorder</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Period</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <informationRegisterPeriodicity>Second</informationRegisterPeriodicity>
+  <writeMode>RecorderSubordinate</writeMode>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <attributes uuid="bb092974-64f7-4112-80cc-5da45529e4a8">
+    <name>РежимРаботы</name>
+    <synonym>
+      <key>ru</key>
+      <value>Режим работы</value>
+    </synonym>
+    <synonym>
+      <key>uk</key>
+      <value>Режим роботи</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.гхб_РежимРаботыВПомещении</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="ba3a7792-9868-4dc7-b560-771afb6f93a7">
+    <name>Плавающее</name>
+    <synonym>
+      <key>ru</key>
+      <value>Плавающее</value>
+    </synonym>
+    <synonym>
+      <key>uk</key>
+      <value>Плаваче</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="b373c5e0-5dc7-4553-a15b-dfdd987b4059">
+    <name>Закрыть</name>
+    <synonym>
+      <key>ru</key>
+      <value>Закрыть</value>
+    </synonym>
+    <synonym>
+      <key>uk</key>
+      <value>Закрити</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <dimensions uuid="35f29a94-3844-4d8d-b866-5f79f561e153">
+    <name>ГруппаПомещений</name>
+    <synonym>
+      <key>ru</key>
+      <value>Группа помещений</value>
+    </synonym>
+    <synonym>
+      <key>uk</key>
+      <value>Група приміщень</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.гхб_ГруппыПомещений</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="deb303b9-3a1c-41b6-8a85-5ad479bc7ad6">
+    <name>Сотрудник</name>
+    <synonym>
+      <key>ru</key>
+      <value>Сотрудник</value>
+    </synonym>
+    <synonym>
+      <key>uk</key>
+      <value>Співробітник</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.гхб_ФизическиеЛица</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+</mdclass:InformationRegister>

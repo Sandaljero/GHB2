@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<cmi:CommandInterface xmlns:cmi="http://g5.1c.ru/v8/dt/cmi">
+  <commandsVisibility>
+    <visibilityFragments>
+      <command>ExchangePlan.гхб_ОбменДаннымиБазаОхраны.StandardCommand.OpenList</command>
+      <visible/>
+    </visibilityFragments>
+  </commandsVisibility>
+  <subsystemsOrder>
+    <subsystems>Subsystem.гхб_ПомещенияНаЛокациях.Subsystem.гхб_Справочники</subsystems>
+    <subsystems>Subsystem.гхб_ПомещенияНаЛокациях.Subsystem.гхб_Документы</subsystems>
+    <subsystems>Subsystem.гхб_ПомещенияНаЛокациях.Subsystem.гхб_РегистрыСведений</subsystems>
+    <subsystems>Subsystem.гхб_ПомещенияНаЛокациях.Subsystem.гхб_КонсервацияПомещений</subsystems>
+    <subsystems>Subsystem.гхб_ПомещенияНаЛокациях.Subsystem.гхб_СпискиДоступаНаЛокацию</subsystems>
+  </subsystemsOrder>
+</cmi:CommandInterface>

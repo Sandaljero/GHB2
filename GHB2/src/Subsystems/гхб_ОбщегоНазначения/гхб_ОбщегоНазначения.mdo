@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="b0c76ae7-d6e6-4475-99e2-a96814a04a84">
+  <name>гхб_ОбщегоНазначения</name>
+  <synonym>
+    <key>ru</key>
+    <value>Общего назначения</value>
+  </synonym>
+  <content>HTTPService.JsonRPC</content>
+  <content>Style.СтильСЛМ</content>
+  <content>CommonModule.гхб_СлужебныйСервер</content>
+  <content>CommonModule.гхб_РассылкаУведомленийСервер</content>
+  <content>CommonModule.JsonRPC</content>
+  <content>CommonModule.гхб_ОбновлениеИнформационнойБазы</content>
+  <content>CommonModule.гхб_ОбщегоНазначенияСервер</content>
+  <content>ExchangePlan.гхб_ВыгрузкаДанныхВБазыХолдинга</content>
+  <content>InformationRegister.гхб_СобытияОбъектовБД</content>
+  <content>Enum.гхб_ТипыСобытийОбъектовБД</content>
+  <content>HTTPService.ErrorTransfer</content>
+</mdclass:Subsystem>

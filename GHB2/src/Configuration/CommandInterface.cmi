@@ -1,2 +1,27 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<cmi:CommandInterface xmlns:cmi="http://g5.1c.ru/v8/dt/cmi"/>
+<cmi:CommandInterface xmlns:cmi="http://g5.1c.ru/v8/dt/cmi">
+  <subsystemsVisibility>
+    <visibilityFragments>
+      <subsystem>Subsystem.гхб_Подписание</subsystem>
+      <visible>
+        <common>true</common>
+        <for>
+          <role>Role.гхб_ПодписаниеПользователь</role>
+        </for>
+      </visible>
+    </visibilityFragments>
+  </subsystemsVisibility>
+  <subsystemsOrder>
+    <subsystems>Subsystem.Администрирование</subsystems>
+    <subsystems>Subsystem.гхб_Кадры</subsystems>
+    <subsystems>Subsystem.гхб_МобильнаяСвязь</subsystems>
+    <subsystems>Subsystem.гхб_НормативноСправочнаяИнформация</subsystems>
+    <subsystems>Subsystem.гхб_ПарковочныеМеста</subsystems>
+    <subsystems>Subsystem.гхб_ПерсональныеКабинетыТакси</subsystems>
+    <subsystems>Subsystem.гхб_Подписание</subsystems>
+    <subsystems>Subsystem.гхб_ПомещенияНаЛокациях</subsystems>
+    <subsystems>Subsystem.гхб_СервисДеск</subsystems>
+    <subsystems>Subsystem.гхб_УправлениеПропускамиСотрудников</subsystems>
+    <subsystems>Subsystem.ИнструментыРазработчикаTormozit</subsystems>
+  </subsystemsOrder>
+</cmi:CommandInterface>

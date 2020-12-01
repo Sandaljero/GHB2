@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="e25cec44-dcd4-4ff3-b62d-29e0735bf2db">
+  <producedTypes>
+    <refType typeId="0b823b43-03e9-4e7b-9696-e01edffd1d2e" valueTypeId="99cfc624-3e92-4dc0-ad40-fe8ea68a7a01"/>
+    <listType typeId="56c1b99a-c7d9-4b98-b976-3bed1e1397ef" valueTypeId="6cb26f82-8931-4215-8faa-393a11c10ba1"/>
+    <managerType typeId="e0a753c8-0db3-47f4-9995-a20ab5681e22" valueTypeId="d67b8b43-bf7e-4ab7-931f-c80dbd3408a9"/>
+  </producedTypes>
+  <name>гхб_СостоянияРаботникаОрганизации</name>
+  <synonym>
+    <key>ru</key>
+    <value>Состояния работника организации</value>
+  </synonym>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Order</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Ref</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="16e917bd-f43e-4cc6-adc1-d2804a6cba9c">
+    <name>Работает</name>
+    <synonym>
+      <key>ru</key>
+      <value>Работает</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="58568381-dba1-422c-b5c7-7625abf0c4a8">
+    <name>НеРаботает</name>
+    <synonym>
+      <key>ru</key>
+      <value>Не работает</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="6e4fac7e-e84c-4040-8f86-9f0dcd74753e">
+    <name>Заболевание</name>
+    <synonym>
+      <key>ru</key>
+      <value>Болеет</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="a0b16037-b8c2-435b-8404-b9c219711042">
+    <name>Командировка</name>
+    <synonym>
+      <key>ru</key>
+      <value>В командировке</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="0e313b2a-85ac-439f-bd2f-821ca08dcce8">
+    <name>ОтпускЕжегодный</name>
+    <synonym>
+      <key>ru</key>
+      <value>В ежегодном отпуске</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="7725de26-feab-4233-9dbf-44e1ff8b103e">
+    <name>ОтпускУчебный</name>
+    <synonym>
+      <key>ru</key>
+      <value>Отпуск учебный</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="e460a1ae-00fd-4160-a3f4-99dce33d156c">
+    <name>ОтпускБезСохраненияЗарплаты</name>
+    <synonym>
+      <key>ru</key>
+      <value>Отпуск без сохранения зарплаты</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="bc639db7-2763-4fb1-8d51-fffa6ed28818">
+    <name>ОтпускПоУходуЗаРебенком</name>
+    <synonym>
+      <key>ru</key>
+      <value>Отпуск по уходу за ребенком</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="d51ab427-8e94-4c5c-8f38-9f6ab8432689">
+    <name>ОтсутствуетПоНевыясненнойПричине</name>
+    <synonym>
+      <key>ru</key>
+      <value>Отсутствует по невыясненной причине</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="c98c6fc5-90ca-4bd4-a435-16607743cb78">
+    <name>НаВыезде</name>
+    <synonym>
+      <key>ru</key>
+      <value>На выезде</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="e0aee3f4-55c1-40ba-86ed-2d61960b587d">
+    <name>ОтпускУчебныйНеоплачиваемый</name>
+    <synonym>
+      <key>ru</key>
+      <value>Отпуск учебный неоплачиваемый</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="0c664a47-7569-41d9-8af0-7f7c6426e1ed">
+    <name>ВынужденныйПрогул</name>
+    <synonym>
+      <key>ru</key>
+      <value>Время вынужденного прогула</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="20d0609e-c945-4da1-a364-80872f0498dc">
+    <name>ГосударственныеОбязанности</name>
+    <synonym>
+      <key>ru</key>
+      <value>Время исполнения государственных или общественных обязанностей</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="2feffcc5-3b87-4289-8616-094ee0c4ef40">
+    <name>Прогулы</name>
+    <synonym>
+      <key>ru</key>
+      <value>Прогулы</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="b2f36661-95df-4f1a-b08c-d4b0d4694af5">
+    <name>ДополнительныеВыходныеДниОплачиваемые</name>
+    <synonym>
+      <key>ru</key>
+      <value>Дополнительные выходные дни (оплачиваемые)</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="3f138d2f-6766-4a32-b0f7-b4d7c1d5b48d">
+    <name>Простой</name>
+    <synonym>
+      <key>ru</key>
+      <value>Простой</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="e694c12f-5eb8-4bd9-8446-e512ff824728">
+    <name>ОтпускПоБеременностиИРодам</name>
+    <synonym>
+      <key>ru</key>
+      <value>Отпуск по беременности и родам</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="c2675cfa-68b2-4eba-874b-98db8fa0a560">
+    <name>ОтпускБезСохраненияЗарплатыКарантин</name>
+    <synonym>
+      <key>ru</key>
+      <value>Отпуск без сохранения зарплаты на карантине</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

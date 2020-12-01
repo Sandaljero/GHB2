@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="f2bcf10a-0f31-492d-a07b-60aeca4752a0">
+  <producedTypes>
+    <selectionType typeId="0b701d20-5f80-4e66-907c-3e4b0327b088" valueTypeId="b7ff1fae-85f6-4e29-b170-ba0341d40e92"/>
+    <listType typeId="e1543b3c-35e3-453b-85f9-1b9a7d61db8b" valueTypeId="dda8269c-c9be-4b56-a01f-e742ef862adb"/>
+    <managerType typeId="47e36b8b-bfb3-4b03-8f14-81a0f6aa9b52" valueTypeId="acc97709-4410-4bf8-a054-b493db5c9630"/>
+    <recordSetType typeId="8971629e-483b-4455-8898-1ccfb6b46ab4" valueTypeId="7b7f321e-1363-4eb1-8df1-782cc59205be"/>
+    <recordKeyType typeId="5fcb837a-29ca-41cd-8545-abdb0c95cb50" valueTypeId="06c9c5e1-d24b-4364-a601-685a4c3dfcad"/>
+    <recordType typeId="dfb4b50a-a1a2-4a0c-a241-e4afa57af301" valueTypeId="3def5173-e2f1-4d16-9ed9-4398d0d208fe"/>
+    <recordManagerType typeId="73f11bd1-65f9-48d9-8288-d3b9ee8aa820" valueTypeId="264b5d11-f115-4f43-a302-073ca623b60a"/>
+  </producedTypes>
+  <name>гхб_СотрудникиСАдминистративнымиПравамиПБ</name>
+  <synonym>
+    <key>ru</key>
+    <value>Сотрудники с админ. правами (пожарная безопасность)</value>
+  </synonym>
+  <synonym>
+    <key>uk</key>
+    <value>Співробітники с адмін. правами (пожежна безпека)</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <editType>InDialog</editType>
+  <defaultRecordForm>InformationRegister.гхб_СотрудникиСАдминистративнымиПравамиПБ.Form.ФормаЗаписи</defaultRecordForm>
+  <defaultListForm>InformationRegister.гхб_СотрудникиСАдминистративнымиПравамиПБ.Form.ФормаСписка</defaultListForm>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <dimensions uuid="132a21a1-e115-4146-83c5-8f52b4892635">
+    <name>Сотрудник</name>
+    <synonym>
+      <key>ru</key>
+      <value>Сотрудник</value>
+    </synonym>
+    <synonym>
+      <key>uk</key>
+      <value>Співробітник</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.гхб_ФизическиеЛица</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <forms uuid="25c51e14-fc85-4600-9fad-2d28e069e851">
+    <name>ФормаЗаписи</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма записи</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="4ce9d413-e0ea-4c9b-af64-d9aec3bfed4c">
+    <name>ФормаСписка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма списка</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:InformationRegister>

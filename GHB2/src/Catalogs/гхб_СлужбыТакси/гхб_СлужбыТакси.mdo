@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="f980cb62-f60d-4652-bbe4-33ae2a397e79">
+  <producedTypes>
+    <objectType typeId="719501bd-e3f5-48dd-9e28-6c1120398a24" valueTypeId="8a962dde-6ab9-4619-a02d-b31b84ce090a"/>
+    <refType typeId="e6727a33-3f0d-4ffc-b10f-74a92a48803d" valueTypeId="e1ed758e-fd5b-43b7-89fd-faea9ffbd187"/>
+    <selectionType typeId="a6061fef-4d74-4810-ae23-45d5b3b606cd" valueTypeId="7b50b8e7-5f34-4dc5-b24a-6ed94b2f7142"/>
+    <listType typeId="159cc9e4-b03e-4a09-953f-cd8d6f3d3b8b" valueTypeId="b98f40db-b178-4ffd-a380-a93c810bd22f"/>
+    <managerType typeId="5db90a9d-c550-4494-81fa-1981ec21bd70" valueTypeId="70a55399-1735-4e14-b095-358d66f70196"/>
+  </producedTypes>
+  <name>гхб_СлужбыТакси</name>
+  <synonym>
+    <key>ru</key>
+    <value>Службы такси</value>
+  </synonym>
+  <synonym>
+    <key>uk</key>
+    <value>Служби таксі</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.гхб_СлужбыТакси.StandardAttribute.Description</inputByString>
+  <inputByString>Catalog.гхб_СлужбыТакси.StandardAttribute.Code</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>9</codeLength>
+  <descriptionLength>150</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+  <defaultObjectForm>Catalog.гхб_СлужбыТакси.Form.ФормаЭлемента</defaultObjectForm>
+  <defaultListForm>Catalog.гхб_СлужбыТакси.Form.ФормаСписка</defaultListForm>
+  <defaultChoiceForm>Catalog.гхб_СлужбыТакси.Form.ФормаВыбора</defaultChoiceForm>
+  <forms uuid="a9aad7da-41a6-479b-b723-72324eb707e2">
+    <name>ФормаЭлемента</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма элемента</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="a7942442-6757-4df3-9a9f-d005c76e31e6">
+    <name>ФормаСписка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма списка</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="d749d38b-a4ff-4371-8d64-e7aacf809812">
+    <name>ФормаВыбора</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма выбора</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:Catalog>

@@ -1,0 +1,378 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DataProcessor xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="96d61593-6b55-4255-a5ff-3cabc2a6f08c">
+  <producedTypes>
+    <objectType typeId="dcf5a114-10eb-4a02-a870-42d0ef18870f" valueTypeId="d0d3f3e2-8b50-4389-bfd8-7c78e105c346"/>
+    <managerType typeId="a63a78f9-18f8-4b06-932f-5b4ec5c5da9e" valueTypeId="e2284fb8-3cdd-4d32-ac25-a9d1a69e166b"/>
+  </producedTypes>
+  <name>ирЗагрузкаТабличныхДанных</name>
+  <synonym>
+    <key>ru</key>
+    <value>Загрузка табличных данных (ИР)</value>
+  </synonym>
+  <defaultForm>DataProcessor.ирЗагрузкаТабличныхДанных.Form.Форма</defaultForm>
+  <attributes uuid="a14e3907-c711-41f2-ae0b-b301855f84e4">
+    <name>ВыводитьОшибкаЗагрузкиСразу</name>
+    <synonym>
+      <key>ru</key>
+      <value>Выводить ошибка загрузки сразу</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="f7d4579a-ec1d-46eb-af62-02f43d0c73aa">
+    <name>ВыводитьОшибкиКонвертацииСразу</name>
+    <synonym>
+      <key>ru</key>
+      <value>Выводить ошибки конвертации сразу</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="13d0899e-d92c-4fc6-86f6-2d99932fb4f7">
+    <name>ВыполнятьНаСервере</name>
+    <synonym>
+      <key>ru</key>
+      <value>Выполнять на сервере</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Выполнять обработку объектов на сервере (через фоновое задание)</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="422cde2b-d646-4249-85e1-2df9e6e1483d">
+    <name>ДобавлятьСтрокиБД</name>
+    <synonym>
+      <key>ru</key>
+      <value>Добавлять строки БД</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="30c4b7cc-d0e2-49c6-ba24-6ce11272f4d4">
+    <name>ДополнятьЗапросом</name>
+    <synonym>
+      <key>ru</key>
+      <value>Дополнять запросом</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="57e66ec9-09e4-4234-af60-45578a2ecc96">
+    <name>КоличествоНеуникально</name>
+    <synonym>
+      <key>ru</key>
+      <value>Количество неуникально</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>10</precision>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="871c03d2-51a3-45aa-953e-3e9e19d27633">
+    <name>КоличествоНеуспешно</name>
+    <synonym>
+      <key>ru</key>
+      <value>Количество неуспешно</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>10</precision>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="43e86775-19c4-4117-9ae5-6bfaaaeda16b">
+    <name>КоличествоУспешно</name>
+    <synonym>
+      <key>ru</key>
+      <value>Количество успешно</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>10</precision>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="98a89502-3a7d-4bf7-9de4-8068d42a8bf1">
+    <name>КолонкиТЗ</name>
+    <synonym>
+      <key>ru</key>
+      <value>Колонки ТЗ</value>
+    </synonym>
+    <type>
+      <types>ValueTable</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="983eae77-6bb2-42d6-a510-55977a6c1704">
+    <name>НесопоставленныеКолонкиТД</name>
+    <synonym>
+      <key>ru</key>
+      <value>Несопоставленные колонки ТД</value>
+    </synonym>
+    <type>
+      <types>ValueTable</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="0c9855d7-87b0-42b5-9fd3-862dacf3676c">
+    <name>ОбновлятьСтрокиБД</name>
+    <synonym>
+      <key>ru</key>
+      <value>Обновлять строки БД</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="5740a9f5-2da8-4baa-9242-178e7a6cc5a9">
+    <name>ПерваяСтрокаДанныхТабличногоДокумента</name>
+    <synonym>
+      <key>ru</key>
+      <value>Первая строка данных табличного документа</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>5</precision>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="f8908942-c06b-45e6-a244-0fb1852bd91f">
+    <name>ПолноеИмяТаблицы</name>
+    <synonym>
+      <key>ru</key>
+      <value>Полное имя таблицы</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers/>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="aa82e3d8-f893-46ac-a8b6-5c1fe1dd1309">
+    <name>ПредставлениеТаблицы</name>
+    <synonym>
+      <key>ru</key>
+      <value>Представление таблицы</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers/>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="337ff29c-d9d5-44b9-9142-129c4f761ee2">
+    <name>СобытияОбработкиОбъектов</name>
+    <synonym>
+      <key>ru</key>
+      <value>События обработки объектов</value>
+    </synonym>
+    <type>
+      <types>ValueTable</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="bdf20cb9-e455-4bd8-a5ab-a22fb920bac0">
+    <name>СопоставлениеКолонокБД</name>
+    <synonym>
+      <key>ru</key>
+      <value>Сопоставление колонок БД</value>
+    </synonym>
+    <type>
+      <types>ValueTable</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="66b2edf2-a27b-474d-8066-60489aad296a">
+    <name>СопоставлениеКолонокТЗ</name>
+    <synonym>
+      <key>ru</key>
+      <value>Сопоставление колонок ТЗ</value>
+    </synonym>
+    <type>
+      <types>ValueTable</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="35350f16-b080-4e32-a710-c5f7f3276c0f">
+    <name>СохранятьДанныеТД</name>
+    <synonym>
+      <key>ru</key>
+      <value>Сохранять данные ТД</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="3e8b33a8-0f66-467f-9469-ae8ce207a43b">
+    <name>СохранятьДанныеТЗ</name>
+    <synonym>
+      <key>ru</key>
+      <value>Сохранять данные ТЗ</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="90b35213-e507-4067-9eb1-ade06e1413a7">
+    <name>СтрокаЗаголовковТабличногоДокумента</name>
+    <synonym>
+      <key>ru</key>
+      <value>Строка заголовков табличного документа</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>2</precision>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="d4cca55a-fa0f-4ceb-814a-14b6697bc28c">
+    <name>ТаблицаБД</name>
+    <synonym>
+      <key>ru</key>
+      <value>Таблица БД</value>
+    </synonym>
+    <type>
+      <types>ValueTable</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="9acf023a-7289-47f5-89b9-99211a598f2e">
+    <name>ТаблицаЗначений</name>
+    <synonym>
+      <key>ru</key>
+      <value>Таблица значений</value>
+    </synonym>
+    <type>
+      <types>ValueTable</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="d989fae0-a5bb-46c1-bba1-3008daf25aa6">
+    <name>ТабличныйДокумент</name>
+    <synonym>
+      <key>ru</key>
+      <value>Табличный документ</value>
+    </synonym>
+    <type/>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <forms uuid="be21a82c-5d00-4c4e-9e8d-cb30d00d40eb">
+    <name>Форма</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма</value>
+    </synonym>
+    <formType>Ordinary</formType>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="a96d8ee1-11b2-4191-b7ec-50cbdcfbc939">
+    <name>ФормаВыбораЗначения</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма выбора значения</value>
+    </synonym>
+    <formType>Ordinary</formType>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <templates uuid="1c4ee229-6acf-406b-819f-9ce61843bf30">
+    <name>АлгоритмКонвертацииЗначения</name>
+    <synonym>
+      <key>ru</key>
+      <value>Алгоритм конвертации значения</value>
+    </synonym>
+  </templates>
+  <templates uuid="03a8ebda-1d2d-47f2-94c4-639dbcbd700c">
+    <name>АлгоритмПередЗаписьюОбъекта</name>
+    <synonym>
+      <key>ru</key>
+      <value>Перед записью объекта</value>
+    </synonym>
+  </templates>
+  <templates uuid="27a08c1d-ec8c-4f75-8f03-8ac26e013177">
+    <name>АлгоритмПередОбработкойОбъекта</name>
+    <synonym>
+      <key>ru</key>
+      <value>Перед обработкой объекта</value>
+    </synonym>
+  </templates>
+  <templates uuid="9dcf6293-17bc-48fa-ad49-77f9957dc219">
+    <name>АлгоритмПослеЗагрузкиСтроки</name>
+    <synonym>
+      <key>ru</key>
+      <value>После загрузки строки</value>
+    </synonym>
+  </templates>
+  <templates uuid="06cd88fb-ea6a-45ef-8fbf-ea3aaae2fe7a">
+    <name>АлгоритмПриЗаписиОбъекта</name>
+    <synonym>
+      <key>ru</key>
+      <value>При записи объекта</value>
+    </synonym>
+  </templates>
+  <commands uuid="9d9728ea-8431-4e36-b2b6-d4dd7ac4d6f4">
+    <name>Команда1</name>
+    <synonym>
+      <key>ru</key>
+      <value>Загрузка табличных данных (ИР)</value>
+    </synonym>
+    <synonym>
+      <key>uk</key>
+      <value>Загрузка табличных данных (ИР)</value>
+    </synonym>
+    <group>CommandGroup.ирАдминистрирование</group>
+    <commandParameterType/>
+    <representation>Auto</representation>
+    <shortcut></shortcut>
+  </commands>
+</mdclass:DataProcessor>

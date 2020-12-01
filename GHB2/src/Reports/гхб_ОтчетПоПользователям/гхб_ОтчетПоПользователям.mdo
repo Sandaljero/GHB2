@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Report xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="33424d81-201b-4a25-ab3c-9e1bb0d650b4">
+  <producedTypes>
+    <objectType typeId="59e00b3a-e9c8-4de7-99bf-829820af7622" valueTypeId="45823dcc-218f-4ed2-9b0d-2c5542cce5c2"/>
+    <managerType typeId="9d465c84-3a63-40d6-bf47-80e80e8b96b5" valueTypeId="fab3ec29-05fd-40d7-aa8c-f6f8402be282"/>
+  </producedTypes>
+  <name>гхб_ОтчетПоПользователям</name>
+  <synonym>
+    <key>ru</key>
+    <value>Отчет по пользователям</value>
+  </synonym>
+  <synonym>
+    <key>uk</key>
+    <value>Звіт по користувачам</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <defaultForm>CommonForm.ФормаОтчета</defaultForm>
+  <mainDataCompositionSchema>Report.гхб_ОтчетПоПользователям.Template.ОсновнаяСхемаКомпоновкиДанных</mainDataCompositionSchema>
+  <defaultSettingsForm>CommonForm.ФормаНастроекОтчета</defaultSettingsForm>
+  <templates uuid="92e84bfa-2925-45b4-94e9-dcd33c24e129">
+    <name>ОсновнаяСхемаКомпоновкиДанных</name>
+    <synonym>
+      <key>ru</key>
+      <value>Основная схема компоновки данных</value>
+    </synonym>
+    <templateType>DataCompositionSchema</templateType>
+  </templates>
+</mdclass:Report>

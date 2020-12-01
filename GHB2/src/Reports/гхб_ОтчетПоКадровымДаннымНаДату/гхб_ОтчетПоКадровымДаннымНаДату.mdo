@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Report xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="f004b652-f3a6-440a-ad4d-37097c11b1c1">
+  <producedTypes>
+    <objectType typeId="99b29e69-c2b9-4a76-b75f-33f47897c27d" valueTypeId="82d9093c-7e54-4d4f-96d5-70e3e84e99ca"/>
+    <managerType typeId="4e209b78-e69f-449a-89a6-9a37d2285ef9" valueTypeId="e0b7ed26-8197-48a5-a927-66a5ed7b6b0c"/>
+  </producedTypes>
+  <name>гхб_ОтчетПоКадровымДаннымНаДату</name>
+  <synonym>
+    <key>ru</key>
+    <value>Отчет по кадровым данным на дату</value>
+  </synonym>
+  <synonym>
+    <key>uk</key>
+    <value>Звіт по кадрових даних на дату</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <defaultForm>CommonForm.ФормаОтчета</defaultForm>
+  <mainDataCompositionSchema>Report.гхб_ОтчетПоКадровымДаннымНаДату.Template.ОсновнаяСхемаКомпоновкиДанных</mainDataCompositionSchema>
+  <defaultSettingsForm>CommonForm.ФормаНастроекОтчета</defaultSettingsForm>
+  <defaultVariantForm>CommonForm.ФормаВариантаОтчета</defaultVariantForm>
+  <templates uuid="1ce52ba5-5969-4ae8-85ac-d033ecc3711e">
+    <name>ОсновнаяСхемаКомпоновкиДанных</name>
+    <synonym>
+      <key>ru</key>
+      <value>Основная схема компоновки данных</value>
+    </synonym>
+    <templateType>DataCompositionSchema</templateType>
+  </templates>
+</mdclass:Report>

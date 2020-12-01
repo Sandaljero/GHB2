@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="ece6c29b-5fd1-469d-9c56-c057e7e72752">
+  <producedTypes>
+    <selectionType typeId="dd349bbb-62a9-4830-a78f-4638e69231c7" valueTypeId="267b19ed-5e6f-4c9b-b2fe-bf12df230120"/>
+    <listType typeId="e7519d3d-1bcf-4103-8d2f-32e8aff074de" valueTypeId="ad3c1d52-7ad9-46f1-a679-7d83705a89fe"/>
+    <managerType typeId="81ee29ef-e22f-4311-96d6-e17ff773e4cc" valueTypeId="c4dd2c37-7b5a-4322-b469-d2d293ae672b"/>
+    <recordSetType typeId="e1f2788f-00ea-45ef-a26a-10d6b16738bc" valueTypeId="57382b95-6e0c-409d-bdb1-962f35e0bac1"/>
+    <recordKeyType typeId="8b941f90-e355-40d3-b398-7586e6d9bdeb" valueTypeId="ae7bfe55-25d8-44fd-a55c-3f793f513484"/>
+    <recordType typeId="77f7134b-ea95-4d24-9022-9f0d8da9c5af" valueTypeId="42a72d1a-6eac-4f2a-b8ce-d37c93c26c78"/>
+    <recordManagerType typeId="4fc7685a-5841-4a27-86e0-dd77d4b2314b" valueTypeId="664b2509-5f81-418e-a9b2-cceafea2021a"/>
+  </producedTypes>
+  <name>гхб_НастройкаОпросаБазХолдинга</name>
+  <synonym>
+    <key>ru</key>
+    <value>Настройка опроса баз холдинга</value>
+  </synonym>
+  <synonym>
+    <key>uk</key>
+    <value>Налаштування опитування баз холдингу</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <editType>InDialog</editType>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <resources uuid="636c1f72-d91e-4c08-92fa-93476fafe7c8">
+    <name>Приоритет</name>
+    <synonym>
+      <key>ru</key>
+      <value>Приоритет</value>
+    </synonym>
+    <synonym>
+      <key>uk</key>
+      <value>Пріоритет</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>3</precision>
+        <nonNegative>true</nonNegative>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <dimensions uuid="51141239-b967-4197-a8d9-42af4e5a75fa">
+    <name>БазаХолдинга</name>
+    <synonym>
+      <key>ru</key>
+      <value>База холдинга</value>
+    </synonym>
+    <synonym>
+      <key>uk</key>
+      <value>База холдингу</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.гхб_БазыХолдинга</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="87de891e-ad1b-4ce9-b931-7acde872c6bf">
+    <name>АналитикаОпросаБазХолдинга</name>
+    <synonym>
+      <key>ru</key>
+      <value>Аналитика опроса баз холдинга</value>
+    </synonym>
+    <synonym>
+      <key>uk</key>
+      <value>Аналітика опитування баз холдингу</value>
+    </synonym>
+    <type>
+      <types>EnumRef.гхб_АналитикаОпросаБазХолдинга</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="00c3acc9-d4b7-49ca-8188-da7db2a85bd0">
+    <name>ЭкспортныйМетод</name>
+    <synonym>
+      <key>ru</key>
+      <value>Экспортный метод</value>
+    </synonym>
+    <synonym>
+      <key>uk</key>
+      <value>Експортний метод</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>500</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="f258d43c-d64e-4347-8233-9b5553db9451">
+    <name>ВнешнийИсточник</name>
+    <synonym>
+      <key>ru</key>
+      <value>Внешний источник</value>
+    </synonym>
+    <synonym>
+      <key>uk</key>
+      <value>Зовнішнє джерело</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.гхб_ВнешниеИсточники</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="1a11405a-0239-4e88-b839-911800ddb90d">
+    <name>ИмяСобытия</name>
+    <synonym>
+      <key>ru</key>
+      <value>Имя события</value>
+    </synonym>
+    <synonym>
+      <key>uk</key>
+      <value>Ім'я події</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>500</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+</mdclass:InformationRegister>

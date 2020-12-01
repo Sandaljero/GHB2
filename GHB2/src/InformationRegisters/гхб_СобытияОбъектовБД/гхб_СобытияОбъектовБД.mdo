@@ -1,0 +1,182 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="fa8262b5-c642-40c3-9cb8-dc32c2f61052">
+  <producedTypes>
+    <selectionType typeId="42738d0f-959e-4df6-916a-84cb2e523f81" valueTypeId="4c9246cc-d5f0-47ae-8053-590e1dc97191"/>
+    <listType typeId="a94bf326-6e90-42a2-8802-3e26b02150af" valueTypeId="ba9003fe-2e0b-4933-b71d-01c9cdfb6058"/>
+    <managerType typeId="afa4cf34-40f8-4479-b44e-1f035b73303e" valueTypeId="68aa719c-e0f3-4601-b1f5-fd795326a597"/>
+    <recordSetType typeId="cb04903b-f912-4d69-9d36-44a13e5dd9fd" valueTypeId="6427f694-9f26-4b8d-b53e-4f778580cfd4"/>
+    <recordKeyType typeId="8369e880-9b18-4918-9386-2b92d801ab5b" valueTypeId="3099c7ed-818e-44ac-87e8-a26e3e6e7901"/>
+    <recordType typeId="0ac17b4d-fc54-46c5-814e-14864ea70a24" valueTypeId="0730b85a-fc65-45a2-8210-8bd25c0e9b0e"/>
+    <recordManagerType typeId="83e11add-f6e1-4889-99df-cd1be0e548bf" valueTypeId="be72200a-cc05-457d-ab7a-fcca35556da9"/>
+  </producedTypes>
+  <name>гхб_СобытияОбъектовБД</name>
+  <synonym>
+    <key>ru</key>
+    <value>События объектов БД</value>
+  </synonym>
+  <synonym>
+    <key>uk</key>
+    <value>Події об'єктів БД</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <editType>InDialog</editType>
+  <defaultRecordForm>InformationRegister.гхб_СобытияОбъектовБД.Form.ФормаЗаписи</defaultRecordForm>
+  <defaultListForm>InformationRegister.гхб_СобытияОбъектовБД.Form.ФормаСписка</defaultListForm>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <attributes uuid="540db5b7-7fb7-46b0-8b19-8553440a4012">
+    <name>ДатаСобытия</name>
+    <synonym>
+      <key>ru</key>
+      <value>Дата события</value>
+    </synonym>
+    <synonym>
+      <key>uk</key>
+      <value>Дата події</value>
+    </synonym>
+    <type>
+      <types>Date</types>
+      <dateQualifiers/>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="71282331-a03c-4f54-81ce-9b940f08d527">
+    <name>Пользователь</name>
+    <synonym>
+      <key>ru</key>
+      <value>Пользователь</value>
+    </synonym>
+    <synonym>
+      <key>uk</key>
+      <value>Користувач</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Пользователи</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="b8cf5286-8af7-44b4-8453-d6ce2da126e9">
+    <name>Комментарий</name>
+    <synonym>
+      <key>ru</key>
+      <value>Комментарий</value>
+    </synonym>
+    <synonym>
+      <key>uk</key>
+      <value>Коментар</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>500</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+  </attributes>
+  <dimensions uuid="c7d89701-aa31-4ff6-90e9-69783bff1bdc">
+    <name>Объект</name>
+    <synonym>
+      <key>ru</key>
+      <value>Объект</value>
+    </synonym>
+    <synonym>
+      <key>uk</key>
+      <value>Об'єкт</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.гхб_ПользователиБазХолдинга</types>
+      <types>DocumentRef.гхб_ЗакреплениеОтветственногоЗаКонсервациюПомещения</types>
+      <types>DocumentRef.гхб_ЗакреплениеОтветственногоЗаПожарнуюБезопасность</types>
+      <types>DocumentRef.гхб_СвойстваПомещений</types>
+      <types>DocumentRef.гхб_ЗакреплениеОтветственногоЗаПомещение</types>
+      <types>DocumentRef.гхб_ЗакреплениеПомещенийЗаСотрудниками</types>
+      <types>CatalogRef.Пользователи</types>
+      <types>DocumentRef.гхб_ГруппыПомещений</types>
+      <types>DocumentRef.гхб_РаспределениеДоступовВПомещения</types>
+      <types>DocumentRef.гхб_ЗакреплениеСтатусаКонсервацииПомещения</types>
+      <types>DocumentRef.гхб_ЗакреплениеОтветственногоЗаЛокацию</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="17d49766-d5a7-42a2-90e4-29bb160ae680">
+    <name>ТипСобытия</name>
+    <synonym>
+      <key>ru</key>
+      <value>Тип события</value>
+    </synonym>
+    <synonym>
+      <key>uk</key>
+      <value>Тип події</value>
+    </synonym>
+    <type>
+      <types>EnumRef.гхб_ТипыСобытийОбъектовБД</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="b29d2767-2c75-453f-8e34-f3e71ab0d007">
+    <name>КлючСтроки</name>
+    <synonym>
+      <key>ru</key>
+      <value>Ключ строки</value>
+    </synonym>
+    <synonym>
+      <key>uk</key>
+      <value>Ключ строки</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>100</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <forms uuid="37dd4fbf-3fc9-43ca-b82a-6f8aea75b142">
+    <name>ФормаСписка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма списка</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="09c88c29-ab88-45c1-b7b3-2b67a27f8b53">
+    <name>ФормаЗаписи</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма записи</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:InformationRegister>

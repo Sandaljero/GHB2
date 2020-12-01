@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="3f4331ae-b239-4924-842c-3f8298c9ca5e">
+  <name>гхб_Документы</name>
+  <synonym>
+    <key>ru</key>
+    <value>Документы</value>
+  </synonym>
+  <synonym>
+    <key>uk</key>
+    <value>Документи</value>
+  </synonym>
+  <includeHelpInContents>true</includeHelpInContents>
+  <includeInCommandInterface>true</includeInCommandInterface>
+  <content>Document.гхб_СвойстваПомещений</content>
+  <content>Document.гхб_РаспределениеДоступовВПомещения</content>
+  <content>Document.гхб_ГруппыПомещений</content>
+  <content>Document.гхб_ЗакреплениеОтветственногоЗаЛокацию</content>
+  <content>Document.гхб_ЗакреплениеОтветственногоЗаПомещение</content>
+  <content>Document.гхб_ЗакреплениеОтветственногоЗаПожарнуюБезопасность</content>
+  <content>Document.гхб_ЗакреплениеПомещенийЗаСотрудниками</content>
+  <parentSubsystem>Subsystem.гхб_ПомещенияНаЛокациях</parentSubsystem>
+</mdclass:Subsystem>

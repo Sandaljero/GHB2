@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Report xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="d15ce588-cf82-4515-84be-c4041fb20e60">
+  <producedTypes>
+    <objectType typeId="40c447df-65b4-4bce-9c0f-96aa3af2eabf" valueTypeId="12a9da6b-2e40-4522-a731-2b7847be2a32"/>
+    <managerType typeId="f3c11d63-28b2-48f7-a1bc-928eb41b1aa1" valueTypeId="14b75a38-ecf5-4996-8ea4-4386878f0348"/>
+  </producedTypes>
+  <name>гхб_ОтчетПоОшибкамИНН</name>
+  <synonym>
+    <key>ru</key>
+    <value>Отчет по ошибкам ИНН</value>
+  </synonym>
+  <synonym>
+    <key>uk</key>
+    <value>Звіт по помилках ІПН</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <defaultForm>CommonForm.ФормаОтчета</defaultForm>
+  <mainDataCompositionSchema>Report.гхб_ОтчетПоОшибкамИНН.Template.ОсновнаяСхемаКомпоновкиДанных</mainDataCompositionSchema>
+  <defaultSettingsForm>CommonForm.ФормаНастроекОтчета</defaultSettingsForm>
+  <defaultVariantForm>CommonForm.ФормаВариантаОтчета</defaultVariantForm>
+  <templates uuid="83a9bdba-b2a9-44ed-a74a-5658abb1f89d">
+    <name>ОсновнаяСхемаКомпоновкиДанных</name>
+    <synonym>
+      <key>ru</key>
+      <value>Основная схема компоновки данных</value>
+    </synonym>
+    <templateType>DataCompositionSchema</templateType>
+  </templates>
+</mdclass:Report>

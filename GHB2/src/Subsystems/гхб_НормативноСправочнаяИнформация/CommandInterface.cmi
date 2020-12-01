@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<cmi:CommandInterface xmlns:cmi="http://g5.1c.ru/v8/dt/cmi">
+  <subsystemsOrder>
+    <subsystems>Subsystem.гхб_НормативноСправочнаяИнформация.Subsystem.гхб_ДокументыНСИ</subsystems>
+    <subsystems>Subsystem.гхб_НормативноСправочнаяИнформация.Subsystem.гхб_ОтчетыНСИ</subsystems>
+    <subsystems>Subsystem.гхб_НормативноСправочнаяИнформация.Subsystem.гхб_СправочникиНСИ</subsystems>
+  </subsystemsOrder>
+</cmi:CommandInterface>

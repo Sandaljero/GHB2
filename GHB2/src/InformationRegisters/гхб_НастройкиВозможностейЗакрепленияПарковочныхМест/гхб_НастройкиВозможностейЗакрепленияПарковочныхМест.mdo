@@ -1,0 +1,175 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="b55fc33a-2208-46ed-924b-1cee55ad0030">
+  <producedTypes>
+    <selectionType typeId="c3f89632-0559-4a37-bb04-dc82bf8ee28f" valueTypeId="01c8b51e-cf68-46a3-aa20-7be57c337b07"/>
+    <listType typeId="297f221b-e70e-4dfa-b97d-1060cb61006b" valueTypeId="14c4f60f-716b-475f-b599-8aad74b4f3c0"/>
+    <managerType typeId="e25c972a-6d02-49de-b2b7-1c5707c90841" valueTypeId="56773c7e-4016-466e-b8d2-48e56a556ff0"/>
+    <recordSetType typeId="18f07537-55c3-436b-8d5f-8327773fb515" valueTypeId="fa6e9de1-3e15-42b3-b0c4-9acd3a08ee71"/>
+    <recordKeyType typeId="26604f61-a0d3-41f8-b5d0-ad49cbaca74a" valueTypeId="36179da9-c238-4a96-945a-16fc389505b3"/>
+    <recordType typeId="6d86ebc2-b378-4cc3-97bb-4722eeee1fb3" valueTypeId="f5b26e5a-13ca-4d8f-9c70-28285b23e1b4"/>
+    <recordManagerType typeId="b2a053a1-becb-4a7d-8135-046418cc8017" valueTypeId="303c4cc7-40a2-426c-aa99-23e82290185e"/>
+  </producedTypes>
+  <name>гхб_НастройкиВозможностейЗакрепленияПарковочныхМест</name>
+  <synonym>
+    <key>ru</key>
+    <value>Настройки возможностей (закрепление парковочных мест)</value>
+  </synonym>
+  <synonym>
+    <key>uk</key>
+    <value>Налаштування можливостей (закріплення паркувальних місць)</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <editType>InDialog</editType>
+  <defaultRecordForm>InformationRegister.гхб_НастройкиВозможностейЗакрепленияПарковочныхМест.Form.ФормаЗаписи</defaultRecordForm>
+  <defaultListForm>InformationRegister.гхб_НастройкиВозможностейЗакрепленияПарковочныхМест.Form.ФормаСписка</defaultListForm>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Active</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>LineNumber</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Recorder</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Period</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <attributes uuid="46231104-768c-414a-8306-747455fb4d8a">
+    <name>РедактированиеДокументаЗакрепления</name>
+    <synonym>
+      <key>ru</key>
+      <value>Редактирование документа закрепления</value>
+    </synonym>
+    <synonym>
+      <key>uk</key>
+      <value>Редагування документу закріплення</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="ba3639d6-f928-41bb-abaa-5075ef614522">
+    <name>ПисьмоОбУвольненииСотрудника</name>
+    <synonym>
+      <key>ru</key>
+      <value>Письмо об увольнении сотрудника</value>
+    </synonym>
+    <synonym>
+      <key>uk</key>
+      <value>Лист про звільнення співробітника</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="93a52bbb-9745-436b-9605-9f9998d6e2bc">
+    <name>ПисьмоОПрекращенииДействияПропуска</name>
+    <synonym>
+      <key>ru</key>
+      <value>Письмо о прекращении действия пропуска</value>
+    </synonym>
+    <synonym>
+      <key>uk</key>
+      <value>Лист про припинення дії перепустки</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <dimensions uuid="7e4cddc5-57e6-4bdc-abec-9ad8b19cd6d0">
+    <name>Сотрудник</name>
+    <synonym>
+      <key>ru</key>
+      <value>Сотрудник</value>
+    </synonym>
+    <synonym>
+      <key>uk</key>
+      <value>Співробітник</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.гхб_ФизическиеЛица</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="a9f511d6-aa45-462a-9559-239bf7ca4524">
+    <name>Локация</name>
+    <synonym>
+      <key>ru</key>
+      <value>Локация</value>
+    </synonym>
+    <synonym>
+      <key>uk</key>
+      <value>Локація</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.гхб_Помещения</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <choiceFoldersAndItems>Folders</choiceFoldersAndItems>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <forms uuid="9e0bdb6b-6c57-4494-ac9a-402c832c4f63">
+    <name>ФормаСписка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма списка</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="f7336d11-88d8-4a54-8668-fcfa81031873">
+    <name>ФормаЗаписи</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма записи</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:InformationRegister>

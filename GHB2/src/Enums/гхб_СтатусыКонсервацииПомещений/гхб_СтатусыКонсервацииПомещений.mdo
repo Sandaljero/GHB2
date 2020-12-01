@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="75fd3bc6-a302-4e86-a5fa-564542fa73f4">
+  <producedTypes>
+    <refType typeId="a5166e0b-dcf5-46a3-8f08-e698557c3d27" valueTypeId="1014d1ec-e08a-4f86-80f6-5fd99001e576"/>
+    <listType typeId="ed856994-5f4e-4b88-b301-2eaa7b563f20" valueTypeId="9aa03916-12c2-47d2-9611-24dad74ff0e8"/>
+    <managerType typeId="8d63a952-5ad5-4b14-a341-69c6a20eea35" valueTypeId="fc30b701-d5c1-4a07-a7b2-9c26d66097de"/>
+  </producedTypes>
+  <name>гхб_СтатусыКонсервацииПомещений</name>
+  <synonym>
+    <key>ru</key>
+    <value>Статусы консервации помещений</value>
+  </synonym>
+  <synonym>
+    <key>uk</key>
+    <value>Статуси консервації приміщень</value>
+  </synonym>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="8b5769fa-3bd3-401e-91ad-034faa0ed3fb">
+    <name>Green</name>
+    <synonym>
+      <key>ru</key>
+      <value>Green</value>
+    </synonym>
+    <synonym>
+      <key>uk</key>
+      <value>Green</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="01c970a8-8c87-4f5c-b86f-6fcb3d6ad0ec">
+    <name>Yellow</name>
+    <synonym>
+      <key>ru</key>
+      <value>Yellow</value>
+    </synonym>
+    <synonym>
+      <key>uk</key>
+      <value>Yellow</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="54530f66-e320-49ba-b9d2-170406e53538">
+    <name>Red</name>
+    <synonym>
+      <key>ru</key>
+      <value>Red</value>
+    </synonym>
+    <synonym>
+      <key>uk</key>
+      <value>Red</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

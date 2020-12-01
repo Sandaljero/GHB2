@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="145f600a-8745-457a-b518-30fa8636f3ab">
+  <producedTypes>
+    <selectionType typeId="bdec87dc-86c9-4db6-a3ed-78986120a578" valueTypeId="849ee09f-dc1b-4b1d-bcdb-95101e4957a8"/>
+    <listType typeId="cbdbadf4-37e2-4ada-a41f-c774b44cfdf4" valueTypeId="b610a800-80db-48fe-a885-2639ba0d8809"/>
+    <managerType typeId="509a2a09-83b8-427c-9f27-49e8c0df47e7" valueTypeId="548d3af9-885c-40d5-84a5-fde3f9575ec4"/>
+    <recordSetType typeId="5ecf154c-6c06-438e-82a8-137f3ef01093" valueTypeId="fedafea5-fac8-40ab-a77a-eedce745cf56"/>
+    <recordKeyType typeId="369753c5-67e9-46fc-8eaf-69a7a9c3eaa6" valueTypeId="3a87518f-a6ea-4326-8443-4d780a2cad20"/>
+    <recordType typeId="cc78fb5e-40da-4084-a433-9f93b57224a7" valueTypeId="6c189d48-bb24-4ef6-8bbb-da343c9b0e23"/>
+    <recordManagerType typeId="e56ff305-9e45-4ba5-8a3a-d47717f6bed6" valueTypeId="4279844d-21f7-42b8-a66b-f1196a563f16"/>
+  </producedTypes>
+  <name>гхб_КризисМенеджерыСпискиДоступа</name>
+  <synonym>
+    <key>ru</key>
+    <value>Кризис-менеджеры (списки доступа)</value>
+  </synonym>
+  <synonym>
+    <key>uk</key>
+    <value>Кризові менеджери (списки доступау)</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <editType>InDialog</editType>
+  <defaultRecordForm>InformationRegister.гхб_КризисМенеджерыСпискиДоступа.Form.ФормаЗаписи</defaultRecordForm>
+  <defaultListForm>InformationRegister.гхб_КризисМенеджерыСпискиДоступа.Form.ФормаСписка</defaultListForm>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <dimensions uuid="2128c1c4-c300-4390-bc00-134bdfad1da7">
+    <name>КризисМенеджер</name>
+    <synonym>
+      <key>ru</key>
+      <value>Кризис-менеджер</value>
+    </synonym>
+    <synonym>
+      <key>uk</key>
+      <value>Кризовий менеджер</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.гхб_ФизическиеЛица</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="027554b8-de6a-49f0-a0bd-81c95c01e62f">
+    <name>Локация</name>
+    <synonym>
+      <key>ru</key>
+      <value>Локация</value>
+    </synonym>
+    <synonym>
+      <key>uk</key>
+      <value>Локація</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.гхб_Помещения</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <choiceFoldersAndItems>Folders</choiceFoldersAndItems>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <forms uuid="c7284cbd-e4a1-4868-abc8-f2860f1e8868">
+    <name>ФормаЗаписи</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма записи</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="48b7f7c1-5ebe-4fd3-93b7-f0d22a69ce0f">
+    <name>ФормаСписка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма списка</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:InformationRegister>

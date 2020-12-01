@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="ae0cc3a0-39b3-4580-807f-be89b81efa80">
+  <producedTypes>
+    <refType typeId="6ac0b029-9a43-434d-848f-c903a560b12e" valueTypeId="26a961f0-0770-4514-8ae9-5c197e01ed06"/>
+    <listType typeId="820a19d2-8ef1-4c7b-9472-13410593985f" valueTypeId="9bb01076-cb1e-480a-b3fa-51b2e8b6d183"/>
+    <managerType typeId="130ab6dc-16b6-4713-bc43-3aa9b41abf66" valueTypeId="b5b55fd9-a581-450f-936e-1e3efaa07cb7"/>
+  </producedTypes>
+  <name>гхб_АналитикаОпросаБазХолдинга</name>
+  <synonym>
+    <key>ru</key>
+    <value>Аналитика опроса баз холдинга</value>
+  </synonym>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="78d224bd-7127-45c9-b3f1-749344266ac8">
+    <name>ОпросДанныхПоФизЛицам</name>
+    <synonym>
+      <key>ru</key>
+      <value>Опрос данных по физ лицам</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

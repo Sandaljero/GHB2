@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Report xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="7bd9c947-88d9-46f7-ae75-29e1cfc12244">
+  <producedTypes>
+    <objectType typeId="2eb0b0dc-ebaf-4bc8-964e-318e0307be05" valueTypeId="fd1f68ca-6a7d-4728-836b-6fb0a56fa11b"/>
+    <managerType typeId="db69b26f-60f9-49c8-b26b-693114c37959" valueTypeId="2a60bd58-95f1-4029-a66a-d07dad577d94"/>
+  </producedTypes>
+  <name>гхб_ОтчетПоПерсональнымКабинетамТакси</name>
+  <synonym>
+    <key>ru</key>
+    <value>Отчет по персональным кабинетам такси</value>
+  </synonym>
+  <synonym>
+    <key>uk</key>
+    <value>Звіт по персональним кабінетам таксі</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <defaultForm>CommonForm.ФормаОтчета</defaultForm>
+  <mainDataCompositionSchema>Report.гхб_ОтчетПоПерсональнымКабинетамТакси.Template.ОсновнаяСхемаКомпоновкиДанных</mainDataCompositionSchema>
+  <defaultSettingsForm>CommonForm.ФормаНастроекОтчета</defaultSettingsForm>
+  <defaultVariantForm>CommonForm.ФормаВариантаОтчета</defaultVariantForm>
+  <templates uuid="a253ad0e-02cb-477b-a7a1-bbfc6a7f8c46">
+    <name>ОсновнаяСхемаКомпоновкиДанных</name>
+    <synonym>
+      <key>ru</key>
+      <value>Основная схема компоновки данных</value>
+    </synonym>
+    <templateType>DataCompositionSchema</templateType>
+  </templates>
+</mdclass:Report>

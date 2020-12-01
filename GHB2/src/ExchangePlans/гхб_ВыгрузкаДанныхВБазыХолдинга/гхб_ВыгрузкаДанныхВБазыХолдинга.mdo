@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:ExchangePlan xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="ca09558f-6b2b-4869-92e6-a57dbf7efc51" thisNode="c2fe1572-ad48-475e-963f-74c68d8ca9e2">
+  <producedTypes>
+    <objectType typeId="1e24fc45-759d-4189-a06c-80e3be872b77" valueTypeId="3fd052f7-eeeb-46b8-8ee7-14ab325d3d5c"/>
+    <refType typeId="32f6544c-be63-4865-abb5-cca6cc49c6be" valueTypeId="adcc7c26-e2ff-4623-b090-04801f6af341"/>
+    <selectionType typeId="b883b038-9a6d-4593-967d-cbc16143bfb8" valueTypeId="05d9270e-905d-4b93-bdd7-6676c8d0f3ba"/>
+    <listType typeId="579b9fda-cfd4-4a50-b637-4f0e31637661" valueTypeId="3fa8d418-de73-4a47-8738-5dbdff00ad00"/>
+    <managerType typeId="ce002ef8-561c-4915-8387-702495172d36" valueTypeId="5e2107e6-baf1-4ab5-a755-4459d9cb6ca6"/>
+  </producedTypes>
+  <name>гхб_ВыгрузкаДанныхВБазыХолдинга</name>
+  <synonym>
+    <key>ru</key>
+    <value>Выгрузка данных в базы холдинга</value>
+  </synonym>
+  <synonym>
+    <key>uk</key>
+    <value>Вывантаження даних в бази холдингу</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>ExchangePlan.гхб_ВыгрузкаДанныхВБазыХолдинга.StandardAttribute.Description</inputByString>
+  <inputByString>ExchangePlan.гхб_ВыгрузкаДанныхВБазыХолдинга.StandardAttribute.Code</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>DontUse</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <codeLength>9</codeLength>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <descriptionLength>25</descriptionLength>
+  <content>
+    <mdObject>Catalog.гхб_ФизическиеЛицаБазХолдинга</mdObject>
+  </content>
+  <content>
+    <mdObject>Catalog.гхб_Помещения</mdObject>
+  </content>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+</mdclass:ExchangePlan>

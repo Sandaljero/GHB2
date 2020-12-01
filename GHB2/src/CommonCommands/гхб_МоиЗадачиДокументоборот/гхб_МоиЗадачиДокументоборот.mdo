@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonCommand xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="c4ccab1c-76c0-4a99-b567-2576cab80eab">
+  <name>гхб_МоиЗадачиДокументоборот</name>
+  <synonym>
+    <key>ru</key>
+    <value>Мои задачи (Документоборот)</value>
+  </synonym>
+  <synonym>
+    <key>uk</key>
+    <value>Мої завдання (документообіг)</value>
+  </synonym>
+  <group>NavigationPanelImportant</group>
+  <commandParameterType/>
+  <representation>Auto</representation>
+  <shortcut></shortcut>
+</mdclass:CommonCommand>

@@ -1,0 +1,178 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="fbcc9319-b2a7-4042-92c1-7d8ae47200ff">
+  <producedTypes>
+    <selectionType typeId="222270f4-ca3d-41db-8c35-310185c86807" valueTypeId="ca0016fe-e0e2-49bc-bd1c-92fc01d3df57"/>
+    <listType typeId="d1029d17-2cab-4367-89c7-b0ce4c024548" valueTypeId="eaabdd87-ef98-4b48-a0de-6a53f2027f5a"/>
+    <managerType typeId="3f4236de-3188-4561-9127-eb70da8f3322" valueTypeId="656bba10-faa2-4821-a74e-09171072f83a"/>
+    <recordSetType typeId="ee4b6646-2c7e-4d4a-afa0-2cba45648794" valueTypeId="3dc5e0ea-a77f-4b59-a48a-2f6d795fdea8"/>
+    <recordKeyType typeId="8a518be5-8d89-4d6f-b34e-50f4bb391c75" valueTypeId="f0b7c08b-1ebb-4a41-aaa6-d0e922dc98b9"/>
+    <recordType typeId="1ca9cc03-7dc4-46d4-b178-fac2b46c0725" valueTypeId="54169e9d-30e1-4a81-931d-88b41a96d13b"/>
+    <recordManagerType typeId="fb63b0c4-65f4-4c30-85b9-2dbfe4d2ecda" valueTypeId="3c509bc9-d736-4821-9886-822a4df80baf"/>
+  </producedTypes>
+  <name>гхб_ИсторияОбменовСБазамиХолдинга</name>
+  <synonym>
+    <key>ru</key>
+    <value>История обменов с базами холдинга</value>
+  </synonym>
+  <synonym>
+    <key>uk</key>
+    <value>Історія обмінів з базами холдингу</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <editType>InDialog</editType>
+  <defaultRecordForm>InformationRegister.гхб_ИсторияОбменовСБазамиХолдинга.Form.ФормаЗаписи</defaultRecordForm>
+  <defaultListForm>InformationRegister.гхб_ИсторияОбменовСБазамиХолдинга.Form.ФормаСписка</defaultListForm>
+  <informationRegisterPeriodicity>Second</informationRegisterPeriodicity>
+  <mainFilterOnPeriod>true</mainFilterOnPeriod>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <resources uuid="6252666e-79ed-491d-803f-08a2bef2d7d2">
+    <name>Значение</name>
+    <synonym>
+      <key>ru</key>
+      <value>Значение</value>
+    </synonym>
+    <synonym>
+      <key>uk</key>
+      <value>Значення</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.гхб_ДополнительныеУслугиДляНомеровТелефонов</types>
+      <types>CatalogRef.гхб_НомераТелефонов</types>
+      <types>CatalogRef.гхб_ЦеновыеПакетыМобильнойСвязи</types>
+      <types>DocumentRef.гхб_ЛимитНаМобильнуюСвязь</types>
+      <types>Date</types>
+      <dateQualifiers>
+        <dateFractions>Date</dateFractions>
+      </dateQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="1f578697-f615-48ff-ade4-062c286709d8">
+    <name>ЗначениеСтрокаНеограниченнойДлины</name>
+    <synonym>
+      <key>ru</key>
+      <value>Значение строка неограниченной длины</value>
+    </synonym>
+    <synonym>
+      <key>uk</key>
+      <value>Значення рядок необмеженої довжини</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers/>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+  </resources>
+  <resources uuid="645b4623-9464-4ff1-8e67-a665510f1a31">
+    <name>Пользователь</name>
+    <synonym>
+      <key>ru</key>
+      <value>Пользователь</value>
+    </synonym>
+    <synonym>
+      <key>uk</key>
+      <value>Користувач</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Пользователи</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <dimensions uuid="f118cae3-bd20-49d8-9ed5-2387616835d4">
+    <name>БазаХолдинга</name>
+    <synonym>
+      <key>ru</key>
+      <value>База холдинга</value>
+    </synonym>
+    <synonym>
+      <key>uk</key>
+      <value>База холдингу</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.гхб_БазыХолдинга</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="537bc61b-e6dc-4b38-9c13-d454f2cb03eb">
+    <name>Объект</name>
+    <synonym>
+      <key>ru</key>
+      <value>Объект</value>
+    </synonym>
+    <synonym>
+      <key>uk</key>
+      <value>Об'єкт</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.гхб_ПользователиБазХолдинга</types>
+      <types>CatalogRef.гхб_ДополнительныеУслугиДляНомеровТелефонов</types>
+      <types>CatalogRef.гхб_ФизическиеЛицаБазХолдинга</types>
+      <types>CatalogRef.гхб_НомераТелефонов</types>
+      <types>CatalogRef.гхб_ЦеновыеПакетыМобильнойСвязи</types>
+      <types>DocumentRef.гхб_ЛимитНаМобильнуюСвязь</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="bc70554d-edc7-4702-bfc5-51bc5199b81b">
+    <name>Тип</name>
+    <synonym>
+      <key>ru</key>
+      <value>Тип</value>
+    </synonym>
+    <synonym>
+      <key>uk</key>
+      <value>Тип</value>
+    </synonym>
+    <type>
+      <types>EnumRef.гхб_ТипыОбменовДляБазХолдинга</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <forms uuid="6235706c-8280-46e2-bbb0-0247b76db64d">
+    <name>ФормаЗаписи</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма записи</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="690897a9-1332-4eb0-bed6-6107900c4512">
+    <name>ФормаСписка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма списка</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:InformationRegister>

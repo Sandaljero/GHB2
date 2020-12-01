@@ -1,0 +1,541 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="0987a7b3-b1bc-4ccf-9e24-e9e3b7d98148">
+  <producedTypes>
+    <objectType typeId="b3e14b1d-8185-40b7-86f6-650464b2abcd" valueTypeId="2cc0b42f-953e-4aa7-89d2-73fe47daaa2f"/>
+    <refType typeId="a6d24b89-3e77-4806-8a7a-78aaac272475" valueTypeId="6a6bdce9-27b0-4480-8931-6709a25e8e02"/>
+    <selectionType typeId="14579a14-2018-4544-ae6e-e7ae019e1922" valueTypeId="bb3f7ae4-7905-47cd-9e33-142c05d3d5d8"/>
+    <listType typeId="7cc89b15-dcfc-4e8a-a923-0cb8e61ed1bb" valueTypeId="ff06a058-0dd8-40ca-b5c3-c1183a596df9"/>
+    <managerType typeId="8c3ccbe3-3414-49a7-98ad-44ebf442ec5c" valueTypeId="cb1a21e1-384b-4bb5-958d-f946c273f0a0"/>
+  </producedTypes>
+  <name>гхб_ЛимитНаМобильнуюСвязь</name>
+  <synonym>
+    <key>ru</key>
+    <value>Лимит на мобильную связь</value>
+  </synonym>
+  <synonym>
+    <key>uk</key>
+    <value>Ліміт на мобільний зв'язок</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Document.гхб_ЛимитНаМобильнуюСвязь.StandardAttribute.Number</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <numberType>String</numberType>
+  <numberLength>9</numberLength>
+  <numberAllowedLength>Variable</numberAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultObjectForm>Document.гхб_ЛимитНаМобильнуюСвязь.Form.ФормаДокумента</defaultObjectForm>
+  <defaultListForm>Document.гхб_ЛимитНаМобильнуюСвязь.Form.ФормаСписка</defaultListForm>
+  <defaultChoiceForm>Document.гхб_ЛимитНаМобильнуюСвязь.Form.ФормаВыбора</defaultChoiceForm>
+  <realTimePosting>Deny</realTimePosting>
+  <registerRecords>InformationRegister.гхб_СоответствиеНомеровТелефоновДопУслугам</registerRecords>
+  <registerRecords>InformationRegister.гхб_СоответствиеНомеровТелефоновФизЛицам</registerRecords>
+  <postInPrivilegedMode>true</postInPrivilegedMode>
+  <unpostInPrivilegedMode>true</unpostInPrivilegedMode>
+  <attributes uuid="773d3fe7-0f1e-4171-ba95-278907824190">
+    <name>БазаХолдинга</name>
+    <synonym>
+      <key>ru</key>
+      <value>База холдинга</value>
+    </synonym>
+    <synonym>
+      <key>uk</key>
+      <value>База холдингу</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.гхб_БазыХолдинга</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="2849afe5-d2e0-4b67-8274-d5521141d8f5">
+    <name>Организация</name>
+    <synonym>
+      <key>ru</key>
+      <value>Организация</value>
+    </synonym>
+    <synonym>
+      <key>uk</key>
+      <value>Організація</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.гхб_ОрганизацииБазХолдинга</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="fe2826d8-aa34-43f5-a1b3-7b0dce422bbe">
+    <name>ДатаНачалаДействия</name>
+    <synonym>
+      <key>ru</key>
+      <value>Дата начала действия</value>
+    </synonym>
+    <synonym>
+      <key>uk</key>
+      <value>Дата початку дії</value>
+    </synonym>
+    <type>
+      <types>Date</types>
+      <dateQualifiers>
+        <dateFractions>Date</dateFractions>
+      </dateQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="9574a5f8-a8aa-4164-aed1-85565d87934a">
+    <name>УИДИзБазыХолдинга</name>
+    <synonym>
+      <key>ru</key>
+      <value>УИД из базы холдинга</value>
+    </synonym>
+    <synonym>
+      <key>uk</key>
+      <value>УІД з бази холдингу</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>36</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="a124ec54-9f02-4421-a893-3da5cae4a163">
+    <name>ЗапрещеноИзменение</name>
+    <synonym>
+      <key>ru</key>
+      <value>Запрещено изменение</value>
+    </synonym>
+    <synonym>
+      <key>uk</key>
+      <value>Заборонена зміна</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="336a371a-63dc-4854-898d-87bacaeb4e84">
+    <name>ИзмененНоНеМигрировал</name>
+    <synonym>
+      <key>ru</key>
+      <value>Изменен но не мигрировал</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <forms uuid="f6d932c1-af2c-4959-9a09-04f702e081ba">
+    <name>ФормаДокумента</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма документа</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="c9fcda51-6f27-4d4c-8962-01b17d7f7db5">
+    <name>ФормаСписка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма списка</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="f583fc0a-fa60-42bf-b001-531f50cfa8e0">
+    <name>ФормаВыбора</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма выбора</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="60be221f-f92e-4c37-b656-bf2b58b08ed2">
+    <name>ФормаВыбораДопУслуг</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма выбора доп услуг</value>
+    </synonym>
+    <synonym>
+      <key>uk</key>
+      <value>Форма вибору доп послуг</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <tabularSections uuid="ec26ef12-4f8d-46e5-9423-4412058fa62e">
+    <producedTypes>
+      <objectType typeId="45da1010-fe4d-482e-a7ad-69a7c0a98b9a" valueTypeId="cf820a2f-2637-4eec-8569-f78d96113fab"/>
+      <rowType typeId="8ada1586-3d0c-4a72-9554-ba0a7f0fb3de" valueTypeId="62b6696e-2974-4339-bbe0-2b28ecf90153"/>
+    </producedTypes>
+    <name>Лимиты</name>
+    <synonym>
+      <key>ru</key>
+      <value>Лимиты</value>
+    </synonym>
+    <synonym>
+      <key>uk</key>
+      <value>Ліміти</value>
+    </synonym>
+    <attributes uuid="bf77d2ea-6751-4bae-b45b-87be2e8c724d">
+      <name>НомерТелефона</name>
+      <synonym>
+        <key>ru</key>
+        <value>Номер телефона</value>
+      </synonym>
+      <synonym>
+        <key>uk</key>
+        <value>Номер телефона</value>
+      </synonym>
+      <type>
+        <types>CatalogRef.гхб_НомераТелефонов</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fillChecking>ShowError</fillChecking>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="45401f3d-6e48-4d04-add4-21bf1a8e09ba">
+      <name>ФизЛицоБазыХолдинга</name>
+      <synonym>
+        <key>ru</key>
+        <value>Физ лицо базы холдинга</value>
+      </synonym>
+      <synonym>
+        <key>uk</key>
+        <value>Фіз особа бази холдингу</value>
+      </synonym>
+      <type>
+        <types>CatalogRef.гхб_ФизическиеЛицаБазХолдинга</types>
+        <types>String</types>
+        <stringQualifiers>
+          <length>150</length>
+        </stringQualifiers>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="eef8fc3b-289b-473a-be7a-bd281e208e9f">
+      <name>ЛимитВнутренний</name>
+      <synonym>
+        <key>ru</key>
+        <value>Лимит внутренний</value>
+      </synonym>
+      <synonym>
+        <key>uk</key>
+        <value>Ліміт внутрішній</value>
+      </synonym>
+      <type>
+        <types>Number</types>
+        <numberQualifiers>
+          <precision>10</precision>
+          <scale>2</scale>
+          <nonNegative>true</nonNegative>
+        </numberQualifiers>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="ef587e18-667c-4b60-a00a-433ab3ba73e0">
+      <name>ЛимитМеждународнойСвязи</name>
+      <synonym>
+        <key>ru</key>
+        <value>Лимит международной связи</value>
+      </synonym>
+      <synonym>
+        <key>uk</key>
+        <value>Ліміт міжнародного зв'язку</value>
+      </synonym>
+      <type>
+        <types>Number</types>
+        <numberQualifiers>
+          <precision>10</precision>
+          <scale>2</scale>
+          <nonNegative>true</nonNegative>
+        </numberQualifiers>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="ea881523-f453-4df3-9866-7a3730e7ba3f">
+      <name>Использование</name>
+      <synonym>
+        <key>ru</key>
+        <value>Использование</value>
+      </synonym>
+      <synonym>
+        <key>uk</key>
+        <value>Використання</value>
+      </synonym>
+      <type>
+        <types>EnumRef.гхб_ИспользованиеНомеровТелефонов</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fillChecking>ShowError</fillChecking>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="c3399acd-e642-4e7b-adc4-de93a57aeb57">
+      <name>БезлимитныйВнутренний</name>
+      <synonym>
+        <key>ru</key>
+        <value>Безлимитный внутренний</value>
+      </synonym>
+      <synonym>
+        <key>uk</key>
+        <value>Безлімітний внутрішній</value>
+      </synonym>
+      <type>
+        <types>Boolean</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="f0b4d581-5a66-4f9c-b3b4-db3179e61816">
+      <name>БезлимитнаяМеждународнаяСвязь</name>
+      <synonym>
+        <key>ru</key>
+        <value>Безлимитная международная связь</value>
+      </synonym>
+      <synonym>
+        <key>uk</key>
+        <value>Безлімітний міжнародний зв'язок</value>
+      </synonym>
+      <type>
+        <types>Boolean</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="61d900fd-fd66-4101-80c7-5593e15e1cb7">
+      <name>ЦеновойПакет</name>
+      <synonym>
+        <key>ru</key>
+        <value>Ценовой пакет</value>
+      </synonym>
+      <synonym>
+        <key>uk</key>
+        <value>Ціновий пакет</value>
+      </synonym>
+      <type>
+        <types>CatalogRef.гхб_ЦеновыеПакетыМобильнойСвязи</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="a6242920-8fed-4d32-b42f-5f900f82cd87">
+      <name>ОтветственныйБазыХолдинга</name>
+      <synonym>
+        <key>ru</key>
+        <value>Ответственный базы холдинга</value>
+      </synonym>
+      <synonym>
+        <key>uk</key>
+        <value>Відповідальний бази холдингу</value>
+      </synonym>
+      <type>
+        <types>CatalogRef.гхб_ФизическиеЛицаБазХолдинга</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="85a491ac-a090-4d77-91e6-17f1ada1f79d">
+      <name>ТипУстройства</name>
+      <synonym>
+        <key>ru</key>
+        <value>Тип устройства</value>
+      </synonym>
+      <synonym>
+        <key>uk</key>
+        <value>Тип пристрою</value>
+      </synonym>
+      <type>
+        <types>EnumRef.гхб_ТипыУстройствМобильнойСвязи</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fillChecking>ShowError</fillChecking>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="f10146ae-5abd-43c1-8e0f-005081006541">
+      <name>НомерЛицевогоСчета</name>
+      <synonym>
+        <key>ru</key>
+        <value>Номер лицевого счета</value>
+      </synonym>
+      <synonym>
+        <key>uk</key>
+        <value>Номер особового рахунку</value>
+      </synonym>
+      <type>
+        <types>String</types>
+        <stringQualifiers>
+          <length>10</length>
+        </stringQualifiers>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="0cb80202-be70-4d34-bdf9-28ff462a5948">
+      <name>Должность</name>
+      <synonym>
+        <key>ru</key>
+        <value>Должность</value>
+      </synonym>
+      <type>
+        <types>CatalogRef.гхб_ДолжностиОрганизацийБазХолдинга</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="ff8a75c2-8f38-4056-b65a-8b31ffbf237e">
+      <name>ЦФО</name>
+      <synonym>
+        <key>ru</key>
+        <value>ЦФО</value>
+      </synonym>
+      <type>
+        <types>CatalogRef.гхб_ЦФО</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+  </tabularSections>
+  <tabularSections uuid="94759508-a1ce-4f53-99f7-6496df8dd448">
+    <producedTypes>
+      <objectType typeId="aefcfa4f-317b-4d53-9753-a748ecaea19d" valueTypeId="e6036da3-5f47-482e-9894-f740327fa779"/>
+      <rowType typeId="b95414ef-eaec-47d2-8e89-04d3cb6a815c" valueTypeId="fba1fa9a-bbf5-4979-8f90-52c6aa5aa017"/>
+    </producedTypes>
+    <name>ДополнительныеУслуги</name>
+    <synonym>
+      <key>ru</key>
+      <value>Дополнительные услуги</value>
+    </synonym>
+    <standardAttributes>
+      <dataHistory>Use</dataHistory>
+      <name>LineNumber</name>
+      <fillValue xsi:type="core:UndefinedValue"/>
+      <fullTextSearch>Use</fullTextSearch>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+    </standardAttributes>
+    <attributes uuid="ef335b73-eb5a-471b-8e6a-09acf6bae11f">
+      <name>НомерТелефона</name>
+      <synonym>
+        <key>ru</key>
+        <value>Номер телефона</value>
+      </synonym>
+      <synonym>
+        <key>uk</key>
+        <value>Номер телефону</value>
+      </synonym>
+      <type>
+        <types>CatalogRef.гхб_НомераТелефонов</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fillChecking>ShowError</fillChecking>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="11e50166-fde5-40ab-8dfd-28c557760799">
+      <name>Услуга</name>
+      <synonym>
+        <key>ru</key>
+        <value>Услуга</value>
+      </synonym>
+      <synonym>
+        <key>uk</key>
+        <value>Послуга</value>
+      </synonym>
+      <comment>Услуга</comment>
+      <type>
+        <types>CatalogRef.гхб_ДополнительныеУслугиДляНомеровТелефонов</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fillChecking>ShowError</fillChecking>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="8dfcfeea-59d2-4c07-b23c-d34da88a01fa">
+      <name>Сумма</name>
+      <synonym>
+        <key>ru</key>
+        <value>Сумма</value>
+      </synonym>
+      <synonym>
+        <key>uk</key>
+        <value>Сума</value>
+      </synonym>
+      <type>
+        <types>Number</types>
+        <numberQualifiers>
+          <precision>10</precision>
+          <scale>2</scale>
+          <nonNegative>true</nonNegative>
+        </numberQualifiers>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+  </tabularSections>
+</mdclass:Document>

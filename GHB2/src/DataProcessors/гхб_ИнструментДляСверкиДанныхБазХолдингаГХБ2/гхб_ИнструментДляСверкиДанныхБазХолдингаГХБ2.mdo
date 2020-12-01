@@ -1,0 +1,191 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DataProcessor xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="43e86fec-e890-4ea7-aa2e-8db2405d1ce0">
+  <producedTypes>
+    <objectType typeId="a8c7954f-0f14-4cef-a431-81089dce62bf" valueTypeId="a263326e-8c84-4863-999f-d7220b4ab687"/>
+    <managerType typeId="a58c6c8c-dda7-4a51-8503-1bd061b56d21" valueTypeId="0b14d7a5-97a0-4afd-97fa-1141c65ebdf1"/>
+  </producedTypes>
+  <name>гхб_ИнструментДляСверкиДанныхБазХолдингаГХБ2</name>
+  <synonym>
+    <key>ru</key>
+    <value>Инструмент для сверки данных баз холдинга и ГХБ 2.0</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <defaultForm>DataProcessor.гхб_ИнструментДляСверкиДанныхБазХолдингаГХБ2.Form.Форма</defaultForm>
+  <attributes uuid="7e0da5d1-54ad-4ccf-9bf3-15969abc8e9c">
+    <name>БазаХолдинга</name>
+    <synonym>
+      <key>ru</key>
+      <value>База холдинга</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.гхб_БазыХолдинга</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="bb065726-3835-4d51-8d06-1cc04c04811b">
+    <name>ЧтоСверять</name>
+    <synonym>
+      <key>ru</key>
+      <value>Что сверять</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>150</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="771d1309-dbd4-4e38-b853-3052a49781ef">
+    <name>ЧтоДелать</name>
+    <synonym>
+      <key>ru</key>
+      <value>Что делать</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>50</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <forms uuid="6a005ee0-4a11-4bbd-9437-3990e2f3c0b1">
+    <name>Форма</name>
+    <synonym>
+      <key>ru</key>
+      <value>Инструмент для сверки данных баз холдинга и ГХБ 2.0</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="7a6eada1-ed36-4888-8604-17b7c4f98a89">
+    <name>ФормаРедактированияФизЛиц</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма редактирования физ лиц</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="2962f945-2cd2-4d5e-894b-4b218d86316a">
+    <name>ФормаСозданияРедактированияСотрудников</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма создания редактирования сотрудников</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="feef10f9-0f5d-4720-976a-16ef4e03003a">
+    <name>ФормаРедактированияКадровыхДанных</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма редактирования кадровых данных</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="6eec1b33-e55c-481d-9312-a858b74bb3d6">
+    <name>ФормаРедактированияСостоянияСотрудников</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма редактирования состояния сотрудников</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="05fed61d-437f-4327-bf41-9c8f6bb23cd1">
+    <name>ФормаРедактированияДивизионов</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма редактирования дивизионов</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="e6afaa13-aab8-47c7-b4fc-bfca24079e00">
+    <name>ФормаРедактированияШтатногоРасписания</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма редактирования штатного расписания</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="e5f6d203-2510-4046-b7fc-3170ff172a81">
+    <name>ФормаРедактированияКИ</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма редактирования КИ</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="b1a45e69-7155-4ed9-971b-fe8e8683cd13">
+    <name>ФормаРедактированияДолжностей</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма редактирования должностей</value>
+    </synonym>
+    <comment>#16442</comment>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="ee85df7d-95be-4a8b-9cc2-3a7dea6fc4d5">
+    <name>ФормаРедактированияПодразделений</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма редактирования подразделений</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="d6ce6e6a-9b94-4d3e-b605-908439bd422e">
+    <name>ФормаРедактированияДолжностейГПХ</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма редактирования должностей ГПХ</value>
+    </synonym>
+    <comment>#16442</comment>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="7ff03d8f-5b26-4360-b0e5-fbab686b9ce9">
+    <name>ФормаРедактированияДоговоровГПХ</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма редактирования договоров ГПХ</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="3e688a88-4298-4996-be42-ef2d20a4e967">
+    <name>ФормаРедактированияКонтрагентовФОП</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма редактирования контрагентов ФОП</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="f6e20911-f32b-4142-935a-d6bde0c95803">
+    <name>ФормаРедактированияДоговоровФОП</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма редактирования договоров ФОП</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <templates uuid="955f0e30-d5eb-4809-ba72-59b8c1ffdb3d">
+    <name>Макет</name>
+    <synonym>
+      <key>ru</key>
+      <value>Макет</value>
+    </synonym>
+  </templates>
+</mdclass:DataProcessor>

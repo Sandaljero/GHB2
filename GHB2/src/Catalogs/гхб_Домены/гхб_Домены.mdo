@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="7cc8491d-11e3-4301-afd7-1780ee20e76a">
+  <producedTypes>
+    <objectType typeId="527ce8ba-6c4a-4728-8ff2-df06114b7b7a" valueTypeId="65e46df5-030f-4fae-9969-c065efc469c3"/>
+    <refType typeId="f390e126-9840-425c-a2e6-645834986926" valueTypeId="87e7bc8d-6bb5-47d3-8807-d960d1a8f5ff"/>
+    <selectionType typeId="20c1d32c-f24f-468e-90d1-ef26d896ffff" valueTypeId="806276d6-9d25-4149-8325-21411d4c58cb"/>
+    <listType typeId="9f712fdb-fdc7-4cb0-a0d1-4d9a801da652" valueTypeId="7f4de27a-9894-43b6-9547-cd0e505345b2"/>
+    <managerType typeId="c90813c4-f75d-41b8-9156-66704a22b5ad" valueTypeId="9b1082fa-7392-418f-95b9-610451438069"/>
+  </producedTypes>
+  <name>гхб_Домены</name>
+  <synonym>
+    <key>ru</key>
+    <value>Домены</value>
+  </synonym>
+  <synonym>
+    <key>uk</key>
+    <value>Домени</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.гхб_Домены.StandardAttribute.Description</inputByString>
+  <inputByString>Catalog.гхб_Домены.StandardAttribute.Code</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>9</codeLength>
+  <descriptionLength>25</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+  <defaultObjectForm>Catalog.гхб_Домены.Form.ФормаЭлемента</defaultObjectForm>
+  <defaultListForm>Catalog.гхб_Домены.Form.ФормаСписка</defaultListForm>
+  <defaultChoiceForm>Catalog.гхб_Домены.Form.ФормаВыбора</defaultChoiceForm>
+  <attributes uuid="7b43fcf1-6662-430f-abff-96a9fab1d643">
+    <name>КраткоеНаименование</name>
+    <synonym>
+      <key>ru</key>
+      <value>Краткое наименование</value>
+    </synonym>
+    <synonym>
+      <key>uk</key>
+      <value>Коротке найменування</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>25</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="c59ca6eb-0c1e-4855-ac11-50d906ec198e">
+    <name>НеИспользовать</name>
+    <synonym>
+      <key>ru</key>
+      <value>Не использовать</value>
+    </synonym>
+    <synonym>
+      <key>uk</key>
+      <value>Не використовувати</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <forms uuid="2629db5d-1b4f-44b3-9abc-5612e96da43b">
+    <name>ФормаЭлемента</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма элемента</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="6439a450-0022-4aab-b2b9-3464e19b19e0">
+    <name>ФормаСписка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма списка</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="3bd039ba-2561-476d-a1bf-337fa3697c4e">
+    <name>ФормаВыбора</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма выбора</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:Catalog>

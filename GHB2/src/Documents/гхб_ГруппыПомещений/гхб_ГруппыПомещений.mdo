@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="42bbb99c-f06a-403a-a2f5-bcd1e10afa4d">
+  <producedTypes>
+    <objectType typeId="64b42f4b-cefd-4d1a-99bc-0bba129695f9" valueTypeId="670a0c7b-df0d-4ee4-827a-c48583892bd3"/>
+    <refType typeId="da63143f-e34e-430d-9e63-bb6e0c1fdd90" valueTypeId="074287e2-93b5-4311-9056-1b92d5bfed24"/>
+    <selectionType typeId="545b1602-d4a1-467b-b069-18bf7d508540" valueTypeId="6a0396fb-bcfd-449b-a2cd-18d7e410262f"/>
+    <listType typeId="56210e55-0444-471b-8791-b7070d908928" valueTypeId="eae2d65b-aed3-48cd-87b8-38fa10c5cca4"/>
+    <managerType typeId="071d5118-fc05-4dfd-90fe-e5c6a96568f9" valueTypeId="319dfad0-ed03-4c83-90f7-c27325702313"/>
+  </producedTypes>
+  <name>гхб_ГруппыПомещений</name>
+  <synonym>
+    <key>ru</key>
+    <value>Группы помещений</value>
+  </synonym>
+  <synonym>
+    <key>uk</key>
+    <value>Групи приміщень</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Document.гхб_ГруппыПомещений.StandardAttribute.Number</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <numberType>String</numberType>
+  <numberLength>9</numberLength>
+  <numberAllowedLength>Variable</numberAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultObjectForm>Document.гхб_ГруппыПомещений.Form.ФормаДокумента</defaultObjectForm>
+  <defaultListForm>Document.гхб_ГруппыПомещений.Form.ФормаСписка</defaultListForm>
+  <defaultChoiceForm>Document.гхб_ГруппыПомещений.Form.ФормаВыбора</defaultChoiceForm>
+  <registerRecordsDeletion>AutoDeleteOff</registerRecordsDeletion>
+  <registerRecords>InformationRegister.гхб_СоставГруппПомещений</registerRecords>
+  <postInPrivilegedMode>true</postInPrivilegedMode>
+  <unpostInPrivilegedMode>true</unpostInPrivilegedMode>
+  <attributes uuid="bc5dcbac-e1b1-4362-a7c8-e9ca6cbbdd1f">
+    <name>ГруппаПомещений</name>
+    <synonym>
+      <key>ru</key>
+      <value>Группа помещений</value>
+    </synonym>
+    <synonym>
+      <key>uk</key>
+      <value>Група приміщень</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.гхб_ГруппыПомещений</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <forms uuid="8b278cd2-83a7-4850-b3cf-365553af965c">
+    <name>ФормаДокумента</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма документа</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="0406443a-8187-4146-9da1-49dba513a948">
+    <name>ФормаСписка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма списка</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="98546fe9-f741-4c9e-a57f-4c7982962f92">
+    <name>ФормаВыбора</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма выбора</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <tabularSections uuid="95b8455d-05f2-48ea-a6df-c8617e778782">
+    <producedTypes>
+      <objectType typeId="65cf3edc-65ef-43ab-af13-f209a691a183" valueTypeId="2785a0f8-362c-49c7-8893-5f71a5e45b84"/>
+      <rowType typeId="28a1fddf-8762-4a26-853b-55377d6587f2" valueTypeId="e5b17753-a4ca-4f92-9e8d-42f1f6c7f054"/>
+    </producedTypes>
+    <name>СоставГруппыПомещений</name>
+    <synonym>
+      <key>ru</key>
+      <value>Состав группы помещений</value>
+    </synonym>
+    <attributes uuid="d41113e2-1b4e-4b93-b797-9df47b052637">
+      <name>СуществующийДоступ</name>
+      <synonym>
+        <key>ru</key>
+        <value>Существующий доступ</value>
+      </synonym>
+      <synonym>
+        <key>uk</key>
+        <value>Існуючий доступ</value>
+      </synonym>
+      <type>
+        <types>Boolean</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="5d12aa36-e08f-4df1-8095-b8ceb62a0205">
+      <name>Помещение</name>
+      <synonym>
+        <key>ru</key>
+        <value>Помещение</value>
+      </synonym>
+      <synonym>
+        <key>uk</key>
+        <value>Приміщення</value>
+      </synonym>
+      <type>
+        <types>CatalogRef.гхб_Помещения</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="46ac5c43-da31-429c-ab14-c3e42970005f">
+      <name>Закрыть</name>
+      <synonym>
+        <key>ru</key>
+        <value>Закрыть</value>
+      </synonym>
+      <type>
+        <types>Boolean</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+  </tabularSections>
+</mdclass:Document>

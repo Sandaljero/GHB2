@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="d2df87ca-990f-4e23-90cc-97a2a266f0d4">
+  <name>гхб_Документы</name>
+  <synonym>
+    <key>ru</key>
+    <value>Документы</value>
+  </synonym>
+  <synonym>
+    <key>uk</key>
+    <value>Документи</value>
+  </synonym>
+  <comment>#17232</comment>
+  <includeHelpInContents>true</includeHelpInContents>
+  <includeInCommandInterface>true</includeInCommandInterface>
+  <content>Document.гхб_ДоговорНаВыполнениеРаботСФизЛицом</content>
+  <parentSubsystem>Subsystem.гхб_Кадры</parentSubsystem>
+</mdclass:Subsystem>

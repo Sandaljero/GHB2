@@ -1,0 +1,254 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="891dc30c-f080-438e-9849-872f13309d7b">
+  <producedTypes>
+    <selectionType typeId="25bb423c-190e-4aae-b18b-6fe18125ac0f" valueTypeId="f22f88fd-81d3-48f4-a255-bfdab6d4bcbb"/>
+    <listType typeId="8bd3a0aa-bb58-4a43-a44c-853128251337" valueTypeId="f2264957-aacd-48e3-95bb-6d3b97597847"/>
+    <managerType typeId="92956817-8537-43a3-bb43-c2cc6bed3697" valueTypeId="713ac50f-1c65-4913-bb85-3ee041be06f7"/>
+    <recordSetType typeId="3b34aef2-71c5-4b64-8cf5-482aa0e60c57" valueTypeId="bc63c4ef-d431-425e-9517-07db59f3a83c"/>
+    <recordKeyType typeId="ce268d25-c293-4eb7-9fcf-0eac699d732e" valueTypeId="9300ca18-530e-4761-9bfa-3c132b9cd7fe"/>
+    <recordType typeId="ca08f658-3df2-4bad-a846-0c6a0e7a9d08" valueTypeId="a052f399-4a5c-48f2-bf32-35820951eda1"/>
+    <recordManagerType typeId="609cbfd5-dbf1-4918-946d-ffeca0f651f3" valueTypeId="3a7d29a8-4a84-4c75-9040-699ba4a3cdb8"/>
+  </producedTypes>
+  <name>гхб_ПаспортныеДанныеФизЛиц</name>
+  <synonym>
+    <key>ru</key>
+    <value>Паспортные данные физического лица</value>
+  </synonym>
+  <synonym>
+    <key>uk</key>
+    <value>Паспортні дані фізичної особи</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <editType>InDialog</editType>
+  <defaultRecordForm>InformationRegister.гхб_ПаспортныеДанныеФизЛиц.Form.ФормаЗаписи</defaultRecordForm>
+  <defaultListForm>InformationRegister.гхб_ПаспортныеДанныеФизЛиц.Form.ФормаСписка</defaultListForm>
+  <informationRegisterPeriodicity>Day</informationRegisterPeriodicity>
+  <mainFilterOnPeriod>true</mainFilterOnPeriod>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <resources uuid="e11939a4-2dfa-4873-8ced-617ca727a979">
+    <name>ДокументВид</name>
+    <synonym>
+      <key>ru</key>
+      <value>Вид документа</value>
+    </synonym>
+    <synonym>
+      <key>uk</key>
+      <value>Вид документа</value>
+    </synonym>
+    <comment>(Общ)</comment>
+    <type>
+      <types>CatalogRef.гхб_ДокументыУдостоверяющиеЛичность</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="379e5642-6c4c-415c-b7b8-4a6c94adcaac">
+    <name>ДокументСерия</name>
+    <synonym>
+      <key>ru</key>
+      <value>Серия документа</value>
+    </synonym>
+    <synonym>
+      <key>uk</key>
+      <value>Серія документу</value>
+    </synonym>
+    <comment>(Общ)</comment>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>14</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="1d82f471-7fac-40a4-8d77-cd55f6287555">
+    <name>ДокументНомер</name>
+    <synonym>
+      <key>ru</key>
+      <value>Номер документа</value>
+    </synonym>
+    <synonym>
+      <key>uk</key>
+      <value>Номер документа</value>
+    </synonym>
+    <comment>(Общ)</comment>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>14</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="6b330ca5-c8ef-4c0d-9c05-10e26305a93a">
+    <name>ДокументДатаВыдачи</name>
+    <synonym>
+      <key>ru</key>
+      <value>Дата выдачи документа</value>
+    </synonym>
+    <synonym>
+      <key>uk</key>
+      <value>Дата видачі документа</value>
+    </synonym>
+    <comment>(Общ)</comment>
+    <type>
+      <types>Date</types>
+      <dateQualifiers>
+        <dateFractions>Date</dateFractions>
+      </dateQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="94051579-1985-44f1-a7ab-ea0f78231ead">
+    <name>ДокументКемВыдан</name>
+    <synonym>
+      <key>ru</key>
+      <value>Кем выдан документ</value>
+    </synonym>
+    <synonym>
+      <key>uk</key>
+      <value>Ким виданий документ</value>
+    </synonym>
+    <comment>(Общ)</comment>
+    <type>
+      <types>String</types>
+      <stringQualifiers/>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="f2193199-115a-46a4-8438-89c9c36ecd53">
+    <name>ДокументСрокДействия</name>
+    <synonym>
+      <key>ru</key>
+      <value>Действителен до</value>
+    </synonym>
+    <synonym>
+      <key>uk</key>
+      <value>Дійсний до</value>
+    </synonym>
+    <comment>(Общ)</comment>
+    <type>
+      <types>Date</types>
+      <dateQualifiers>
+        <dateFractions>Date</dateFractions>
+      </dateQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <attributes uuid="c344e8e3-7df3-4132-a24f-2aebed2a0d85">
+    <name>ДатаЗаписи</name>
+    <synonym>
+      <key>ru</key>
+      <value>Дата записи</value>
+    </synonym>
+    <synonym>
+      <key>uk</key>
+      <value>Дата запису</value>
+    </synonym>
+    <type>
+      <types>Date</types>
+      <dateQualifiers>
+        <dateFractions>Date</dateFractions>
+      </dateQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <dimensions uuid="f39225db-20c8-442d-8838-5fb0b85a8214">
+    <name>БазаХолдинга</name>
+    <synonym>
+      <key>ru</key>
+      <value>База холдинга</value>
+    </synonym>
+    <synonym>
+      <key>uk</key>
+      <value>База холдингу</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.гхб_БазыХолдинга</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="2921b4c2-2ca1-49e0-b58f-6f2e88c8b859">
+    <name>ФизЛицоБазыХолдинга</name>
+    <synonym>
+      <key>ru</key>
+      <value>Физ лицо базы холдинга</value>
+    </synonym>
+    <synonym>
+      <key>uk</key>
+      <value>Фіз особа бази холдингу</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.гхб_ФизическиеЛицаБазХолдинга</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <forms uuid="cf60d5ba-a9ce-4afd-bea0-85a69afc8991">
+    <name>ФормаЗаписи</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма записи</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="5b1f4224-d02a-4ec4-98dc-e0ab41df5315">
+    <name>ФормаСписка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма списка</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <commands uuid="cde5f286-0fb1-4d0a-8361-45825d048d0b">
+    <name>ПаспортныеДанныеФизЛиц</name>
+    <synonym>
+      <key>ru</key>
+      <value>Паспортные данные физ лиц</value>
+    </synonym>
+    <group>FormNavigationPanelGoTo</group>
+    <commandParameterType>
+      <types>CatalogRef.гхб_ФизическиеЛица</types>
+    </commandParameterType>
+    <representation>Auto</representation>
+    <shortcut></shortcut>
+  </commands>
+</mdclass:InformationRegister>

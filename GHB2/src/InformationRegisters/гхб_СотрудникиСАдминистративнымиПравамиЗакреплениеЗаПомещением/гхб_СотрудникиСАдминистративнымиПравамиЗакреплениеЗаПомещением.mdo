@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="862be290-6a4b-43f1-8107-0c5c3fdf69ed">
+  <producedTypes>
+    <selectionType typeId="f7e499cf-ada6-4282-b2b9-115421f7c843" valueTypeId="762c73f5-d712-41ed-8eb2-1fdfb36471ae"/>
+    <listType typeId="54c8670e-7272-4159-82d5-d4f860363b0e" valueTypeId="bdd3d8fa-8c43-45f6-8158-8646e4c95eac"/>
+    <managerType typeId="2c8c830d-2081-40eb-8b3e-32c9883f47d3" valueTypeId="5e64ce39-b933-499b-b42e-7d6f35b4ec3a"/>
+    <recordSetType typeId="15e6df85-ed61-49f7-a76f-3480a46bd5b4" valueTypeId="8d659d7e-3093-494b-b958-eb60d52614c6"/>
+    <recordKeyType typeId="f0b8fe29-6396-4fc4-85fb-5a281ebaf3cd" valueTypeId="adf1307a-3cb6-4ff4-b8cc-57d685997124"/>
+    <recordType typeId="20a6fac1-af11-4c16-a343-c4d56a5ef2c5" valueTypeId="cbd12be2-af63-4292-b5c6-9d3250b6f24b"/>
+    <recordManagerType typeId="d6e32a64-7f95-4274-a9b5-a37d00ffaf5f" valueTypeId="b44c2d1a-9313-4ee2-bc67-5eb868424c04"/>
+  </producedTypes>
+  <name>гхб_СотрудникиСАдминистративнымиПравамиЗакреплениеЗаПомещением</name>
+  <synonym>
+    <key>ru</key>
+    <value>Сотрудники с админ. правами (закрепление за помещением)</value>
+  </synonym>
+  <synonym>
+    <key>uk</key>
+    <value>Співробітники с адмін. правами (закріплення за приміщенням)</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <editType>InDialog</editType>
+  <defaultRecordForm>InformationRegister.гхб_СотрудникиСАдминистративнымиПравамиЗакреплениеЗаПомещением.Form.ФормаЗаписи</defaultRecordForm>
+  <defaultListForm>InformationRegister.гхб_СотрудникиСАдминистративнымиПравамиЗакреплениеЗаПомещением.Form.ФормаСписка</defaultListForm>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Active</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>LineNumber</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Recorder</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Period</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <dimensions uuid="4d695798-f986-44ae-bf6d-3d7bf07457c8">
+    <name>Сотрудник</name>
+    <synonym>
+      <key>ru</key>
+      <value>Сотрудник</value>
+    </synonym>
+    <synonym>
+      <key>uk</key>
+      <value>Співробітник</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.гхб_ФизическиеЛица</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <forms uuid="783c3fbd-e2a6-4d1a-b39a-ec5bfa95fe9c">
+    <name>ФормаЗаписи</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма записи</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="6c82d6c7-c139-4005-a24d-6feb0855e219">
+    <name>ФормаСписка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма списка</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:InformationRegister>

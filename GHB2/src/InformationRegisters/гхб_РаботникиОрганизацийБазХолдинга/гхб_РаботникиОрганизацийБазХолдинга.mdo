@@ -1,0 +1,325 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="21db8ac4-627d-40f8-b19d-b4718db3691d">
+  <producedTypes>
+    <selectionType typeId="d03385d4-5a5f-4e67-b7fa-d78e3ee3511b" valueTypeId="12f5733c-378c-49af-bd4c-e49f6249f396"/>
+    <listType typeId="cc3ad907-fe52-4ac3-bd5c-c42811f749c6" valueTypeId="22e77fa9-7299-405b-8925-8f5ca47551c1"/>
+    <managerType typeId="231ed31e-153c-4609-93d9-675f3d5f401e" valueTypeId="b18f6a7e-4be2-4990-87b2-087b9e74ea2b"/>
+    <recordSetType typeId="075b615c-e6f8-4ec9-9829-81809c972341" valueTypeId="fcc48509-1a47-4a9f-ba7d-b96fb36c2087"/>
+    <recordKeyType typeId="d8a98f79-4bb4-4b51-9d08-86867d07d57d" valueTypeId="5af4c645-ee3f-423f-a860-2db12c4eb4b5"/>
+    <recordType typeId="b7858bad-2c36-4b19-b1c4-9e633e1f9aed" valueTypeId="9e0c069c-2bab-406d-acec-701a8e8d2a39"/>
+    <recordManagerType typeId="21d13f59-2526-43f4-bf48-b1ee0515728b" valueTypeId="c4c2c0d9-32cd-48ae-8cac-d506513581e1"/>
+  </producedTypes>
+  <name>гхб_РаботникиОрганизацийБазХолдинга</name>
+  <synonym>
+    <key>ru</key>
+    <value>Работники организаций баз холдинга</value>
+  </synonym>
+  <synonym>
+    <key>uk</key>
+    <value>Працівники організацій баз холдингу</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <editType>InDialog</editType>
+  <defaultRecordForm>InformationRegister.гхб_РаботникиОрганизацийБазХолдинга.Form.ФормаЗаписи</defaultRecordForm>
+  <defaultListForm>InformationRegister.гхб_РаботникиОрганизацийБазХолдинга.Form.ФормаСписка</defaultListForm>
+  <informationRegisterPeriodicity>Day</informationRegisterPeriodicity>
+  <mainFilterOnPeriod>true</mainFilterOnPeriod>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <resources uuid="816b2247-1da3-43c0-990c-2e1e3916dbce">
+    <name>ПричинаИзмененияСостояния</name>
+    <synonym>
+      <key>ru</key>
+      <value>Причина изменения состояния</value>
+    </synonym>
+    <synonym>
+      <key>uk</key>
+      <value>Причина зміни стану</value>
+    </synonym>
+    <type>
+      <types>EnumRef.гхб_ПричиныИзмененияСостояния</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="c8476acf-35d4-4e5a-8a82-b7ef7323709f">
+    <name>Должность</name>
+    <synonym>
+      <key>ru</key>
+      <value>Должность</value>
+    </synonym>
+    <synonym>
+      <key>uk</key>
+      <value>Посада</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.гхб_ДолжностиОрганизацийБазХолдинга</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="75fd1f1f-8de6-43e7-80eb-60603e2ceca4">
+    <name>ПодразделениеОрганизации</name>
+    <synonym>
+      <key>ru</key>
+      <value>Подразделение организации</value>
+    </synonym>
+    <synonym>
+      <key>uk</key>
+      <value>Підрозділ організації</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.гхб_ПодразделенияОрганизацийБазХолдинга</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="b121a0a0-a849-4a4a-ac2f-ac36f6eb810b">
+    <name>ПозицияШтатногоРасписания</name>
+    <synonym>
+      <key>ru</key>
+      <value>Позиция штатного расписания</value>
+    </synonym>
+    <synonym>
+      <key>uk</key>
+      <value>Позиція штатного розкладу</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.гхб_ПозицииШтатногоРасписанияБазХолдинга</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="7c8a2947-e2ee-499b-8527-67d2a86dd0de">
+    <name>ДатаОкончанияСрочногоТрудовогоДоговора</name>
+    <synonym>
+      <key>ru</key>
+      <value>Дата окончания срочного трудового договора</value>
+    </synonym>
+    <synonym>
+      <key>uk</key>
+      <value>Дата закінчення строкового трудового договору</value>
+    </synonym>
+    <type>
+      <types>Date</types>
+      <dateQualifiers>
+        <dateFractions>Date</dateFractions>
+      </dateQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="fc0ef9de-62cc-4d87-b7f7-2d4e8a7fb027">
+    <name>ЦФО</name>
+    <synonym>
+      <key>ru</key>
+      <value>ЦФО</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.гхб_ЦФО</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <attributes uuid="2dfd278e-543c-4b1a-89da-d6a51cd40062">
+    <name>Дивизион</name>
+    <synonym>
+      <key>ru</key>
+      <value>Дивизион</value>
+    </synonym>
+    <synonym>
+      <key>uk</key>
+      <value>Дивізіон</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.гхб_Дивизионы</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="3e119528-1b76-4be9-99c0-179dcc0617ab">
+    <name>БюджетныйКодПозиции</name>
+    <synonym>
+      <key>ru</key>
+      <value>Бюджетный код позиции</value>
+    </synonym>
+    <synonym>
+      <key>uk</key>
+      <value>Бюджетний код позиції</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>11</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+  </attributes>
+  <attributes uuid="094c52eb-df75-44cf-8c1e-40d29a408ee0">
+    <name>ГруппаДивизиона</name>
+    <synonym>
+      <key>ru</key>
+      <value>Функция</value>
+    </synonym>
+    <synonym>
+      <key>uk</key>
+      <value>Група дивізіону</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.гхб_Дивизионы</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="16800c9d-98ef-4385-86cf-4ff80a629a9a">
+    <name>ДатаЗаписи</name>
+    <synonym>
+      <key>ru</key>
+      <value>Дата записи</value>
+    </synonym>
+    <synonym>
+      <key>uk</key>
+      <value>Дата запису</value>
+    </synonym>
+    <type>
+      <types>Date</types>
+      <dateQualifiers>
+        <dateFractions>Date</dateFractions>
+      </dateQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="846b6b00-e425-4a81-b429-c08fc3382640">
+    <name>ДатаУвольнения</name>
+    <synonym>
+      <key>ru</key>
+      <value>Дата увольнения</value>
+    </synonym>
+    <synonym>
+      <key>uk</key>
+      <value>Дата звільнення</value>
+    </synonym>
+    <type>
+      <types>Date</types>
+      <dateQualifiers>
+        <dateFractions>Date</dateFractions>
+      </dateQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <dimensions uuid="220fa76c-9c19-446d-997c-3058445a0f97">
+    <name>БазаХолдинга</name>
+    <synonym>
+      <key>ru</key>
+      <value>База холдинга</value>
+    </synonym>
+    <synonym>
+      <key>uk</key>
+      <value>База холдингу</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.гхб_БазыХолдинга</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="fbeceab3-81da-488a-89c2-b3f98b14f618">
+    <name>Организация</name>
+    <synonym>
+      <key>ru</key>
+      <value>Организация</value>
+    </synonym>
+    <synonym>
+      <key>uk</key>
+      <value>Організація</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.гхб_ОрганизацииБазХолдинга</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="ebf30b75-5748-4e37-8541-55f226b46f09">
+    <name>Сотрудник</name>
+    <synonym>
+      <key>ru</key>
+      <value>Сотрудник</value>
+    </synonym>
+    <synonym>
+      <key>uk</key>
+      <value>Співробітник</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.гхб_СотрудникиБазХолдинга</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <forms uuid="d136c501-caa8-4195-a3d2-401b83019d22">
+    <name>ФормаЗаписи</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма записи</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="6b794930-9085-49df-ab19-de764af8af85">
+    <name>ФормаСписка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма списка</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:InformationRegister>

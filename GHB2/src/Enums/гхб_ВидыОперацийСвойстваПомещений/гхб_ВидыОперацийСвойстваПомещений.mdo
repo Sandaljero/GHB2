@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="c0a56da6-0c2c-413c-ab63-58faa8de04e8">
+  <producedTypes>
+    <refType typeId="351f3531-e93d-4afe-9e04-c7b86ef94815" valueTypeId="ad643c23-6ddc-4a5e-9457-f2a72511a736"/>
+    <listType typeId="f9712b1d-faa3-41ae-816d-527d140179f6" valueTypeId="0fc18e1f-f4d2-4bba-a9da-06b40302ac13"/>
+    <managerType typeId="e05930a4-d56e-4f4d-896c-bdec3a5dfb93" valueTypeId="2c14c99f-c311-4e9a-8c15-dc5558a4a044"/>
+  </producedTypes>
+  <name>гхб_ВидыОперацийСвойстваПомещений</name>
+  <synonym>
+    <key>ru</key>
+    <value>Виды операций свойства помещений</value>
+  </synonym>
+  <synonym>
+    <key>uk</key>
+    <value>Види операцій властивості приміщень</value>
+  </synonym>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="4ae169ad-c6c3-41a6-99bf-b318c9a15d48">
+    <name>СозданиеЛокации</name>
+    <synonym>
+      <key>ru</key>
+      <value>Создание локации</value>
+    </synonym>
+    <synonym>
+      <key>uk</key>
+      <value>Створення локації</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="4b95838d-d67a-4688-92ff-baed0e28b9bb">
+    <name>СозданиеКорпуса</name>
+    <synonym>
+      <key>ru</key>
+      <value>Создание корпуса</value>
+    </synonym>
+    <synonym>
+      <key>uk</key>
+      <value>Створення корпусу</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="1ae2f24f-87e6-4d03-8a18-5d4d111950c7">
+    <name>СозданиеЭлементаСтроения</name>
+    <synonym>
+      <key>ru</key>
+      <value>Создание элемента строения</value>
+    </synonym>
+    <synonym>
+      <key>uk</key>
+      <value>Створення елемента будівлі</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="87741d9e-03a3-4019-ae03-68bde3b6d8bb">
+    <name>СозданиеПомещения</name>
+    <synonym>
+      <key>ru</key>
+      <value>Создание помещения</value>
+    </synonym>
+    <synonym>
+      <key>uk</key>
+      <value>Створення приміщення</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="9f03d6b9-07c2-486b-ba3c-ca24937f46fd">
+    <name>РедактированиеЛокации</name>
+    <synonym>
+      <key>ru</key>
+      <value>Редактирование локации</value>
+    </synonym>
+    <synonym>
+      <key>uk</key>
+      <value>Редагування локації</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="c1f6bf43-451b-4a53-9b57-bb476440d7f2">
+    <name>РедактированиеКорпуса</name>
+    <synonym>
+      <key>ru</key>
+      <value>Редактирование корпуса</value>
+    </synonym>
+    <synonym>
+      <key>uk</key>
+      <value>Редагування корпусу</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="6608e75b-d9d0-4780-bbfe-ef2e9f029d54">
+    <name>РедактированиеЭлементаСтроения</name>
+    <synonym>
+      <key>ru</key>
+      <value>Редактирование элемента строения</value>
+    </synonym>
+    <synonym>
+      <key>uk</key>
+      <value>Редагування елемента будівлі</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="1f3713cb-abde-4c7c-aa88-a856fff20918">
+    <name>РедактированиеПомещения</name>
+    <synonym>
+      <key>ru</key>
+      <value>Редактирование помещения</value>
+    </synonym>
+    <synonym>
+      <key>uk</key>
+      <value>Редагування приміщення</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

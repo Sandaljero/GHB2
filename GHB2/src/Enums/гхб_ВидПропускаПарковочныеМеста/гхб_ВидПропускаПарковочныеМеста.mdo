@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="c32308b1-d4dc-4574-aaa7-ff71ad6ed908">
+  <producedTypes>
+    <refType typeId="29bd3f06-6398-4075-ae0b-275efdf89b6e" valueTypeId="4bd717db-395e-4347-a412-628d6f5f9a16"/>
+    <listType typeId="185e0df1-743a-488b-ac3a-cd4ef0524422" valueTypeId="47ef3393-e46d-466f-a922-9a23ae0239d6"/>
+    <managerType typeId="9e300a52-4ee0-42e9-8a96-f4c7b5b4a7c0" valueTypeId="b938359f-d600-4f98-bf20-ec1b4dce9a81"/>
+  </producedTypes>
+  <name>гхб_ВидПропускаПарковочныеМеста</name>
+  <synonym>
+    <key>ru</key>
+    <value>Вид пропуска (парковочные места)</value>
+  </synonym>
+  <synonym>
+    <key>uk</key>
+    <value>Вид пропуску (паркувальні місця)</value>
+  </synonym>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="1d37b51e-d660-4354-aa18-860abfdbbbc7">
+    <name>Гостевой</name>
+    <synonym>
+      <key>ru</key>
+      <value>Гостевой</value>
+    </synonym>
+    <synonym>
+      <key>uk</key>
+      <value>Гостьовий</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="9fb24827-4ce4-453c-a81f-2465ce965268">
+    <name>Партнерский</name>
+    <synonym>
+      <key>ru</key>
+      <value>Партнерский</value>
+    </synonym>
+    <synonym>
+      <key>uk</key>
+      <value>Партнерський</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="588396a6-e879-4463-8322-bc7bb0a83a90">
+    <name>Постоянный</name>
+    <synonym>
+      <key>ru</key>
+      <value>Постоянный</value>
+    </synonym>
+    <synonym>
+      <key>uk</key>
+      <value>Постійний</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

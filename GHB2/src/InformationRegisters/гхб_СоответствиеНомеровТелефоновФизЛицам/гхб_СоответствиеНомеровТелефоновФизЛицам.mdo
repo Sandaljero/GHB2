@@ -1,0 +1,319 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="f6c454a1-0dff-4bb8-bad6-ca11722af8e5">
+  <producedTypes>
+    <selectionType typeId="6cb2b7a9-2c75-40cd-ad68-741bdc3a4672" valueTypeId="cf7f703d-cc78-48b1-bfd5-1ffc1eec83ba"/>
+    <listType typeId="eebf0578-dd1a-4981-a0cc-14f10113b4f9" valueTypeId="d9f602ba-5e31-4057-878d-05eb770de3de"/>
+    <managerType typeId="566c61fd-8ff8-47e0-a61e-9c71d68f925a" valueTypeId="99665cd1-2a16-4630-9973-16c87df839b5"/>
+    <recordSetType typeId="7a751a1c-88ad-492f-846d-f4ba66f6adfb" valueTypeId="d226193e-abb4-4656-a2c7-68575caf11f5"/>
+    <recordKeyType typeId="8dac4cb0-c6a6-4411-95f8-51250a7d22c3" valueTypeId="0b7f4e85-47b0-4f15-818b-93299b725675"/>
+    <recordType typeId="a48d201a-eb1b-42cb-972d-17a613abd3ce" valueTypeId="ebcdd0e6-1a74-48f8-a8a7-d5b8ff9ee0e6"/>
+    <recordManagerType typeId="88b28643-cc29-4775-ab85-c5cb2c190c28" valueTypeId="f2f7c804-2da2-47c8-b6b6-fadf7ce939d0"/>
+  </producedTypes>
+  <name>гхб_СоответствиеНомеровТелефоновФизЛицам</name>
+  <synonym>
+    <key>ru</key>
+    <value>Соответствие номеров телефонов физ лицам</value>
+  </synonym>
+  <synonym>
+    <key>uk</key>
+    <value>Відповідність номерів телефонів фіз особам</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <defaultListForm>InformationRegister.гхб_СоответствиеНомеровТелефоновФизЛицам.Form.ФормаСписка</defaultListForm>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Active</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>LineNumber</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Recorder</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Period</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <informationRegisterPeriodicity>Day</informationRegisterPeriodicity>
+  <writeMode>RecorderSubordinate</writeMode>
+  <resources uuid="6d7dfe9f-417f-45f9-beee-24b61de953e9">
+    <name>ФизЛицоБазыХолдинга</name>
+    <synonym>
+      <key>ru</key>
+      <value>Физ лицо базы холдинга</value>
+    </synonym>
+    <synonym>
+      <key>uk</key>
+      <value>Фіз особа бази холдингу</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.гхб_ФизическиеЛицаБазХолдинга</types>
+      <types>String</types>
+      <stringQualifiers>
+        <length>150</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="5863a5ee-b2db-4a0d-b3ee-6f6cd4be33f4">
+    <name>ЛимитВнутренний</name>
+    <synonym>
+      <key>ru</key>
+      <value>Лимит внутренний</value>
+    </synonym>
+    <synonym>
+      <key>uk</key>
+      <value>Ліміт внутрішній</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>10</precision>
+        <scale>2</scale>
+        <nonNegative>true</nonNegative>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="ab550529-998b-4374-8137-991c0040260e">
+    <name>ЛимитМеждународнойСвязи</name>
+    <synonym>
+      <key>ru</key>
+      <value>Лимит международной связи</value>
+    </synonym>
+    <synonym>
+      <key>uk</key>
+      <value>Ліміт міжнародного зв'язку</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>10</precision>
+        <scale>2</scale>
+        <nonNegative>true</nonNegative>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="f0805aa3-bfa7-407b-adbd-d023f09ed3fc">
+    <name>Использование</name>
+    <synonym>
+      <key>ru</key>
+      <value>Использование</value>
+    </synonym>
+    <synonym>
+      <key>uk</key>
+      <value>Використання</value>
+    </synonym>
+    <type>
+      <types>EnumRef.гхб_ИспользованиеНомеровТелефонов</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="75c7974d-a703-4b63-b565-8d08d5eff68d">
+    <name>БезлимитныйВнутренний</name>
+    <synonym>
+      <key>ru</key>
+      <value>Безлимитный внутренний</value>
+    </synonym>
+    <synonym>
+      <key>uk</key>
+      <value>Безлімітний внутрішній</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="0b8ecaf0-50e1-48fc-b47d-06a67af1f630">
+    <name>БезлимитнаяМеждународнаяСвязь</name>
+    <synonym>
+      <key>ru</key>
+      <value>Безлимитная международная связь</value>
+    </synonym>
+    <synonym>
+      <key>uk</key>
+      <value>Безлімітний міжнародний зв'язок</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="466a61e0-201d-4bf6-8aef-431313a0c4ba">
+    <name>ЦеновойПакет</name>
+    <synonym>
+      <key>ru</key>
+      <value>Ценовой пакет</value>
+    </synonym>
+    <synonym>
+      <key>uk</key>
+      <value>Ціновий пакет</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.гхб_ЦеновыеПакетыМобильнойСвязи</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="973fa769-7d35-4045-973c-0df3950c4c4a">
+    <name>ОтветственныйБазыХолдинга</name>
+    <synonym>
+      <key>ru</key>
+      <value>Ответственный базы холдинга</value>
+    </synonym>
+    <synonym>
+      <key>uk</key>
+      <value>Відповідальний бази холдингу</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.гхб_ФизическиеЛицаБазХолдинга</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="58b7b2ee-f3d4-4c4a-ab89-693cc5c4455e">
+    <name>ТипУстройства</name>
+    <synonym>
+      <key>ru</key>
+      <value>Тип устройства</value>
+    </synonym>
+    <synonym>
+      <key>uk</key>
+      <value>Тип пристрою</value>
+    </synonym>
+    <type>
+      <types>EnumRef.гхб_ТипыУстройствМобильнойСвязи</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="82a1839e-399f-4e84-ae7d-65242567a92f">
+    <name>НомерЛицевогоСчета</name>
+    <synonym>
+      <key>ru</key>
+      <value>Номер лицевого счета</value>
+    </synonym>
+    <synonym>
+      <key>uk</key>
+      <value>Номер особового рахунку</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>10</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+  </resources>
+  <dimensions uuid="717e7d4a-f003-4e6e-b2eb-28a4151f27e1">
+    <name>БазаХолдинга</name>
+    <synonym>
+      <key>ru</key>
+      <value>База холдинга</value>
+    </synonym>
+    <synonym>
+      <key>uk</key>
+      <value>База холдингу</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.гхб_БазыХолдинга</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="32cea0e2-e444-4efc-8182-598a39ce913f">
+    <name>НомерТелефона</name>
+    <synonym>
+      <key>ru</key>
+      <value>Номер телефона</value>
+    </synonym>
+    <synonym>
+      <key>uk</key>
+      <value>Номер телефону</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.гхб_НомераТелефонов</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <denyIncompleteValues>true</denyIncompleteValues>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <master>true</master>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <forms uuid="e9147a7c-95d0-4420-8860-9630c4fe9fa9">
+    <name>ФормаСписка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма списка</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:InformationRegister>

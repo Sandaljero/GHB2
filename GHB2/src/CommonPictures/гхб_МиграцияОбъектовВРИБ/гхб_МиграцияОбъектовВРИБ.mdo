@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonPicture xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="ccf7527d-30c7-4849-a38b-26816c626cb2">
+  <name>гхб_МиграцияОбъектовВРИБ</name>
+  <synonym>
+    <key>ru</key>
+    <value>Миграция объектов в РИБ</value>
+  </synonym>
+  <synonym>
+    <key>uk</key>
+    <value>Міграція обєктів у РІБ</value>
+  </synonym>
+</mdclass:CommonPicture>

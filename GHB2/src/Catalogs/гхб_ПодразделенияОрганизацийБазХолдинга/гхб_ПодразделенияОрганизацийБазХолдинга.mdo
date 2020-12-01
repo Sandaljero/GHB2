@@ -1,0 +1,280 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="d664a0b7-3df4-4924-a0aa-3c68a3c2e1b1">
+  <producedTypes>
+    <objectType typeId="d3b64414-717d-411d-a0b6-9dcaf1f525c8" valueTypeId="350d2e8b-4ae8-4182-a2b7-52726ccb943f"/>
+    <refType typeId="d18a9f5e-0dad-458f-b03c-d9a61d2aee0d" valueTypeId="4cf1d85b-6e5c-44b7-b669-57009a26ce4c"/>
+    <selectionType typeId="07a12d45-aee4-43db-b1bd-f72a89503b99" valueTypeId="72ffad4a-9356-4a7c-acd1-a7835d17e14e"/>
+    <listType typeId="d474e242-ad58-48a1-9a46-3b045fdcbfc7" valueTypeId="f3f5809d-80e0-4499-a825-160d14b366c0"/>
+    <managerType typeId="b79dcb64-2798-4947-b8ae-0a7a42cc47dd" valueTypeId="bbea1dec-7397-4a6c-9773-15e8c36c86e9"/>
+  </producedTypes>
+  <name>гхб_ПодразделенияОрганизацийБазХолдинга</name>
+  <synonym>
+    <key>ru</key>
+    <value>Подразделения организаций баз холдинга</value>
+  </synonym>
+  <synonym>
+    <key>uk</key>
+    <value>Підрозділи організацій баз холдингу</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.гхб_ПодразделенияОрганизацийБазХолдинга.StandardAttribute.Description</inputByString>
+  <inputByString>Catalog.гхб_ПодразделенияОрганизацийБазХолдинга.StandardAttribute.Code</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <objectPresentation>
+    <key>ru</key>
+    <value>Подразделение организации баз холдинга</value>
+  </objectPresentation>
+  <objectPresentation>
+    <key>uk</key>
+    <value>Підрозділ організації баз холдингу</value>
+  </objectPresentation>
+  <listPresentation>
+    <key>ru</key>
+    <value>Подразделения организаций баз холдинга</value>
+  </listPresentation>
+  <listPresentation>
+    <key>uk</key>
+    <value>Підрозділи організацій баз холдингу</value>
+  </listPresentation>
+  <hierarchical>true</hierarchical>
+  <hierarchyType>HierarchyOfItems</hierarchyType>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>9</codeLength>
+  <descriptionLength>150</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+  <defaultObjectForm>Catalog.гхб_ПодразделенияОрганизацийБазХолдинга.Form.ФормаЭлемента</defaultObjectForm>
+  <defaultListForm>Catalog.гхб_ПодразделенияОрганизацийБазХолдинга.Form.ФормаСписка</defaultListForm>
+  <defaultChoiceForm>Catalog.гхб_ПодразделенияОрганизацийБазХолдинга.Form.ФормаВыбора</defaultChoiceForm>
+  <attributes uuid="3d3c9fbb-af92-4478-8b1e-8d12dd16e256">
+    <name>GUIDБазыХолдинга</name>
+    <synonym>
+      <key>ru</key>
+      <value>GUID Базы холдинга</value>
+    </synonym>
+    <synonym>
+      <key>uk</key>
+      <value>GUID Бази холдингу</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>36</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="242f8a33-a3f6-499d-8a2d-f27f48239960">
+    <name>БазаХолдинга</name>
+    <synonym>
+      <key>ru</key>
+      <value>База холдинга</value>
+    </synonym>
+    <synonym>
+      <key>uk</key>
+      <value>База холдингу</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.гхб_БазыХолдинга</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="529c1eab-97c5-40f0-9b31-30ca7dddb9df">
+    <name>ОрганизацияБазХолдинга</name>
+    <synonym>
+      <key>ru</key>
+      <value>Организация баз холдинга</value>
+    </synonym>
+    <synonym>
+      <key>uk</key>
+      <value>Організація баз холдингу</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.гхб_ОрганизацииБазХолдинга</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="d5976b25-d43f-49ac-9eee-3a12b075c446">
+    <name>ЭтоГруппаБазы</name>
+    <synonym>
+      <key>ru</key>
+      <value>Это группа базы</value>
+    </synonym>
+    <synonym>
+      <key>uk</key>
+      <value>Це група бази</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="1a01a3f9-7aa3-46af-9b09-239546d03180">
+    <name>ДатаСозданияЭлементаОбменом</name>
+    <synonym>
+      <key>ru</key>
+      <value>Дата создания элемента обменом</value>
+    </synonym>
+    <synonym>
+      <key>uk</key>
+      <value>Дата створення елемента обміном</value>
+    </synonym>
+    <type>
+      <types>Date</types>
+      <dateQualifiers>
+        <dateFractions>Date</dateFractions>
+      </dateQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="f8f82d65-4504-42c9-abbe-645532d80fbf">
+    <name>ДатаИзмененияЭлементаОбменом</name>
+    <synonym>
+      <key>ru</key>
+      <value>Дата изменения элемента обменом</value>
+    </synonym>
+    <synonym>
+      <key>uk</key>
+      <value>Дата зміни елемента обміном</value>
+    </synonym>
+    <type>
+      <types>Date</types>
+      <dateQualifiers>
+        <dateFractions>Date</dateFractions>
+      </dateQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="e0879211-bc89-420a-9c7b-690d3c2abaa0">
+    <name>ДатаС</name>
+    <synonym>
+      <key>ru</key>
+      <value>Дата С</value>
+    </synonym>
+    <type>
+      <types>Date</types>
+      <dateQualifiers>
+        <dateFractions>Date</dateFractions>
+      </dateQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="e149c3b4-dc50-41bc-8512-52ef65475541">
+    <name>ДатаПо</name>
+    <synonym>
+      <key>ru</key>
+      <value>Дата по</value>
+    </synonym>
+    <type>
+      <types>Date</types>
+      <dateQualifiers>
+        <dateFractions>Date</dateFractions>
+      </dateQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="98a4a0da-3ea9-48fd-aa42-e0683835f9f4">
+    <name>НетСоответствияВУчетныхБазах</name>
+    <synonym>
+      <key>ru</key>
+      <value>Нет соответствия в учетных базах</value>
+    </synonym>
+    <synonym>
+      <key>uk</key>
+      <value>Немає відповідності в облікових базах</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="4e0a0c07-f1d5-4629-860f-204f758b6f58">
+    <name>УровеньПодразделения</name>
+    <synonym>
+      <key>ru</key>
+      <value>Уровень подразделения</value>
+    </synonym>
+    <type>
+      <types>EnumRef.гхб_УровеньПодразделения</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <forms uuid="132eea8b-f5fc-4a3d-bfd4-834998a65493">
+    <name>ФормаЭлемента</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма элемента</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="5072999f-b428-44ff-b8e4-d1d2a2d59b3c">
+    <name>ФормаСписка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма списка</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="005a09eb-a866-4f56-8de4-841b474708d6">
+    <name>ФормаВыбора</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма выбора</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:Catalog>

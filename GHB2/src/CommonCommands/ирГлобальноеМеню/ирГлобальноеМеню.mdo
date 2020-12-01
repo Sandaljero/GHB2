@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonCommand xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="41349f94-29fb-4d2e-a530-35daf95b09a8">
+  <name>ирГлобальноеМеню</name>
+  <synonym>
+    <key>ru</key>
+    <value>Глобальное меню (ИР)</value>
+  </synonym>
+  <group>CommandGroup.ирКоманднаяПанельФормы</group>
+  <commandParameterType/>
+  <representation>Auto</representation>
+  <toolTip>
+    <key>ru</key>
+    <value>Открыть глобальное контекстное меню</value>
+  </toolTip>
+  <picture xsi:type="core:PictureRef">
+    <picture>CommonPicture.ирРедактироватьОбъектБД</picture>
+  </picture>
+  <shortcut>Ctrl+Alt+E</shortcut>
+</mdclass:CommonCommand>

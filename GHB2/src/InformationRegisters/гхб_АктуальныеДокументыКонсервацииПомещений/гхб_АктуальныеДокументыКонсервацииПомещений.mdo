@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="ada64472-6bf1-4fe4-82ab-0514920dbe6b">
+  <producedTypes>
+    <selectionType typeId="2d5f7c0e-3d97-4e2f-bbd4-702245b7f603" valueTypeId="a884bbc6-ca9e-4e5a-8949-edc0a9c0d01f"/>
+    <listType typeId="9ba263a3-08e5-4299-873d-f863a5ba2bc7" valueTypeId="0a31dfb3-e702-4754-adf6-e1eea9769e30"/>
+    <managerType typeId="fcb9442e-a1b7-487d-b8c6-edc138a81216" valueTypeId="4e50ed30-f4e7-4406-8209-40a97259eb5d"/>
+    <recordSetType typeId="6691268d-2cad-4e8d-86ea-f7b692bc74e4" valueTypeId="6a9c3d80-2f98-4d50-867e-36ada343767e"/>
+    <recordKeyType typeId="d6207e6e-e3d9-4ce2-88c5-90177052bc1c" valueTypeId="884fd215-97ea-4e03-b93d-c540cb92f6ca"/>
+    <recordType typeId="5dbe0b5c-ae7e-4f89-94f7-4550a4a6e1eb" valueTypeId="0d0ad1c5-3d0e-4632-89d0-165090d71a3f"/>
+    <recordManagerType typeId="8a03d1e8-cbae-4ad8-b13d-ae0ed52f2568" valueTypeId="69f21286-f020-4c73-9e76-2b3290f3628d"/>
+  </producedTypes>
+  <name>гхб_АктуальныеДокументыКонсервацииПомещений</name>
+  <synonym>
+    <key>ru</key>
+    <value>Актуальные документы консервации помещений</value>
+  </synonym>
+  <synonym>
+    <key>uk</key>
+    <value>Актуальні документи консервації приміщень</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <editType>InDialog</editType>
+  <defaultRecordForm>InformationRegister.гхб_АктуальныеДокументыКонсервацииПомещений.Form.ФормаЗаписи</defaultRecordForm>
+  <defaultListForm>InformationRegister.гхб_АктуальныеДокументыКонсервацииПомещений.Form.ФормаСписка</defaultListForm>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <attributes uuid="3783eaf0-e7b9-4097-a947-72ecbb2014b9">
+    <name>ДокументКонсервации</name>
+    <synonym>
+      <key>ru</key>
+      <value>Документ консервации</value>
+    </synonym>
+    <synonym>
+      <key>uk</key>
+      <value>Документ консервації</value>
+    </synonym>
+    <type>
+      <types>DocumentRef.гхб_ЗакреплениеСтатусаКонсервацииПомещения</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <dimensions uuid="4d81da5a-df81-49c6-9f4a-24f6ec672e44">
+    <name>Дата</name>
+    <synonym>
+      <key>ru</key>
+      <value>Дата</value>
+    </synonym>
+    <synonym>
+      <key>uk</key>
+      <value>Дата</value>
+    </synonym>
+    <type>
+      <types>Date</types>
+      <dateQualifiers>
+        <dateFractions>Date</dateFractions>
+      </dateQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="63c1461e-1a5c-462e-bc0f-d2475a397fc2">
+    <name>Помещение</name>
+    <synonym>
+      <key>ru</key>
+      <value>Помещение</value>
+    </synonym>
+    <synonym>
+      <key>uk</key>
+      <value>Приміщення</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.гхб_Помещения</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <forms uuid="85290141-df84-4ef5-ab4d-d906ee2bee61">
+    <name>ФормаЗаписи</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма записи</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="39c32837-888d-4be7-abc7-9d659d6efa6c">
+    <name>ФормаСписка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма списка</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:InformationRegister>

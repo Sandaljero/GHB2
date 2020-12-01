@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Report xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="e59cf62a-9113-4141-9475-76e482a0f43e">
+  <producedTypes>
+    <objectType typeId="d37b37dc-3cb0-45ef-98ee-2b100a689af2" valueTypeId="bdb6d076-270f-41af-b618-78ec745d82ea"/>
+    <managerType typeId="dd1dbc3a-752a-469a-b8e9-e890a3bd634e" valueTypeId="ceeff0c5-5c12-496a-85de-47d1d0d23cf9"/>
+  </producedTypes>
+  <name>гхб_ЗаполненныеПаркоместаНаЛокациях</name>
+  <synonym>
+    <key>ru</key>
+    <value>Заполненные паркоместа на локациях</value>
+  </synonym>
+  <synonym>
+    <key>uk</key>
+    <value>Заповнені паркомісця на локаціях</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <defaultForm>CommonForm.ФормаОтчета</defaultForm>
+  <mainDataCompositionSchema>Report.гхб_ЗаполненныеПаркоместаНаЛокациях.Template.ОсновнаяСхемаКомпоновкиДанных</mainDataCompositionSchema>
+  <defaultSettingsForm>CommonForm.ФормаНастроекОтчета</defaultSettingsForm>
+  <defaultVariantForm>CommonForm.ФормаВариантаОтчета</defaultVariantForm>
+  <templates uuid="7a7a65d7-fb60-4b68-92bc-201bd1100a41">
+    <name>ОсновнаяСхемаКомпоновкиДанных</name>
+    <synonym>
+      <key>ru</key>
+      <value>Основная схема компоновки данных</value>
+    </synonym>
+    <templateType>DataCompositionSchema</templateType>
+  </templates>
+</mdclass:Report>

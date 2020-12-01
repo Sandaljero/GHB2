@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="b8628e87-5474-4499-8e32-79c5fcf57b9f">
+  <producedTypes>
+    <selectionType typeId="fbfc0640-b0f0-4e0f-8cff-9ba297868555" valueTypeId="a864899d-7070-43c1-918d-b182ee55c289"/>
+    <listType typeId="e35f4f04-2139-4983-a19c-f5b423ce1e2b" valueTypeId="468bc6a5-2407-4818-a7ff-0c16810045b0"/>
+    <managerType typeId="f674fc71-597f-4be8-a7d7-03bd53cb6ac6" valueTypeId="efc941a0-6872-495a-8b9d-caf49c30e3da"/>
+    <recordSetType typeId="7197fcee-3035-4349-82a7-604da3fefe02" valueTypeId="42c66a69-61ec-4cca-a050-4284e472cb4b"/>
+    <recordKeyType typeId="f672be65-60d3-42b3-887d-d20e67b589ca" valueTypeId="e7515f8d-aca3-45ae-8fda-39b03dc90d4b"/>
+    <recordType typeId="2cbbee65-17e6-44ae-99b4-59be751468ae" valueTypeId="e6b1fdad-db1e-40b6-9c53-864c94cefc5d"/>
+    <recordManagerType typeId="3156b072-123d-41c6-8bcb-0962e5969830" valueTypeId="e2ebd59a-f9e2-4cae-8814-44425e188a2a"/>
+  </producedTypes>
+  <name>гхб_ДатыБлокировокПользователейБазХолдинга</name>
+  <synonym>
+    <key>ru</key>
+    <value>Даты блокировок пользователей баз холдинга</value>
+  </synonym>
+  <synonym>
+    <key>uk</key>
+    <value>Дати блокувань користувачів баз холдингу</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <editType>InDialog</editType>
+  <defaultRecordForm>InformationRegister.гхб_ДатыБлокировокПользователейБазХолдинга.Form.ФормаЗаписи</defaultRecordForm>
+  <defaultListForm>InformationRegister.гхб_ДатыБлокировокПользователейБазХолдинга.Form.ФормаСписка</defaultListForm>
+  <informationRegisterPeriodicity>Day</informationRegisterPeriodicity>
+  <mainFilterOnPeriod>true</mainFilterOnPeriod>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <resources uuid="c72f0a73-a9b7-4f3c-a31d-698fcc91e69c">
+    <name>Блокирован</name>
+    <synonym>
+      <key>ru</key>
+      <value>Блокирован</value>
+    </synonym>
+    <synonym>
+      <key>uk</key>
+      <value>Блокований</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <attributes uuid="48e0aa1b-7f39-4a79-a53a-8eddb8a8e1da">
+    <name>ДатаЗаписи</name>
+    <synonym>
+      <key>ru</key>
+      <value>Дата записи</value>
+    </synonym>
+    <synonym>
+      <key>uk</key>
+      <value>Дата запису</value>
+    </synonym>
+    <type>
+      <types>Date</types>
+      <dateQualifiers>
+        <dateFractions>Date</dateFractions>
+      </dateQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <dimensions uuid="e08af1a5-74b8-4fd3-b177-a881f31dbfaf">
+    <name>БазаХолдинга</name>
+    <synonym>
+      <key>ru</key>
+      <value>База холдинга</value>
+    </synonym>
+    <synonym>
+      <key>uk</key>
+      <value>База холдингу</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.гхб_БазыХолдинга</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="e14ab427-e8a6-43a1-99f9-5ea0e6a77b8d">
+    <name>Пользователь</name>
+    <synonym>
+      <key>ru</key>
+      <value>Пользователь</value>
+    </synonym>
+    <synonym>
+      <key>uk</key>
+      <value>Користувач</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.гхб_ПользователиБазХолдинга</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <forms uuid="54a6c198-4a27-45b4-b074-3fa7641bcba0">
+    <name>ФормаЗаписи</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма записи</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="71051365-8f90-45b7-b3b7-d706d1704958">
+    <name>ФормаСписка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма списка</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:InformationRegister>

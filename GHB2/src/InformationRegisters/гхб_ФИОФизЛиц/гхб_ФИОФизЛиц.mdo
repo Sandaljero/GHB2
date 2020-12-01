@@ -1,0 +1,194 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="1bf62c62-e086-4362-a58e-e8988e1177b3">
+  <producedTypes>
+    <selectionType typeId="656ca9b4-0b09-40f5-bb6d-4c33c888bd47" valueTypeId="24bd931a-4781-4896-aa2f-c32917d1c402"/>
+    <listType typeId="4353f4e8-75eb-44e7-bb8d-65a0bf67d53d" valueTypeId="2ab16c89-ca9f-4218-ad99-6c71301dff77"/>
+    <managerType typeId="67e4f234-f1a5-42d6-9719-13d837114e87" valueTypeId="df0ee7b3-cc7b-4d22-afaf-dbf733445d67"/>
+    <recordSetType typeId="cecf2ebf-a7df-4b96-bea9-6a72adac49fe" valueTypeId="7d139c2c-da19-478b-bfb8-b8dd77f82daf"/>
+    <recordKeyType typeId="1e3181c4-d977-4fdc-b796-fbe94e9eb9c1" valueTypeId="c9a23830-3a69-4003-8499-e84eede73abe"/>
+    <recordType typeId="c8b2a783-216b-4d46-a8a5-14cea582c29a" valueTypeId="7ddd3d19-db40-4bbd-b779-e5df9fce86d0"/>
+    <recordManagerType typeId="c13993fa-bb5c-47ba-ab9e-053c4b880664" valueTypeId="d0d95d2b-c74a-4bec-9c0e-7b06f0de1c36"/>
+  </producedTypes>
+  <name>гхб_ФИОФизЛиц</name>
+  <synonym>
+    <key>ru</key>
+    <value>Фамилия, имя, отчество физического лица</value>
+  </synonym>
+  <synonym>
+    <key>uk</key>
+    <value>Прізвище, ім'я, по батькові фізичної особи</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <editType>InDialog</editType>
+  <defaultRecordForm>InformationRegister.гхб_ФИОФизЛиц.Form.ФормаЗаписи</defaultRecordForm>
+  <defaultListForm>InformationRegister.гхб_ФИОФизЛиц.Form.ФормаСписка</defaultListForm>
+  <informationRegisterPeriodicity>Day</informationRegisterPeriodicity>
+  <mainFilterOnPeriod>true</mainFilterOnPeriod>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <resources uuid="10f4d8d0-f883-45d9-9b4f-65f05608450e">
+    <name>Фамилия</name>
+    <synonym>
+      <key>ru</key>
+      <value>Фамилия</value>
+    </synonym>
+    <synonym>
+      <key>uk</key>
+      <value>Прізвище</value>
+    </synonym>
+    <comment>(Общ)</comment>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>50</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="2d66dce0-11db-433b-8151-0771142e5fd8">
+    <name>Имя</name>
+    <synonym>
+      <key>ru</key>
+      <value>Имя</value>
+    </synonym>
+    <synonym>
+      <key>uk</key>
+      <value>Ім'я</value>
+    </synonym>
+    <comment>(Общ)</comment>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>50</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="f9be7eb3-c622-4814-8278-f135fb48cc90">
+    <name>Отчество</name>
+    <synonym>
+      <key>ru</key>
+      <value>Отчество</value>
+    </synonym>
+    <synonym>
+      <key>uk</key>
+      <value>По батькові</value>
+    </synonym>
+    <comment>(Общ)</comment>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>50</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <attributes uuid="10bc58aa-ec5d-4dca-bc49-595dc1430c6c">
+    <name>ДатаЗаписи</name>
+    <synonym>
+      <key>ru</key>
+      <value>Дата записи</value>
+    </synonym>
+    <synonym>
+      <key>uk</key>
+      <value>Дата запису</value>
+    </synonym>
+    <type>
+      <types>Date</types>
+      <dateQualifiers>
+        <dateFractions>Date</dateFractions>
+      </dateQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <dimensions uuid="c6dce165-d665-4764-ab73-21e5a721e9c5">
+    <name>БазаХолдинга</name>
+    <synonym>
+      <key>ru</key>
+      <value>База холдинга</value>
+    </synonym>
+    <synonym>
+      <key>uk</key>
+      <value>База холдингу</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.гхб_БазыХолдинга</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="25a8274f-b29a-49b2-af62-0da687680161">
+    <name>ФизЛицоБазыХолдинга</name>
+    <synonym>
+      <key>ru</key>
+      <value>Физ лицо базы холдинга</value>
+    </synonym>
+    <synonym>
+      <key>uk</key>
+      <value>Фіз особа бази холдингу</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.гхб_ФизическиеЛицаБазХолдинга</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <forms uuid="9dd19909-988f-4a25-be88-2f602ec9e294">
+    <name>ФормаЗаписи</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма записи</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="8fdbb854-aff2-4ae0-a7d7-e30772374ba0">
+    <name>ФормаСписка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма списка</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <commands uuid="477cd3eb-6ba6-402f-9e08-e5c770ad38af">
+    <name>ФИОФизЛиц</name>
+    <synonym>
+      <key>ru</key>
+      <value>Фамилия, имя, отчество физического лица</value>
+    </synonym>
+    <synonym>
+      <key>uk</key>
+      <value>Прізвище, ім'я, по батькові фізичної особи</value>
+    </synonym>
+    <group>FormNavigationPanelGoTo</group>
+    <commandParameterType>
+      <types>CatalogRef.гхб_ФизическиеЛица</types>
+    </commandParameterType>
+    <representation>Auto</representation>
+    <shortcut></shortcut>
+  </commands>
+</mdclass:InformationRegister>

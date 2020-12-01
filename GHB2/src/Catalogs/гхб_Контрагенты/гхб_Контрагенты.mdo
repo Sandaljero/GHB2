@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="204d1b67-dde1-4172-a711-2aec94ca8d0e">
+  <producedTypes>
+    <objectType typeId="453495c4-79fd-406f-9796-1d95384d8493" valueTypeId="71f0a209-a984-4d6e-8875-5ad3f4409587"/>
+    <refType typeId="3e662fc7-3e29-4ecd-801a-af55f0b27690" valueTypeId="a6b57aff-d06e-4843-849f-551db4fd02df"/>
+    <selectionType typeId="6dd3d243-a013-458c-81c1-32a7afd44afc" valueTypeId="0d94ad0a-a5aa-4eaa-b1e7-8f25954f89aa"/>
+    <listType typeId="8c5f961c-d390-47b0-b655-12b442b076c4" valueTypeId="f5690664-270a-4f68-8d65-e4ccfcdb68e8"/>
+    <managerType typeId="b923e37e-50e4-4f60-9d00-17b9cf6bf380" valueTypeId="aa27a099-6d43-477b-a4c9-27d21a310578"/>
+  </producedTypes>
+  <name>гхб_Контрагенты</name>
+  <synonym>
+    <key>ru</key>
+    <value>Контрагенты</value>
+  </synonym>
+  <synonym>
+    <key>uk</key>
+    <value>Контрагенти</value>
+  </synonym>
+  <comment>Консолидированный справочник</comment>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.гхб_Контрагенты.StandardAttribute.Description</inputByString>
+  <inputByString>Catalog.гхб_Контрагенты.StandardAttribute.Code</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <hierarchical>true</hierarchical>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>9</codeLength>
+  <descriptionLength>150</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+  <defaultObjectForm>Catalog.гхб_Контрагенты.Form.ФормаЭлемента</defaultObjectForm>
+  <defaultListForm>Catalog.гхб_Контрагенты.Form.ФормаСписка</defaultListForm>
+  <defaultChoiceForm>Catalog.гхб_Контрагенты.Form.ФормаВыбора</defaultChoiceForm>
+  <attributes uuid="2422832c-eb46-4874-aa7b-dfdfd1015e77">
+    <name>КодПоЕДРПОУ</name>
+    <synonym>
+      <key>ru</key>
+      <value>Код по ЕГРПОУ</value>
+    </synonym>
+    <synonym>
+      <key>uk</key>
+      <value>Код за ЄДРПОУ</value>
+    </synonym>
+    <comment>(Регл) Код по ЕДРПОУ</comment>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>12</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <indexing>IndexWithAdditionalOrder</indexing>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="8c339d44-e794-4361-9b86-8e39ff59eb01">
+    <name>ВидКонтрагента</name>
+    <synonym>
+      <key>ru</key>
+      <value>Вид контрагента</value>
+    </synonym>
+    <type>
+      <types>EnumRef.гхб_ВидыКонтрагентов</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="c7cb02e1-82a4-4f53-a26b-6cad8ab5495b">
+    <name>ИНН</name>
+    <synonym>
+      <key>ru</key>
+      <value>ИНН</value>
+    </synonym>
+    <synonym>
+      <key>uk</key>
+      <value>ІПН</value>
+    </synonym>
+    <comment>(Регл) Идентификационный номер налогоплательщика</comment>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>12</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <indexing>Index</indexing>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="62534c8d-f096-4c1a-a985-b1d419ee7023">
+    <name>ЮрФизЛицо</name>
+    <synonym>
+      <key>ru</key>
+      <value>Юр. / физ. лицо</value>
+    </synonym>
+    <synonym>
+      <key>uk</key>
+      <value>Юр. / физ. особа</value>
+    </synonym>
+    <comment>(Общ)</comment>
+    <type>
+      <types>EnumRef.гхб_ЮрФизЛицо</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <forms uuid="5a6c3122-ecc8-4d65-8898-cf1fd3479afe">
+    <name>ФормаЭлемента</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма элемента</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="692803be-e7b6-491e-b36c-f725b6a9da7c">
+    <name>ФормаСписка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма списка</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="c286cdd8-32cd-48c1-8fe2-269583b97b11">
+    <name>ФормаВыбора</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма выбора</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:Catalog>

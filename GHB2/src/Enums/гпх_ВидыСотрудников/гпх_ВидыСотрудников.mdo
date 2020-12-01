@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="e39e38e6-a30c-4817-9053-2b0c844dc21f">
+  <producedTypes>
+    <refType typeId="8a1122ac-b446-4634-af55-6564ba0b5b78" valueTypeId="8d29d280-4bca-417f-a900-b3b05e14b114"/>
+    <listType typeId="a080b89b-520b-4af5-af2a-d26bfd29f850" valueTypeId="bb4899ca-0d54-4360-8089-22768f515131"/>
+    <managerType typeId="4ee915d8-055a-47fe-b493-91fdbb739bba" valueTypeId="4458c170-3fb8-4591-9ea3-af7a18f4711b"/>
+  </producedTypes>
+  <name>гпх_ВидыСотрудников</name>
+  <synonym>
+    <key>ru</key>
+    <value>Виды сотрудников</value>
+  </synonym>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="4612a78f-af06-4816-94d6-c150d5607bc8">
+    <name>Штат</name>
+    <synonym>
+      <key>ru</key>
+      <value>Штат</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="e48fea70-114e-4613-be82-e6c3e6b1c669">
+    <name>СТД</name>
+    <synonym>
+      <key>ru</key>
+      <value>СТД</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="7f8c5556-25fb-4182-b6aa-b89c6898057b">
+    <name>ГПХ</name>
+    <synonym>
+      <key>ru</key>
+      <value>ГПХ</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="fedccc9a-da03-49d8-b76d-5cbc2bf5efd1">
+    <name>БТД</name>
+    <synonym>
+      <key>ru</key>
+      <value>БТД</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="e9dde18e-6f4f-4c0d-b42f-26d8c93dcd88">
+    <name>ФОП</name>
+    <synonym>
+      <key>ru</key>
+      <value>ФОП</value>
+    </synonym>
+    <synonym>
+      <key>uk</key>
+      <value>ФОП</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

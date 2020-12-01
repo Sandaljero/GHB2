@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="91b1f16f-0e48-4703-8395-6a4acda5250a">
+  <producedTypes>
+    <refType typeId="97983560-a79f-42f6-a072-51af42798707" valueTypeId="38a5fce8-ccaf-4e63-b57f-f92aea9cac53"/>
+    <listType typeId="27c712e6-7b53-465b-852f-8d510348c388" valueTypeId="d24a1d32-1117-4caa-8a33-3fadb3bb29b0"/>
+    <managerType typeId="70f4cd98-196f-445f-8e07-779b20daef20" valueTypeId="b1371041-1027-40f3-9abe-cac36d19ad17"/>
+  </producedTypes>
+  <name>гхб_ТипыБазХолдинга</name>
+  <synonym>
+    <key>ru</key>
+    <value>Типы баз холдинга</value>
+  </synonym>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="97c786ae-278d-4de9-9248-6662b37c5557">
+    <name>РИБ</name>
+    <synonym>
+      <key>ru</key>
+      <value>РИБ</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="fdcc2735-808c-4637-9a12-b047cb39c851">
+    <name>ManageResources</name>
+    <synonym>
+      <key>ru</key>
+      <value>Manage resources</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

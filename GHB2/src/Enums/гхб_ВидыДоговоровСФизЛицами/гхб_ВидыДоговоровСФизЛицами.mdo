@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="b44965b8-60b5-4b29-88f9-314c613cdc4b">
+  <producedTypes>
+    <refType typeId="50395c91-dd3f-4965-b76d-e53f1c0a27b1" valueTypeId="e4147306-30ec-41db-9508-48430c9f2fc0"/>
+    <listType typeId="d4920d6d-5788-4117-9d06-f548246e5aa0" valueTypeId="4df2ff26-8053-4db5-be27-764906bf99c6"/>
+    <managerType typeId="06f79e83-1c3f-4bab-9b2c-79ceefcd8ead" valueTypeId="e6a87764-d513-4bbf-aa65-c33bea3e5967"/>
+  </producedTypes>
+  <name>гхб_ВидыДоговоровСФизЛицами</name>
+  <synonym>
+    <key>ru</key>
+    <value>Виды договоров с физ. лицами</value>
+  </synonym>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Order</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Ref</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="4e250edd-da66-4b83-a670-7ec8f0507702">
+    <name>ТрудовойДоговор</name>
+    <synonym>
+      <key>ru</key>
+      <value>Трудовой договор</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="13c448b8-f010-4373-8ba0-0b354f8501da">
+    <name>Подряда</name>
+    <synonym>
+      <key>ru</key>
+      <value>Договор подряда (выполнение работ, оказание услуг)</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="b4125b64-5fb7-485e-a925-e07701b1aa0a">
+    <name>Авторский</name>
+    <synonym>
+      <key>ru</key>
+      <value>Авторский договор</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="6fa1e452-1dfc-4fb4-ad15-ac0e8cb0c2d0">
+    <name>ДоговорУправленческий</name>
+    <synonym>
+      <key>ru</key>
+      <value>Без договора</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

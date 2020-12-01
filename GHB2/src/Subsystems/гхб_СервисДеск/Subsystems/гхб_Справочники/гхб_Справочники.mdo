@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="0cc2db9d-ff62-451b-8a6a-b3b512234a45">
+  <name>гхб_Справочники</name>
+  <synonym>
+    <key>ru</key>
+    <value>Справочники</value>
+  </synonym>
+  <synonym>
+    <key>uk</key>
+    <value>Довідники</value>
+  </synonym>
+  <comment>#17232</comment>
+  <includeHelpInContents>true</includeHelpInContents>
+  <includeInCommandInterface>true</includeInCommandInterface>
+  <content>Catalog.гхб_Базы1С</content>
+  <content>Catalog.гхб_Домены</content>
+  <content>Catalog.Пользователи</content>
+  <parentSubsystem>Subsystem.гхб_СервисДеск</parentSubsystem>
+</mdclass:Subsystem>

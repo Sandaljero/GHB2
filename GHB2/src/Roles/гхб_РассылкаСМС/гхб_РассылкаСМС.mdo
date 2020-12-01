@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Role xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="a793d016-7a60-4293-8565-8cea1afa92cd">
+  <name>гхб_РассылкаСМС</name>
+  <synonym>
+    <key>ru</key>
+    <value>Рассылка СМС</value>
+  </synonym>
+  <synonym>
+    <key>uk</key>
+    <value>Розсилка СМС</value>
+  </synonym>
+</mdclass:Role>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonPicture xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="40c34266-7b12-49c7-ae73-b04ed2c2b845">
+  <name>гхб_УправлениеПропускамиСотрудников</name>
+  <synonym>
+    <key>ru</key>
+    <value>Подситема &quot;Управление пропусками сотрудников&quot;</value>
+  </synonym>
+</mdclass:CommonPicture>

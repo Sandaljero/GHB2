@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="889aa487-c03e-494a-b9c1-3a2629dfc817">
+  <producedTypes>
+    <selectionType typeId="ff794b19-e9a1-4fe4-ac91-046dadebb3fa" valueTypeId="41fedc2b-7d39-4e9f-866c-2824fb4009a6"/>
+    <listType typeId="d86bcb0d-6260-4e92-a417-3e360c75aa58" valueTypeId="2f6a9cce-4aa6-453f-8ff6-9116d3463a63"/>
+    <managerType typeId="1311bfad-b6ba-4a56-abc9-61ee4fd8999b" valueTypeId="cfedd5e2-d673-473b-b1af-2597528419fc"/>
+    <recordSetType typeId="c2d7c064-6eb9-429f-ad47-41a024cd43b8" valueTypeId="8a41efa3-f1f1-4825-a956-9ccdb95d37ba"/>
+    <recordKeyType typeId="8437bf66-e7e1-4191-9029-3196a6d4cf76" valueTypeId="373d0b51-29d6-490d-bc32-f643e300b9ba"/>
+    <recordType typeId="26e5e6ed-edea-42b7-b319-88b1abd3efb0" valueTypeId="4aeb8a49-b15f-46ab-a92c-1696a0d03832"/>
+    <recordManagerType typeId="74ca7eb8-e7dd-4667-9fd8-9caad7b1ecd3" valueTypeId="240ec0ec-6740-4510-a282-123325190a9a"/>
+  </producedTypes>
+  <name>гхб_СтатусыКонсервацииПомещений</name>
+  <synonym>
+    <key>ru</key>
+    <value>Статусы консервации помещений</value>
+  </synonym>
+  <synonym>
+    <key>uk</key>
+    <value>Статуси консервації приміщень</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <editType>InDialog</editType>
+  <defaultListForm>InformationRegister.гхб_СтатусыКонсервацииПомещений.Form.ФормаСписка</defaultListForm>
+  <informationRegisterPeriodicity>Second</informationRegisterPeriodicity>
+  <writeMode>RecorderSubordinate</writeMode>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <attributes uuid="d54d13bf-a93d-4e9a-a8c7-cc343bd7fb91">
+    <name>СтатусКонсервации</name>
+    <synonym>
+      <key>ru</key>
+      <value>Статус консервации</value>
+    </synonym>
+    <synonym>
+      <key>uk</key>
+      <value>Статус консервації</value>
+    </synonym>
+    <type>
+      <types>EnumRef.гхб_СтатусыКонсервацииПомещений</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="114878f1-198a-48b1-afa0-d7ecb5c1e64a">
+    <name>ДатаНачала</name>
+    <synonym>
+      <key>ru</key>
+      <value>Дата начала</value>
+    </synonym>
+    <synonym>
+      <key>uk</key>
+      <value>Дата початку</value>
+    </synonym>
+    <type>
+      <types>Date</types>
+      <dateQualifiers>
+        <dateFractions>Date</dateFractions>
+      </dateQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="e40cf728-c410-4dd2-b5b1-9b79e4830e4e">
+    <name>ДатаОкончания</name>
+    <synonym>
+      <key>ru</key>
+      <value>Дата окончания</value>
+    </synonym>
+    <synonym>
+      <key>uk</key>
+      <value>Дата закінчення</value>
+    </synonym>
+    <type>
+      <types>Date</types>
+      <dateQualifiers>
+        <dateFractions>Date</dateFractions>
+      </dateQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="b2dd6173-a0cf-4af2-9cf9-a3c76eab60a3">
+    <name>ПериодКонсервации</name>
+    <synonym>
+      <key>ru</key>
+      <value>Период консервации</value>
+    </synonym>
+    <synonym>
+      <key>uk</key>
+      <value>Період консервації</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>3</precision>
+        <nonNegative>true</nonNegative>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="fc2a1e95-ba66-4a92-83f0-640797329a23">
+    <name>ПериодКонсервацииСтрока</name>
+    <synonym>
+      <key>ru</key>
+      <value>Период консервации (строка)</value>
+    </synonym>
+    <synonym>
+      <key>uk</key>
+      <value>Період консервації (строка)</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>20</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <dimensions uuid="795b96b5-58cd-4815-964c-fcd14a7433c8">
+    <name>Помещение</name>
+    <synonym>
+      <key>ru</key>
+      <value>Помещение</value>
+    </synonym>
+    <synonym>
+      <key>uk</key>
+      <value>Приміщення</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.гхб_Помещения</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <forms uuid="14a1387a-e6d9-49ea-bc10-cf908cc08cb8">
+    <name>ФормаСписка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма списка</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:InformationRegister>

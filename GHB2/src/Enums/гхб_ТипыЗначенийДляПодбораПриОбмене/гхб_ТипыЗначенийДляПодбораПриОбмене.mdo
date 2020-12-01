@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="df6cd759-cacf-4bba-94b3-62fbaaafcf29">
+  <producedTypes>
+    <refType typeId="34c221b1-80f3-463b-b851-2f2f04cf4f2a" valueTypeId="2b0fe818-4772-43d2-802b-f92ea428d3c0"/>
+    <listType typeId="41b14c4f-2d63-4332-b9ba-233eda37ed5f" valueTypeId="e31772f3-e377-4379-a548-20bf33042632"/>
+    <managerType typeId="f6ef88c6-3a14-4b9f-94dc-76a41a99afe5" valueTypeId="82882fd2-8544-4b09-94dd-96a5ab451973"/>
+  </producedTypes>
+  <name>гхб_ТипыЗначенийДляПодбораПриОбмене</name>
+  <synonym>
+    <key>ru</key>
+    <value>Типы значений для подбора при обмене</value>
+  </synonym>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="be89da94-c760-42f8-ac0a-e8a7bfc61dcf">
+    <name>ВидыКонтактнойИнформации</name>
+    <synonym>
+      <key>ru</key>
+      <value>Виды контактной информации</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="2521ba72-02c5-4f29-9680-894fe6c4dfc8">
+    <name>ВидыДокументовУдостоверяющихЛичность</name>
+    <synonym>
+      <key>ru</key>
+      <value>Виды документов удостоверяющих личность</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="a49ae345-533b-4aa8-bf74-8095dcf83b7f">
+  <producedTypes>
+    <refType typeId="3b043816-8768-4c5e-b541-f9bf539f90c7" valueTypeId="0f4af48a-3d6d-4375-98eb-ee8faa57cf57"/>
+    <listType typeId="571c6ec6-96ef-4813-bc3a-448dda51946b" valueTypeId="3d7d7916-e892-47d3-a658-70ea1d62ad8b"/>
+    <managerType typeId="2204243d-9f2d-4dab-9372-6606c4adbc58" valueTypeId="f00a4f81-f7f8-4c00-b3a5-3bf2760afe4c"/>
+  </producedTypes>
+  <name>ВидыСообщений</name>
+  <synonym>
+    <key>ru</key>
+    <value>Виды сообщений</value>
+  </synonym>
+  <synonym>
+    <key>uk</key>
+    <value>Види повідомлень</value>
+  </synonym>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Order</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Ref</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="7b9a4f90-a809-48f9-8671-bacf69423644">
+    <name>Раздел</name>
+    <synonym>
+      <key>ru</key>
+      <value>Раздел</value>
+    </synonym>
+    <synonym>
+      <key>uk</key>
+      <value>Розділ</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="e55243bd-1fb6-4a53-a59f-0c4b29a092e2">
+    <name>Информация</name>
+    <synonym>
+      <key>ru</key>
+      <value>Информация</value>
+    </synonym>
+    <synonym>
+      <key>uk</key>
+      <value>Інформація</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="f4a35336-610b-4ea1-a267-6122b2fa2a4a">
+    <name>ВажнаяИнформация</name>
+    <synonym>
+      <key>ru</key>
+      <value>Важная информация</value>
+    </synonym>
+    <synonym>
+      <key>uk</key>
+      <value>Важлива інформація</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="0c4738ea-8dec-4004-8dfb-8038c13427a8">
+    <name>Ошибка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Ошибка</value>
+    </synonym>
+    <synonym>
+      <key>uk</key>
+      <value>Помилка</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="8c5686f8-62f6-4f9e-bef0-730e17ca95d3">
+    <name>Визирование</name>
+    <synonym>
+      <key>ru</key>
+      <value>Визирование</value>
+    </synonym>
+    <synonym>
+      <key>uk</key>
+      <value>Візування</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="e0b1ff5b-2127-4503-aee9-7d6960d31eee">
+    <name>Сообщение</name>
+    <synonym>
+      <key>ru</key>
+      <value>Сообщение</value>
+    </synonym>
+    <synonym>
+      <key>uk</key>
+      <value>Повідомлення</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="a9ac7e46-a987-4216-8686-d1408dce2e40">
+    <name>Поручение</name>
+    <synonym>
+      <key>ru</key>
+      <value>Поручение</value>
+    </synonym>
+    <synonym>
+      <key>uk</key>
+      <value>Доручення</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="ff8f583e-14bc-4525-a5e2-3e8fb158529c">
+    <name>ВыполнениеЗадачи</name>
+    <synonym>
+      <key>ru</key>
+      <value>Выполнение задачи</value>
+    </synonym>
+    <synonym>
+      <key>uk</key>
+      <value>Виконання задачі</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="65ec3f85-a41f-4c1b-9480-24a5ba95b9ad">
+    <name>УведомлениеОСбое</name>
+    <synonym>
+      <key>ru</key>
+      <value>Уведомление о сбое</value>
+    </synonym>
+    <synonym>
+      <key>uk</key>
+      <value>Повідомлення про збій</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

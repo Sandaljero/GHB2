@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="9d80d41f-6986-4200-8458-6b7a0d8f5b26">
+  <producedTypes>
+    <refType typeId="03eb8f34-8181-4a97-a250-8bcbd5a6c941" valueTypeId="3b7a2f55-fe23-43ef-9cf0-9d85acbd0ed6"/>
+    <listType typeId="77db2205-1607-427b-a213-3c3aaef9ac00" valueTypeId="69a74558-f89c-4c1d-b066-75981f823fc6"/>
+    <managerType typeId="b9425e0e-4b91-43e3-a022-cbfcfa71a8b8" valueTypeId="e5a215d4-9e55-4205-847b-ccd9a5b8b437"/>
+  </producedTypes>
+  <name>но_СостояниеПодписи</name>
+  <synonym>
+    <key>ru</key>
+    <value>Состояние подписи</value>
+  </synonym>
+  <synonym>
+    <key>uk</key>
+    <value>Стан підпису</value>
+  </synonym>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Order</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Ref</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="e1ee6f9f-76f4-4a12-bf3f-74ef8158cd28">
+    <name>НаОзнакомлении</name>
+    <synonym>
+      <key>ru</key>
+      <value>На ознакомлении</value>
+    </synonym>
+    <synonym>
+      <key>uk</key>
+      <value>На ознайомленні</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="2d6c20cc-3088-4585-b20f-e9a2ff2b5609">
+    <name>Ознакомлен</name>
+    <synonym>
+      <key>ru</key>
+      <value>Ознакомлен</value>
+    </synonym>
+    <synonym>
+      <key>uk</key>
+      <value>Ознайомлений</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="844c28f3-a2c1-4adb-96fc-0c0f572cb0c5">
+    <name>НаПодписании</name>
+    <synonym>
+      <key>ru</key>
+      <value>На подписании</value>
+    </synonym>
+    <synonym>
+      <key>uk</key>
+      <value>На підписанні</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="b975cbdd-4890-4310-9d1e-cb9d4feed770">
+    <name>Ожидает</name>
+    <synonym>
+      <key>ru</key>
+      <value>Ожидает</value>
+    </synonym>
+    <synonym>
+      <key>uk</key>
+      <value>Очікує</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="720617cc-4673-42bd-8499-aa5fd6028c23">
+    <name>Отклонен</name>
+    <synonym>
+      <key>ru</key>
+      <value>Отклонен</value>
+    </synonym>
+    <synonym>
+      <key>uk</key>
+      <value>Відхилений</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="bb85363d-88f1-4b37-a9cb-dc750a239ff8">
+    <name>Подписан</name>
+    <synonym>
+      <key>ru</key>
+      <value>Подписан</value>
+    </synonym>
+    <synonym>
+      <key>uk</key>
+      <value>Підписаний</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="ce679cb1-7f26-442a-9f13-86f3d02ce1c4">
+    <name>Приостановлен</name>
+    <synonym>
+      <key>ru</key>
+      <value>Приостановлен</value>
+    </synonym>
+    <synonym>
+      <key>uk</key>
+      <value>Призупинений</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="b887e2d8-9654-4738-bd10-6d3af4251874">
+    <name>Заблокирован</name>
+    <synonym>
+      <key>ru</key>
+      <value>Заблокирован</value>
+    </synonym>
+    <synonym>
+      <key>uk</key>
+      <value>Заблокований</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="a49269dd-a11b-4f09-b67b-9e56c38218ce">
+    <name>Отозван</name>
+    <synonym>
+      <key>ru</key>
+      <value>Отозван</value>
+    </synonym>
+    <synonym>
+      <key>uk</key>
+      <value>Відкликаний</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

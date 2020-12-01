@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Role xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="52a1d5a6-9d9c-4701-8e72-e780508f0da8">
+  <name>гхб_ИспользованиеОбщихОбъектов</name>
+  <synonym>
+    <key>ru</key>
+    <value>Использование общих объектов</value>
+  </synonym>
+  <synonym>
+    <key>uk</key>
+    <value>Використання загальних об'єктів</value>
+  </synonym>
+</mdclass:Role>

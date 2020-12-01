@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="91df4957-1aff-4511-bf0c-dcd955422568">
+  <name>гхб_Справочники</name>
+  <synonym>
+    <key>ru</key>
+    <value>Справочники</value>
+  </synonym>
+  <synonym>
+    <key>uk</key>
+    <value>Довідники</value>
+  </synonym>
+  <comment>#17232</comment>
+  <includeHelpInContents>true</includeHelpInContents>
+  <includeInCommandInterface>true</includeInCommandInterface>
+  <content>Catalog.гхб_ФизическиеЛицаБазХолдинга</content>
+  <content>Catalog.гхб_ПодразделенияОрганизацийБазХолдинга</content>
+  <content>Catalog.гхб_ДолжностиОрганизацийБазХолдинга</content>
+  <content>Catalog.гхб_ДолжностиГПХФОП</content>
+  <content>Catalog.гхб_ФизическиеЛица</content>
+  <content>Catalog.гхб_СотрудникиБазХолдинга</content>
+  <content>Catalog.гхб_ОрганизацииБазХолдинга</content>
+  <content>Catalog.гхб_РолиДокументооборота</content>
+  <content>Catalog.гхб_Дивизионы</content>
+  <content>Catalog.гхб_ПозицииШтатногоРасписанияБазХолдинга</content>
+  <content>Catalog.гхб_ДокументыУдостоверяющиеЛичность</content>
+  <parentSubsystem>Subsystem.гхб_Кадры</parentSubsystem>
+</mdclass:Subsystem>

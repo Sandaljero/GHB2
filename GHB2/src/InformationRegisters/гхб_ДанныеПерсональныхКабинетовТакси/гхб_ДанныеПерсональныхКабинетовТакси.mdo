@@ -1,0 +1,208 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="52820cab-1f6f-4b13-9fd5-ddbf3b786c1c">
+  <producedTypes>
+    <selectionType typeId="283009ea-6566-47c2-9d30-2fe09589d7d2" valueTypeId="751b9e35-9cb1-435e-b9c4-cbf4e30470dd"/>
+    <listType typeId="f9ddf0f7-3d95-481e-a658-0a39194cd8a0" valueTypeId="a3f54a11-057e-4d2f-a9b1-55f322d9d43e"/>
+    <managerType typeId="63a3ae07-4e71-4ca6-9a5d-509b11511529" valueTypeId="fb3568a3-6d82-4122-99f5-60e919238855"/>
+    <recordSetType typeId="0d6632ef-7924-4ebd-9ac8-1691e541db21" valueTypeId="7b77699a-c7ba-45bb-b8d5-c122885d89dd"/>
+    <recordKeyType typeId="86713aeb-4414-4994-9429-ed2eb3b202ae" valueTypeId="d2ede0f7-9a84-4918-82dd-cf8505b9d520"/>
+    <recordType typeId="6e8bce5b-8e04-4c06-93b4-d94a22ba38ca" valueTypeId="08f34c5a-8655-44f7-baef-3637a0d21ab6"/>
+    <recordManagerType typeId="aa0a5911-0eb4-425c-92cb-173540ed1619" valueTypeId="93e0eaa1-1207-484c-86bb-64e0d8eacae5"/>
+  </producedTypes>
+  <name>гхб_ДанныеПерсональныхКабинетовТакси</name>
+  <synonym>
+    <key>ru</key>
+    <value>Данные персональных кабинетов такси</value>
+  </synonym>
+  <synonym>
+    <key>uk</key>
+    <value>Дані персональних кабінетів таксі</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <editType>InDialog</editType>
+  <defaultListForm>InformationRegister.гхб_ДанныеПерсональныхКабинетовТакси.Form.ФормаСписка</defaultListForm>
+  <informationRegisterPeriodicity>Day</informationRegisterPeriodicity>
+  <writeMode>RecorderSubordinate</writeMode>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <resources uuid="a65ad58d-35a9-4049-8d92-caf922d26629">
+    <name>БазаХолдинга</name>
+    <synonym>
+      <key>ru</key>
+      <value>База холдинга</value>
+    </synonym>
+    <synonym>
+      <key>uk</key>
+      <value>База холдингу</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.гхб_БазыХолдинга</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="4527c254-1d67-403d-a5fd-46fec622d5c6">
+    <name>Организация</name>
+    <synonym>
+      <key>ru</key>
+      <value>Организация</value>
+    </synonym>
+    <synonym>
+      <key>uk</key>
+      <value>Організація</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.гхб_ОрганизацииБазХолдинга</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="df276f1d-e990-4163-8ada-d818b4c4bc14">
+    <name>Сотрудник</name>
+    <synonym>
+      <key>ru</key>
+      <value>Сотрудник</value>
+    </synonym>
+    <synonym>
+      <key>uk</key>
+      <value>Співробітник</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.гхб_СотрудникиБазХолдинга</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="f344a69a-7fb5-40a5-867c-7e78a3bec387">
+    <name>Блокирован</name>
+    <synonym>
+      <key>ru</key>
+      <value>Блокирован</value>
+    </synonym>
+    <synonym>
+      <key>uk</key>
+      <value>Блокований</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="b3b570cc-f09d-4782-9d58-b9c2ca157d74">
+    <name>Дивизион</name>
+    <synonym>
+      <key>ru</key>
+      <value>Дивизион</value>
+    </synonym>
+    <synonym>
+      <key>uk</key>
+      <value>Дивізіон</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.гхб_Дивизионы</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="229b0105-cdd9-4778-96fa-a3c7362b14d1">
+    <name>ЦФО</name>
+    <synonym>
+      <key>ru</key>
+      <value>ЦФО</value>
+    </synonym>
+    <synonym>
+      <key>uk</key>
+      <value>ЦФВ</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.гхб_ЦФО</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="1507971b-0112-4025-b2ce-872d979addbf">
+    <name>Должность</name>
+    <synonym>
+      <key>ru</key>
+      <value>Должность</value>
+    </synonym>
+    <synonym>
+      <key>uk</key>
+      <value>Посада</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.гхб_ДолжностиОрганизацийБазХолдинга</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="91811f64-e625-42ed-923f-fd3ca1d3c3bb">
+    <name>Плательщик</name>
+    <synonym>
+      <key>ru</key>
+      <value>Плательщик</value>
+    </synonym>
+    <synonym>
+      <key>uk</key>
+      <value>Платник</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.гхб_ОрганизацииБазХолдинга</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <dimensions uuid="0d92f9f7-5ba5-4ddb-8061-23b82259c998">
+    <name>ПерсональныйКабинетТакси</name>
+    <synonym>
+      <key>ru</key>
+      <value>Персональный кабинет такси</value>
+    </synonym>
+    <synonym>
+      <key>uk</key>
+      <value>Персональний кабінет таксі</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.гхб_ПерсональныеКабинетыТакси</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <forms uuid="af0075a1-2012-4a73-80bb-ea9804998e6f">
+    <name>ФормаСписка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма списка</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:InformationRegister>

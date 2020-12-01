@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="d0ab6d97-f9c5-4289-8b8b-34d67ffeacf4">
+  <producedTypes>
+    <refType typeId="a77058af-4a93-4f9f-aecc-73b922c2e832" valueTypeId="2427a279-9e31-400f-a69e-074909050f8a"/>
+    <listType typeId="84de1579-215f-4d79-8a16-bdbcd7e1f9ca" valueTypeId="87360177-b1e1-4eea-98d4-0586f5c49131"/>
+    <managerType typeId="3d964d10-a810-4571-acdf-a3bea73ff068" valueTypeId="bafb4da0-82a1-4121-a500-679cf696ba71"/>
+  </producedTypes>
+  <name>гхб_ИспользованиеНомеровТелефонов</name>
+  <synonym>
+    <key>ru</key>
+    <value>Использование номеров телефонов</value>
+  </synonym>
+  <synonym>
+    <key>uk</key>
+    <value>Використання номерів телефонів</value>
+  </synonym>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Order</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Ref</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="3db93578-0ec5-485c-a52a-e6b99d6a6bd4">
+    <name>ЗаФизЛицом</name>
+    <synonym>
+      <key>ru</key>
+      <value>За физ лицом</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="53c63407-4c23-4ebe-be0b-02cbf641dbea">
+    <name>ЗаДежурным</name>
+    <synonym>
+      <key>ru</key>
+      <value>За дежурным</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="9a53defb-0b02-4d33-99b4-568e7fc39459">
+    <name>Шлюз</name>
+    <synonym>
+      <key>ru</key>
+      <value>Шлюз</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="dd9be65c-9386-4888-a8c1-865bbb0f430f">
+    <name>НеИспользуеться</name>
+    <synonym>
+      <key>ru</key>
+      <value>Не используеться</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

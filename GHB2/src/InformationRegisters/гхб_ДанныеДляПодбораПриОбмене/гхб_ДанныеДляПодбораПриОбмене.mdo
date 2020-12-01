@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="e1faac20-5e5a-461c-807a-381447ac68fc">
+  <producedTypes>
+    <selectionType typeId="306fceae-c87a-44ab-9bcb-d723f7d1c931" valueTypeId="45425272-34a4-489f-a8a9-1bc2b3ea829a"/>
+    <listType typeId="369d5183-aef2-4a90-8c42-3d0be2be7347" valueTypeId="d176ed2c-e09e-47e3-b88e-b7b28876f1ba"/>
+    <managerType typeId="98810edd-3b09-45a9-b5f6-d89873df90b4" valueTypeId="c97843dd-f97b-4e21-9438-dfac89620964"/>
+    <recordSetType typeId="ca8d15ab-d434-4f15-ad2b-134774c9d90f" valueTypeId="4adb06cb-c613-4200-90b1-7b68fdcda80c"/>
+    <recordKeyType typeId="80caff9e-878c-4770-81c6-915804943f10" valueTypeId="419f77d9-2c76-453d-bdb7-9e427f9a7490"/>
+    <recordType typeId="1a3d82a3-345e-4908-8570-945b9b97eaa5" valueTypeId="d0d63ae6-a9dd-4426-a66d-f24ecedebaa3"/>
+    <recordManagerType typeId="5595bdb9-1b30-467d-a707-25edd7a0fda0" valueTypeId="a2a8e328-b0d4-4dfc-9178-3c70bf76ea3f"/>
+  </producedTypes>
+  <name>гхб_ДанныеДляПодбораПриОбмене</name>
+  <synonym>
+    <key>ru</key>
+    <value>Данные для подбора при обмене</value>
+  </synonym>
+  <synonym>
+    <key>uk</key>
+    <value>Дані для підбору при обміні</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <editType>InDialog</editType>
+  <defaultRecordForm>InformationRegister.гхб_ДанныеДляПодбораПриОбмене.Form.ФормаЗаписи</defaultRecordForm>
+  <defaultListForm>InformationRegister.гхб_ДанныеДляПодбораПриОбмене.Form.ФормаСписка</defaultListForm>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <resources uuid="4ac9df8e-9cb4-407f-83c3-7fcdd7f69771">
+    <name>ЗначениеСоответствия</name>
+    <synonym>
+      <key>ru</key>
+      <value>Значение</value>
+    </synonym>
+    <synonym>
+      <key>uk</key>
+      <value>Значення</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+      <types>String</types>
+      <types>Date</types>
+      <types>Number</types>
+      <types>DocumentRef</types>
+      <types>EnumRef</types>
+      <types>ChartOfCharacteristicTypesRef</types>
+      <types>CatalogRef</types>
+      <numberQualifiers>
+        <precision>15</precision>
+        <scale>2</scale>
+      </numberQualifiers>
+      <stringQualifiers>
+        <length>1000</length>
+      </stringQualifiers>
+      <dateQualifiers>
+        <dateFractions>Date</dateFractions>
+      </dateQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <dimensions uuid="5e453d1a-f6db-41ff-8633-b2dde43d5cae">
+    <name>БазаХолдинга</name>
+    <synonym>
+      <key>ru</key>
+      <value>База холдинга</value>
+    </synonym>
+    <synonym>
+      <key>uk</key>
+      <value>База холдингу</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.гхб_БазыХолдинга</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="a660ab50-c123-4855-a463-0c3532bce3c0">
+    <name>Тип</name>
+    <synonym>
+      <key>ru</key>
+      <value>Тип</value>
+    </synonym>
+    <synonym>
+      <key>uk</key>
+      <value>Тип</value>
+    </synonym>
+    <type>
+      <types>EnumRef.гхб_ТипыЗначенийДляПодбораПриОбмене</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="7696234a-5163-4ead-a5ce-b419ce428a87">
+    <name>УИД</name>
+    <synonym>
+      <key>ru</key>
+      <value>УИД</value>
+    </synonym>
+    <synonym>
+      <key>uk</key>
+      <value>УИД</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>36</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <forms uuid="0e867f8b-8280-4d83-9475-f06b6eae79ea">
+    <name>ФормаЗаписи</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма записи</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="f3e4af6b-9bd7-475c-8ecc-96094eacc05d">
+    <name>ФормаСписка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма списка</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:InformationRegister>

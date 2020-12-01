@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="76f2a6c9-5ea2-4b52-8347-a94af798ed28">
+  <producedTypes>
+    <selectionType typeId="0213fea4-fbc7-4eec-9b06-cfbb4d99e696" valueTypeId="81aab48f-4750-4276-964b-078f82f79c70"/>
+    <listType typeId="20d9509b-a19e-4fa4-a900-a8497e539d5f" valueTypeId="84a6581d-4c2c-4768-9da8-5347d8a5fba6"/>
+    <managerType typeId="cc5f0ce7-62cf-4016-9854-d5b899143488" valueTypeId="4596a611-c4e7-4749-9d1f-406b33d01dcc"/>
+    <recordSetType typeId="59d6ff5c-fb47-47cf-99b1-5f2c837fd4f0" valueTypeId="e76898b8-4de0-4b57-9a92-054ab111621c"/>
+    <recordKeyType typeId="0ae764bd-4998-4bea-a2cb-23cbb99e9c1b" valueTypeId="7c3e5b74-ac82-4625-8c2e-b26a382be4f8"/>
+    <recordType typeId="f14c5616-269b-4337-b103-6c6502951079" valueTypeId="a4343d8e-4898-4ebe-a132-06b76f726003"/>
+    <recordManagerType typeId="e39d4ac4-3c92-4473-90bd-ddf8350b7853" valueTypeId="744da4cc-f9f8-4f8c-88d6-90e4dfb0fa7b"/>
+  </producedTypes>
+  <name>гхб_ИсторияВыдачиПостоянныхПропусков</name>
+  <synonym>
+    <key>ru</key>
+    <value>История выдачи постоянных пропусков</value>
+  </synonym>
+  <synonym>
+    <key>uk</key>
+    <value>Історія видачі постійних перепусток</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <editType>InDialog</editType>
+  <defaultListForm>InformationRegister.гхб_ИсторияВыдачиПостоянныхПропусков.Form.ФормаСписка</defaultListForm>
+  <informationRegisterPeriodicity>Second</informationRegisterPeriodicity>
+  <writeMode>RecorderSubordinate</writeMode>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <attributes uuid="e685de24-eebf-4217-99a6-4dc130ae0fd9">
+    <name>НомерПропуска</name>
+    <synonym>
+      <key>ru</key>
+      <value>Номер пропуска</value>
+    </synonym>
+    <synonym>
+      <key>uk</key>
+      <value>Номер перепустки</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>10</precision>
+        <nonNegative>true</nonNegative>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <dimensions uuid="01f3a65f-7a69-4e7e-8983-c9ee8f1be7bc">
+    <name>Сотрудник</name>
+    <synonym>
+      <key>ru</key>
+      <value>Сотрудник</value>
+    </synonym>
+    <synonym>
+      <key>uk</key>
+      <value>Співробітник</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.гхб_ФизическиеЛица</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <forms uuid="2480a725-55d8-4390-918e-ec0ab41121ba">
+    <name>ФормаЗаписи</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма записи</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="e07bf615-5c75-453f-8c62-0412f4d83e80">
+    <name>ФормаСписка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма списка</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:InformationRegister>

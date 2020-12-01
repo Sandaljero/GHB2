@@ -1,0 +1,177 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="8d8c5307-0f09-4f19-8487-ac1e655b90df">
+  <producedTypes>
+    <selectionType typeId="4a9942a4-bba0-493f-9cf4-51d21b739100" valueTypeId="8f141b5f-a5e6-4dd3-84da-7657e6d887c3"/>
+    <listType typeId="2d0399b0-ae23-4dea-97bc-d0f8a4e288e8" valueTypeId="2126d030-012c-49c8-ba08-ae881e26c50c"/>
+    <managerType typeId="323c3849-76c8-4dd5-9d16-f93642f25d8e" valueTypeId="ff59d4e8-1a8d-4abe-bd62-16f2610fd729"/>
+    <recordSetType typeId="a29b96ee-980f-454c-8f73-120758ced8ec" valueTypeId="f6912a90-0a94-4068-98b8-e6d4dc39dd73"/>
+    <recordKeyType typeId="61afddcd-da6c-403d-a6e0-f8ea03ff3e55" valueTypeId="7a6e4a51-898f-433b-9206-9c53509d5e48"/>
+    <recordType typeId="3b04a223-9d63-4402-8058-50be5d3e4fda" valueTypeId="568b7b54-7bfc-41bb-be3c-4557b479d490"/>
+    <recordManagerType typeId="14e16192-eb8a-4dfb-badb-a54197262ec7" valueTypeId="c75cd0cb-2767-4100-b13a-65dce177eb67"/>
+  </producedTypes>
+  <name>гхб_ИсторияПодписанияДокумента</name>
+  <synonym>
+    <key>ru</key>
+    <value>История подписания документа</value>
+  </synonym>
+  <synonym>
+    <key>uk</key>
+    <value>Історія підписання документа</value>
+  </synonym>
+  <defaultListForm>InformationRegister.гхб_ИсторияПодписанияДокумента.Form.ФормаСписка</defaultListForm>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Active</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>LineNumber</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Recorder</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Period</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <informationRegisterPeriodicity>Second</informationRegisterPeriodicity>
+  <mainFilterOnPeriod>true</mainFilterOnPeriod>
+  <resources uuid="f038de81-4c49-4335-b726-1bc7ae996208">
+    <name>СтатусДокумента</name>
+    <synonym>
+      <key>ru</key>
+      <value>Статус документа</value>
+    </synonym>
+    <synonym>
+      <key>uk</key>
+      <value>Статус документу</value>
+    </synonym>
+    <type>
+      <types>EnumRef.но_СтатусыДокумента</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <indexing>Index</indexing>
+  </resources>
+  <resources uuid="9c8c4476-7823-4eb8-952d-7b88c182dd31">
+    <name>ДокументМодифицировался</name>
+    <synonym>
+      <key>ru</key>
+      <value>Документ модифицировался</value>
+    </synonym>
+    <synonym>
+      <key>uk</key>
+      <value>Документ модифікувався</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <attributes uuid="f6d58156-0e7a-4252-a38f-1ee84f263baa">
+    <name>Ответственный</name>
+    <synonym>
+      <key>ru</key>
+      <value>Ответственный</value>
+    </synonym>
+    <synonym>
+      <key>uk</key>
+      <value>Відповідальний</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Пользователи</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <indexing>Index</indexing>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <dimensions uuid="c32f49c1-e494-445c-ac84-0bd679b63a60">
+    <name>Документ</name>
+    <synonym>
+      <key>ru</key>
+      <value>Документ</value>
+    </synonym>
+    <synonym>
+      <key>uk</key>
+      <value>Документ</value>
+    </synonym>
+    <type>
+      <types>DocumentRef</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <denyIncompleteValues>true</denyIncompleteValues>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <master>true</master>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="b2c7024c-de57-44f3-9bd1-56c22616946a">
+    <name>БизнесПроцесс</name>
+    <synonym>
+      <key>ru</key>
+      <value>Бизнес процесс</value>
+    </synonym>
+    <synonym>
+      <key>uk</key>
+      <value>Бізнес процес</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>10</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <indexing>Index</indexing>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <forms uuid="e339d3b0-e3a7-4fe2-a125-ff2bb3a16577">
+    <name>ФормаСписка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма списка</value>
+    </synonym>
+    <synonym>
+      <key>uk</key>
+      <value>Форма списку</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:InformationRegister>

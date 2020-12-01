@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Role xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="6928cd1b-b5ad-4cdb-baf0-a75d06a0f9f1">
+  <name>гхб_МобильнаяСвязьПросмотр</name>
+  <synonym>
+    <key>ru</key>
+    <value>Мобильная связь просмотр</value>
+  </synonym>
+  <synonym>
+    <key>uk</key>
+    <value>Мобільний зв'язок перегляд</value>
+  </synonym>
+</mdclass:Role>

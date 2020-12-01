@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Role xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="abae79ed-70b4-43de-af18-17ca7a80b2d0">
+  <name>гхб_ОбменДаннымиСБазамиИсточниками</name>
+  <synonym>
+    <key>ru</key>
+    <value>Обмен данными с базами источниками</value>
+  </synonym>
+  <synonym>
+    <key>uk</key>
+    <value>Обмін даними з базами джерелами</value>
+  </synonym>
+</mdclass:Role>

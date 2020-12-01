@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="bf29e480-f7c3-4ff3-b1f7-b6c0a643a9ec">
+  <producedTypes>
+    <objectType typeId="44dfed05-8657-4898-9faa-601f01637ad4" valueTypeId="202f4ec0-402a-4b05-99c1-d759ceacc0f3"/>
+    <refType typeId="936d3904-062e-4901-8f50-2206b360a349" valueTypeId="74ed0ace-4e6b-4336-afc1-c2154aba10d6"/>
+    <selectionType typeId="ba237f77-b8e9-4a53-8846-e3a57cb9d627" valueTypeId="b12bd605-294e-4d15-809a-bb49d08b4e1a"/>
+    <listType typeId="ba62837a-0b64-4219-8e3b-8dae48287868" valueTypeId="1e93f8dc-0328-4a77-97ef-bb8e7705ba4b"/>
+    <managerType typeId="d76e4007-3c2c-4d3a-8ec5-419b2f56b6c6" valueTypeId="bdc2328b-d16d-46bd-abb0-30fb7fe7594f"/>
+  </producedTypes>
+  <name>гхб_ЦеновыеПакетыМобильнойСвязи</name>
+  <synonym>
+    <key>ru</key>
+    <value>Ценовые пакеты мобильной связи</value>
+  </synonym>
+  <synonym>
+    <key>uk</key>
+    <value>Цінові пакети мобільного зв'язку</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.гхб_ЦеновыеПакетыМобильнойСвязи.StandardAttribute.Description</inputByString>
+  <inputByString>Catalog.гхб_ЦеновыеПакетыМобильнойСвязи.StandardAttribute.Code</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>9</codeLength>
+  <descriptionLength>25</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+  <defaultObjectForm>Catalog.гхб_ЦеновыеПакетыМобильнойСвязи.Form.ФормаЭлемента</defaultObjectForm>
+  <defaultListForm>Catalog.гхб_ЦеновыеПакетыМобильнойСвязи.Form.ФормаСписка</defaultListForm>
+  <defaultChoiceForm>Catalog.гхб_ЦеновыеПакетыМобильнойСвязи.Form.ФормаВыбора</defaultChoiceForm>
+  <attributes uuid="32d0c634-62ba-45aa-9b4f-f9d0c88b8e59">
+    <name>ЕжемесячнаяСтоимость</name>
+    <synonym>
+      <key>ru</key>
+      <value>Ежемесячная стоимость</value>
+    </synonym>
+    <synonym>
+      <key>uk</key>
+      <value>Щомісячна вартість</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>15</precision>
+        <scale>2</scale>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <forms uuid="361991a6-52f6-4f83-998b-5f7f2907621b">
+    <name>ФормаЭлемента</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма элемента</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="776890c9-a98d-461d-9fef-e2334ee00a50">
+    <name>ФормаСписка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма списка</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="aa9ee08f-95d9-4f14-8a22-26c3aa7b5c73">
+    <name>ФормаВыбора</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма выбора</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:Catalog>

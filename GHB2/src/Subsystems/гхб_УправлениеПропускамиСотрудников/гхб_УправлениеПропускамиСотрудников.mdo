@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="6c591920-cc79-426d-89a9-fdb26e2675d3">
+  <name>гхб_УправлениеПропускамиСотрудников</name>
+  <synonym>
+    <key>ru</key>
+    <value>Управление пропусками сотрудников</value>
+  </synonym>
+  <synonym>
+    <key>uk</key>
+    <value>Керування перепустками співробітників</value>
+  </synonym>
+  <includeHelpInContents>true</includeHelpInContents>
+  <includeInCommandInterface>true</includeInCommandInterface>
+  <picture xsi:type="core:PictureRef">
+    <picture>CommonPicture.гхб_УправлениеПропускамиСотрудников</picture>
+  </picture>
+  <content>Enum.гхб_ВидИзмененияСостоянияВременногоПропуска</content>
+  <content>InformationRegister.гхб_ИсторияВыдачиВременныхПропусков</content>
+  <content>InformationRegister.гхб_ИсторияВыдачиПостоянныхПропусков</content>
+  <subsystems>гхб_Справочники</subsystems>
+  <subsystems>гхб_Документы</subsystems>
+</mdclass:Subsystem>

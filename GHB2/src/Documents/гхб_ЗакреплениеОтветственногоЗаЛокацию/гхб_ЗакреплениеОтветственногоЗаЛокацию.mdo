@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="4a363671-9a5c-4bad-bfb0-7c403aee3b3d">
+  <producedTypes>
+    <objectType typeId="38e1cbe6-af87-42c6-a1c9-4e36fa7385ad" valueTypeId="e7bcb1a6-606b-48d8-ae61-448779b0a999"/>
+    <refType typeId="ff788cb5-0101-47e2-9275-38abbfe634e2" valueTypeId="f6b307f4-4b93-4754-af5d-03f6905d3e12"/>
+    <selectionType typeId="3cafe8ee-807a-41f4-8fa1-3387203a3649" valueTypeId="0e040575-9014-439c-90af-6b5047dc2315"/>
+    <listType typeId="32132686-354e-4c07-ab8c-c9b8ceae3c30" valueTypeId="898c81eb-7576-4beb-b913-c198f93c2a02"/>
+    <managerType typeId="20bb480e-1dfa-48cd-ac82-3985476fe9b1" valueTypeId="76bed240-a0a0-4370-b135-6611fa1ca72b"/>
+  </producedTypes>
+  <name>гхб_ЗакреплениеОтветственногоЗаЛокацию</name>
+  <synonym>
+    <key>ru</key>
+    <value>Закрепление ответственного за локацию</value>
+  </synonym>
+  <synonym>
+    <key>uk</key>
+    <value>Закріплення відповідального за локацію</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Document.гхб_ЗакреплениеОтветственногоЗаЛокацию.StandardAttribute.Number</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <numberType>String</numberType>
+  <numberLength>9</numberLength>
+  <numberAllowedLength>Variable</numberAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultObjectForm>Document.гхб_ЗакреплениеОтветственногоЗаЛокацию.Form.ФормаДокумента</defaultObjectForm>
+  <defaultListForm>Document.гхб_ЗакреплениеОтветственногоЗаЛокацию.Form.ФормаСписка</defaultListForm>
+  <defaultChoiceForm>Document.гхб_ЗакреплениеОтветственногоЗаЛокацию.Form.ФормаВыбора</defaultChoiceForm>
+  <registerRecordsDeletion>AutoDeleteOff</registerRecordsDeletion>
+  <registerRecords>InformationRegister.гхб_ОтветственныеЗаЛокации</registerRecords>
+  <postInPrivilegedMode>true</postInPrivilegedMode>
+  <unpostInPrivilegedMode>true</unpostInPrivilegedMode>
+  <attributes uuid="566640dc-fc1a-497f-8564-3107515bf2e6">
+    <name>Локация</name>
+    <synonym>
+      <key>ru</key>
+      <value>Локация</value>
+    </synonym>
+    <synonym>
+      <key>uk</key>
+      <value>Локація</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.гхб_Помещения</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <choiceFoldersAndItems>Folders</choiceFoldersAndItems>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="673a201a-7409-48f2-b4dd-87a05436c9f2">
+    <name>ОтветственныйЗаЛокацию</name>
+    <synonym>
+      <key>ru</key>
+      <value>Ответственный за локацию</value>
+    </synonym>
+    <synonym>
+      <key>uk</key>
+      <value>Відповідальний за локацію</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.гхб_ФизическиеЛица</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="3d90357b-425e-4154-aa13-64abab172d4f">
+    <name>ОтветственныйЗаЛокациюСуществующий</name>
+    <synonym>
+      <key>ru</key>
+      <value>Ответственный за локацию (существующий)</value>
+    </synonym>
+    <synonym>
+      <key>uk</key>
+      <value>Відповідальний за локацію (існуючий)</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.гхб_ФизическиеЛица</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <forms uuid="f0206502-fd72-4ec5-897e-85995d4ba0fa">
+    <name>ФормаСписка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма списка</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="04050917-beb0-4712-bc79-f1be24892049">
+    <name>ФормаВыбора</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма выбора</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="8ecee255-51b1-4380-8829-907e83254c6d">
+    <name>ФормаДокумента</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма документа</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:Document>

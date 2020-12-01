@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="d4caf022-8a22-44e5-95c6-7415112497d2">
+  <name>гхб_ПомещенияНаЛокациях</name>
+  <synonym>
+    <key>ru</key>
+    <value>Помещения на локациях</value>
+  </synonym>
+  <synonym>
+    <key>uk</key>
+    <value>Приміщення на локаціях</value>
+  </synonym>
+  <includeHelpInContents>true</includeHelpInContents>
+  <includeInCommandInterface>true</includeInCommandInterface>
+  <picture xsi:type="core:PictureRef">
+    <picture>CommonPicture.гхб_ПодсистемаПомещенияНаЛокациях</picture>
+  </picture>
+  <content>Enum.гхб_ВидыОперацийСвойстваПомещений</content>
+  <content>CommonPicture.гхб_ПодсистемаПомещенияНаЛокациях</content>
+  <content>Report.гхб_СписокПомещений</content>
+  <content>Enum.гхб_СтатусыКонсервацииПомещений</content>
+  <content>CommonPicture.гхб_СтатусыКонсервацииПомещений</content>
+  <content>ExchangePlan.гхб_ОбменДаннымиБазаОхраны</content>
+  <content>Report.гхб_ЗакреплениеПомещенийЗаСотрудниками</content>
+  <subsystems>гхб_Справочники</subsystems>
+  <subsystems>гхб_Документы</subsystems>
+  <subsystems>гхб_КонсервацияПомещений</subsystems>
+  <subsystems>гхб_СпискиДоступаНаЛокацию</subsystems>
+  <subsystems>гхб_РегистрыСведений</subsystems>
+</mdclass:Subsystem>

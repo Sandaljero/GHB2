@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="c5f6b6e2-92dd-4f8a-9f8b-e58b5b90b682">
+  <producedTypes>
+    <refType typeId="8d3aafc5-a456-4a6d-a726-ab09a04b7599" valueTypeId="10137f8c-2b5f-4ed4-bfb2-63ca31d98f18"/>
+    <listType typeId="d4eae520-88be-442e-bb0c-d7244547a296" valueTypeId="bcbc8e83-4630-4be4-aa25-8f055292e5b1"/>
+    <managerType typeId="246f476e-5790-4c81-b992-33ec8ac11fbc" valueTypeId="ec7bf6db-2562-4d52-aea3-5fa263b07bca"/>
+  </producedTypes>
+  <name>гхб_ТипыСобытийОбъектовБД</name>
+  <synonym>
+    <key>ru</key>
+    <value>Типы событий объектов БД</value>
+  </synonym>
+  <synonym>
+    <key>uk</key>
+    <value>Типи подій об'єктів БД</value>
+  </synonym>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="35615777-62d3-41af-997b-f3b0312ec195">
+    <name>ПервоеПроведениеДокумента</name>
+    <synonym>
+      <key>ru</key>
+      <value>Первое проведение документа</value>
+    </synonym>
+    <synonym>
+      <key>uk</key>
+      <value>Перше проведення документу</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="4e4c0933-2602-4538-8bcb-acacf5bfa78d">
+    <name>ПересчетПлощадиПомещений</name>
+    <synonym>
+      <key>ru</key>
+      <value>Пересчет площади помещений</value>
+    </synonym>
+    <synonym>
+      <key>uk</key>
+      <value>Перерахунок площі приміщень</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="b07b592f-97a0-4a1d-a33e-29d77f0c1440">
+    <name>ПланируемаяБлокировкаПользователя</name>
+    <synonym>
+      <key>ru</key>
+      <value>Планируемая блокировка пользователя</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="b7f586a2-1c73-4a7d-8d9c-bd2a2193c895">
+    <name>УведомлениеПриПроведении</name>
+    <synonym>
+      <key>ru</key>
+      <value>Уведомление при проведении</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="d51d149c-159a-48d4-8c46-43f0cffa09fc">
+    <name>РассылкаПоСтатусамКонсервацииПомещений</name>
+    <synonym>
+      <key>ru</key>
+      <value>Рассылка по статусам консервации помещений</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

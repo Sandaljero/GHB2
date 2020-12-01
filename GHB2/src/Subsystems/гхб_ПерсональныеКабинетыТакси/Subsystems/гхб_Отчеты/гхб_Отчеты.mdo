@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="0d7f29d6-3b97-4045-85ff-23613b3d3114">
+  <name>гхб_Отчеты</name>
+  <synonym>
+    <key>ru</key>
+    <value>Отчеты</value>
+  </synonym>
+  <synonym>
+    <key>uk</key>
+    <value>Звіти</value>
+  </synonym>
+  <includeHelpInContents>true</includeHelpInContents>
+  <includeInCommandInterface>true</includeInCommandInterface>
+  <content>Report.гхб_ОтчетПоПерсональнымКабинетамТакси</content>
+  <parentSubsystem>Subsystem.гхб_ПерсональныеКабинетыТакси</parentSubsystem>
+</mdclass:Subsystem>

@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="e71ca1d5-ea96-4d4b-8b6e-7ad4fc6c273b">
+  <name>гхб_Подписание</name>
+  <synonym>
+    <key>ru</key>
+    <value>Подписание</value>
+  </synonym>
+  <synonym>
+    <key>uk</key>
+    <value>Підписання</value>
+  </synonym>
+  <includeHelpInContents>true</includeHelpInContents>
+  <includeInCommandInterface>true</includeInCommandInterface>
+  <picture xsi:type="core:PictureRef">
+    <picture>CommonPicture.гхб_Подписание</picture>
+  </picture>
+  <content>CommonPicture.гхб_Подписание</content>
+  <content>CommonCommand.гхб_Подписание</content>
+  <content>CommonModule.гхб_СогласованиеДокументов</content>
+  <content>CommonModule.гхб_ДокументооборотКлиент</content>
+  <content>CommonModule.гхб_ДокументооборотСервер</content>
+  <content>Enum.ВидыСообщений</content>
+  <content>Enum.но_СтатусыДокумента</content>
+  <content>Enum.но_СостояниеПодписи</content>
+  <content>Task.СогласованиеДокумента</content>
+  <content>BusinessProcess.Подписание</content>
+  <content>DataProcessor.но_Подписание</content>
+  <subsystems>гхб_Справочники</subsystems>
+  <subsystems>гхб_РегистрыСведений</subsystems>
+</mdclass:Subsystem>

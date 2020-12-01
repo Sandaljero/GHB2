@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Report xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="a3d36b03-ab4a-4d01-ba1c-0249451940c2">
+  <producedTypes>
+    <objectType typeId="cbea9a2b-6e8e-4097-85ce-2faf878cb0d2" valueTypeId="ca87f1fb-940e-4f2c-9dfb-f390f9d84863"/>
+    <managerType typeId="542b6d9a-ad5d-4764-9cb2-c6170475d0d1" valueTypeId="2116809e-e44f-4849-a4bd-a3f474be9fc2"/>
+  </producedTypes>
+  <name>гхб_ШтатноеРасписание</name>
+  <synonym>
+    <key>ru</key>
+    <value>Штатное расписание</value>
+  </synonym>
+  <synonym>
+    <key>uk</key>
+    <value>Штатний розклад</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <defaultForm>CommonForm.ФормаОтчета</defaultForm>
+  <mainDataCompositionSchema>Report.гхб_ШтатноеРасписание.Template.ОсновнаяСхемаКомпоновкиДанных</mainDataCompositionSchema>
+  <defaultSettingsForm>CommonForm.ФормаНастроекОтчета</defaultSettingsForm>
+  <defaultVariantForm>CommonForm.ФормаВариантаОтчета</defaultVariantForm>
+  <templates uuid="f5e7b27d-6516-46c0-868b-5c6722b9b1bd">
+    <name>ОсновнаяСхемаКомпоновкиДанных</name>
+    <synonym>
+      <key>ru</key>
+      <value>Основная схема компоновки данных</value>
+    </synonym>
+    <templateType>DataCompositionSchema</templateType>
+  </templates>
+</mdclass:Report>

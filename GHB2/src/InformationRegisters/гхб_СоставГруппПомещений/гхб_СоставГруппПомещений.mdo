@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="08fa20a0-8291-4a81-a04b-62073b0641e0">
+  <producedTypes>
+    <selectionType typeId="c1406366-bc0c-4a06-be21-36f4da1bae9e" valueTypeId="935e0d40-3a54-4e7c-8f1d-a482d3404d48"/>
+    <listType typeId="eb61b9e6-ca0e-499e-9b09-251529992d0d" valueTypeId="305da152-a6cf-4eb9-8fe5-442da829e1d5"/>
+    <managerType typeId="3d3e5154-8dfa-492e-ba29-bfd7230287d1" valueTypeId="8fc757c2-04af-4ba0-bca3-03072c17e4c2"/>
+    <recordSetType typeId="4783dd4b-eadf-47cf-a0c9-2c1e6ce2f567" valueTypeId="e90340d2-caec-4c58-81ed-f43c066d30ee"/>
+    <recordKeyType typeId="a60c92ae-18d0-456b-80e8-cb55467a62d0" valueTypeId="828cdc93-4e63-4364-82fa-0b87268850d1"/>
+    <recordType typeId="a2b99e05-c659-4754-ac64-fe3a5e8ea4e7" valueTypeId="7930758b-b735-433f-b1bb-0953d7f3b104"/>
+    <recordManagerType typeId="0a61b942-ec1f-46a4-a411-eb5cb5252ad0" valueTypeId="6f5e74b4-db8a-4533-bb86-ac9fc56d59fb"/>
+  </producedTypes>
+  <name>гхб_СоставГруппПомещений</name>
+  <synonym>
+    <key>ru</key>
+    <value>Состав групп помещений</value>
+  </synonym>
+  <synonym>
+    <key>uk</key>
+    <value>Склад груп приміщень</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <editType>InDialog</editType>
+  <informationRegisterPeriodicity>Second</informationRegisterPeriodicity>
+  <writeMode>RecorderSubordinate</writeMode>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <attributes uuid="f81a19eb-f67b-43d9-9b00-ac135087b64a">
+    <name>Закрыть</name>
+    <synonym>
+      <key>ru</key>
+      <value>Закрыть</value>
+    </synonym>
+    <synonym>
+      <key>uk</key>
+      <value>Закрити</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <dimensions uuid="51b50e30-4724-41f4-a7fd-578666d0ed6e">
+    <name>ГруппаПомещений</name>
+    <synonym>
+      <key>ru</key>
+      <value>Группа помещений</value>
+    </synonym>
+    <synonym>
+      <key>uk</key>
+      <value>Група приміщень</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.гхб_ГруппыПомещений</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="7ff1ddd3-1975-49f1-b0c4-8ebe2ae22716">
+    <name>Помещение</name>
+    <synonym>
+      <key>ru</key>
+      <value>Помещение</value>
+    </synonym>
+    <synonym>
+      <key>uk</key>
+      <value>Приміщення</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.гхб_Помещения</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+</mdclass:InformationRegister>

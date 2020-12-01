@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="1882dcd3-4e81-441d-a734-eb4c62ef4bf9">
+  <name>гхб_ПерсональныеКабинетыТакси</name>
+  <synonym>
+    <key>ru</key>
+    <value>Персональные кабинеты такси</value>
+  </synonym>
+  <synonym>
+    <key>uk</key>
+    <value>Персональні кабінети таксі</value>
+  </synonym>
+  <comment>#14311</comment>
+  <includeHelpInContents>true</includeHelpInContents>
+  <includeInCommandInterface>true</includeInCommandInterface>
+  <picture xsi:type="core:PictureRef">
+    <picture>CommonPicture.гхб_ПодсистемаТакси</picture>
+  </picture>
+  <content>Enum.гхб_ВидыОперацийУПКТ</content>
+  <content>CommonPicture.гхб_ПодсистемаТакси</content>
+  <content>InformationRegister.гхб_ДанныеПерсональныхКабинетовТакси</content>
+  <content>Role.гхб_ПерсональныеКабинетыТакси</content>
+  <subsystems>гхб_Документы</subsystems>
+  <subsystems>гхб_Справочники</subsystems>
+  <subsystems>гхб_Отчеты</subsystems>
+</mdclass:Subsystem>

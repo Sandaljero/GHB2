@@ -1,0 +1,183 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="42596bad-cfe4-4463-bc78-f43fc24edb21">
+  <producedTypes>
+    <objectType typeId="810ed244-83b2-4791-91e2-685ff2a85a44" valueTypeId="a930afa1-b0d5-4aa0-9173-9b2c43c4610b"/>
+    <refType typeId="c6a0d1b3-98b2-49fa-bf43-d6ee1a550d09" valueTypeId="d7d600d8-cae5-400b-960e-65b54b731824"/>
+    <selectionType typeId="bb4edaaa-9ff6-4c58-8c98-7fa85834758b" valueTypeId="04a5ea4b-7501-4b19-9e84-c93aa2c1a9fb"/>
+    <listType typeId="06c3d97f-f2c1-4dec-ba5d-9c705c4db143" valueTypeId="12b4ce25-a1c0-4f1e-aced-f9546f81014a"/>
+    <managerType typeId="e415394a-9f87-450d-8bc3-ae610cffb01b" valueTypeId="3f025ac3-5aa7-447f-8d76-ef0d553a48ce"/>
+  </producedTypes>
+  <name>гхб_БазыХолдинга</name>
+  <synonym>
+    <key>ru</key>
+    <value>Базы холдинга</value>
+  </synonym>
+  <synonym>
+    <key>uk</key>
+    <value>Бази холдингу</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.гхб_БазыХолдинга.StandardAttribute.Description</inputByString>
+  <inputByString>Catalog.гхб_БазыХолдинга.StandardAttribute.Code</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <objectPresentation>
+    <key>ru</key>
+    <value>База холдинга</value>
+  </objectPresentation>
+  <objectPresentation>
+    <key>uk</key>
+    <value>База холдингу</value>
+  </objectPresentation>
+  <listPresentation>
+    <key>ru</key>
+    <value>Базы холдинга</value>
+  </listPresentation>
+  <listPresentation>
+    <key>uk</key>
+    <value>Бази холдингу</value>
+  </listPresentation>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>9</codeLength>
+  <descriptionLength>150</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+  <defaultObjectForm>Catalog.гхб_БазыХолдинга.Form.ФормаЭлемента</defaultObjectForm>
+  <defaultListForm>Catalog.гхб_БазыХолдинга.Form.ФормаСписка</defaultListForm>
+  <defaultChoiceForm>Catalog.гхб_БазыХолдинга.Form.ФормаВыбора</defaultChoiceForm>
+  <attributes uuid="f6222230-673b-46cb-85ec-742e83d6f644">
+    <name>GUIDБазы</name>
+    <synonym>
+      <key>ru</key>
+      <value>GUID Базы</value>
+    </synonym>
+    <synonym>
+      <key>uk</key>
+      <value>GUID Бази</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>36</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="f2948b16-ec4c-4d2b-9cc8-d7c09f94662d">
+    <name>ВнешнийИсточникПоУмолчанию</name>
+    <synonym>
+      <key>ru</key>
+      <value>Внешний источник по умолчанию</value>
+    </synonym>
+    <synonym>
+      <key>uk</key>
+      <value>Зовнішнє джерело за замовчуванням</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.гхб_ВнешниеИсточники</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="442bb0fe-ddaa-4d37-a60a-991f26a08c98">
+    <name>ТипБазы</name>
+    <synonym>
+      <key>ru</key>
+      <value>Тип базы</value>
+    </synonym>
+    <synonym>
+      <key>uk</key>
+      <value>Тип бази</value>
+    </synonym>
+    <type>
+      <types>EnumRef.гхб_ТипыБазХолдинга</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="0aa9ab60-f841-45bb-8cf8-7b366bea83b6">
+    <name>ОбменПоМобильнойСвязи</name>
+    <synonym>
+      <key>ru</key>
+      <value>Обмен по мобильной связи</value>
+    </synonym>
+    <synonym>
+      <key>uk</key>
+      <value>Обмін по мобільному зв'язку</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="9fe73745-404a-402b-8f6f-e4fb5efc2fd0">
+    <name>УчетМобСвязиВРазрезеЛицевыхСчетов</name>
+    <synonym>
+      <key>ru</key>
+      <value>Учет моб. связи в разрезе лицевых счетов</value>
+    </synonym>
+    <synonym>
+      <key>uk</key>
+      <value>Облік моб. зв'язку в розрізі особових рахунків</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <forms uuid="1629964e-e6d2-490a-96b4-e4b57af55d84">
+    <name>ФормаЭлемента</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма элемента</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="de0ad5c8-c5fa-4a58-a21a-6d948d1fa558">
+    <name>ФормаСписка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма списка</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="a1c62696-193b-410c-a2da-eb5502db7310">
+    <name>ФормаВыбора</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма выбора</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:Catalog>

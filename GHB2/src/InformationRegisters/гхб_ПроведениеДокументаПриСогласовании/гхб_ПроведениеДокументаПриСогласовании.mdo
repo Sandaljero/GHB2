@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="68a42f88-57b9-4137-8f4a-016424bca13d">
+  <producedTypes>
+    <selectionType typeId="3855696b-65bd-4042-ba97-e9b6c7810e25" valueTypeId="4d6a4c31-89ff-48d7-a6e4-f72931cd4728"/>
+    <listType typeId="c502e855-2268-4759-80b2-a97aa84653df" valueTypeId="78d9096d-2dd4-4dc8-8c62-5b937a8d4439"/>
+    <managerType typeId="6f5fd678-713c-4c8c-a152-8e4672db8b89" valueTypeId="5110e9fc-8e70-4367-b44f-3df1a27b2895"/>
+    <recordSetType typeId="f576d0d8-6a03-4b14-903c-e07efeea5a6b" valueTypeId="fbf33152-f9ec-41d4-9643-3a20beef50df"/>
+    <recordKeyType typeId="d5afd393-ab67-45f2-a056-b45fe74a7337" valueTypeId="1f9c900f-1587-45c1-9f78-24935a352139"/>
+    <recordType typeId="6643bfb3-1607-4ec4-b542-c119c1b78a4e" valueTypeId="e2763d39-5d4c-4878-ab67-c41b78c80808"/>
+    <recordManagerType typeId="2e063f46-df7c-42da-a3ca-7d016fc55fcb" valueTypeId="eeb1ffef-4c86-49bd-882b-fc006533e872"/>
+  </producedTypes>
+  <name>гхб_ПроведениеДокументаПриСогласовании</name>
+  <synonym>
+    <key>ru</key>
+    <value>Проведение документа при согласовании</value>
+  </synonym>
+  <synonym>
+    <key>uk</key>
+    <value>Проведення документа при узгодженні</value>
+  </synonym>
+  <editType>InDialog</editType>
+  <defaultListForm>InformationRegister.гхб_ПроведениеДокументаПриСогласовании.Form.ФормаСписка</defaultListForm>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Active</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>LineNumber</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Recorder</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Period</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <informationRegisterPeriodicity>Second</informationRegisterPeriodicity>
+  <mainFilterOnPeriod>true</mainFilterOnPeriod>
+  <dimensions uuid="dbe83df0-25c2-4b28-930f-a85833bd3a0a">
+    <name>Документ</name>
+    <synonym>
+      <key>ru</key>
+      <value>Документ</value>
+    </synonym>
+    <synonym>
+      <key>uk</key>
+      <value>Документ</value>
+    </synonym>
+    <type>
+      <types>DocumentRef</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <denyIncompleteValues>true</denyIncompleteValues>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <master>true</master>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <forms uuid="f55ec527-9fa3-4923-b795-e0ad479ee4c7">
+    <name>ФормаСписка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма списка</value>
+    </synonym>
+    <synonym>
+      <key>uk</key>
+      <value>Форма списку</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:InformationRegister>

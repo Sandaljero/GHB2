@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonCommand xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="b5ec39e5-c47f-4a40-ae55-1ce1cf4a6c22">
+  <name>гхб_ОткрытьФормуОтправкиSMS</name>
+  <synonym>
+    <key>ru</key>
+    <value>Форма отправки SMS</value>
+  </synonym>
+  <synonym>
+    <key>uk</key>
+    <value>Форма відправки SMS</value>
+  </synonym>
+  <group>NavigationPanelImportant</group>
+  <commandParameterType/>
+  <representation>Auto</representation>
+  <shortcut></shortcut>
+</mdclass:CommonCommand>
