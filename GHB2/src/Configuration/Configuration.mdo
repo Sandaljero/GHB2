@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Configuration xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="292d643c-2c0b-42ae-8a8c-b12752e8a9cc">
+  <name>GHB2</name>
+  <synonym>
+    <key>en</key>
+    <value>GHB2</value>
+  </synonym>
+  <containedObjects classId="9cd510cd-abfc-11d4-9434-004095e12fc7" objectId="7708b92e-5432-4b74-a38f-cb0f6df933d5"/>
+  <containedObjects classId="9fcd25a0-4822-11d4-9414-008048da11f9" objectId="f5a7a507-b539-4ad0-91da-e6d45f20d56b"/>
+  <containedObjects classId="e3687481-0a87-462c-a166-9f34594f9bba" objectId="38cf5699-e9c3-4a9f-8f87-f7d0738caa0e"/>
+  <containedObjects classId="9de14907-ec23-4a07-96f0-85521cb6b53b" objectId="9747d6d8-c049-4bc1-95dc-b402cb7ad3b9"/>
+  <containedObjects classId="51f2d5d8-ea4d-4064-8892-82951750031e" objectId="5a6f5d02-079b-44c9-af58-9026c1af8701"/>
+  <containedObjects classId="e68182ea-4237-4383-967f-90c1e3370bc7" objectId="b64cc919-7a9d-4346-a296-6dca32771188"/>
+  <containedObjects classId="fb282519-d103-4dd3-bc12-cb271d631dfc" objectId="89ce8303-23ac-446f-95bb-bd4c73cc83bb"/>
+  <configurationExtensionCompatibilityMode>8.3.17</configurationExtensionCompatibilityMode>
+  <defaultRunMode>ManagedApplication</defaultRunMode>
+  <usePurposes>PersonalComputer</usePurposes>
+  <requiredMobileApplicationPermissions>
+    <permission>AllowOSBackup</permission>
+    <use>true</use>
+  </requiredMobileApplicationPermissions>
+  <defaultLanguage>Language.English</defaultLanguage>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <objectAutonumerationMode>NotAutoFree</objectAutonumerationMode>
+  <modalityUseMode>DontUse</modalityUseMode>
+  <synchronousPlatformExtensionAndAddInCallUseMode>DontUse</synchronousPlatformExtensionAndAddInCallUseMode>
+  <compatibilityMode>8.3.17</compatibilityMode>
+  <languages uuid="e6b3c678-16fb-49dc-90ea-2ced8dc03b6e">
+    <name>English</name>
+    <synonym>
+      <key>en</key>
+      <value>English</value>
+    </synonym>
+    <languageCode>en</languageCode>
+  </languages>
+</mdclass:Configuration>
