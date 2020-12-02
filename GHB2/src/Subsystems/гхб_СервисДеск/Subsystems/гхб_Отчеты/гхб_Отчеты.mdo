@@ -14,5 +14,7 @@
   <includeInCommandInterface>true</includeInCommandInterface>
   <content>Report.гхб_ДоменныеИменаФизическихЛиц</content>
   <content>Report.гхб_ОтчетПоПользователям</content>
+  <content>Report.гхб_ОтчетПоКадровымРуководителям</content>
+  <content>Report.гхб_ОтчетПоФактическимРуководителям</content>
   <parentSubsystem>Subsystem.гхб_СервисДеск</parentSubsystem>
 </mdclass:Subsystem>

@@ -21,5 +21,6 @@
   <content>InformationRegister.гхб_АктуальныеДокументыКонсервацииПомещений</content>
   <content>Report.гхб_ЗакрепленныеОтветственныеЗаКонсервациюПомещений</content>
   <content>Report.гхб_ЗакрепленныеСтатусыКонсервацииГрафик</content>
+  <content>StyleItem.гхб_СтатусКонсервацииПомещенияGreenЦвет</content>
   <parentSubsystem>Subsystem.гхб_ПомещенияНаЛокациях</parentSubsystem>
 </mdclass:Subsystem>

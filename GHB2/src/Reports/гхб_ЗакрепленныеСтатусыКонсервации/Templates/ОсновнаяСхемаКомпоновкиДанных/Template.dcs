@@ -201,7 +201,7 @@
 					<dcsset:appearance>
 						<dcscor:item xsi:type="dcsset:SettingsParameterValue">
 							<dcscor:parameter>ЦветФона</dcscor:parameter>
-							<dcscor:value xsi:type="v8ui:Color">web:Pink</dcscor:value>
+							<dcscor:value xsi:type="v8ui:Color">style:гхб_СтатусКонсервацииПомещенияRedЦвет</dcscor:value>
 						</dcscor:item>
 					</dcsset:appearance>
 				</dcsset:item>
@@ -221,7 +221,7 @@
 					<dcsset:appearance>
 						<dcscor:item xsi:type="dcsset:SettingsParameterValue">
 							<dcscor:parameter>ЦветФона</dcscor:parameter>
-							<dcscor:value xsi:type="v8ui:Color">web:LightGoldenRod</dcscor:value>
+							<dcscor:value xsi:type="v8ui:Color">style:гхб_СтатусКонсервацииПомещенияYellowЦвет</dcscor:value>
 						</dcscor:item>
 					</dcsset:appearance>
 				</dcsset:item>
@@ -241,7 +241,7 @@
 					<dcsset:appearance>
 						<dcscor:item xsi:type="dcsset:SettingsParameterValue">
 							<dcscor:parameter>ЦветФона</dcscor:parameter>
-							<dcscor:value xsi:type="v8ui:Color">web:MediumGreen</dcscor:value>
+							<dcscor:value xsi:type="v8ui:Color">style:гхб_СтатусКонсервацииПомещенияGreenЦвет</dcscor:value>
 						</dcscor:item>
 					</dcsset:appearance>
 				</dcsset:item>

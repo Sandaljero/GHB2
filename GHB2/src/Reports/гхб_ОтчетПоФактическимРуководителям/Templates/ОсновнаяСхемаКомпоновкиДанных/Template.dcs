@@ -279,6 +279,20 @@
 			<dataPath>ГруппаДивизиона</dataPath>
 			<field>ГруппаДивизиона</field>
 		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>Состояние</dataPath>
+			<field>Состояние</field>
+			<title xsi:type="v8:LocalStringType">
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Состояние</v8:content>
+				</v8:item>
+				<v8:item>
+					<v8:lang>uk</v8:lang>
+					<v8:content>Стан</v8:content>
+				</v8:item>
+			</title>
+		</field>
 		<dataSource>ИсточникДанных1</dataSource>
 		<query>ВЫБРАТЬ
     гхб_РаботникиОрганизацийБазХолдингаСрезПоследних.Период КАК Период,
@@ -485,7 +499,23 @@
     гхб_ФизическиеЛица.Ссылка КАК ФизЛицоПоле,
     гхб_ФизическиеЛица.ИНН КАК ИНН,
     втКрайняя.Дивизион КАК Дивизион,
-    втКрайняя.ГруппаДивизиона КАК ГруппаДивизиона
+    втКрайняя.ГруппаДивизиона КАК ГруппаДивизиона,
+    ВЫБОР
+        КОГДА гхб_СостояниеРаботниковОрганизацийСрезПоследних.ПериодЗавершения = ДАТАВРЕМЯ(1, 1, 1)
+            ТОГДА гхб_СостояниеРаботниковОрганизацийСрезПоследних.Состояние
+        КОГДА &amp;Период = ДАТАВРЕМЯ(1, 1, 1)
+            ТОГДА ВЫБОР
+                    КОГДА гхб_СостояниеРаботниковОрганизацийСрезПоследних.ПериодЗавершения &lt;= &amp;ТекущаяДата
+                        ТОГДА гхб_СостояниеРаботниковОрганизацийСрезПоследних.СостояниеЗавершения
+                    ИНАЧЕ гхб_СостояниеРаботниковОрганизацийСрезПоследних.Состояние
+                КОНЕЦ
+        КОГДА &amp;Период &lt;&gt; ДАТАВРЕМЯ(1, 1, 1)
+            ТОГДА ВЫБОР
+                    КОГДА гхб_СостояниеРаботниковОрганизацийСрезПоследних.ПериодЗавершения &lt;= &amp;Период
+                        ТОГДА гхб_СостояниеРаботниковОрганизацийСрезПоследних.СостояниеЗавершения
+                    ИНАЧЕ гхб_СостояниеРаботниковОрганизацийСрезПоследних.Состояние
+                КОНЕЦ
+    КОНЕЦ КАК Состояние
 ИЗ
     втКрайняя КАК втКрайняя
         ВНУТРЕННЕЕ СОЕДИНЕНИЕ Справочник.гхб_СотрудникиБазХолдинга КАК гхб_СотрудникиБазХолдинга
@@ -493,6 +523,8 @@
                 ВНУТРЕННЕЕ СОЕДИНЕНИЕ Справочник.гхб_ФизическиеЛица КАК гхб_ФизическиеЛица
                 ПО гхб_ФизическиеЛицаБазХолдинга.ФизЛицоТекущейБазы = гхб_ФизическиеЛица.Ссылка
             ПО гхб_СотрудникиБазХолдинга.ФизЛицоБазыХолдинга = гхб_ФизическиеЛицаБазХолдинга.Ссылка
+            ЛЕВОЕ СОЕДИНЕНИЕ РегистрСведений.гхб_СостояниеРаботниковОрганизаций.СрезПоследних КАК гхб_СостояниеРаботниковОрганизацийСрезПоследних
+            ПО гхб_СотрудникиБазХолдинга.Ссылка = гхб_СостояниеРаботниковОрганизацийСрезПоследних.Сотрудник
         ПО втКрайняя.СотрудникПоле = гхб_СотрудникиБазХолдинга.Ссылка</query>
 	</dataSet>
 	<parameter>
@@ -511,6 +543,25 @@
 		</valueType>
 		<value xsi:type="xs:dateTime">0001-01-01T00:00:00</value>
 		<useRestriction>false</useRestriction>
+		<use>Always</use>
+	</parameter>
+	<parameter>
+		<name>ТекущаяДата</name>
+		<title xsi:type="v8:LocalStringType">
+			<v8:item>
+				<v8:lang>ru</v8:lang>
+				<v8:content>Текущая дата</v8:content>
+			</v8:item>
+		</title>
+		<valueType>
+			<v8:Type>xs:dateTime</v8:Type>
+			<v8:DateQualifiers>
+				<v8:DateFractions>DateTime</v8:DateFractions>
+			</v8:DateQualifiers>
+		</valueType>
+		<value xsi:type="xs:dateTime">0001-01-01T00:00:00</value>
+		<useRestriction>true</useRestriction>
+		<expression>ТекущаяДата()</expression>
 	</parameter>
 	<settingsVariant>
 		<dcsset:name>Основной</dcsset:name>
@@ -565,6 +616,18 @@
 				<dcsset:item xsi:type="dcsset:SelectedItemField">
 					<dcsset:field>Руководитель</dcsset:field>
 				</dcsset:item>
+				<dcsset:item xsi:type="dcsset:SelectedItemField">
+					<dcsset:field>Состояние</dcsset:field>
+				</dcsset:item>
+				<dcsset:item xsi:type="dcsset:SelectedItemField">
+					<dcsset:field>ПериодСостояния</dcsset:field>
+				</dcsset:item>
+				<dcsset:item xsi:type="dcsset:SelectedItemField">
+					<dcsset:field>СостояниеЗавершения</dcsset:field>
+				</dcsset:item>
+				<dcsset:item xsi:type="dcsset:SelectedItemField">
+					<dcsset:field>ПериодЗавершенияСостояния</dcsset:field>
+				</dcsset:item>
 				<dcsset:viewMode>Normal</dcsset:viewMode>
 				<dcsset:userSettingID>c52478bf-88b5-48b9-a167-7e63ae2e0975</dcsset:userSettingID>
 			</dcsset:selection>
@@ -614,6 +677,12 @@
 					<dcsset:comparisonType>Equal</dcsset:comparisonType>
 					<dcsset:right xsi:type="xs:string"/>
 					<dcsset:userSettingID>6d62b409-be65-41ee-95e2-981400d33a2c</dcsset:userSettingID>
+				</dcsset:item>
+				<dcsset:item xsi:type="dcsset:FilterItemComparison">
+					<dcsset:use>false</dcsset:use>
+					<dcsset:left xsi:type="dcscor:Field">Состояние</dcsset:left>
+					<dcsset:comparisonType>Equal</dcsset:comparisonType>
+					<dcsset:userSettingID>08a01e0b-c353-452b-8576-54ac4b41905c</dcsset:userSettingID>
 				</dcsset:item>
 				<dcsset:viewMode>Normal</dcsset:viewMode>
 				<dcsset:userSettingID>f69da139-d189-49f4-bb73-7202187933eb</dcsset:userSettingID>
@@ -773,6 +842,9 @@
 				<dcsset:item xsi:type="dcsset:SelectedItemField">
 					<dcsset:field>Руководитель</dcsset:field>
 				</dcsset:item>
+				<dcsset:item xsi:type="dcsset:SelectedItemField">
+					<dcsset:field>Состояние</dcsset:field>
+				</dcsset:item>
 				<dcsset:viewMode>Normal</dcsset:viewMode>
 				<dcsset:userSettingID>0d617ed1-a5b6-4ecf-ab57-36f30fbe476a</dcsset:userSettingID>
 			</dcsset:selection>
@@ -822,6 +894,12 @@
 					<dcsset:comparisonType>Equal</dcsset:comparisonType>
 					<dcsset:right xsi:type="xs:string"/>
 					<dcsset:userSettingID>66f33375-0c29-46bd-95fe-8c5e8ce4f765</dcsset:userSettingID>
+				</dcsset:item>
+				<dcsset:item xsi:type="dcsset:FilterItemComparison">
+					<dcsset:use>false</dcsset:use>
+					<dcsset:left xsi:type="dcscor:Field">Состояние</dcsset:left>
+					<dcsset:comparisonType>Equal</dcsset:comparisonType>
+					<dcsset:userSettingID>495b7c7b-ab72-48dc-9a54-8559ceef3bc5</dcsset:userSettingID>
 				</dcsset:item>
 				<dcsset:viewMode>Normal</dcsset:viewMode>
 				<dcsset:userSettingID>181341c9-c5a8-48b9-aa77-c14e3819e622</dcsset:userSettingID>

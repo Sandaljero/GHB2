@@ -142,6 +142,9 @@
   <styleItems>StyleItem.ЦветТекстаРоли</styleItems>
   <styleItems>StyleItem.ЦветФонаВсеПоля</styleItems>
   <styleItems>StyleItem.ЦветФонаПредупреждения</styleItems>
+  <styleItems>StyleItem.гхб_СтатусКонсервацииПомещенияGreenЦвет</styleItems>
+  <styleItems>StyleItem.гхб_СтатусКонсервацииПомещенияYellowЦвет</styleItems>
+  <styleItems>StyleItem.гхб_СтатусКонсервацииПомещенияRedЦвет</styleItems>
   <styles>Style.ирОсновной</styles>
   <styles>Style.СтильСЛМ</styles>
   <commonPictures>CommonPicture.ВариантыПравилЗаполненияРеквизитов</commonPictures>
