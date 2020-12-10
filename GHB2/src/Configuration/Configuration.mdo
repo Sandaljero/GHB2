@@ -78,6 +78,7 @@
   <subsystems>Subsystem.гхб_Подписание</subsystems>
   <subsystems>Subsystem.Test</subsystems>
   <subsystems>Subsystem.Test3</subsystems>
+  <subsystems>Subsystem.Test2</subsystems>
   <styleItems>StyleItem.ВажнаяНадписьШрифт</styleItems>
   <styleItems>StyleItem.ВидДняПроизводственногоКалендаряСубботаЦвет</styleItems>
   <styleItems>StyleItem.ГруппаВариантовОтчетовЦвет82</styleItems>
