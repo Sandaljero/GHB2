@@ -74,11 +74,12 @@
   <subsystems>Subsystem.гхб_ПомещенияНаЛокациях</subsystems>
   <subsystems>Subsystem.гхб_ПарковочныеМеста</subsystems>
   <subsystems>Subsystem.гхб_УправлениеПропускамиСотрудников</subsystems>
-  <subsystems>Subsystem.гхб_СервисДеск</subsystems>
-  <subsystems>Subsystem.гхб_Подписание</subsystems>
-  <subsystems>Subsystem.Test</subsystems>
   <subsystems>Subsystem.Test3</subsystems>
+  <subsystems>Subsystem.Test5</subsystems>
+  <subsystems>Subsystem.Test</subsystems>
   <subsystems>Subsystem.Test2</subsystems>
+  <subsystems>Subsystem.гхб_Подписание</subsystems>
+  <subsystems>Subsystem.гхб_СервисДеск</subsystems>
   <styleItems>StyleItem.ВажнаяНадписьШрифт</styleItems>
   <styleItems>StyleItem.ВидДняПроизводственногоКалендаряСубботаЦвет</styleItems>
   <styleItems>StyleItem.ГруппаВариантовОтчетовЦвет82</styleItems>
