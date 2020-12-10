@@ -76,6 +76,7 @@
   <subsystems>Subsystem.гхб_УправлениеПропускамиСотрудников</subsystems>
   <subsystems>Subsystem.гхб_СервисДеск</subsystems>
   <subsystems>Subsystem.гхб_Подписание</subsystems>
+  <subsystems>Subsystem.Test2</subsystems>
   <styleItems>StyleItem.ВажнаяНадписьШрифт</styleItems>
   <styleItems>StyleItem.ВидДняПроизводственногоКалендаряСубботаЦвет</styleItems>
   <styleItems>StyleItem.ГруппаВариантовОтчетовЦвет82</styleItems>
